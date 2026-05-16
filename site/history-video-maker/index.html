@@ -22,8 +22,11 @@
     <main>
       <section class="hero">
         <div class="hero-copy">
-          <p class="kicker">给运营、政务、企业内容团队的竖屏视频模板</p>
-          <h1>几分钟做出同款数据排名视频</h1>
+          <p class="kicker">给运营和自媒体的竖屏视频模板</p>
+          <h1>
+            <span class="headline-line">几分钟生成</span>
+            <span class="headline-line">同款竖屏数据视频</span>
+          </h1>
           <p class="lede">
             输入一个主题，让 AI 自动整理数据、生成脚本、合成 9:20 竖屏视频。GDP、人口、产业、城市、企业排行，都可以做成适合手机端发布的动态内容。
           </p>
@@ -43,26 +46,34 @@
         </div>
         <div class="phone-demo" aria-label="竖屏数据视频示例">
           <div class="phone-case">
-            <div class="phone-status">
-              <span>9:20</span>
-              <span>数据视频预览</span>
-            </div>
+            <div class="side-button side-button-left" aria-hidden="true"></div>
+            <div class="side-button side-button-right" aria-hidden="true"></div>
             <div class="phone-screen">
+              <div class="dynamic-island" aria-hidden="true"></div>
+              <div class="feed-tabs" aria-hidden="true">
+                <span>关注</span>
+                <strong>推荐</strong>
+                <span>搜索</span>
+              </div>
               <video
+                id="demo-video"
                 src="/assets/history-video-maker-demo-9x20.mp4"
                 poster="/assets/history-video-maker-poster.jpg"
-                controls
                 playsinline
                 preload="metadata"
               ></video>
+              <button class="play-toggle" type="button" aria-label="播放示例视频" data-play-toggle>
+                <span></span>
+              </button>
               <div class="social-rail" aria-hidden="true">
-                <span>♥</span>
-                <span>评</span>
-                <span>转</span>
+                <div class="avatar">01</div>
+                <div><span>♥</span><small>2.8w</small></div>
+                <div><span>评</span><small>931</small></div>
+                <div><span>转</span><small>分享</small></div>
               </div>
               <div class="phone-caption">
-                <strong>东南亚 GDP 动态排名</strong>
-                <span>同款效果可换成你的行业、城市或企业数据</span>
+                <strong>@01MVP 数据视频</strong>
+                <span>东南亚 GDP 动态排名｜同款效果可换成你的行业、城市或企业数据</span>
               </div>
             </div>
           </div>
@@ -123,7 +134,7 @@
           <p class="kicker">使用教程</p>
           <h2>Skill 是什么？可以理解成给 AI 的“专业说明书”</h2>
           <p>
-            你买到的是一个名为 <code>history-video-maker</code> 的文件夹。把它放进 AI 工具的 skills 目录后，AI 就会按这套说明去找数据、排版、渲染和导出视频。
+            你买到的是一个名为 <code>history-video-maker</code> 的文件夹。Codex、Cursor、Claude Code、Trae、WorkBuddy 等主流 AI Agent 工具都可以按这种方式调用。具体效果会跟你使用的模型有关，我们推荐使用 GPT-5.5 这一类能力更强的模型。
           </p>
         </div>
         <div class="steps-panel">
@@ -202,5 +213,37 @@
       <span>buyskills.01mvp.com</span>
       <span>购买联系微信 makerjackie</span>
     </footer>
+    <script>
+      const demoVideo = document.querySelector('#demo-video');
+      const playToggle = document.querySelector('[data-play-toggle]');
+
+      if (demoVideo && playToggle) {
+        playToggle.addEventListener('click', () => {
+          if (demoVideo.paused) {
+            demoVideo.play();
+          } else {
+            demoVideo.pause();
+          }
+        });
+
+        demoVideo.addEventListener('click', () => {
+          if (demoVideo.paused) {
+            demoVideo.play();
+          } else {
+            demoVideo.pause();
+          }
+        });
+
+        demoVideo.addEventListener('play', () => {
+          playToggle.classList.add('is-playing');
+          playToggle.setAttribute('aria-label', '暂停示例视频');
+        });
+
+        demoVideo.addEventListener('pause', () => {
+          playToggle.classList.remove('is-playing');
+          playToggle.setAttribute('aria-label', '播放示例视频');
+        });
+      }
+    </script>
   </body>
 </html>
