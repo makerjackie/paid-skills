@@ -213,7 +213,8 @@ h3 {
 }
 
 .deliverables,
-.term-grid {
+.term-grid,
+.fit-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
@@ -221,6 +222,7 @@ h3 {
 }
 
 .deliverables article,
+.fit-grid article,
 .term-grid article,
 .code-panel,
 .prompt-card {
@@ -230,6 +232,7 @@ h3 {
 }
 
 .deliverables p,
+.fit-grid p,
 .term-grid p,
 .split p,
 .wide-copy {
@@ -306,6 +309,14 @@ code {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.fit-section {
+  padding-top: clamp(66px, 9vw, 118px);
+}
+
+.fit-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -364,6 +375,7 @@ footer {
   }
 
   .deliverables,
+  .fit-grid,
   .term-grid {
     grid-template-columns: 1fr;
   }
