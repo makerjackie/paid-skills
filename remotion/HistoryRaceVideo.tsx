@@ -2,7 +2,7 @@ import {Audio, AbsoluteFill, Easing, Img, interpolate, staticFile, useCurrentFra
 import type {CSSProperties} from 'react';
 
 import {buildRaceSnapshot, createRaceFrameMap, interpolateNumber, type RaceSnapshot} from '../src/lib/race-engine';
-import {getHistoryVideoCopy, getHistoryVideoPanelFlags, type HistoryVideoCopy} from '../src/lib/history-video-copy';
+import {getHistoryVideoCopy, type HistoryVideoCopy} from '../src/lib/history-video-copy';
 import {
   HISTORY_RACE_VIDEO_FALLBACK_SECONDS,
   resolveHistoryRaceVideoDuration as resolveHistoryRaceVideoDurationValue,
@@ -77,10 +77,10 @@ export function resolveHistoryRaceVideoDuration(
 }
 
 export function resolveHistoryRaceVideoDurationFromProps(props: Pick<HistoryRaceVideoProps, 'data' | 'copy' | 'durationSeconds'>) {
-  const copy = props.copy ?? getHistoryVideoCopy(props.data);
-  const panels = getHistoryVideoPanelFlags(copy);
-
-  return resolveHistoryRaceVideoDuration(props.durationSeconds, props.data, panels);
+  return resolveHistoryRaceVideoDuration(props.durationSeconds, props.data, {
+    showInsightPanel: false,
+    showSourcePanel: false,
+  });
 }
 
 export function HistoryRaceVideo({data, copy: copyOverride, durationSeconds, musicId, musicSrc}: HistoryRaceVideoProps) {
@@ -89,7 +89,10 @@ export function HistoryRaceVideo({data, copy: copyOverride, durationSeconds, mus
   const seconds = frame / fps;
   const frameMap = createRaceFrameMap(data.frames);
   const copy = copyOverride ?? getHistoryVideoCopy(data);
-  const {showInsightPanel, showSourcePanel} = getHistoryVideoPanelFlags(copy);
+  const {showInsightPanel, showSourcePanel} = {
+    showInsightPanel: false,
+    showSourcePanel: false,
+  };
   const resolvedDurationSeconds = resolveHistoryRaceVideoDuration(durationSeconds, data, {
     showInsightPanel,
     showSourcePanel,
@@ -171,8 +174,6 @@ export function HistoryRaceVideo({data, copy: copyOverride, durationSeconds, mus
       <EventCallout data={data} event={snapshot.event} seconds={seconds} timing={timing} />
       <RaceChart data={data} snapshot={snapshot} seconds={seconds} timing={timing} />
       <YearStamp yearLabel={formatRaceTimeValue(snapshot.year, data)} seconds={seconds} timing={timing} />
-      {showInsightPanel ? <InsightPanel insight={copy.insight} seconds={seconds} timing={timing} /> : null}
-      {showSourcePanel ? <SourceDisclosurePanel disclosure={copy.sourceDisclosure} seconds={seconds} timing={timing} /> : null}
       <ClosingCard copy={copy} seconds={seconds} timing={timing} />
 
       <div style={{...styles.footer, opacity: footerOpacity}}>
@@ -474,6 +475,7 @@ function ClosingCard({
         </div>
         <div style={styles.closingTitle}>{copy.closingTitle ?? '可游玩的知识宇宙'}</div>
         <div style={styles.closingBody}>{copy.closingBody ?? '像逛博物馆、翻地图、玩游戏一样，探索真实世界的数据与历史。'}</div>
+        <div style={styles.closingNote}>{copy.sourceDisclosure ?? copy.sourceLine}</div>
         <div style={styles.closingDomain}>shapeof.world</div>
       </div>
     </div>
@@ -1019,8 +1021,17 @@ const styles: Record<string, CSSProperties> = {
     fontWeight: 800,
     lineHeight: 1.42,
   },
+  closingNote: {
+    marginTop: 26,
+    maxWidth: 880,
+    color: '#6a5a45',
+    fontSize: 22,
+    fontWeight: 800,
+    lineHeight: 1.36,
+    whiteSpace: 'pre-line',
+  },
   closingDomain: {
-    marginTop: 42,
+    marginTop: 34,
     color: '#15130f',
     fontSize: 35,
     fontWeight: 900,

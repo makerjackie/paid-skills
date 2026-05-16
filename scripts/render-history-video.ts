@@ -21,7 +21,7 @@ type CliOptions = {
   copyOnly: boolean;
   durationSeconds?: number;
   musicId: string;
-  padHeight?: number;
+  padHeight: number | null;
   scale: string;
 };
 
@@ -52,12 +52,15 @@ function main() {
     const propsPath = path.join(PROPS_DIR, `${dataset.slug}.json`);
     const outputPath = path.join(OUTPUT_DIR, `${dataset.slug}.mp4`);
     const copy = getHistoryVideoCopy(dataset);
-    const panels = getHistoryVideoPanelFlags(copy);
-    const estimatedDurationSeconds = estimateHistoryRaceVideoDuration(dataset, panels);
+    const renderPanels = {
+      showInsightPanel: false,
+      showSourcePanel: false,
+    };
+    const estimatedDurationSeconds = estimateHistoryRaceVideoDuration(dataset, renderPanels);
     const durationSeconds = resolveHistoryRaceVideoDuration({
       data: dataset,
       durationSeconds: options.durationSeconds,
-      ...panels,
+      ...renderPanels,
     });
 
     if (options.durationSeconds === undefined) {
@@ -240,6 +243,7 @@ function parseArgs(args: string[]): CliOptions {
     all: false,
     copyOnly: false,
     musicId: DEFAULT_HISTORY_VIDEO_MUSIC_ID,
+    padHeight: 2400,
     scale: '1',
   };
 
@@ -301,6 +305,11 @@ function parseArgs(args: string[]): CliOptions {
       continue;
     }
 
+    if (arg === '--no-pad') {
+      options.padHeight = null;
+      continue;
+    }
+
     if (arg === '--scale' && next) {
       options.scale = next;
       index += 1;
@@ -316,6 +325,10 @@ function parseArgs(args: string[]): CliOptions {
 }
 
 function parsePadHeight(value: string) {
+  if (value === 'none' || value === 'false' || value === '0') {
+    return null;
+  }
+
   const height = Number(value);
 
   if (!Number.isInteger(height) || height <= 0) {

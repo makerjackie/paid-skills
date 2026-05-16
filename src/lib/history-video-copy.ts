@@ -48,7 +48,7 @@ const COPY_OVERRIDES: Record<string, Partial<HistoryVideoCopy>> = {
     insight:
       '这条线索背后，是资源、制造业、港口贸易、人口规模和全球供应链位置的长期变化。',
     sourceDisclosure:
-      '测试数据：按 World Bank 现价美元 GDP 量级整理为近似序列，并用对数插值补足展示年份。\n正式发布前建议替换为逐年原始数据。',
+      '示例数据：按 World Bank 现价美元 GDP 指标量级整理，并用插值补足展示年份。\n这个视频用于展示 Skill 的生成效果。',
   },
   'us-stock-market-cap-race': {
     platformTitle: '美国最大公司30年换了几次王？最后一个太离谱',

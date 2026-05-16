@@ -1,5 +1,7 @@
 node_modules/
 .DS_Store
 output/
+out/
+.wrangler/
 docs/history-video-copy.md
 *.log

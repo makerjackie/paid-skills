@@ -10,7 +10,8 @@
     "typecheck": "tsc --noEmit",
     "test": "tsx --test 'src/**/*.test.ts'",
     "video:history": "tsx scripts/render-history-video.ts",
-    "video:history:copy": "tsx scripts/render-history-video.ts --copy-only"
+    "video:history:copy": "tsx scripts/render-history-video.ts --copy-only",
+    "deploy:site": "wrangler deploy"
   },
   "dependencies": {
     "@remotion/cli": "^4.0.460",
@@ -23,6 +24,7 @@
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
     "tsx": "^4.19.3",
-    "typescript": "^5.8.0"
+    "typescript": "^5.8.0",
+    "wrangler": "^4.90.0"
   }
 }
