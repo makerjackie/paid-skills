@@ -1,17 +1,18 @@
 ---
 name: history-video-maker
-description: Produce Shape of World vertical history race videos with the standalone Remotion bar-race renderer, HD235 music, event overlays, and batch rendering workflow.
+description: Generate self-contained 9:20 vertical data ranking videos from topics or time-series datasets using the bundled Remotion renderer, sample data, music, logo, and publishing-safe mobile layout.
 ---
 
 # History Video Maker
 
-Use this skill when creating or refining `shapeof.world` style history race videos from standalone `data/history/*.json` datasets.
+Use this skill to generate vertical data ranking videos. The skill folder is self-contained: renderer code, sample data, logo, music, and scripts live beside this `SKILL.md`. Do not depend on the original `shapeof.world` repository.
 
 ## Workflow
 
-1. Check `git status --short` first. Do not overwrite unrelated changes from other agents.
-2. Use the standalone Remotion composition in `remotion/HistoryRaceVideo.tsx` and the render entrypoint in `scripts/render-history-video.ts`.
-3. Use music from `public/music/` only when the file name starts with `HD235`. Treat these as the default commercial-safe tracks for this project.
+1. Work inside the installed skill directory, usually `~/.agents/skills/history-video-maker` for Codex-style installs. If this skill is installed elsewhere, use the directory containing this `SKILL.md`.
+2. Run `pnpm install` in the skill directory before the first render.
+3. Use the bundled Remotion composition in `remotion/HistoryRaceVideo.tsx` and entrypoint `scripts/render-history-video.ts`.
+4. Use music from `public/music/` only when the file name starts with `HD235`. Treat these as the default commercial-safe tracks for this package.
 4. Keep the default video vertical and native quality for final output: render the core `1080x1920` (9:16) video, then generate the default padded `1080x2400` (9:20) export for WeChat Channels and similar platforms. Use `30fps`, `h264`, `aac`, CRF around `18`. Do not pass `--scale` for final renders.
 5. Do not force every final video into the same duration. By default, render without `--duration`; the script will estimate duration from the number of timeline steps at about `1.05s` per step, plus cover and closing. Use `--duration` only when the user explicitly wants a fixed length.
 6. For previews, use `--scale 0.5` and a short duration only when speed matters.
@@ -24,7 +25,7 @@ Use this skill when creating or refining `shapeof.world` style history race vide
 13. Use a clear information split: `coverHeadline` is the click reason, `coverSubline` is the historical hint, and `platformTitle` can be longer and more searchable. `coverHeadline` should usually be 10-18 Chinese characters across 2 lines, not 4-8 characters.
 14. Keep cover and intro text controlled. `coverSubline` should be one compact phrase; visible `intro` should fit two lines above the bars. Long descriptions belong in the Markdown publishing copy, not on screen.
 15. Keep the first 3 seconds fast: cover title should fill the screen, then fade quickly as the race starts. Avoid a long static intro.
-16. Pick or create datasets in `data/history/*.json` with clear first-frame appeal: long time span, obvious rank turnover, strong before/after contrast, or a historically recognizable entity.
+16. Pick or create datasets in `data/history/*.json` with clear first-frame appeal: long time span, obvious rank turnover, strong before/after contrast, or a historically recognizable entity. The bundled `southeast-asia-gdp-race` dataset is the install-test example.
 17. Events should feel like background context, not cards. Prefer right-middle or lower-right placement with low-contrast text, pulled inward from platform UI edges; keep one event per year unless the renderer supports prioritization.
 18. Add dataset events when the story feels sparse. Use neutral, scoped wording and values/ranks from the matching frame where available.
 19. Do not show separate insight/source cards before closing. Put data notes and source disclosure on the final closing page.
@@ -32,6 +33,13 @@ Use this skill when creating or refining `shapeof.world` style history race vide
 21. Batch renders should run sequentially to avoid Remotion cache and CPU contention.
 
 ## Commands
+
+Install dependencies in the skill directory:
+
+```bash
+cd ~/.agents/skills/history-video-maker
+pnpm install
+```
 
 Render one final video. This writes both the core 9:16 video and the default 9:20 padded export:
 
@@ -64,6 +72,12 @@ Render the bundled standalone example:
 
 ```bash
 pnpm video:history -- --slug southeast-asia-gdp-race
+```
+
+The final 9:20 export is written to:
+
+```text
+output/history-videos/<slug>-padded-1080x2400.mp4
 ```
 
 ## Verification

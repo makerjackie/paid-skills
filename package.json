@@ -1,30 +1,12 @@
 {
-  "name": "paid-skills",
+  "name": "paid-skills-site",
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "engines": {
-    "node": ">=22"
-  },
   "scripts": {
-    "typecheck": "tsc --noEmit",
-    "test": "tsx --test 'src/**/*.test.ts'",
-    "video:history": "tsx scripts/render-history-video.ts",
-    "video:history:copy": "tsx scripts/render-history-video.ts --copy-only",
     "deploy:site": "wrangler deploy"
   },
-  "dependencies": {
-    "@remotion/cli": "^4.0.460",
-    "remotion": "^4.0.460",
-    "react": "19.2.4",
-    "react-dom": "19.2.4"
-  },
   "devDependencies": {
-    "@types/node": "^22.0.0",
-    "@types/react": "19.2.14",
-    "@types/react-dom": "19.2.3",
-    "tsx": "^4.19.3",
-    "typescript": "^5.8.0",
     "wrangler": "^4.90.0"
   }
 }

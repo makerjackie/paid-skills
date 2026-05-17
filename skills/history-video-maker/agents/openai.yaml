@@ -1,0 +1,5 @@
+interface:
+  display_name: "History Video Maker"
+  short_description: "生成 9:20 竖屏数据排名视频"
+  brand_color: "#B54F32"
+  default_prompt: "Use $history-video-maker to generate a vertical data ranking video from my topic or dataset."
