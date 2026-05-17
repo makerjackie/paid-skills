@@ -213,9 +213,14 @@
       <span>buyskills.01mvp.com</span>
       <span>购买联系微信 makerjackie</span>
     </footer>
+    <nav class="mobile-buy-bar" aria-label="购买和咨询">
+      <a class="mobile-buy-button" href="https://01mvp.com/digital-products/history-video-maker/checkout">立即购买</a>
+      <a class="mobile-consult-button" href="weixin://" data-wechat-copy>咨询</a>
+    </nav>
     <script>
       const demoVideo = document.querySelector('#demo-video');
       const playToggle = document.querySelector('[data-play-toggle]');
+      const wechatCopy = document.querySelector('[data-wechat-copy]');
 
       if (demoVideo && playToggle) {
         playToggle.addEventListener('click', () => {
@@ -242,6 +247,12 @@
         demoVideo.addEventListener('pause', () => {
           playToggle.classList.remove('is-playing');
           playToggle.setAttribute('aria-label', '播放示例视频');
+        });
+      }
+
+      if (wechatCopy) {
+        wechatCopy.addEventListener('click', () => {
+          navigator.clipboard?.writeText('makerjackie').catch(() => {});
         });
       }
     </script>
