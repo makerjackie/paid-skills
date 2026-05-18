@@ -22,14 +22,13 @@ type CliOptions = {
   copyOnly: boolean;
   durationSeconds?: number;
   musicId: string;
+  outputDir?: string;
   padHeight: number | null;
   scale: string;
 };
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA_DIR = path.join(ROOT, 'data/history');
-const OUTPUT_DIR = path.join(process.cwd(), 'output');
-const PROPS_DIR = path.join(OUTPUT_DIR, 'props');
 const COPY_PATH = path.join(ROOT, 'docs/history-video-copy.md');
 const PLAYWRIGHT_HEADLESS_SHELL_PATH =
   path.join(os.homedir(), 'Library/Caches/ms-playwright/chromium_headless_shell-1223/chrome-headless-shell-mac-arm64/chrome-headless-shell');
@@ -38,6 +37,8 @@ const MACOS_CHROME_PATH = '/Applications/Google Chrome.app/Contents/MacOS/Google
 function main() {
   const options = parseArgs(process.argv.slice(2));
   const datasets = options.all ? loadAllDatasets() : [loadDataset(options.slug)];
+  const outputDir = resolveOutputDir(options.outputDir);
+  const propsDir = path.join(outputDir, 'props');
 
   writeCopyMarkdown(loadAllDatasets());
 
@@ -46,12 +47,12 @@ function main() {
     return;
   }
 
-  mkdirSync(PROPS_DIR, {recursive: true});
+  mkdirSync(propsDir, {recursive: true});
   const track = getHistoryVideoMusicTrack(options.musicId);
 
   for (const dataset of datasets) {
-    const propsPath = path.join(PROPS_DIR, `${dataset.slug}.json`);
-    const outputPath = path.join(OUTPUT_DIR, `${dataset.slug}.mp4`);
+    const propsPath = path.join(propsDir, `${dataset.slug}.json`);
+    const outputPath = path.join(outputDir, `${dataset.slug}.mp4`);
     const copy = getHistoryVideoCopy(dataset);
     const renderPanels = {
       showInsightPanel: false,
@@ -307,6 +308,17 @@ function parseArgs(args: string[]): CliOptions {
       continue;
     }
 
+    if (arg === '--output-dir' && next) {
+      options.outputDir = next;
+      index += 1;
+      continue;
+    }
+
+    if (arg.startsWith('--output-dir=')) {
+      options.outputDir = arg.slice('--output-dir='.length);
+      continue;
+    }
+
     if (arg === '--no-pad') {
       options.padHeight = null;
       continue;
@@ -324,6 +336,19 @@ function parseArgs(args: string[]): CliOptions {
   }
 
   return options;
+}
+
+function resolveOutputDir(outputDir?: string) {
+  if (outputDir) {
+    return path.resolve(process.cwd(), outputDir);
+  }
+
+  const invocationCwd = process.env.INIT_CWD;
+  const baseDir = invocationCwd && path.resolve(invocationCwd) !== ROOT
+    ? invocationCwd
+    : process.cwd();
+
+  return path.join(baseDir, 'output');
 }
 
 function parsePadHeight(value: string) {

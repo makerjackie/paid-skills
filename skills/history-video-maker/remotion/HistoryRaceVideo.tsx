@@ -43,10 +43,11 @@ const EVENT_DURATION_YEARS = 1.4;
 const RACE_AXIS_PADDING = 1.3;
 const COVER_END_SECONDS = 2.2;
 const RACE_START_SECONDS = 3.2;
-const VIDEO_BAR_INSIDE_LABEL_MIN_WIDTH = 136;
+const VIDEO_BAR_INSIDE_LABEL_MIN_WIDTH = 260;
 const CHART_TOP = 640;
 const CHART_LEFT = 72;
-const CHART_WIDTH = 936;
+const CHART_WIDTH = 760;
+const PLATFORM_RIGHT_SAFE_INSET = 188;
 const AXIS_TOP = CHART_TOP - 16;
 const AXIS_BOTTOM = 560;
 const EVENT_BAR_BADGE_WIDTH = 260;
@@ -348,15 +349,16 @@ function RaceChart({
                   {snapshot.event!.title}
                 </div>
               ) : null}
+              {labelInside ? (
+                <div style={styles.barValue}>{formatRaceValue(value, data)}</div>
+              ) : null}
             </div>
             {!labelInside ? (
               <div style={styles.outsideLabel}>
                 <div style={styles.outsideName}>{item.name}</div>
                 <div style={styles.outsideMeta}>{item.region} · {formatRaceValue(value, data)}</div>
               </div>
-            ) : (
-              <div style={styles.value}>{formatRaceValue(value, data)}</div>
-            )}
+            ) : null}
           </div>
         );
       })}
@@ -887,11 +889,12 @@ const styles: Record<string, CSSProperties> = {
     minWidth: 70,
     borderRadius: 4,
     boxShadow: '0 12px 26px rgba(35,45,46,0.16)',
+    boxSizing: 'border-box',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
     paddingLeft: 22,
-    paddingRight: 20,
+    paddingRight: 132,
     overflow: 'hidden',
   },
   barName: {
@@ -905,6 +908,16 @@ const styles: Record<string, CSSProperties> = {
     fontSize: 16,
     fontWeight: 700,
     marginTop: 2,
+    whiteSpace: 'nowrap',
+  },
+  barValue: {
+    position: 'absolute',
+    right: 18,
+    top: 18,
+    color: 'rgba(255,250,240,0.92)',
+    fontSize: 21,
+    fontWeight: 900,
+    lineHeight: 1,
     whiteSpace: 'nowrap',
   },
   outsideLabel: {
@@ -956,7 +969,7 @@ const styles: Record<string, CSSProperties> = {
   },
   eventCallout: {
     position: 'absolute',
-    right: 32,
+    right: PLATFORM_RIGHT_SAFE_INSET,
     bottom: 620,
     maxWidth: 400,
     padding: 0,
@@ -983,7 +996,7 @@ const styles: Record<string, CSSProperties> = {
   },
   year: {
     position: 'absolute',
-    right: 82,
+    right: PLATFORM_RIGHT_SAFE_INSET,
     bottom: 560,
     color: 'rgba(21,19,15,0.095)',
     fontSize: 190,

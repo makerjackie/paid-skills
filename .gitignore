@@ -32,6 +32,7 @@ input-root/
 
 # Claude Code (local config)
 .claude/
+.agents/
 
 # Environment
 .env

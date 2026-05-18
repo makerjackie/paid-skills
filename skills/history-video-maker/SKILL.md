@@ -9,7 +9,7 @@ Use this skill to generate vertical data ranking videos. The skill folder is sel
 
 ## Workflow
 
-1. Work inside the installed skill directory, usually `~/.agents/skills/history-video-maker` for Codex-style installs. If this skill is installed elsewhere, use the directory containing this `SKILL.md`.
+1. Locate the installed skill directory, usually `~/.agents/skills/history-video-maker` for Codex-style installs. If this skill is installed elsewhere, use the directory containing this `SKILL.md`.
 2. Run `pnpm install` in the skill directory before the first render.
 3. Use the bundled Remotion composition in `remotion/HistoryRaceVideo.tsx` and entrypoint `scripts/render-history-video.ts`.
 4. Use music from `public/music/` only when the file name starts with `HD235`. Treat these as the default commercial-safe tracks for this package.
@@ -102,22 +102,28 @@ cd ~/.agents/skills/history-video-maker
 pnpm install
 ```
 
-Render one final video. This writes both the core 9:16 video and the default 9:20 padded export:
+Render one final video from the project folder where the output should be saved. This writes both the core 9:16 video and the default 9:20 padded export to `./output/` in the invoking folder:
 
 ```bash
-pnpm video:history -- --slug us-stock-market-cap-race
+pnpm --dir ~/.agents/skills/history-video-maker video:history -- --slug us-stock-market-cap-race
 ```
 
 Render one 9:16-only video:
 
 ```bash
-pnpm video:history -- --slug us-stock-market-cap-race --no-pad
+pnpm --dir ~/.agents/skills/history-video-maker video:history -- --slug us-stock-market-cap-race --no-pad
 ```
 
 Render one preview:
 
 ```bash
-pnpm video:history -- --slug us-stock-market-cap-race --duration 45 --scale 0.5
+pnpm --dir ~/.agents/skills/history-video-maker video:history -- --slug us-stock-market-cap-race --duration 45 --scale 0.5
+```
+
+Render to an explicit folder:
+
+```bash
+pnpm --dir ~/.agents/skills/history-video-maker video:history -- --slug us-stock-market-cap-race --output-dir ./history-output
 ```
 
 Batch render selected slugs:
@@ -125,14 +131,14 @@ Batch render selected slugs:
 ```bash
 set -e
 for slug in world-population-race empire-area-race city-population-race energy-consumption-race steel-production-race; do
-  pnpm video:history -- --slug "$slug"
+  pnpm --dir ~/.agents/skills/history-video-maker video:history -- --slug "$slug"
 done
 ```
 
 Render the bundled standalone example:
 
 ```bash
-pnpm video:history -- --slug southeast-asia-gdp-race
+pnpm --dir ~/.agents/skills/history-video-maker video:history -- --slug southeast-asia-gdp-race
 ```
 
 Files are written to the current directory's `output/` folder:
