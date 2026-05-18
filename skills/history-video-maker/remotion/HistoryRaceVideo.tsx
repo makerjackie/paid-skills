@@ -49,6 +49,7 @@ const CHART_LEFT = 72;
 const CHART_WIDTH = 936;
 const AXIS_TOP = CHART_TOP - 16;
 const AXIS_BOTTOM = 560;
+const EVENT_BAR_BADGE_WIDTH = 260;
 const COLOR_TONES = [
   '#3f6f9f',
   '#4f8073',
@@ -318,6 +319,10 @@ function RaceChart({
               extrapolateRight: 'clamp',
             })
           : 0;
+        const eventBadgeLeft = Math.min(
+          Math.max(width - 12, 92),
+          chartWidth - EVENT_BAR_BADGE_WIDTH,
+        );
 
         return (
           <div
@@ -339,7 +344,7 @@ function RaceChart({
                 </>
               ) : null}
               {isEventEntity ? (
-                <div style={{...styles.eventBarBadge, opacity: eventBadgeOpacity}}>
+                <div style={{...styles.eventBarBadge, left: eventBadgeLeft, opacity: eventBadgeOpacity}}>
                   {snapshot.event!.title}
                 </div>
               ) : null}
@@ -935,8 +940,9 @@ const styles: Record<string, CSSProperties> = {
   },
   eventBarBadge: {
     position: 'absolute' as const,
-    right: -4,
     top: -30,
+    width: EVENT_BAR_BADGE_WIDTH,
+    maxWidth: EVENT_BAR_BADGE_WIDTH,
     backgroundColor: '#c7342a',
     color: '#fffaf0',
     fontSize: 16,
@@ -945,6 +951,8 @@ const styles: Record<string, CSSProperties> = {
     padding: '6px 10px 5px',
     borderRadius: 3,
     whiteSpace: 'nowrap' as const,
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
   },
   eventCallout: {
     position: 'absolute',

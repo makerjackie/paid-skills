@@ -80,7 +80,6 @@ export function buildRaceSnapshot<TItem extends RaceEngineItem, TEvent extends R
     upperFrame?.total ?? lowerFrame?.total ?? 0,
     progress,
   );
-  const easedProgress = easeInOutCubic(progress);
   const offChartRank = Math.max(lowerFrame?.items.length ?? 0, upperFrame?.items.length ?? 0, topCount) + 1;
   const rankedItems = [...codes]
     .map((code) => {
@@ -99,14 +98,18 @@ export function buildRaceSnapshot<TItem extends RaceEngineItem, TEvent extends R
       return {
         ...item,
         rank: 0,
-        displayRank: interpolateNumber(lowerRank - 1, upperRank - 1, easedProgress),
+        displayRank: 0,
         rankShift: lowerRank - upperRank,
       } satisfies RaceDisplayItem<TItem>;
     })
     .filter((item): item is RaceDisplayItem<TItem> => Boolean(item))
     .sort((left, right) => valueOf(right) - valueOf(left))
     .map((item, index) => ({...item, rank: index + 1}));
-  const items = [...rankedItems]
+  const displayItems = rankedItems.map((item) => ({
+    ...item,
+    displayRank: getValueAwareDisplayRank(item, rankedItems, valueOf),
+  }));
+  const items = [...displayItems]
     .sort((left, right) => left.displayRank - right.displayRank)
     .slice(0, topCount);
   const topValue = rankedItems[0] ? valueOf(rankedItems[0]) : 1;
@@ -140,16 +143,47 @@ export function interpolateNumber(left: number, right: number, progress: number)
   return left + (right - left) * progress;
 }
 
-function easeInOutCubic(value: number) {
-  return value < 0.5
-    ? 4 * value * value * value
-    : 1 - ((-2 * value + 2) ** 3) / 2;
-}
-
 function normalizeRaceYear(raceYear: number, startYear: number, endYear: number) {
   const finiteRaceYear = Number.isFinite(raceYear) ? raceYear : startYear;
 
   return Math.min(endYear, Math.max(startYear, finiteRaceYear));
+}
+
+function getValueAwareDisplayRank<TItem extends RaceEngineItem>(
+  item: TItem,
+  items: TItem[],
+  valueOf: (item: TItem) => number,
+) {
+  const itemValue = getFiniteRaceValue(valueOf(item));
+  let displayRank = 0;
+
+  for (const other of items) {
+    if (other.code === item.code) {
+      continue;
+    }
+
+    const otherValue = getFiniteRaceValue(valueOf(other));
+    const delta = otherValue - itemValue;
+
+    if (Math.abs(delta) < Number.EPSILON) {
+      displayRank += other.rank < item.rank ? 1 : 0;
+      continue;
+    }
+
+    const scale = Math.max(Math.abs(itemValue), Math.abs(otherValue), 1) * 0.035;
+    const normalizedDelta = clampNumber(delta / scale, -12, 12);
+    displayRank += 1 / (1 + Math.exp(-normalizedDelta));
+  }
+
+  return displayRank;
+}
+
+function getFiniteRaceValue(value: number) {
+  return Number.isFinite(value) ? value : 0;
+}
+
+function clampNumber(value: number, min: number, max: number) {
+  return Math.min(max, Math.max(min, value));
 }
 
 function getBoundingFrames<TItem extends RaceEngineItem>(
