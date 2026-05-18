@@ -1,0 +1,2153 @@
+{
+  "slug": "github-stars-race",
+  "title": "GitHub 仓库 Star 增长排名",
+  "titleEn": "GitHub Stars Race",
+  "summary": "从 2014 年到 2026 年，看 GitHub 上最受欢迎的开源仓库 Star 数排名。",
+  "summaryEn": "Track star growth of the most popular GitHub repos from 2014 to 2026.",
+  "sourceLabel": "GitHub API / Star History / GH Archive",
+  "sourceLabelEn": "GitHub API / Star History / GH Archive",
+  "sourceUrl": "https://github.com",
+  "sourceNote": "数据基于 GitHub API 当前 Star 数及公开的历史里程碑记录。早期数据基于 archive 记录估算。",
+  "sourceNoteEn": "Data based on GitHub API current star counts and public milestone records. Early data estimated from archival sources.",
+  "sourcePages": [
+    {
+      "year": 2026,
+      "title": "React",
+      "url": "https://github.com/facebook/react"
+    },
+    {
+      "year": 2026,
+      "title": "Vue",
+      "url": "https://github.com/vuejs/vue"
+    },
+    {
+      "year": 2026,
+      "title": "Angular",
+      "url": "https://github.com/angular/angular"
+    },
+    {
+      "year": 2026,
+      "title": "Svelte",
+      "url": "https://github.com/sveltejs/svelte"
+    },
+    {
+      "year": 2026,
+      "title": "Tailwind CSS",
+      "url": "https://github.com/tailwindlabs/tailwindcss"
+    },
+    {
+      "year": 2026,
+      "title": "Deno",
+      "url": "https://github.com/denoland/deno"
+    },
+    {
+      "year": 2026,
+      "title": "Bun",
+      "url": "https://github.com/oven-sh/bun"
+    },
+    {
+      "year": 2026,
+      "title": "Next.js",
+      "url": "https://github.com/vercel/next.js"
+    },
+    {
+      "year": 2026,
+      "title": "Vite",
+      "url": "https://github.com/vitejs/vite"
+    },
+    {
+      "year": 2026,
+      "title": "LangChain",
+      "url": "https://github.com/langchain-ai/langchain"
+    },
+    {
+      "year": 2026,
+      "title": "PyTorch",
+      "url": "https://github.com/pytorch/pytorch"
+    },
+    {
+      "year": 2026,
+      "title": "TensorFlow",
+      "url": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+      "year": 2026,
+      "title": "Kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes"
+    },
+    {
+      "year": 2026,
+      "title": "VS Code",
+      "url": "https://github.com/microsoft/vscode"
+    }
+  ],
+  "unit": "Stars",
+  "unitShort": "🌟",
+  "valueKind": "count",
+  "axisRetreatThreshold": 0.1,
+  "startYear": 2014,
+  "endYear": 2026,
+  "entities": [
+    {
+      "code": "REACT",
+      "name": "React",
+      "nameEn": "React",
+      "region": "Web 框架",
+      "regionEn": "Web Frameworks"
+    },
+    {
+      "code": "VUE",
+      "name": "Vue",
+      "nameEn": "Vue",
+      "region": "Web 框架",
+      "regionEn": "Web Frameworks"
+    },
+    {
+      "code": "ANGL",
+      "name": "Angular",
+      "nameEn": "Angular",
+      "region": "Web 框架",
+      "regionEn": "Web Frameworks"
+    },
+    {
+      "code": "SVEL",
+      "name": "Svelte",
+      "nameEn": "Svelte",
+      "region": "Web 框架",
+      "regionEn": "Web Frameworks"
+    },
+    {
+      "code": "TAIL",
+      "name": "Tailwind CSS",
+      "nameEn": "Tailwind CSS",
+      "region": "CSS 工具",
+      "regionEn": "CSS Tools"
+    },
+    {
+      "code": "DENO",
+      "name": "Deno",
+      "nameEn": "Deno",
+      "region": "Runtime",
+      "regionEn": "Runtimes"
+    },
+    {
+      "code": "BUN",
+      "name": "Bun",
+      "nameEn": "Bun",
+      "region": "Runtime",
+      "regionEn": "Runtimes"
+    },
+    {
+      "code": "NEXT",
+      "name": "Next.js",
+      "nameEn": "Next.js",
+      "region": "Web 框架",
+      "regionEn": "Web Frameworks"
+    },
+    {
+      "code": "VITE",
+      "name": "Vite",
+      "nameEn": "Vite",
+      "region": "构建工具",
+      "regionEn": "Build Tools"
+    },
+    {
+      "code": "LANG",
+      "name": "LangChain",
+      "nameEn": "LangChain",
+      "region": "AI 框架",
+      "regionEn": "AI Frameworks"
+    },
+    {
+      "code": "PYTO",
+      "name": "PyTorch",
+      "nameEn": "PyTorch",
+      "region": "AI 框架",
+      "regionEn": "AI Frameworks"
+    },
+    {
+      "code": "TENS",
+      "name": "TensorFlow",
+      "nameEn": "TensorFlow",
+      "region": "AI 框架",
+      "regionEn": "AI Frameworks"
+    },
+    {
+      "code": "K8S",
+      "name": "Kubernetes",
+      "nameEn": "Kubernetes",
+      "region": "云原生",
+      "regionEn": "Cloud Native"
+    },
+    {
+      "code": "VSCO",
+      "name": "VS Code",
+      "nameEn": "VS Code",
+      "region": "开发者工具",
+      "regionEn": "Developer Tools"
+    }
+  ],
+  "frames": [
+    {
+      "year": 2014,
+      "total": 17000,
+      "items": [
+        {
+          "code": "REACT",
+          "name": "React",
+          "nameEn": "React",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 10000,
+          "rank": 1,
+          "share": 0.5882,
+          "rankDelta": 0
+        },
+        {
+          "code": "ANGL",
+          "name": "Angular",
+          "nameEn": "Angular",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 3000,
+          "rank": 2,
+          "share": 0.1765,
+          "rankDelta": 0
+        },
+        {
+          "code": "K8S",
+          "name": "Kubernetes",
+          "nameEn": "Kubernetes",
+          "region": "云原生",
+          "regionEn": "Cloud Native",
+          "value": 3000,
+          "rank": 3,
+          "share": 0.1765,
+          "rankDelta": 0
+        },
+        {
+          "code": "VUE",
+          "name": "Vue",
+          "nameEn": "Vue",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 1000,
+          "rank": 4,
+          "share": 0.0588,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "total": 84000,
+      "items": [
+        {
+          "code": "REACT",
+          "name": "React",
+          "nameEn": "React",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 35000,
+          "rank": 1,
+          "share": 0.4167,
+          "rankDelta": 0
+        },
+        {
+          "code": "K8S",
+          "name": "Kubernetes",
+          "nameEn": "Kubernetes",
+          "region": "云原生",
+          "regionEn": "Cloud Native",
+          "value": 18000,
+          "rank": 2,
+          "share": 0.2143,
+          "rankDelta": 1
+        },
+        {
+          "code": "ANGL",
+          "name": "Angular",
+          "nameEn": "Angular",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 12000,
+          "rank": 3,
+          "share": 0.1429,
+          "rankDelta": -1
+        },
+        {
+          "code": "VUE",
+          "name": "Vue",
+          "nameEn": "Vue",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 8000,
+          "rank": 4,
+          "share": 0.0952,
+          "rankDelta": 0
+        },
+        {
+          "code": "VSCO",
+          "name": "VS Code",
+          "nameEn": "VS Code",
+          "region": "开发者工具",
+          "regionEn": "Developer Tools",
+          "value": 8000,
+          "rank": 5,
+          "share": 0.0952,
+          "rankDelta": 0
+        },
+        {
+          "code": "TENS",
+          "name": "TensorFlow",
+          "nameEn": "TensorFlow",
+          "region": "AI 框架",
+          "regionEn": "AI Frameworks",
+          "value": 3000,
+          "rank": 6,
+          "share": 0.0357,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "total": 204000,
+      "items": [
+        {
+          "code": "REACT",
+          "name": "React",
+          "nameEn": "React",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 55000,
+          "rank": 1,
+          "share": 0.2696,
+          "rankDelta": 0
+        },
+        {
+          "code": "TENS",
+          "name": "TensorFlow",
+          "nameEn": "TensorFlow",
+          "region": "AI 框架",
+          "regionEn": "AI Frameworks",
+          "value": 35000,
+          "rank": 2,
+          "share": 0.1716,
+          "rankDelta": 4
+        },
+        {
+          "code": "K8S",
+          "name": "Kubernetes",
+          "nameEn": "Kubernetes",
+          "region": "云原生",
+          "regionEn": "Cloud Native",
+          "value": 32000,
+          "rank": 3,
+          "share": 0.1569,
+          "rankDelta": -1
+        },
+        {
+          "code": "ANGL",
+          "name": "Angular",
+          "nameEn": "Angular",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 28000,
+          "rank": 4,
+          "share": 0.1373,
+          "rankDelta": -1
+        },
+        {
+          "code": "VUE",
+          "name": "Vue",
+          "nameEn": "Vue",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 25000,
+          "rank": 5,
+          "share": 0.1225,
+          "rankDelta": -1
+        },
+        {
+          "code": "VSCO",
+          "name": "VS Code",
+          "nameEn": "VS Code",
+          "region": "开发者工具",
+          "regionEn": "Developer Tools",
+          "value": 25000,
+          "rank": 6,
+          "share": 0.1225,
+          "rankDelta": -1
+        },
+        {
+          "code": "NEXT",
+          "name": "Next.js",
+          "nameEn": "Next.js",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 2000,
+          "rank": 7,
+          "share": 0.0098,
+          "rankDelta": 0
+        },
+        {
+          "code": "PYTO",
+          "name": "PyTorch",
+          "nameEn": "PyTorch",
+          "region": "AI 框架",
+          "regionEn": "AI Frameworks",
+          "value": 1500,
+          "rank": 8,
+          "share": 0.0074,
+          "rankDelta": 0
+        },
+        {
+          "code": "SVEL",
+          "name": "Svelte",
+          "nameEn": "Svelte",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 500,
+          "rank": 9,
+          "share": 0.0025,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "total": 370500,
+      "items": [
+        {
+          "code": "REACT",
+          "name": "React",
+          "nameEn": "React",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 80000,
+          "rank": 1,
+          "share": 0.2159,
+          "rankDelta": 0
+        },
+        {
+          "code": "TENS",
+          "name": "TensorFlow",
+          "nameEn": "TensorFlow",
+          "region": "AI 框架",
+          "regionEn": "AI Frameworks",
+          "value": 75000,
+          "rank": 2,
+          "share": 0.2024,
+          "rankDelta": 0
+        },
+        {
+          "code": "VUE",
+          "name": "Vue",
+          "nameEn": "Vue",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 55000,
+          "rank": 3,
+          "share": 0.1484,
+          "rankDelta": 2
+        },
+        {
+          "code": "VSCO",
+          "name": "VS Code",
+          "nameEn": "VS Code",
+          "region": "开发者工具",
+          "regionEn": "Developer Tools",
+          "value": 48000,
+          "rank": 4,
+          "share": 0.1296,
+          "rankDelta": 2
+        },
+        {
+          "code": "K8S",
+          "name": "Kubernetes",
+          "nameEn": "Kubernetes",
+          "region": "云原生",
+          "regionEn": "Cloud Native",
+          "value": 43000,
+          "rank": 5,
+          "share": 0.1161,
+          "rankDelta": -2
+        },
+        {
+          "code": "ANGL",
+          "name": "Angular",
+          "nameEn": "Angular",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 42000,
+          "rank": 6,
+          "share": 0.1134,
+          "rankDelta": -2
+        },
+        {
+          "code": "NEXT",
+          "name": "Next.js",
+          "nameEn": "Next.js",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 12000,
+          "rank": 7,
+          "share": 0.0324,
+          "rankDelta": 0
+        },
+        {
+          "code": "PYTO",
+          "name": "PyTorch",
+          "nameEn": "PyTorch",
+          "region": "AI 框架",
+          "regionEn": "AI Frameworks",
+          "value": 10000,
+          "rank": 8,
+          "share": 0.027,
+          "rankDelta": 0
+        },
+        {
+          "code": "SVEL",
+          "name": "Svelte",
+          "nameEn": "Svelte",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 5000,
+          "rank": 9,
+          "share": 0.0135,
+          "rankDelta": 0
+        },
+        {
+          "code": "TAIL",
+          "name": "Tailwind CSS",
+          "nameEn": "Tailwind CSS",
+          "region": "CSS 工具",
+          "regionEn": "CSS Tools",
+          "value": 500,
+          "rank": 10,
+          "share": 0.0013,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "total": 554000,
+      "items": [
+        {
+          "code": "TENS",
+          "name": "TensorFlow",
+          "nameEn": "TensorFlow",
+          "region": "AI 框架",
+          "regionEn": "AI Frameworks",
+          "value": 105000,
+          "rank": 1,
+          "share": 0.1895,
+          "rankDelta": 1
+        },
+        {
+          "code": "REACT",
+          "name": "React",
+          "nameEn": "React",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 100000,
+          "rank": 2,
+          "share": 0.1805,
+          "rankDelta": -1
+        },
+        {
+          "code": "VUE",
+          "name": "Vue",
+          "nameEn": "Vue",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 95000,
+          "rank": 3,
+          "share": 0.1715,
+          "rankDelta": 0
+        },
+        {
+          "code": "VSCO",
+          "name": "VS Code",
+          "nameEn": "VS Code",
+          "region": "开发者工具",
+          "regionEn": "Developer Tools",
+          "value": 68000,
+          "rank": 4,
+          "share": 0.1227,
+          "rankDelta": 0
+        },
+        {
+          "code": "K8S",
+          "name": "Kubernetes",
+          "nameEn": "Kubernetes",
+          "region": "云原生",
+          "regionEn": "Cloud Native",
+          "value": 53000,
+          "rank": 5,
+          "share": 0.0957,
+          "rankDelta": 0
+        },
+        {
+          "code": "ANGL",
+          "name": "Angular",
+          "nameEn": "Angular",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 52000,
+          "rank": 6,
+          "share": 0.0939,
+          "rankDelta": 0
+        },
+        {
+          "code": "NEXT",
+          "name": "Next.js",
+          "nameEn": "Next.js",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 28000,
+          "rank": 7,
+          "share": 0.0505,
+          "rankDelta": 0
+        },
+        {
+          "code": "PYTO",
+          "name": "PyTorch",
+          "nameEn": "PyTorch",
+          "region": "AI 框架",
+          "regionEn": "AI Frameworks",
+          "value": 22000,
+          "rank": 8,
+          "share": 0.0397,
+          "rankDelta": 0
+        },
+        {
+          "code": "DENO",
+          "name": "Deno",
+          "nameEn": "Deno",
+          "region": "Runtime",
+          "regionEn": "Runtimes",
+          "value": 15000,
+          "rank": 9,
+          "share": 0.0271,
+          "rankDelta": 0
+        },
+        {
+          "code": "SVEL",
+          "name": "Svelte",
+          "nameEn": "Svelte",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 12000,
+          "rank": 10,
+          "share": 0.0217,
+          "rankDelta": -1
+        },
+        {
+          "code": "TAIL",
+          "name": "Tailwind CSS",
+          "nameEn": "Tailwind CSS",
+          "region": "CSS 工具",
+          "regionEn": "CSS Tools",
+          "value": 4000,
+          "rank": 11,
+          "share": 0.0072,
+          "rankDelta": -1
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "total": 756000,
+      "items": [
+        {
+          "code": "VUE",
+          "name": "Vue",
+          "nameEn": "Vue",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 135000,
+          "rank": 1,
+          "share": 0.1786,
+          "rankDelta": 2
+        },
+        {
+          "code": "REACT",
+          "name": "React",
+          "nameEn": "React",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 130000,
+          "rank": 2,
+          "share": 0.172,
+          "rankDelta": 0
+        },
+        {
+          "code": "TENS",
+          "name": "TensorFlow",
+          "nameEn": "TensorFlow",
+          "region": "AI 框架",
+          "regionEn": "AI Frameworks",
+          "value": 130000,
+          "rank": 3,
+          "share": 0.172,
+          "rankDelta": -2
+        },
+        {
+          "code": "VSCO",
+          "name": "VS Code",
+          "nameEn": "VS Code",
+          "region": "开发者工具",
+          "regionEn": "Developer Tools",
+          "value": 88000,
+          "rank": 4,
+          "share": 0.1164,
+          "rankDelta": 0
+        },
+        {
+          "code": "ANGL",
+          "name": "Angular",
+          "nameEn": "Angular",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 62000,
+          "rank": 5,
+          "share": 0.082,
+          "rankDelta": 1
+        },
+        {
+          "code": "K8S",
+          "name": "Kubernetes",
+          "nameEn": "Kubernetes",
+          "region": "云原生",
+          "regionEn": "Cloud Native",
+          "value": 62000,
+          "rank": 6,
+          "share": 0.082,
+          "rankDelta": -1
+        },
+        {
+          "code": "NEXT",
+          "name": "Next.js",
+          "nameEn": "Next.js",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 48000,
+          "rank": 7,
+          "share": 0.0635,
+          "rankDelta": 0
+        },
+        {
+          "code": "PYTO",
+          "name": "PyTorch",
+          "nameEn": "PyTorch",
+          "region": "AI 框架",
+          "regionEn": "AI Frameworks",
+          "value": 33000,
+          "rank": 8,
+          "share": 0.0437,
+          "rankDelta": 0
+        },
+        {
+          "code": "SVEL",
+          "name": "Svelte",
+          "nameEn": "Svelte",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 28000,
+          "rank": 9,
+          "share": 0.037,
+          "rankDelta": 1
+        },
+        {
+          "code": "DENO",
+          "name": "Deno",
+          "nameEn": "Deno",
+          "region": "Runtime",
+          "regionEn": "Runtimes",
+          "value": 28000,
+          "rank": 10,
+          "share": 0.037,
+          "rankDelta": -1
+        },
+        {
+          "code": "TAIL",
+          "name": "Tailwind CSS",
+          "nameEn": "Tailwind CSS",
+          "region": "CSS 工具",
+          "regionEn": "CSS Tools",
+          "value": 12000,
+          "rank": 11,
+          "share": 0.0159,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "total": 954000,
+      "items": [
+        {
+          "code": "VUE",
+          "name": "Vue",
+          "nameEn": "Vue",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 165000,
+          "rank": 1,
+          "share": 0.173,
+          "rankDelta": 0
+        },
+        {
+          "code": "REACT",
+          "name": "React",
+          "nameEn": "React",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 155000,
+          "rank": 2,
+          "share": 0.1625,
+          "rankDelta": 0
+        },
+        {
+          "code": "TENS",
+          "name": "TensorFlow",
+          "nameEn": "TensorFlow",
+          "region": "AI 框架",
+          "regionEn": "AI Frameworks",
+          "value": 148000,
+          "rank": 3,
+          "share": 0.1551,
+          "rankDelta": 0
+        },
+        {
+          "code": "VSCO",
+          "name": "VS Code",
+          "nameEn": "VS Code",
+          "region": "开发者工具",
+          "regionEn": "Developer Tools",
+          "value": 105000,
+          "rank": 4,
+          "share": 0.1101,
+          "rankDelta": 0
+        },
+        {
+          "code": "ANGL",
+          "name": "Angular",
+          "nameEn": "Angular",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 72000,
+          "rank": 5,
+          "share": 0.0755,
+          "rankDelta": 0
+        },
+        {
+          "code": "K8S",
+          "name": "Kubernetes",
+          "nameEn": "Kubernetes",
+          "region": "云原生",
+          "regionEn": "Cloud Native",
+          "value": 72000,
+          "rank": 6,
+          "share": 0.0755,
+          "rankDelta": 0
+        },
+        {
+          "code": "NEXT",
+          "name": "Next.js",
+          "nameEn": "Next.js",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 62000,
+          "rank": 7,
+          "share": 0.065,
+          "rankDelta": 0
+        },
+        {
+          "code": "DENO",
+          "name": "Deno",
+          "nameEn": "Deno",
+          "region": "Runtime",
+          "regionEn": "Runtimes",
+          "value": 55000,
+          "rank": 8,
+          "share": 0.0577,
+          "rankDelta": 2
+        },
+        {
+          "code": "SVEL",
+          "name": "Svelte",
+          "nameEn": "Svelte",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 42000,
+          "rank": 9,
+          "share": 0.044,
+          "rankDelta": 0
+        },
+        {
+          "code": "PYTO",
+          "name": "PyTorch",
+          "nameEn": "PyTorch",
+          "region": "AI 框架",
+          "regionEn": "AI Frameworks",
+          "value": 42000,
+          "rank": 10,
+          "share": 0.044,
+          "rankDelta": -2
+        },
+        {
+          "code": "TAIL",
+          "name": "Tailwind CSS",
+          "nameEn": "Tailwind CSS",
+          "region": "CSS 工具",
+          "regionEn": "CSS Tools",
+          "value": 28000,
+          "rank": 11,
+          "share": 0.0294,
+          "rankDelta": 0
+        },
+        {
+          "code": "VITE",
+          "name": "Vite",
+          "nameEn": "Vite",
+          "region": "构建工具",
+          "regionEn": "Build Tools",
+          "value": 8000,
+          "rank": 12,
+          "share": 0.0084,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "total": 1137000,
+      "items": [
+        {
+          "code": "VUE",
+          "name": "Vue",
+          "nameEn": "Vue",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 185000,
+          "rank": 1,
+          "share": 0.1627,
+          "rankDelta": 0
+        },
+        {
+          "code": "REACT",
+          "name": "React",
+          "nameEn": "React",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 180000,
+          "rank": 2,
+          "share": 0.1583,
+          "rankDelta": 0
+        },
+        {
+          "code": "TENS",
+          "name": "TensorFlow",
+          "nameEn": "TensorFlow",
+          "region": "AI 框架",
+          "regionEn": "AI Frameworks",
+          "value": 160000,
+          "rank": 3,
+          "share": 0.1407,
+          "rankDelta": 0
+        },
+        {
+          "code": "VSCO",
+          "name": "VS Code",
+          "nameEn": "VS Code",
+          "region": "开发者工具",
+          "regionEn": "Developer Tools",
+          "value": 120000,
+          "rank": 4,
+          "share": 0.1055,
+          "rankDelta": 0
+        },
+        {
+          "code": "NEXT",
+          "name": "Next.js",
+          "nameEn": "Next.js",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 82000,
+          "rank": 5,
+          "share": 0.0721,
+          "rankDelta": 2
+        },
+        {
+          "code": "K8S",
+          "name": "Kubernetes",
+          "nameEn": "Kubernetes",
+          "region": "云原生",
+          "regionEn": "Cloud Native",
+          "value": 82000,
+          "rank": 6,
+          "share": 0.0721,
+          "rankDelta": 0
+        },
+        {
+          "code": "ANGL",
+          "name": "Angular",
+          "nameEn": "Angular",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 80000,
+          "rank": 7,
+          "share": 0.0704,
+          "rankDelta": -2
+        },
+        {
+          "code": "DENO",
+          "name": "Deno",
+          "nameEn": "Deno",
+          "region": "Runtime",
+          "regionEn": "Runtimes",
+          "value": 72000,
+          "rank": 8,
+          "share": 0.0633,
+          "rankDelta": 0
+        },
+        {
+          "code": "SVEL",
+          "name": "Svelte",
+          "nameEn": "Svelte",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 54000,
+          "rank": 9,
+          "share": 0.0475,
+          "rankDelta": 0
+        },
+        {
+          "code": "PYTO",
+          "name": "PyTorch",
+          "nameEn": "PyTorch",
+          "region": "AI 框架",
+          "regionEn": "AI Frameworks",
+          "value": 52000,
+          "rank": 10,
+          "share": 0.0457,
+          "rankDelta": 0
+        },
+        {
+          "code": "TAIL",
+          "name": "Tailwind CSS",
+          "nameEn": "Tailwind CSS",
+          "region": "CSS 工具",
+          "regionEn": "CSS Tools",
+          "value": 48000,
+          "rank": 11,
+          "share": 0.0422,
+          "rankDelta": 0
+        },
+        {
+          "code": "VITE",
+          "name": "Vite",
+          "nameEn": "Vite",
+          "region": "构建工具",
+          "regionEn": "Build Tools",
+          "value": 22000,
+          "rank": 12,
+          "share": 0.0193,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "total": 1316000,
+      "items": [
+        {
+          "code": "REACT",
+          "name": "React",
+          "nameEn": "React",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 200000,
+          "rank": 1,
+          "share": 0.152,
+          "rankDelta": 1
+        },
+        {
+          "code": "VUE",
+          "name": "Vue",
+          "nameEn": "Vue",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 195000,
+          "rank": 2,
+          "share": 0.1482,
+          "rankDelta": -1
+        },
+        {
+          "code": "TENS",
+          "name": "TensorFlow",
+          "nameEn": "TensorFlow",
+          "region": "AI 框架",
+          "regionEn": "AI Frameworks",
+          "value": 170000,
+          "rank": 3,
+          "share": 0.1292,
+          "rankDelta": 0
+        },
+        {
+          "code": "VSCO",
+          "name": "VS Code",
+          "nameEn": "VS Code",
+          "region": "开发者工具",
+          "regionEn": "Developer Tools",
+          "value": 135000,
+          "rank": 4,
+          "share": 0.1026,
+          "rankDelta": 0
+        },
+        {
+          "code": "NEXT",
+          "name": "Next.js",
+          "nameEn": "Next.js",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 100000,
+          "rank": 5,
+          "share": 0.076,
+          "rankDelta": 0
+        },
+        {
+          "code": "K8S",
+          "name": "Kubernetes",
+          "nameEn": "Kubernetes",
+          "region": "云原生",
+          "regionEn": "Cloud Native",
+          "value": 93000,
+          "rank": 6,
+          "share": 0.0707,
+          "rankDelta": 0
+        },
+        {
+          "code": "ANGL",
+          "name": "Angular",
+          "nameEn": "Angular",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 86000,
+          "rank": 7,
+          "share": 0.0653,
+          "rankDelta": 0
+        },
+        {
+          "code": "DENO",
+          "name": "Deno",
+          "nameEn": "Deno",
+          "region": "Runtime",
+          "regionEn": "Runtimes",
+          "value": 83000,
+          "rank": 8,
+          "share": 0.0631,
+          "rankDelta": 0
+        },
+        {
+          "code": "SVEL",
+          "name": "Svelte",
+          "nameEn": "Svelte",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 63000,
+          "rank": 9,
+          "share": 0.0479,
+          "rankDelta": 0
+        },
+        {
+          "code": "TAIL",
+          "name": "Tailwind CSS",
+          "nameEn": "Tailwind CSS",
+          "region": "CSS 工具",
+          "regionEn": "CSS Tools",
+          "value": 62000,
+          "rank": 10,
+          "share": 0.0471,
+          "rankDelta": 1
+        },
+        {
+          "code": "PYTO",
+          "name": "PyTorch",
+          "nameEn": "PyTorch",
+          "region": "AI 框架",
+          "regionEn": "AI Frameworks",
+          "value": 62000,
+          "rank": 11,
+          "share": 0.0471,
+          "rankDelta": -1
+        },
+        {
+          "code": "VITE",
+          "name": "Vite",
+          "nameEn": "Vite",
+          "region": "构建工具",
+          "regionEn": "Build Tools",
+          "value": 38000,
+          "rank": 12,
+          "share": 0.0289,
+          "rankDelta": 0
+        },
+        {
+          "code": "BUN",
+          "name": "Bun",
+          "nameEn": "Bun",
+          "region": "Runtime",
+          "regionEn": "Runtimes",
+          "value": 25000,
+          "rank": 13,
+          "share": 0.019,
+          "rankDelta": 0
+        },
+        {
+          "code": "LANG",
+          "name": "LangChain",
+          "nameEn": "LangChain",
+          "region": "AI 框架",
+          "regionEn": "AI Frameworks",
+          "value": 4000,
+          "rank": 14,
+          "share": 0.003,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "total": 1496000,
+      "items": [
+        {
+          "code": "REACT",
+          "name": "React",
+          "nameEn": "React",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 215000,
+          "rank": 1,
+          "share": 0.1437,
+          "rankDelta": 0
+        },
+        {
+          "code": "VUE",
+          "name": "Vue",
+          "nameEn": "Vue",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 202000,
+          "rank": 2,
+          "share": 0.135,
+          "rankDelta": 0
+        },
+        {
+          "code": "TENS",
+          "name": "TensorFlow",
+          "nameEn": "TensorFlow",
+          "region": "AI 框架",
+          "regionEn": "AI Frameworks",
+          "value": 178000,
+          "rank": 3,
+          "share": 0.119,
+          "rankDelta": 0
+        },
+        {
+          "code": "VSCO",
+          "name": "VS Code",
+          "nameEn": "VS Code",
+          "region": "开发者工具",
+          "regionEn": "Developer Tools",
+          "value": 148000,
+          "rank": 4,
+          "share": 0.0989,
+          "rankDelta": 0
+        },
+        {
+          "code": "NEXT",
+          "name": "Next.js",
+          "nameEn": "Next.js",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 115000,
+          "rank": 5,
+          "share": 0.0769,
+          "rankDelta": 0
+        },
+        {
+          "code": "K8S",
+          "name": "Kubernetes",
+          "nameEn": "Kubernetes",
+          "region": "云原生",
+          "regionEn": "Cloud Native",
+          "value": 103000,
+          "rank": 6,
+          "share": 0.0689,
+          "rankDelta": 0
+        },
+        {
+          "code": "ANGL",
+          "name": "Angular",
+          "nameEn": "Angular",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 92000,
+          "rank": 7,
+          "share": 0.0615,
+          "rankDelta": 0
+        },
+        {
+          "code": "DENO",
+          "name": "Deno",
+          "nameEn": "Deno",
+          "region": "Runtime",
+          "regionEn": "Runtimes",
+          "value": 90000,
+          "rank": 8,
+          "share": 0.0602,
+          "rankDelta": 0
+        },
+        {
+          "code": "TAIL",
+          "name": "Tailwind CSS",
+          "nameEn": "Tailwind CSS",
+          "region": "CSS 工具",
+          "regionEn": "CSS Tools",
+          "value": 73000,
+          "rank": 9,
+          "share": 0.0488,
+          "rankDelta": 1
+        },
+        {
+          "code": "PYTO",
+          "name": "PyTorch",
+          "nameEn": "PyTorch",
+          "region": "AI 框架",
+          "regionEn": "AI Frameworks",
+          "value": 73000,
+          "rank": 10,
+          "share": 0.0488,
+          "rankDelta": 1
+        },
+        {
+          "code": "SVEL",
+          "name": "Svelte",
+          "nameEn": "Svelte",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 72000,
+          "rank": 11,
+          "share": 0.0481,
+          "rankDelta": -2
+        },
+        {
+          "code": "VITE",
+          "name": "Vite",
+          "nameEn": "Vite",
+          "region": "构建工具",
+          "regionEn": "Build Tools",
+          "value": 55000,
+          "rank": 12,
+          "share": 0.0368,
+          "rankDelta": 0
+        },
+        {
+          "code": "BUN",
+          "name": "Bun",
+          "nameEn": "Bun",
+          "region": "Runtime",
+          "regionEn": "Runtimes",
+          "value": 45000,
+          "rank": 13,
+          "share": 0.0301,
+          "rankDelta": 0
+        },
+        {
+          "code": "LANG",
+          "name": "LangChain",
+          "nameEn": "LangChain",
+          "region": "AI 框架",
+          "regionEn": "AI Frameworks",
+          "value": 35000,
+          "rank": 14,
+          "share": 0.0234,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "total": 1632000,
+      "items": [
+        {
+          "code": "REACT",
+          "name": "React",
+          "nameEn": "React",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 225000,
+          "rank": 1,
+          "share": 0.1379,
+          "rankDelta": 0
+        },
+        {
+          "code": "VUE",
+          "name": "Vue",
+          "nameEn": "Vue",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 206000,
+          "rank": 2,
+          "share": 0.1262,
+          "rankDelta": 0
+        },
+        {
+          "code": "TENS",
+          "name": "TensorFlow",
+          "nameEn": "TensorFlow",
+          "region": "AI 框架",
+          "regionEn": "AI Frameworks",
+          "value": 185000,
+          "rank": 3,
+          "share": 0.1134,
+          "rankDelta": 0
+        },
+        {
+          "code": "VSCO",
+          "name": "VS Code",
+          "nameEn": "VS Code",
+          "region": "开发者工具",
+          "regionEn": "Developer Tools",
+          "value": 160000,
+          "rank": 4,
+          "share": 0.098,
+          "rankDelta": 0
+        },
+        {
+          "code": "NEXT",
+          "name": "Next.js",
+          "nameEn": "Next.js",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 125000,
+          "rank": 5,
+          "share": 0.0766,
+          "rankDelta": 0
+        },
+        {
+          "code": "K8S",
+          "name": "Kubernetes",
+          "nameEn": "Kubernetes",
+          "region": "云原生",
+          "regionEn": "Cloud Native",
+          "value": 110000,
+          "rank": 6,
+          "share": 0.0674,
+          "rankDelta": 0
+        },
+        {
+          "code": "ANGL",
+          "name": "Angular",
+          "nameEn": "Angular",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 96000,
+          "rank": 7,
+          "share": 0.0588,
+          "rankDelta": 0
+        },
+        {
+          "code": "DENO",
+          "name": "Deno",
+          "nameEn": "Deno",
+          "region": "Runtime",
+          "regionEn": "Runtimes",
+          "value": 96000,
+          "rank": 8,
+          "share": 0.0588,
+          "rankDelta": 0
+        },
+        {
+          "code": "PYTO",
+          "name": "PyTorch",
+          "nameEn": "PyTorch",
+          "region": "AI 框架",
+          "regionEn": "AI Frameworks",
+          "value": 82000,
+          "rank": 9,
+          "share": 0.0502,
+          "rankDelta": 1
+        },
+        {
+          "code": "TAIL",
+          "name": "Tailwind CSS",
+          "nameEn": "Tailwind CSS",
+          "region": "CSS 工具",
+          "regionEn": "CSS Tools",
+          "value": 80000,
+          "rank": 10,
+          "share": 0.049,
+          "rankDelta": -1
+        },
+        {
+          "code": "SVEL",
+          "name": "Svelte",
+          "nameEn": "Svelte",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 77000,
+          "rank": 11,
+          "share": 0.0472,
+          "rankDelta": 0
+        },
+        {
+          "code": "VITE",
+          "name": "Vite",
+          "nameEn": "Vite",
+          "region": "构建工具",
+          "regionEn": "Build Tools",
+          "value": 65000,
+          "rank": 12,
+          "share": 0.0398,
+          "rankDelta": 0
+        },
+        {
+          "code": "LANG",
+          "name": "LangChain",
+          "nameEn": "LangChain",
+          "region": "AI 框架",
+          "regionEn": "AI Frameworks",
+          "value": 65000,
+          "rank": 13,
+          "share": 0.0398,
+          "rankDelta": 1
+        },
+        {
+          "code": "BUN",
+          "name": "Bun",
+          "nameEn": "Bun",
+          "region": "Runtime",
+          "regionEn": "Runtimes",
+          "value": 60000,
+          "rank": 14,
+          "share": 0.0368,
+          "rankDelta": -1
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "total": 1763000,
+      "items": [
+        {
+          "code": "REACT",
+          "name": "React",
+          "nameEn": "React",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 235000,
+          "rank": 1,
+          "share": 0.1333,
+          "rankDelta": 0
+        },
+        {
+          "code": "VUE",
+          "name": "Vue",
+          "nameEn": "Vue",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 208000,
+          "rank": 2,
+          "share": 0.118,
+          "rankDelta": 0
+        },
+        {
+          "code": "TENS",
+          "name": "TensorFlow",
+          "nameEn": "TensorFlow",
+          "region": "AI 框架",
+          "regionEn": "AI Frameworks",
+          "value": 190000,
+          "rank": 3,
+          "share": 0.1078,
+          "rankDelta": 0
+        },
+        {
+          "code": "VSCO",
+          "name": "VS Code",
+          "nameEn": "VS Code",
+          "region": "开发者工具",
+          "regionEn": "Developer Tools",
+          "value": 173000,
+          "rank": 4,
+          "share": 0.0981,
+          "rankDelta": 0
+        },
+        {
+          "code": "NEXT",
+          "name": "Next.js",
+          "nameEn": "Next.js",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 132000,
+          "rank": 5,
+          "share": 0.0749,
+          "rankDelta": 0
+        },
+        {
+          "code": "K8S",
+          "name": "Kubernetes",
+          "nameEn": "Kubernetes",
+          "region": "云原生",
+          "regionEn": "Cloud Native",
+          "value": 116000,
+          "rank": 6,
+          "share": 0.0658,
+          "rankDelta": 0
+        },
+        {
+          "code": "DENO",
+          "name": "Deno",
+          "nameEn": "Deno",
+          "region": "Runtime",
+          "regionEn": "Runtimes",
+          "value": 102000,
+          "rank": 7,
+          "share": 0.0579,
+          "rankDelta": 1
+        },
+        {
+          "code": "LANG",
+          "name": "LangChain",
+          "nameEn": "LangChain",
+          "region": "AI 框架",
+          "regionEn": "AI Frameworks",
+          "value": 100000,
+          "rank": 8,
+          "share": 0.0567,
+          "rankDelta": 5
+        },
+        {
+          "code": "ANGL",
+          "name": "Angular",
+          "nameEn": "Angular",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 98000,
+          "rank": 9,
+          "share": 0.0556,
+          "rankDelta": -2
+        },
+        {
+          "code": "PYTO",
+          "name": "PyTorch",
+          "nameEn": "PyTorch",
+          "region": "AI 框架",
+          "regionEn": "AI Frameworks",
+          "value": 92000,
+          "rank": 10,
+          "share": 0.0522,
+          "rankDelta": -1
+        },
+        {
+          "code": "TAIL",
+          "name": "Tailwind CSS",
+          "nameEn": "Tailwind CSS",
+          "region": "CSS 工具",
+          "regionEn": "CSS Tools",
+          "value": 87000,
+          "rank": 11,
+          "share": 0.0493,
+          "rankDelta": -1
+        },
+        {
+          "code": "SVEL",
+          "name": "Svelte",
+          "nameEn": "Svelte",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 82000,
+          "rank": 12,
+          "share": 0.0465,
+          "rankDelta": -1
+        },
+        {
+          "code": "BUN",
+          "name": "Bun",
+          "nameEn": "Bun",
+          "region": "Runtime",
+          "regionEn": "Runtimes",
+          "value": 75000,
+          "rank": 13,
+          "share": 0.0425,
+          "rankDelta": 1
+        },
+        {
+          "code": "VITE",
+          "name": "Vite",
+          "nameEn": "Vite",
+          "region": "构建工具",
+          "regionEn": "Build Tools",
+          "value": 73000,
+          "rank": 14,
+          "share": 0.0414,
+          "rankDelta": -2
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "total": 1895025,
+      "items": [
+        {
+          "code": "REACT",
+          "name": "React",
+          "nameEn": "React",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 245100,
+          "rank": 1,
+          "share": 0.1293,
+          "rankDelta": 0
+        },
+        {
+          "code": "VUE",
+          "name": "Vue",
+          "nameEn": "Vue",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 209776,
+          "rank": 2,
+          "share": 0.1107,
+          "rankDelta": 0
+        },
+        {
+          "code": "TENS",
+          "name": "TensorFlow",
+          "nameEn": "TensorFlow",
+          "region": "AI 框架",
+          "regionEn": "AI Frameworks",
+          "value": 195151,
+          "rank": 3,
+          "share": 0.103,
+          "rankDelta": 0
+        },
+        {
+          "code": "VSCO",
+          "name": "VS Code",
+          "nameEn": "VS Code",
+          "region": "开发者工具",
+          "regionEn": "Developer Tools",
+          "value": 185057,
+          "rank": 4,
+          "share": 0.0977,
+          "rankDelta": 0
+        },
+        {
+          "code": "NEXT",
+          "name": "Next.js",
+          "nameEn": "Next.js",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 139513,
+          "rank": 5,
+          "share": 0.0736,
+          "rankDelta": 0
+        },
+        {
+          "code": "LANG",
+          "name": "LangChain",
+          "nameEn": "LangChain",
+          "region": "AI 框架",
+          "regionEn": "AI Frameworks",
+          "value": 137025,
+          "rank": 6,
+          "share": 0.0723,
+          "rankDelta": 2
+        },
+        {
+          "code": "K8S",
+          "name": "Kubernetes",
+          "nameEn": "Kubernetes",
+          "region": "云原生",
+          "regionEn": "Cloud Native",
+          "value": 122334,
+          "rank": 7,
+          "share": 0.0646,
+          "rankDelta": -1
+        },
+        {
+          "code": "DENO",
+          "name": "Deno",
+          "nameEn": "Deno",
+          "region": "Runtime",
+          "regionEn": "Runtimes",
+          "value": 106761,
+          "rank": 8,
+          "share": 0.0563,
+          "rankDelta": -1
+        },
+        {
+          "code": "ANGL",
+          "name": "Angular",
+          "nameEn": "Angular",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 100110,
+          "rank": 9,
+          "share": 0.0528,
+          "rankDelta": 0
+        },
+        {
+          "code": "PYTO",
+          "name": "PyTorch",
+          "nameEn": "PyTorch",
+          "region": "AI 框架",
+          "regionEn": "AI Frameworks",
+          "value": 99986,
+          "rank": 10,
+          "share": 0.0528,
+          "rankDelta": 0
+        },
+        {
+          "code": "TAIL",
+          "name": "Tailwind CSS",
+          "nameEn": "Tailwind CSS",
+          "region": "CSS 工具",
+          "regionEn": "CSS Tools",
+          "value": 95048,
+          "rank": 11,
+          "share": 0.0502,
+          "rankDelta": 0
+        },
+        {
+          "code": "BUN",
+          "name": "Bun",
+          "nameEn": "Bun",
+          "region": "Runtime",
+          "regionEn": "Runtimes",
+          "value": 91902,
+          "rank": 12,
+          "share": 0.0485,
+          "rankDelta": 1
+        },
+        {
+          "code": "SVEL",
+          "name": "Svelte",
+          "nameEn": "Svelte",
+          "region": "Web 框架",
+          "regionEn": "Web Frameworks",
+          "value": 86581,
+          "rank": 13,
+          "share": 0.0457,
+          "rankDelta": -1
+        },
+        {
+          "code": "VITE",
+          "name": "Vite",
+          "nameEn": "Vite",
+          "region": "构建工具",
+          "regionEn": "Build Tools",
+          "value": 80681,
+          "rank": 14,
+          "share": 0.0426,
+          "rankDelta": 0
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "react-created",
+      "year": 2013,
+      "entityCode": "REACT",
+      "kind": "context",
+      "title": "React 开源",
+      "titleEn": "React open sourced",
+      "description": "Facebook 开源 React，前端开发范式开始转变。",
+      "descriptionEn": "Facebook open-sources React, transforming frontend development.",
+      "entityName": "React",
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "vue-created",
+      "year": 2014,
+      "entityCode": "VUE",
+      "kind": "context",
+      "title": "Vue.js 首次发布",
+      "titleEn": "Vue.js initial release",
+      "description": "尤雨溪发布 Vue.js，一个渐进式前端框架。",
+      "descriptionEn": "Evan You releases Vue.js, a progressive frontend framework.",
+      "entityName": "Vue",
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "angular2-release",
+      "year": 2016,
+      "entityCode": "ANGL",
+      "kind": "context",
+      "title": "Angular 2 正式发布",
+      "titleEn": "Angular 2 released",
+      "description": "Angular 完全重写为基于 TypeScript 的现代框架。",
+      "descriptionEn": "Angular is rewritten as a modern TypeScript-based framework.",
+      "entityName": "Angular",
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "vue2-release",
+      "year": 2016,
+      "entityCode": "VUE",
+      "kind": "context",
+      "title": "Vue 2.0 发布",
+      "titleEn": "Vue 2.0 released",
+      "description": "Vue 2.0 发布，带来虚拟 DOM 和性能大幅提升。",
+      "descriptionEn": "Vue 2.0 ships with virtual DOM and major performance gains.",
+      "entityName": "Vue",
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "tensorflow-created",
+      "year": 2015,
+      "entityCode": "TENS",
+      "kind": "context",
+      "title": "TensorFlow 开源",
+      "titleEn": "TensorFlow open sourced",
+      "description": "Google 开源 TensorFlow，迅速成为深度学习主流框架。",
+      "descriptionEn": "Google open-sources TensorFlow, quickly becoming the dominant DL framework.",
+      "entityName": "TensorFlow",
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "k8s-v1",
+      "year": 2015,
+      "entityCode": "K8S",
+      "kind": "context",
+      "title": "Kubernetes 1.0 发布",
+      "titleEn": "Kubernetes 1.0 released",
+      "description": "Kubernetes 1.0 发布，由 Google 捐献给 CNCF 管理。",
+      "descriptionEn": "Kubernetes 1.0 released and donated to CNCF by Google.",
+      "entityName": "Kubernetes",
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "vscode-open-source",
+      "year": 2015,
+      "entityCode": "VSCO",
+      "kind": "context",
+      "title": "VS Code 开源",
+      "titleEn": "VS Code open sourced",
+      "description": "微软将 VS Code 开源，迅速成为最受欢迎的代码编辑器。",
+      "descriptionEn": "Microsoft open-sources VS Code, which quickly becomes the most popular editor.",
+      "entityName": "VS Code",
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "react-100k",
+      "year": 2018,
+      "entityCode": "REACT",
+      "kind": "milestone",
+      "title": "React 突破 10 万 Star",
+      "titleEn": "React reaches 100k stars",
+      "description": "React 成为 GitHub 上最受欢迎的 Web UI 框架之一。",
+      "descriptionEn": "React becomes one of the most popular web UI frameworks on GitHub.",
+      "entityName": "React",
+      "rank": 1,
+      "value": 100000
+    },
+    {
+      "id": "vue-100k",
+      "year": 2019,
+      "entityCode": "VUE",
+      "kind": "milestone",
+      "title": "Vue 突破 10 万 Star",
+      "titleEn": "Vue reaches 100k stars",
+      "description": "Vue.js 凭借易用性获得开发者社区广泛认可。",
+      "descriptionEn": "Vue.js gains broad community recognition for its ease of use.",
+      "entityName": "Vue",
+      "rank": 2,
+      "value": 100000
+    },
+    {
+      "id": "svelte3",
+      "year": 2019,
+      "entityCode": "SVEL",
+      "kind": "context",
+      "title": "Svelte 3 发布",
+      "titleEn": "Svelte 3 released",
+      "description": "Svelte 3 引入编译器驱动的响应式模型。",
+      "descriptionEn": "Svelte 3 introduces a compiler-driven reactive model.",
+      "entityName": "Svelte",
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "deno-v1",
+      "year": 2020,
+      "entityCode": "DENO",
+      "kind": "context",
+      "title": "Deno 1.0 发布",
+      "titleEn": "Deno 1.0 released",
+      "description": "Node.js 创始人 Ryan Dahl 的 Deno 1.0 正式发布。",
+      "descriptionEn": "Ryan Dahl's Deno 1.0 officially released.",
+      "entityName": "Deno",
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "pytorch-v1",
+      "year": 2018,
+      "entityCode": "PYTO",
+      "kind": "context",
+      "title": "PyTorch 1.0 发布",
+      "titleEn": "PyTorch 1.0 released",
+      "description": "PyTorch 1.0 发布，提供生产级部署能力。",
+      "descriptionEn": "PyTorch 1.0 brings production-ready deployment capabilities.",
+      "entityName": "PyTorch",
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "nextjs-100k",
+      "year": 2022,
+      "entityCode": "NEXT",
+      "kind": "milestone",
+      "title": "Next.js 突破 10 万 Star",
+      "titleEn": "Next.js reaches 100k stars",
+      "description": "Next.js 凭借 React Server Components 等创新持续增长。",
+      "descriptionEn": "Next.js continues growing with innovations like React Server Components.",
+      "entityName": "Next.js",
+      "rank": 4,
+      "value": 100000
+    },
+    {
+      "id": "tailwind-v3",
+      "year": 2021,
+      "entityCode": "TAIL",
+      "kind": "context",
+      "title": "Tailwind CSS v3 发布",
+      "titleEn": "Tailwind CSS v3 released",
+      "description": "Tailwind CSS v3 引入 JIT 引擎，性能飞跃。",
+      "descriptionEn": "Tailwind CSS v3 introduces the JIT engine for a performance leap.",
+      "entityName": "Tailwind CSS",
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "bun-created",
+      "year": 2022,
+      "entityCode": "BUN",
+      "kind": "context",
+      "title": "Bun 首次亮相",
+      "titleEn": "Bun initial release",
+      "description": "Bun 以极快的启动速度迅速获得开发者关注。",
+      "descriptionEn": "Bun gains rapid developer attention with blazing-fast startup times.",
+      "entityName": "Bun",
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "langchain-ai-boom",
+      "year": 2023,
+      "entityCode": "LANG",
+      "kind": "context",
+      "title": "LangChain 爆发式增长",
+      "titleEn": "LangChain explosive growth",
+      "description": "ChatGPT 推动 LLM 应用开发热潮，LangChain 成为首选框架。",
+      "descriptionEn": "ChatGPT sparks LLM app development boom, LangChain becomes the go-to framework.",
+      "entityName": "LangChain",
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "vite-become-default",
+      "year": 2022,
+      "entityCode": "VITE",
+      "kind": "context",
+      "title": "Vite 成为默认构建工具",
+      "titleEn": "Vite becomes the default build tool",
+      "description": "Vite 被 Vue 和 React 等框架作为默认构建工具采用。",
+      "descriptionEn": "Vite adopted as default build tool by Vue, React, and other frameworks.",
+      "entityName": "Vite",
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "vue3-release",
+      "year": 2020,
+      "entityCode": "VUE",
+      "kind": "context",
+      "title": "Vue 3.0 发布",
+      "titleEn": "Vue 3.0 released",
+      "description": "Vue 3.0 引入 Composition API 和 Proxy 响应式系统。",
+      "descriptionEn": "Vue 3.0 introduces Composition API and Proxy-based reactivity.",
+      "entityName": "Vue",
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "react-v19",
+      "year": 2024,
+      "entityCode": "REACT",
+      "kind": "context",
+      "title": "React 19 发布",
+      "titleEn": "React 19 released",
+      "description": "React 19 引入 Actions、新 Hooks 和性能改进。",
+      "descriptionEn": "React 19 introduces Actions, new Hooks, and performance improvements.",
+      "entityName": "React",
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "tensorflow-150k",
+      "year": 2020,
+      "entityCode": "TENS",
+      "kind": "milestone",
+      "title": "TensorFlow 突破 15 万 Star",
+      "titleEn": "TensorFlow reaches 150k stars",
+      "description": "TensorFlow 持续主导机器学习框架领域。",
+      "descriptionEn": "TensorFlow continues to dominate the ML framework space.",
+      "entityName": "TensorFlow",
+      "rank": 3,
+      "value": 150000
+    },
+    {
+      "id": "react-200k",
+      "year": 2022,
+      "entityCode": "REACT",
+      "kind": "milestone",
+      "title": "React 突破 20 万 Star",
+      "titleEn": "React reaches 200k stars",
+      "description": "React 成为首批达到 20 万 Star 的 JavaScript 项目之一。",
+      "descriptionEn": "React becomes one of the first JavaScript projects to reach 200k stars.",
+      "entityName": "React",
+      "rank": 1,
+      "value": 200000
+    },
+    {
+      "id": "langchain-100k",
+      "year": 2025,
+      "entityCode": "LANG",
+      "kind": "milestone",
+      "title": "LangChain 突破 10 万 Star",
+      "titleEn": "LangChain reaches 100k stars",
+      "description": "LangChain 在不到 3 年内达到 10 万 Star，增速惊人。",
+      "descriptionEn": "LangChain reaches 100k stars in under 3 years, a phenomenal growth rate.",
+      "entityName": "LangChain",
+      "rank": 6,
+      "value": 100000
+    }
+  ]
+}

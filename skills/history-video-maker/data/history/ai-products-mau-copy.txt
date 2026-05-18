@@ -1,0 +1,9 @@
+platformTitle: AI 产品月活排名：ChatGPT 一骑绝尘，谁能追得上？
+coverKicker: 2022 → 2026 · AI 产品月活用户
+coverHeadline: AI 产品月活 / 谁在领跑？
+coverSubline: ChatGPT、Gemini、Claude 的 AI 用户争夺战
+coverBadge: AI 时代月活排名
+hook: ChatGPT 两个月达到 1 亿月活，这个纪录至今无人能破。
+intro: 从 2022 到 2026，AI 产品月活用户排名发生了哪些剧变？ChatGPT 一骑绝尘，Gemini 和 Grok 奋力追赶。
+insight: ChatGPT 用 2 个月达到 1 亿 MAU，成为历史上增长最快的消费级应用；Gemini 借助 Google 生态迅速崛起；Grok 靠 X 平台和 Grok 3 发布完成逆袭。
+cta: 去 shapeof.world 看更完整的互动数据。

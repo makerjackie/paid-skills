@@ -1,0 +1,721 @@
+{
+  "slug": "ai-products-mau-race",
+  "title": "AI 产品月活用户排名",
+  "titleEn": "AI Products MAU Race",
+  "summary": "从 2022 年到 2026 年，看 AI 产品月活用户增长排名。ChatGPT 一骑绝尘，Gemini 紧随其后。",
+  "summaryEn": "Track MAU growth of top AI products from 2022 to 2026. ChatGPT dominates, Gemini chases.",
+  "sourceLabel": "公司公开数据 / SimilarWeb / 行业分析报告",
+  "sourceLabelEn": "Company disclosures / SimilarWeb / Industry reports",
+  "sourceUrl": "https://similarweb.com",
+  "sourceNote": "数据基于各公司公开披露的用户数、SimilarWeb 访问量估计及行业分析报告。MAU 定义各产品可能不同（网站 MAU vs 应用 MAU vs 总 MAU），部分数据为合理估计。",
+  "sourceNoteEn": "Data based on company disclosures, SimilarWeb traffic estimates, and industry reports. MAU definitions may vary across products. Some data are estimates.",
+  "unit": "月活用户",
+  "unitShort": "MAU",
+  "valueKind": "count",
+  "startYear": 2022,
+  "endYear": 2026,
+  "entities": [
+    {
+      "code": "CHAT",
+      "name": "ChatGPT",
+      "nameEn": "ChatGPT",
+      "region": "全球"
+    },
+    {
+      "code": "GEMI",
+      "name": "Gemini",
+      "nameEn": "Gemini",
+      "region": "全球"
+    },
+    {
+      "code": "GROK",
+      "name": "Grok",
+      "nameEn": "Grok",
+      "region": "全球"
+    },
+    {
+      "code": "CLDE",
+      "name": "Claude",
+      "nameEn": "Claude",
+      "region": "全球"
+    },
+    {
+      "code": "PERP",
+      "name": "Perplexity",
+      "nameEn": "Perplexity",
+      "region": "全球"
+    },
+    {
+      "code": "SUNO",
+      "name": "Suno",
+      "nameEn": "Suno",
+      "region": "全球"
+    },
+    {
+      "code": "CHAI",
+      "name": "Character.AI",
+      "nameEn": "Character.AI",
+      "region": "全球"
+    },
+    {
+      "code": "MDJR",
+      "name": "Midjourney",
+      "nameEn": "Midjourney",
+      "region": "全球"
+    },
+    {
+      "code": "RUNW",
+      "name": "Runway",
+      "nameEn": "Runway",
+      "region": "全球"
+    },
+    {
+      "code": "GHCP",
+      "name": "GitHub Copilot",
+      "nameEn": "GitHub Copilot",
+      "region": "全球"
+    }
+  ],
+  "frames": [
+    {
+      "year": 2022,
+      "total": 1860000,
+      "items": [
+        {
+          "code": "CHAT",
+          "name": "ChatGPT",
+          "nameEn": "ChatGPT",
+          "region": "全球",
+          "value": 1000000,
+          "rank": 1,
+          "share": 0.537634,
+          "rankDelta": 0
+        },
+        {
+          "code": "GHCP",
+          "name": "GitHub Copilot",
+          "nameEn": "GitHub Copilot",
+          "region": "全球",
+          "value": 300000,
+          "rank": 2,
+          "share": 0.16129,
+          "rankDelta": 0
+        },
+        {
+          "code": "MDJR",
+          "name": "Midjourney",
+          "nameEn": "Midjourney",
+          "region": "全球",
+          "value": 300000,
+          "rank": 3,
+          "share": 0.16129,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHAI",
+          "name": "Character.AI",
+          "nameEn": "Character.AI",
+          "region": "全球",
+          "value": 200000,
+          "rank": 4,
+          "share": 0.107527,
+          "rankDelta": 0
+        },
+        {
+          "code": "RUNW",
+          "name": "Runway",
+          "nameEn": "Runway",
+          "region": "全球",
+          "value": 50000,
+          "rank": 5,
+          "share": 0.026882,
+          "rankDelta": 0
+        },
+        {
+          "code": "PERP",
+          "name": "Perplexity",
+          "nameEn": "Perplexity",
+          "region": "全球",
+          "value": 10000,
+          "rank": 6,
+          "share": 0.005376,
+          "rankDelta": 0
+        },
+        {
+          "code": "GEMI",
+          "name": "Gemini",
+          "nameEn": "Gemini",
+          "region": "全球",
+          "value": 0,
+          "rank": 7,
+          "share": 0.0,
+          "rankDelta": 0
+        },
+        {
+          "code": "CLDE",
+          "name": "Claude",
+          "nameEn": "Claude",
+          "region": "全球",
+          "value": 0,
+          "rank": 8,
+          "share": 0.0,
+          "rankDelta": 0
+        },
+        {
+          "code": "SUNO",
+          "name": "Suno",
+          "nameEn": "Suno",
+          "region": "全球",
+          "value": 0,
+          "rank": 9,
+          "share": 0.0,
+          "rankDelta": 0
+        },
+        {
+          "code": "GROK",
+          "name": "Grok",
+          "nameEn": "Grok",
+          "region": "全球",
+          "value": 0,
+          "rank": 10,
+          "share": 0.0,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "total": 186800000,
+      "items": [
+        {
+          "code": "CHAT",
+          "name": "ChatGPT",
+          "nameEn": "ChatGPT",
+          "region": "全球",
+          "value": 150000000,
+          "rank": 1,
+          "share": 0.802998,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHAI",
+          "name": "Character.AI",
+          "nameEn": "Character.AI",
+          "region": "全球",
+          "value": 12000000,
+          "rank": 2,
+          "share": 0.06424,
+          "rankDelta": 2
+        },
+        {
+          "code": "MDJR",
+          "name": "Midjourney",
+          "nameEn": "Midjourney",
+          "region": "全球",
+          "value": 10000000,
+          "rank": 3,
+          "share": 0.053533,
+          "rankDelta": 0
+        },
+        {
+          "code": "GEMI",
+          "name": "Gemini",
+          "nameEn": "Gemini",
+          "region": "全球",
+          "value": 5000000,
+          "rank": 4,
+          "share": 0.026767,
+          "rankDelta": 3
+        },
+        {
+          "code": "CLDE",
+          "name": "Claude",
+          "nameEn": "Claude",
+          "region": "全球",
+          "value": 4000000,
+          "rank": 5,
+          "share": 0.021413,
+          "rankDelta": 3
+        },
+        {
+          "code": "PERP",
+          "name": "Perplexity",
+          "nameEn": "Perplexity",
+          "region": "全球",
+          "value": 2000000,
+          "rank": 6,
+          "share": 0.010707,
+          "rankDelta": 0
+        },
+        {
+          "code": "GHCP",
+          "name": "GitHub Copilot",
+          "nameEn": "GitHub Copilot",
+          "region": "全球",
+          "value": 2000000,
+          "rank": 7,
+          "share": 0.010707,
+          "rankDelta": -5
+        },
+        {
+          "code": "RUNW",
+          "name": "Runway",
+          "nameEn": "Runway",
+          "region": "全球",
+          "value": 1500000,
+          "rank": 8,
+          "share": 0.00803,
+          "rankDelta": -3
+        },
+        {
+          "code": "SUNO",
+          "name": "Suno",
+          "nameEn": "Suno",
+          "region": "全球",
+          "value": 300000,
+          "rank": 9,
+          "share": 0.001606,
+          "rankDelta": 0
+        },
+        {
+          "code": "GROK",
+          "name": "Grok",
+          "nameEn": "Grok",
+          "region": "全球",
+          "value": 0,
+          "rank": 10,
+          "share": 0.0,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "total": 578000000,
+      "items": [
+        {
+          "code": "CHAT",
+          "name": "ChatGPT",
+          "nameEn": "ChatGPT",
+          "region": "全球",
+          "value": 350000000,
+          "rank": 1,
+          "share": 0.605536,
+          "rankDelta": 0
+        },
+        {
+          "code": "GEMI",
+          "name": "Gemini",
+          "nameEn": "Gemini",
+          "region": "全球",
+          "value": 120000000,
+          "rank": 2,
+          "share": 0.207612,
+          "rankDelta": 2
+        },
+        {
+          "code": "CHAI",
+          "name": "Character.AI",
+          "nameEn": "Character.AI",
+          "region": "全球",
+          "value": 28000000,
+          "rank": 3,
+          "share": 0.048443,
+          "rankDelta": -1
+        },
+        {
+          "code": "CLDE",
+          "name": "Claude",
+          "nameEn": "Claude",
+          "region": "全球",
+          "value": 18000000,
+          "rank": 4,
+          "share": 0.031142,
+          "rankDelta": 1
+        },
+        {
+          "code": "GROK",
+          "name": "Grok",
+          "nameEn": "Grok",
+          "region": "全球",
+          "value": 15000000,
+          "rank": 5,
+          "share": 0.025952,
+          "rankDelta": 5
+        },
+        {
+          "code": "MDJR",
+          "name": "Midjourney",
+          "nameEn": "Midjourney",
+          "region": "全球",
+          "value": 15000000,
+          "rank": 6,
+          "share": 0.025952,
+          "rankDelta": -3
+        },
+        {
+          "code": "PERP",
+          "name": "Perplexity",
+          "nameEn": "Perplexity",
+          "region": "全球",
+          "value": 12000000,
+          "rank": 7,
+          "share": 0.020761,
+          "rankDelta": -1
+        },
+        {
+          "code": "SUNO",
+          "name": "Suno",
+          "nameEn": "Suno",
+          "region": "全球",
+          "value": 8000000,
+          "rank": 8,
+          "share": 0.013841,
+          "rankDelta": 1
+        },
+        {
+          "code": "RUNW",
+          "name": "Runway",
+          "nameEn": "Runway",
+          "region": "全球",
+          "value": 7000000,
+          "rank": 9,
+          "share": 0.012111,
+          "rankDelta": -1
+        },
+        {
+          "code": "GHCP",
+          "name": "GitHub Copilot",
+          "nameEn": "GitHub Copilot",
+          "region": "全球",
+          "value": 5000000,
+          "rank": 10,
+          "share": 0.008651,
+          "rankDelta": -3
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "total": 1305000000,
+      "items": [
+        {
+          "code": "CHAT",
+          "name": "ChatGPT",
+          "nameEn": "ChatGPT",
+          "region": "全球",
+          "value": 800000000,
+          "rank": 1,
+          "share": 0.613027,
+          "rankDelta": 0
+        },
+        {
+          "code": "GEMI",
+          "name": "Gemini",
+          "nameEn": "Gemini",
+          "region": "全球",
+          "value": 300000000,
+          "rank": 2,
+          "share": 0.229885,
+          "rankDelta": 0
+        },
+        {
+          "code": "GROK",
+          "name": "Grok",
+          "nameEn": "Grok",
+          "region": "全球",
+          "value": 55000000,
+          "rank": 3,
+          "share": 0.042146,
+          "rankDelta": 2
+        },
+        {
+          "code": "CLDE",
+          "name": "Claude",
+          "nameEn": "Claude",
+          "region": "全球",
+          "value": 40000000,
+          "rank": 4,
+          "share": 0.030651,
+          "rankDelta": 0
+        },
+        {
+          "code": "PERP",
+          "name": "Perplexity",
+          "nameEn": "Perplexity",
+          "region": "全球",
+          "value": 30000000,
+          "rank": 5,
+          "share": 0.022989,
+          "rankDelta": 2
+        },
+        {
+          "code": "CHAI",
+          "name": "Character.AI",
+          "nameEn": "Character.AI",
+          "region": "全球",
+          "value": 23000000,
+          "rank": 6,
+          "share": 0.017625,
+          "rankDelta": -3
+        },
+        {
+          "code": "SUNO",
+          "name": "Suno",
+          "nameEn": "Suno",
+          "region": "全球",
+          "value": 18000000,
+          "rank": 7,
+          "share": 0.013793,
+          "rankDelta": 1
+        },
+        {
+          "code": "MDJR",
+          "name": "Midjourney",
+          "nameEn": "Midjourney",
+          "region": "全球",
+          "value": 17000000,
+          "rank": 8,
+          "share": 0.013027,
+          "rankDelta": -2
+        },
+        {
+          "code": "RUNW",
+          "name": "Runway",
+          "nameEn": "Runway",
+          "region": "全球",
+          "value": 12000000,
+          "rank": 9,
+          "share": 0.009195,
+          "rankDelta": 0
+        },
+        {
+          "code": "GHCP",
+          "name": "GitHub Copilot",
+          "nameEn": "GitHub Copilot",
+          "region": "全球",
+          "value": 10000000,
+          "rank": 10,
+          "share": 0.007663,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "total": 1703000000,
+      "items": [
+        {
+          "code": "CHAT",
+          "name": "ChatGPT",
+          "nameEn": "ChatGPT",
+          "region": "全球",
+          "value": 950000000,
+          "rank": 1,
+          "share": 0.557839,
+          "rankDelta": 0
+        },
+        {
+          "code": "GEMI",
+          "name": "Gemini",
+          "nameEn": "Gemini",
+          "region": "全球",
+          "value": 450000000,
+          "rank": 2,
+          "share": 0.26424,
+          "rankDelta": 0
+        },
+        {
+          "code": "GROK",
+          "name": "Grok",
+          "nameEn": "Grok",
+          "region": "全球",
+          "value": 110000000,
+          "rank": 3,
+          "share": 0.064592,
+          "rankDelta": 0
+        },
+        {
+          "code": "CLDE",
+          "name": "Claude",
+          "nameEn": "Claude",
+          "region": "全球",
+          "value": 55000000,
+          "rank": 4,
+          "share": 0.032296,
+          "rankDelta": 0
+        },
+        {
+          "code": "PERP",
+          "name": "Perplexity",
+          "nameEn": "Perplexity",
+          "region": "全球",
+          "value": 45000000,
+          "rank": 5,
+          "share": 0.026424,
+          "rankDelta": 0
+        },
+        {
+          "code": "SUNO",
+          "name": "Suno",
+          "nameEn": "Suno",
+          "region": "全球",
+          "value": 22000000,
+          "rank": 6,
+          "share": 0.012918,
+          "rankDelta": 1
+        },
+        {
+          "code": "CHAI",
+          "name": "Character.AI",
+          "nameEn": "Character.AI",
+          "region": "全球",
+          "value": 20000000,
+          "rank": 7,
+          "share": 0.011744,
+          "rankDelta": -1
+        },
+        {
+          "code": "MDJR",
+          "name": "Midjourney",
+          "nameEn": "Midjourney",
+          "region": "全球",
+          "value": 18000000,
+          "rank": 8,
+          "share": 0.01057,
+          "rankDelta": 0
+        },
+        {
+          "code": "RUNW",
+          "name": "Runway",
+          "nameEn": "Runway",
+          "region": "全球",
+          "value": 18000000,
+          "rank": 9,
+          "share": 0.01057,
+          "rankDelta": 0
+        },
+        {
+          "code": "GHCP",
+          "name": "GitHub Copilot",
+          "nameEn": "GitHub Copilot",
+          "region": "全球",
+          "value": 15000000,
+          "rank": 10,
+          "share": 0.008808,
+          "rankDelta": 0
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "e01",
+      "year": 2022,
+      "entityCode": "CHAT",
+      "kind": "milestone",
+      "title": "ChatGPT 上线",
+      "titleEn": "ChatGPT Launched",
+      "description": "OpenAI 发布 ChatGPT，5 天内用户突破 100 万",
+      "descriptionEn": "OpenAI launches ChatGPT, reaches 1M users in 5 days",
+      "entityName": "ChatGPT",
+      "rank": 1
+    },
+    {
+      "id": "e02",
+      "year": 2023,
+      "entityCode": "CHAT",
+      "kind": "milestone",
+      "title": "ChatGPT 月活破亿",
+      "titleEn": "ChatGPT Hits 100M MAU",
+      "description": "ChatGPT 成为历史上增长最快的消费应用，2 个月达到 1 亿月活",
+      "descriptionEn": "Becomes fastest growing consumer app ever, reaching 100M MAU in 2 months",
+      "entityName": "ChatGPT",
+      "rank": 1
+    },
+    {
+      "id": "e03",
+      "year": 2023,
+      "entityCode": "GEMI",
+      "kind": "milestone",
+      "title": "Google Bard 上线",
+      "titleEn": "Google Bard Launched",
+      "description": "Google 发布 AI 聊天机器人 Bard（后更名为 Gemini）",
+      "descriptionEn": "Google launches AI chatbot Bard (later rebranded to Gemini)",
+      "entityName": "Gemini",
+      "rank": 4
+    },
+    {
+      "id": "e04",
+      "year": 2023,
+      "entityCode": "CLDE",
+      "kind": "milestone",
+      "title": "Claude 上线",
+      "titleEn": "Claude Launched",
+      "description": "Anthropic 发布 AI 助手 Claude",
+      "descriptionEn": "Anthropic launches AI assistant Claude",
+      "entityName": "Claude",
+      "rank": 5
+    },
+    {
+      "id": "e05",
+      "year": 2023,
+      "entityCode": "GROK",
+      "kind": "milestone",
+      "title": "Grok 上线",
+      "titleEn": "Grok Launched",
+      "description": "xAI 发布 Grok 聊天机器人，集成于 X（Twitter）平台",
+      "descriptionEn": "xAI launches Grok chatbot integrated with X/Twitter",
+      "entityName": "Grok",
+      "rank": 10
+    },
+    {
+      "id": "e06",
+      "year": 2024,
+      "entityCode": "GEMI",
+      "kind": "milestone",
+      "title": "Bard 正式更名为 Gemini",
+      "titleEn": "Bard Rebranded to Gemini",
+      "description": "Google 将 Bard 全面升级并更名为 Gemini，向全球开放",
+      "descriptionEn": "Google upgrades and rebrands Bard to Gemini, expands globally",
+      "entityName": "Gemini",
+      "rank": 2
+    },
+    {
+      "id": "e07",
+      "year": 2024,
+      "entityCode": "CHAI",
+      "kind": "milestone",
+      "title": "Character.AI 达用户峰值",
+      "titleEn": "Character.AI Peaks at 28M MAU",
+      "description": "Character.AI 达到 2800 万月活用户峰值",
+      "descriptionEn": "Character.AI reaches peak of 28M monthly active users",
+      "entityName": "Character.AI",
+      "rank": 3
+    },
+    {
+      "id": "e08",
+      "year": 2025,
+      "entityCode": "GROK",
+      "kind": "milestone",
+      "title": "Grok 3 发布推动增长",
+      "titleEn": "Grok 3 Launch Drives Growth",
+      "description": "xAI 发布 Grok 3，月活用户大幅增长至 5500 万",
+      "descriptionEn": "xAI launches Grok 3, MAU surges to 55M",
+      "entityName": "Grok",
+      "rank": 3
+    },
+    {
+      "id": "e09",
+      "year": 2026,
+      "entityCode": "CHAT",
+      "kind": "milestone",
+      "title": "ChatGPT 剑指 10 亿用户",
+      "titleEn": "ChatGPT Targets 1 Billion",
+      "description": "ChatGPT 月活接近 10 亿，目标剑指 10 亿用户大关",
+      "descriptionEn": "ChatGPT MAU approaches 1 billion, targeting the billion-user milestone",
+      "entityName": "ChatGPT",
+      "rank": 1
+    }
+  ]
+}

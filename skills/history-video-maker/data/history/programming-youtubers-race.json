@@ -1,0 +1,1293 @@
+{
+  "slug": "programming-youtubers-race",
+  "title": "编程类 YouTuber 订阅增长史",
+  "titleEn": "Programming YouTubers Subscriber Race",
+  "summary": "从 2014 年到 2026 年，看全球编程类 YouTuber 订阅排名变化。",
+  "summaryEn": "Track subscriber growth of top programming YouTubers from 2014 to 2026.",
+  "sourceLabel": "YouTube 公开数据 / Social Blade 历史记录",
+  "sourceLabelEn": "YouTube public data / Social Blade historical records",
+  "sourceUrl": "https://socialblade.com",
+  "sourceNote": "数据基于公开可查的 Social Blade 历史记录、维基百科里程碑报道及 YouTube 公开数据。部分年份为合理估计。",
+  "sourceNoteEn": "Data from Social Blade records, Wikipedia milestone reports, and YouTube public data. Some years are estimated.",
+  "unit": "订阅者",
+  "unitShort": "subs",
+  "valueKind": "count",
+  "startYear": 2014,
+  "endYear": 2026,
+  "entities": [
+    {
+      "code": "TOMS",
+      "name": "Tom Scott",
+      "nameEn": "Tom Scott",
+      "region": "全球"
+    },
+    {
+      "code": "CMPH",
+      "name": "Computerphile",
+      "nameEn": "Computerphile",
+      "region": "全球"
+    },
+    {
+      "code": "NCHK",
+      "name": "NetworkChuck",
+      "nameEn": "NetworkChuck",
+      "region": "全球"
+    },
+    {
+      "code": "FIRE",
+      "name": "Fireship",
+      "nameEn": "Fireship",
+      "region": "全球"
+    },
+    {
+      "code": "CBUL",
+      "name": "Code Bullet",
+      "nameEn": "Code Bullet",
+      "region": "全球"
+    },
+    {
+      "code": "BENE",
+      "name": "Ben Eater",
+      "nameEn": "Ben Eater",
+      "region": "全球"
+    },
+    {
+      "code": "WDEV",
+      "name": "Web Dev Simplified",
+      "nameEn": "Web Dev Simplified",
+      "region": "全球"
+    },
+    {
+      "code": "SLAG",
+      "name": "Sebastian Lague",
+      "nameEn": "Sebastian Lague",
+      "region": "全球"
+    },
+    {
+      "code": "THEO",
+      "name": "Theo / t3.gg",
+      "nameEn": "Theo / t3.gg",
+      "region": "全球"
+    },
+    {
+      "code": "PRIM",
+      "name": "The Primeagen",
+      "nameEn": "The Primeagen",
+      "region": "全球"
+    },
+    {
+      "code": "LLEV",
+      "name": "Low Level Learning",
+      "nameEn": "Low Level Learning",
+      "region": "全球"
+    }
+  ],
+  "frames": [
+    {
+      "year": 2014,
+      "total": 1300000,
+      "items": [
+        {
+          "code": "TOMS",
+          "name": "Tom Scott",
+          "nameEn": "Tom Scott",
+          "region": "全球",
+          "value": 1000000,
+          "rank": 1,
+          "share": 0.7692,
+          "rankDelta": 0
+        },
+        {
+          "code": "CMPH",
+          "name": "Computerphile",
+          "nameEn": "Computerphile",
+          "region": "全球",
+          "value": 300000,
+          "rank": 2,
+          "share": 0.2308,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "total": 2500000,
+      "items": [
+        {
+          "code": "TOMS",
+          "name": "Tom Scott",
+          "nameEn": "Tom Scott",
+          "region": "全球",
+          "value": 1800000,
+          "rank": 1,
+          "share": 0.72,
+          "rankDelta": 0
+        },
+        {
+          "code": "CMPH",
+          "name": "Computerphile",
+          "nameEn": "Computerphile",
+          "region": "全球",
+          "value": 700000,
+          "rank": 2,
+          "share": 0.28,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "total": 3930000,
+      "items": [
+        {
+          "code": "TOMS",
+          "name": "Tom Scott",
+          "nameEn": "Tom Scott",
+          "region": "全球",
+          "value": 2800000,
+          "rank": 1,
+          "share": 0.7125,
+          "rankDelta": 0
+        },
+        {
+          "code": "CMPH",
+          "name": "Computerphile",
+          "nameEn": "Computerphile",
+          "region": "全球",
+          "value": 1100000,
+          "rank": 2,
+          "share": 0.2799,
+          "rankDelta": 0
+        },
+        {
+          "code": "BENE",
+          "name": "Ben Eater",
+          "nameEn": "Ben Eater",
+          "region": "全球",
+          "value": 30000,
+          "rank": 3,
+          "share": 0.0076,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "total": 5150000,
+      "items": [
+        {
+          "code": "TOMS",
+          "name": "Tom Scott",
+          "nameEn": "Tom Scott",
+          "region": "全球",
+          "value": 3500000,
+          "rank": 1,
+          "share": 0.6796,
+          "rankDelta": 0
+        },
+        {
+          "code": "CMPH",
+          "name": "Computerphile",
+          "nameEn": "Computerphile",
+          "region": "全球",
+          "value": 1500000,
+          "rank": 2,
+          "share": 0.2913,
+          "rankDelta": 0
+        },
+        {
+          "code": "BENE",
+          "name": "Ben Eater",
+          "nameEn": "Ben Eater",
+          "region": "全球",
+          "value": 150000,
+          "rank": 3,
+          "share": 0.0291,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "total": 6400000,
+      "items": [
+        {
+          "code": "TOMS",
+          "name": "Tom Scott",
+          "nameEn": "Tom Scott",
+          "region": "全球",
+          "value": 4000000,
+          "rank": 1,
+          "share": 0.625,
+          "rankDelta": 0
+        },
+        {
+          "code": "CMPH",
+          "name": "Computerphile",
+          "nameEn": "Computerphile",
+          "region": "全球",
+          "value": 1800000,
+          "rank": 2,
+          "share": 0.2812,
+          "rankDelta": 0
+        },
+        {
+          "code": "BENE",
+          "name": "Ben Eater",
+          "nameEn": "Ben Eater",
+          "region": "全球",
+          "value": 400000,
+          "rank": 3,
+          "share": 0.0625,
+          "rankDelta": 0
+        },
+        {
+          "code": "CBUL",
+          "name": "Code Bullet",
+          "nameEn": "Code Bullet",
+          "region": "全球",
+          "value": 100000,
+          "rank": 4,
+          "share": 0.0156,
+          "rankDelta": 0
+        },
+        {
+          "code": "NCHK",
+          "name": "NetworkChuck",
+          "nameEn": "NetworkChuck",
+          "region": "全球",
+          "value": 50000,
+          "rank": 5,
+          "share": 0.0078,
+          "rankDelta": 0
+        },
+        {
+          "code": "SLAG",
+          "name": "Sebastian Lague",
+          "nameEn": "Sebastian Lague",
+          "region": "全球",
+          "value": 30000,
+          "rank": 6,
+          "share": 0.0047,
+          "rankDelta": 0
+        },
+        {
+          "code": "WDEV",
+          "name": "Web Dev Simplified",
+          "nameEn": "Web Dev Simplified",
+          "region": "全球",
+          "value": 20000,
+          "rank": 7,
+          "share": 0.0031,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "total": 8300000,
+      "items": [
+        {
+          "code": "TOMS",
+          "name": "Tom Scott",
+          "nameEn": "Tom Scott",
+          "region": "全球",
+          "value": 4500000,
+          "rank": 1,
+          "share": 0.5422,
+          "rankDelta": 0
+        },
+        {
+          "code": "CMPH",
+          "name": "Computerphile",
+          "nameEn": "Computerphile",
+          "region": "全球",
+          "value": 2000000,
+          "rank": 2,
+          "share": 0.241,
+          "rankDelta": 0
+        },
+        {
+          "code": "BENE",
+          "name": "Ben Eater",
+          "nameEn": "Ben Eater",
+          "region": "全球",
+          "value": 700000,
+          "rank": 3,
+          "share": 0.0843,
+          "rankDelta": 0
+        },
+        {
+          "code": "CBUL",
+          "name": "Code Bullet",
+          "nameEn": "Code Bullet",
+          "region": "全球",
+          "value": 500000,
+          "rank": 4,
+          "share": 0.0602,
+          "rankDelta": 0
+        },
+        {
+          "code": "NCHK",
+          "name": "NetworkChuck",
+          "nameEn": "NetworkChuck",
+          "region": "全球",
+          "value": 300000,
+          "rank": 5,
+          "share": 0.0361,
+          "rankDelta": 0
+        },
+        {
+          "code": "WDEV",
+          "name": "Web Dev Simplified",
+          "nameEn": "Web Dev Simplified",
+          "region": "全球",
+          "value": 150000,
+          "rank": 6,
+          "share": 0.0181,
+          "rankDelta": 1
+        },
+        {
+          "code": "SLAG",
+          "name": "Sebastian Lague",
+          "nameEn": "Sebastian Lague",
+          "region": "全球",
+          "value": 100000,
+          "rank": 7,
+          "share": 0.012,
+          "rankDelta": -1
+        },
+        {
+          "code": "FIRE",
+          "name": "Fireship",
+          "nameEn": "Fireship",
+          "region": "全球",
+          "value": 50000,
+          "rank": 8,
+          "share": 0.006,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "total": 11500000,
+      "items": [
+        {
+          "code": "TOMS",
+          "name": "Tom Scott",
+          "nameEn": "Tom Scott",
+          "region": "全球",
+          "value": 5000000,
+          "rank": 1,
+          "share": 0.4348,
+          "rankDelta": 0
+        },
+        {
+          "code": "CMPH",
+          "name": "Computerphile",
+          "nameEn": "Computerphile",
+          "region": "全球",
+          "value": 2200000,
+          "rank": 2,
+          "share": 0.1913,
+          "rankDelta": 0
+        },
+        {
+          "code": "CBUL",
+          "name": "Code Bullet",
+          "nameEn": "Code Bullet",
+          "region": "全球",
+          "value": 1200000,
+          "rank": 3,
+          "share": 0.1043,
+          "rankDelta": 1
+        },
+        {
+          "code": "NCHK",
+          "name": "NetworkChuck",
+          "nameEn": "NetworkChuck",
+          "region": "全球",
+          "value": 1000000,
+          "rank": 4,
+          "share": 0.087,
+          "rankDelta": 1
+        },
+        {
+          "code": "BENE",
+          "name": "Ben Eater",
+          "nameEn": "Ben Eater",
+          "region": "全球",
+          "value": 1000000,
+          "rank": 5,
+          "share": 0.087,
+          "rankDelta": -2
+        },
+        {
+          "code": "FIRE",
+          "name": "Fireship",
+          "nameEn": "Fireship",
+          "region": "全球",
+          "value": 400000,
+          "rank": 6,
+          "share": 0.0348,
+          "rankDelta": 2
+        },
+        {
+          "code": "WDEV",
+          "name": "Web Dev Simplified",
+          "nameEn": "Web Dev Simplified",
+          "region": "全球",
+          "value": 400000,
+          "rank": 7,
+          "share": 0.0348,
+          "rankDelta": -1
+        },
+        {
+          "code": "SLAG",
+          "name": "Sebastian Lague",
+          "nameEn": "Sebastian Lague",
+          "region": "全球",
+          "value": 300000,
+          "rank": 8,
+          "share": 0.0261,
+          "rankDelta": -1
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "total": 15030000,
+      "items": [
+        {
+          "code": "TOMS",
+          "name": "Tom Scott",
+          "nameEn": "Tom Scott",
+          "region": "全球",
+          "value": 5400000,
+          "rank": 1,
+          "share": 0.3593,
+          "rankDelta": 0
+        },
+        {
+          "code": "CMPH",
+          "name": "Computerphile",
+          "nameEn": "Computerphile",
+          "region": "全球",
+          "value": 2300000,
+          "rank": 2,
+          "share": 0.153,
+          "rankDelta": 0
+        },
+        {
+          "code": "NCHK",
+          "name": "NetworkChuck",
+          "nameEn": "NetworkChuck",
+          "region": "全球",
+          "value": 2000000,
+          "rank": 3,
+          "share": 0.1331,
+          "rankDelta": 1
+        },
+        {
+          "code": "CBUL",
+          "name": "Code Bullet",
+          "nameEn": "Code Bullet",
+          "region": "全球",
+          "value": 1800000,
+          "rank": 4,
+          "share": 0.1198,
+          "rankDelta": -1
+        },
+        {
+          "code": "BENE",
+          "name": "Ben Eater",
+          "nameEn": "Ben Eater",
+          "region": "全球",
+          "value": 1100000,
+          "rank": 5,
+          "share": 0.0732,
+          "rankDelta": 0
+        },
+        {
+          "code": "FIRE",
+          "name": "Fireship",
+          "nameEn": "Fireship",
+          "region": "全球",
+          "value": 1000000,
+          "rank": 6,
+          "share": 0.0665,
+          "rankDelta": 0
+        },
+        {
+          "code": "WDEV",
+          "name": "Web Dev Simplified",
+          "nameEn": "Web Dev Simplified",
+          "region": "全球",
+          "value": 800000,
+          "rank": 7,
+          "share": 0.0532,
+          "rankDelta": 0
+        },
+        {
+          "code": "SLAG",
+          "name": "Sebastian Lague",
+          "nameEn": "Sebastian Lague",
+          "region": "全球",
+          "value": 600000,
+          "rank": 8,
+          "share": 0.0399,
+          "rankDelta": 0
+        },
+        {
+          "code": "LLEV",
+          "name": "Low Level Learning",
+          "nameEn": "Low Level Learning",
+          "region": "全球",
+          "value": 30000,
+          "rank": 9,
+          "share": 0.002,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "total": 18700000,
+      "items": [
+        {
+          "code": "TOMS",
+          "name": "Tom Scott",
+          "nameEn": "Tom Scott",
+          "region": "全球",
+          "value": 5700000,
+          "rank": 1,
+          "share": 0.3048,
+          "rankDelta": 0
+        },
+        {
+          "code": "NCHK",
+          "name": "NetworkChuck",
+          "nameEn": "NetworkChuck",
+          "region": "全球",
+          "value": 3000000,
+          "rank": 2,
+          "share": 0.1604,
+          "rankDelta": 1
+        },
+        {
+          "code": "CMPH",
+          "name": "Computerphile",
+          "nameEn": "Computerphile",
+          "region": "全球",
+          "value": 2400000,
+          "rank": 3,
+          "share": 0.1283,
+          "rankDelta": -1
+        },
+        {
+          "code": "CBUL",
+          "name": "Code Bullet",
+          "nameEn": "Code Bullet",
+          "region": "全球",
+          "value": 2200000,
+          "rank": 4,
+          "share": 0.1176,
+          "rankDelta": 0
+        },
+        {
+          "code": "FIRE",
+          "name": "Fireship",
+          "nameEn": "Fireship",
+          "region": "全球",
+          "value": 1800000,
+          "rank": 5,
+          "share": 0.0963,
+          "rankDelta": 1
+        },
+        {
+          "code": "BENE",
+          "name": "Ben Eater",
+          "nameEn": "Ben Eater",
+          "region": "全球",
+          "value": 1200000,
+          "rank": 6,
+          "share": 0.0642,
+          "rankDelta": -1
+        },
+        {
+          "code": "WDEV",
+          "name": "Web Dev Simplified",
+          "nameEn": "Web Dev Simplified",
+          "region": "全球",
+          "value": 1200000,
+          "rank": 7,
+          "share": 0.0642,
+          "rankDelta": 0
+        },
+        {
+          "code": "SLAG",
+          "name": "Sebastian Lague",
+          "nameEn": "Sebastian Lague",
+          "region": "全球",
+          "value": 1000000,
+          "rank": 8,
+          "share": 0.0535,
+          "rankDelta": 0
+        },
+        {
+          "code": "LLEV",
+          "name": "Low Level Learning",
+          "nameEn": "Low Level Learning",
+          "region": "全球",
+          "value": 100000,
+          "rank": 9,
+          "share": 0.0053,
+          "rankDelta": 0
+        },
+        {
+          "code": "THEO",
+          "name": "Theo / t3.gg",
+          "nameEn": "Theo / t3.gg",
+          "region": "全球",
+          "value": 50000,
+          "rank": 10,
+          "share": 0.0027,
+          "rankDelta": 0
+        },
+        {
+          "code": "PRIM",
+          "name": "The Primeagen",
+          "nameEn": "The Primeagen",
+          "region": "全球",
+          "value": 50000,
+          "rank": 11,
+          "share": 0.0027,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "total": 23150000,
+      "items": [
+        {
+          "code": "TOMS",
+          "name": "Tom Scott",
+          "nameEn": "Tom Scott",
+          "region": "全球",
+          "value": 6000000,
+          "rank": 1,
+          "share": 0.2592,
+          "rankDelta": 0
+        },
+        {
+          "code": "NCHK",
+          "name": "NetworkChuck",
+          "nameEn": "NetworkChuck",
+          "region": "全球",
+          "value": 4000000,
+          "rank": 2,
+          "share": 0.1728,
+          "rankDelta": 0
+        },
+        {
+          "code": "CBUL",
+          "name": "Code Bullet",
+          "nameEn": "Code Bullet",
+          "region": "全球",
+          "value": 2700000,
+          "rank": 3,
+          "share": 0.1166,
+          "rankDelta": 1
+        },
+        {
+          "code": "FIRE",
+          "name": "Fireship",
+          "nameEn": "Fireship",
+          "region": "全球",
+          "value": 2500000,
+          "rank": 4,
+          "share": 0.108,
+          "rankDelta": 1
+        },
+        {
+          "code": "CMPH",
+          "name": "Computerphile",
+          "nameEn": "Computerphile",
+          "region": "全球",
+          "value": 2450000,
+          "rank": 5,
+          "share": 0.1058,
+          "rankDelta": -2
+        },
+        {
+          "code": "WDEV",
+          "name": "Web Dev Simplified",
+          "nameEn": "Web Dev Simplified",
+          "region": "全球",
+          "value": 1600000,
+          "rank": 6,
+          "share": 0.0691,
+          "rankDelta": 1
+        },
+        {
+          "code": "SLAG",
+          "name": "Sebastian Lague",
+          "nameEn": "Sebastian Lague",
+          "region": "全球",
+          "value": 1500000,
+          "rank": 7,
+          "share": 0.0648,
+          "rankDelta": 1
+        },
+        {
+          "code": "BENE",
+          "name": "Ben Eater",
+          "nameEn": "Ben Eater",
+          "region": "全球",
+          "value": 1300000,
+          "rank": 8,
+          "share": 0.0562,
+          "rankDelta": -2
+        },
+        {
+          "code": "THEO",
+          "name": "Theo / t3.gg",
+          "nameEn": "Theo / t3.gg",
+          "region": "全球",
+          "value": 500000,
+          "rank": 9,
+          "share": 0.0216,
+          "rankDelta": 1
+        },
+        {
+          "code": "PRIM",
+          "name": "The Primeagen",
+          "nameEn": "The Primeagen",
+          "region": "全球",
+          "value": 300000,
+          "rank": 10,
+          "share": 0.013,
+          "rankDelta": 1
+        },
+        {
+          "code": "LLEV",
+          "name": "Low Level Learning",
+          "nameEn": "Low Level Learning",
+          "region": "全球",
+          "value": 300000,
+          "rank": 11,
+          "share": 0.013,
+          "rankDelta": -2
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "total": 26800000,
+      "items": [
+        {
+          "code": "TOMS",
+          "name": "Tom Scott",
+          "nameEn": "Tom Scott",
+          "region": "全球",
+          "value": 6400000,
+          "rank": 1,
+          "share": 0.2388,
+          "rankDelta": 0
+        },
+        {
+          "code": "NCHK",
+          "name": "NetworkChuck",
+          "nameEn": "NetworkChuck",
+          "region": "全球",
+          "value": 4500000,
+          "rank": 2,
+          "share": 0.1679,
+          "rankDelta": 0
+        },
+        {
+          "code": "FIRE",
+          "name": "Fireship",
+          "nameEn": "Fireship",
+          "region": "全球",
+          "value": 3000000,
+          "rank": 3,
+          "share": 0.1119,
+          "rankDelta": 1
+        },
+        {
+          "code": "CBUL",
+          "name": "Code Bullet",
+          "nameEn": "Code Bullet",
+          "region": "全球",
+          "value": 3000000,
+          "rank": 4,
+          "share": 0.1119,
+          "rankDelta": -1
+        },
+        {
+          "code": "CMPH",
+          "name": "Computerphile",
+          "nameEn": "Computerphile",
+          "region": "全球",
+          "value": 2500000,
+          "rank": 5,
+          "share": 0.0933,
+          "rankDelta": 0
+        },
+        {
+          "code": "WDEV",
+          "name": "Web Dev Simplified",
+          "nameEn": "Web Dev Simplified",
+          "region": "全球",
+          "value": 2000000,
+          "rank": 6,
+          "share": 0.0746,
+          "rankDelta": 0
+        },
+        {
+          "code": "SLAG",
+          "name": "Sebastian Lague",
+          "nameEn": "Sebastian Lague",
+          "region": "全球",
+          "value": 1800000,
+          "rank": 7,
+          "share": 0.0672,
+          "rankDelta": 0
+        },
+        {
+          "code": "BENE",
+          "name": "Ben Eater",
+          "nameEn": "Ben Eater",
+          "region": "全球",
+          "value": 1400000,
+          "rank": 8,
+          "share": 0.0522,
+          "rankDelta": 0
+        },
+        {
+          "code": "THEO",
+          "name": "Theo / t3.gg",
+          "nameEn": "Theo / t3.gg",
+          "region": "全球",
+          "value": 900000,
+          "rank": 9,
+          "share": 0.0336,
+          "rankDelta": 0
+        },
+        {
+          "code": "PRIM",
+          "name": "The Primeagen",
+          "nameEn": "The Primeagen",
+          "region": "全球",
+          "value": 700000,
+          "rank": 10,
+          "share": 0.0261,
+          "rankDelta": 0
+        },
+        {
+          "code": "LLEV",
+          "name": "Low Level Learning",
+          "nameEn": "Low Level Learning",
+          "region": "全球",
+          "value": 600000,
+          "rank": 11,
+          "share": 0.0224,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "total": 28530000,
+      "items": [
+        {
+          "code": "TOMS",
+          "name": "Tom Scott",
+          "nameEn": "Tom Scott",
+          "region": "全球",
+          "value": 6600000,
+          "rank": 1,
+          "share": 0.2313,
+          "rankDelta": 0
+        },
+        {
+          "code": "NCHK",
+          "name": "NetworkChuck",
+          "nameEn": "NetworkChuck",
+          "region": "全球",
+          "value": 4700000,
+          "rank": 2,
+          "share": 0.1647,
+          "rankDelta": 0
+        },
+        {
+          "code": "FIRE",
+          "name": "Fireship",
+          "nameEn": "Fireship",
+          "region": "全球",
+          "value": 3300000,
+          "rank": 3,
+          "share": 0.1157,
+          "rankDelta": 0
+        },
+        {
+          "code": "CBUL",
+          "name": "Code Bullet",
+          "nameEn": "Code Bullet",
+          "region": "全球",
+          "value": 3000000,
+          "rank": 4,
+          "share": 0.1052,
+          "rankDelta": 0
+        },
+        {
+          "code": "CMPH",
+          "name": "Computerphile",
+          "nameEn": "Computerphile",
+          "region": "全球",
+          "value": 2580000,
+          "rank": 5,
+          "share": 0.0904,
+          "rankDelta": 0
+        },
+        {
+          "code": "WDEV",
+          "name": "Web Dev Simplified",
+          "nameEn": "Web Dev Simplified",
+          "region": "全球",
+          "value": 2100000,
+          "rank": 6,
+          "share": 0.0736,
+          "rankDelta": 0
+        },
+        {
+          "code": "SLAG",
+          "name": "Sebastian Lague",
+          "nameEn": "Sebastian Lague",
+          "region": "全球",
+          "value": 1900000,
+          "rank": 7,
+          "share": 0.0666,
+          "rankDelta": 0
+        },
+        {
+          "code": "BENE",
+          "name": "Ben Eater",
+          "nameEn": "Ben Eater",
+          "region": "全球",
+          "value": 1450000,
+          "rank": 8,
+          "share": 0.0508,
+          "rankDelta": 0
+        },
+        {
+          "code": "THEO",
+          "name": "Theo / t3.gg",
+          "nameEn": "Theo / t3.gg",
+          "region": "全球",
+          "value": 1100000,
+          "rank": 9,
+          "share": 0.0386,
+          "rankDelta": 0
+        },
+        {
+          "code": "PRIM",
+          "name": "The Primeagen",
+          "nameEn": "The Primeagen",
+          "region": "全球",
+          "value": 1000000,
+          "rank": 10,
+          "share": 0.0351,
+          "rankDelta": 0
+        },
+        {
+          "code": "LLEV",
+          "name": "Low Level Learning",
+          "nameEn": "Low Level Learning",
+          "region": "全球",
+          "value": 800000,
+          "rank": 11,
+          "share": 0.028,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "total": 29700000,
+      "items": [
+        {
+          "code": "TOMS",
+          "name": "Tom Scott",
+          "nameEn": "Tom Scott",
+          "region": "全球",
+          "value": 6700000,
+          "rank": 1,
+          "share": 0.2256,
+          "rankDelta": 0
+        },
+        {
+          "code": "NCHK",
+          "name": "NetworkChuck",
+          "nameEn": "NetworkChuck",
+          "region": "全球",
+          "value": 4800000,
+          "rank": 2,
+          "share": 0.1616,
+          "rankDelta": 0
+        },
+        {
+          "code": "FIRE",
+          "name": "Fireship",
+          "nameEn": "Fireship",
+          "region": "全球",
+          "value": 3500000,
+          "rank": 3,
+          "share": 0.1178,
+          "rankDelta": 0
+        },
+        {
+          "code": "CBUL",
+          "name": "Code Bullet",
+          "nameEn": "Code Bullet",
+          "region": "全球",
+          "value": 3000000,
+          "rank": 4,
+          "share": 0.101,
+          "rankDelta": 0
+        },
+        {
+          "code": "CMPH",
+          "name": "Computerphile",
+          "nameEn": "Computerphile",
+          "region": "全球",
+          "value": 2600000,
+          "rank": 5,
+          "share": 0.0875,
+          "rankDelta": 0
+        },
+        {
+          "code": "WDEV",
+          "name": "Web Dev Simplified",
+          "nameEn": "Web Dev Simplified",
+          "region": "全球",
+          "value": 2200000,
+          "rank": 6,
+          "share": 0.0741,
+          "rankDelta": 0
+        },
+        {
+          "code": "SLAG",
+          "name": "Sebastian Lague",
+          "nameEn": "Sebastian Lague",
+          "region": "全球",
+          "value": 2000000,
+          "rank": 7,
+          "share": 0.0673,
+          "rankDelta": 0
+        },
+        {
+          "code": "BENE",
+          "name": "Ben Eater",
+          "nameEn": "Ben Eater",
+          "region": "全球",
+          "value": 1500000,
+          "rank": 8,
+          "share": 0.0505,
+          "rankDelta": 0
+        },
+        {
+          "code": "THEO",
+          "name": "Theo / t3.gg",
+          "nameEn": "Theo / t3.gg",
+          "region": "全球",
+          "value": 1200000,
+          "rank": 9,
+          "share": 0.0404,
+          "rankDelta": 0
+        },
+        {
+          "code": "PRIM",
+          "name": "The Primeagen",
+          "nameEn": "The Primeagen",
+          "region": "全球",
+          "value": 1200000,
+          "rank": 10,
+          "share": 0.0404,
+          "rankDelta": 0
+        },
+        {
+          "code": "LLEV",
+          "name": "Low Level Learning",
+          "nameEn": "Low Level Learning",
+          "region": "全球",
+          "value": 1000000,
+          "rank": 11,
+          "share": 0.0337,
+          "rankDelta": 0
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "e01",
+      "year": 2014,
+      "entityCode": "TOMS",
+      "kind": "milestone",
+      "title": "Tom Scott \"Things You Might Not Know\" 系列开启",
+      "titleEn": "Tom Scott Launches \"Things You Might Not Know\"",
+      "description": "Tom Scott 以每周一集的科普系列快速积累粉丝，成为编程教育类标杆",
+      "descriptionEn": "Tom Scott's weekly educational series became a landmark in programming education",
+      "entityName": "Tom Scott",
+      "rank": 1,
+      "value": 1000000
+    },
+    {
+      "id": "e02",
+      "year": 2016,
+      "entityCode": "BENE",
+      "kind": "start",
+      "title": "Ben Eater 开启 8-bit 计算机从零搭建系列",
+      "titleEn": "Ben Eater Starts 8-bit Computer Build Series",
+      "description": "Ben Eater 以从零搭建 8-bit CPU 的硬件系列视频走红",
+      "descriptionEn": "Ben Eater's build-an-8-bit-computer-from-scratch series went viral",
+      "entityName": "Ben Eater",
+      "rank": 3,
+      "value": 30000
+    },
+    {
+      "id": "e03",
+      "year": 2018,
+      "entityCode": null,
+      "kind": "context",
+      "title": "新一代编程创作者涌入 YouTube",
+      "titleEn": "New Wave of Programming Creators on YouTube",
+      "description": "Code Bullet、NetworkChuck、Web Dev Simplified、Sebastian Lague 等频道先后创建",
+      "descriptionEn": "Code Bullet, NetworkChuck, Web Dev Simplified, Sebastian Lague and more launched",
+      "entityName": null,
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "e04",
+      "year": 2019,
+      "entityCode": "FIRE",
+      "kind": "start",
+      "title": "Fireship 创建，\"100 Seconds\" 格式诞生",
+      "titleEn": "Fireship Launches \"100 Seconds\" Format",
+      "description": "Fireship 以「100 秒速通」编程概念的视频格式快速崛起",
+      "descriptionEn": "Fireship pioneered the \"100 seconds of code\" format and grew rapidly",
+      "entityName": "Fireship",
+      "rank": 8,
+      "value": 50000
+    },
+    {
+      "id": "e05",
+      "year": 2020,
+      "entityCode": "NCHK",
+      "kind": "milestone",
+      "title": "NetworkChuck 突破 100 万订阅",
+      "titleEn": "NetworkChuck Reaches 1M Subscribers",
+      "description": "NetworkChuck 以网安和 IT 内容快速积累百万粉丝",
+      "descriptionEn": "NetworkChuck hit 1M subs with cybersecurity and IT content",
+      "entityName": "NetworkChuck",
+      "rank": 4,
+      "value": 1000000
+    },
+    {
+      "id": "e06",
+      "year": 2021,
+      "entityCode": "FIRE",
+      "kind": "milestone",
+      "title": "Fireship 突破 100 万订阅",
+      "titleEn": "Fireship Reaches 1M Subscribers",
+      "description": "Fireship 仅用两年就达到百万订阅，成为增长最快的编程频道之一",
+      "descriptionEn": "Fireship hit 1M subs in just two years, one of the fastest-growing programming channels",
+      "entityName": "Fireship",
+      "rank": 5,
+      "value": 1000000
+    },
+    {
+      "id": "e07",
+      "year": 2022,
+      "entityCode": null,
+      "kind": "context",
+      "title": "Theo 和 The Primeagen 开启 YouTube 创作",
+      "titleEn": "Theo and The Primeagen Start YouTube",
+      "description": "前 Twitch 主播 The Primeagen 和 Theo 先后进入 YouTube 编程领域，代表「直播 + 编程」新潮流",
+      "descriptionEn": "Former Twitch streamers The Primeagen and Theo brought livestream programming culture to YouTube",
+      "entityName": null,
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "e08",
+      "year": 2023,
+      "entityCode": "NCHK",
+      "kind": "milestone",
+      "title": "NetworkChuck 突破 400 万订阅",
+      "titleEn": "NetworkChuck Reaches 4M Subscribers",
+      "description": "NetworkChuck 成为订阅量增长最快的编程/网安频道",
+      "descriptionEn": "NetworkChuck became the fastest-growing programming/IT channel",
+      "entityName": "NetworkChuck",
+      "rank": 2,
+      "value": 4000000
+    },
+    {
+      "id": "e09",
+      "year": 2024,
+      "entityCode": "TOMS",
+      "kind": "milestone",
+      "title": "Tom Scott 暂停定期更新",
+      "titleEn": "Tom Scott Pauses Regular Uploads",
+      "description": "十年每周一更后，Tom Scott 宣布暂停主频道更新",
+      "descriptionEn": "After a decade of weekly uploads, Tom Scott announced an indefinite pause",
+      "entityName": "Tom Scott",
+      "rank": 1,
+      "value": 6400000
+    },
+    {
+      "id": "e10",
+      "year": 2024,
+      "entityCode": "FIRE",
+      "kind": "milestone",
+      "title": "Fireship 突破 300 万订阅",
+      "titleEn": "Fireship Reaches 3M Subscribers",
+      "description": "Fireship 以高频优质的编程速通内容持续高速增长",
+      "descriptionEn": "Fireship continues rapid growth with high-quality programming content",
+      "entityName": "Fireship",
+      "rank": 3,
+      "value": 3000000
+    },
+    {
+      "id": "e11",
+      "year": 2024,
+      "entityCode": "CBUL",
+      "kind": "context",
+      "title": "Code Bullet 暂停更新",
+      "titleEn": "Code Bullet Goes on Hiatus",
+      "description": "以 AI 游戏内容闻名的 Code Bullet 进入停更状态",
+      "descriptionEn": "Code Bullet, known for AI gaming content, went on hiatus",
+      "entityName": "Code Bullet",
+      "rank": 4,
+      "value": 3000000
+    },
+    {
+      "id": "e12",
+      "year": 2026,
+      "entityCode": "THEO",
+      "kind": "milestone",
+      "title": "Theo 和 The Primeagen 订阅量突破百万",
+      "titleEn": "Theo & Primeagen Reach 1M Subscribers",
+      "description": "新一代编程创作者以 React/TypeScript/Vim 内容在短短三年内突破百万订阅",
+      "descriptionEn": "New-gen programming creators hit 1M subs in just three years with React/TypeScript/Vim content",
+      "entityName": "Theo / t3.gg",
+      "rank": 8,
+      "value": 1200000
+    }
+  ]
+}

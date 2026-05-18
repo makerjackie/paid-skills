@@ -1,0 +1,1427 @@
+{
+  "slug": "chinese-creators-youtube-race",
+  "title": "中文 YouTuber 订阅排名变化",
+  "titleEn": "Chinese YouTubers Subscriber Race",
+  "summary": "从 2015 年到 2026 年，看中文 YouTube 频道订阅排名的变化。老高与小茉一路领先，李永乐、钟文泽、阿滴争夺第二梯队。",
+  "summaryEn": "Track subscriber growth of Chinese YouTube channels from 2015 to 2026. Mr & Mrs Gao leads throughout; Li Yongle, Zhong Wenze, and Ray Du English compete for next spots.",
+  "sourceLabel": "YouTube 公开数据 / Social Blade 历史记录 / NoxInfluencer",
+  "sourceLabelEn": "YouTube public data / Social Blade records / NoxInfluencer",
+  "sourceUrl": "https://socialblade.com",
+  "sourceNote": "数据基于公开可查的 Social Blade 历史记录、维基百科里程碑报道、NoxInfluencer 记录及 YouTube 公开数据。部分年份为合理估计。",
+  "sourceNoteEn": "Data from Social Blade, Wikipedia, NoxInfluencer, and YouTube public data. Some years are estimated.",
+  "unit": "订阅者",
+  "unitShort": "subs",
+  "valueKind": "count",
+  "startYear": 2015,
+  "endYear": 2026,
+  "entities": [
+    {
+      "code": "LAOG",
+      "name": "老高与小茉",
+      "nameEn": "Mr & Mrs Gao",
+      "region": "中文"
+    },
+    {
+      "code": "LIYL",
+      "name": "李永乐老师",
+      "nameEn": "Teacher Li Yongle",
+      "region": "中文"
+    },
+    {
+      "code": "ZZWZ",
+      "name": "钟文泽",
+      "nameEn": "Zhong Wenze",
+      "region": "中文"
+    },
+    {
+      "code": "XNZ",
+      "name": "小宁子",
+      "nameEn": "Xiao Ningzi",
+      "region": "中文"
+    },
+    {
+      "code": "HE",
+      "name": "老师好我叫何同学",
+      "nameEn": "Mr. He",
+      "region": "中文"
+    },
+    {
+      "code": "ZHQQ",
+      "name": "志祺七七",
+      "nameEn": "Zhiqi Qiqi",
+      "region": "Taiwan"
+    },
+    {
+      "code": "LKT",
+      "name": "理科太太",
+      "nameEn": "Li Ke Tai Tai",
+      "region": "Taiwan"
+    },
+    {
+      "code": "QIAN",
+      "name": "千森",
+      "nameEn": "Qiansen",
+      "region": "中文"
+    },
+    {
+      "code": "ADI",
+      "name": "阿滴英文",
+      "nameEn": "Ray Du English",
+      "region": "Taiwan"
+    },
+    {
+      "code": "HOOK",
+      "name": "HOOK",
+      "nameEn": "HOOK",
+      "region": "Taiwan"
+    },
+    {
+      "code": "FANZ",
+      "name": "反正我很闲",
+      "nameEn": "Anyway I'm Free",
+      "region": "中文"
+    },
+    {
+      "code": "ACKY",
+      "name": "Acky",
+      "nameEn": "Acky",
+      "region": "Taiwan"
+    }
+  ],
+  "frames": [
+    {
+      "year": 2015,
+      "total": 130000,
+      "items": [
+        {
+          "code": "LAOG",
+          "name": "老高与小茉",
+          "nameEn": "Mr & Mrs Gao",
+          "region": "中文",
+          "value": 80000,
+          "rank": 1,
+          "share": 0.6154,
+          "rankDelta": 0
+        },
+        {
+          "code": "ADI",
+          "name": "阿滴英文",
+          "nameEn": "Ray Du English",
+          "region": "Taiwan",
+          "value": 50000,
+          "rank": 2,
+          "share": 0.3846,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "total": 600000,
+      "items": [
+        {
+          "code": "LAOG",
+          "name": "老高与小茉",
+          "nameEn": "Mr & Mrs Gao",
+          "region": "中文",
+          "value": 400000,
+          "rank": 1,
+          "share": 0.6667,
+          "rankDelta": 0
+        },
+        {
+          "code": "ADI",
+          "name": "阿滴英文",
+          "nameEn": "Ray Du English",
+          "region": "Taiwan",
+          "value": 200000,
+          "rank": 2,
+          "share": 0.3333,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "total": 2500000,
+      "items": [
+        {
+          "code": "LAOG",
+          "name": "老高与小茉",
+          "nameEn": "Mr & Mrs Gao",
+          "region": "中文",
+          "value": 1500000,
+          "rank": 1,
+          "share": 0.6,
+          "rankDelta": 0
+        },
+        {
+          "code": "ADI",
+          "name": "阿滴英文",
+          "nameEn": "Ray Du English",
+          "region": "Taiwan",
+          "value": 700000,
+          "rank": 2,
+          "share": 0.28,
+          "rankDelta": 0
+        },
+        {
+          "code": "LIYL",
+          "name": "李永乐老师",
+          "nameEn": "Teacher Li Yongle",
+          "region": "中文",
+          "value": 300000,
+          "rank": 3,
+          "share": 0.12,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "total": 6640000,
+      "items": [
+        {
+          "code": "LAOG",
+          "name": "老高与小茉",
+          "nameEn": "Mr & Mrs Gao",
+          "region": "中文",
+          "value": 3500000,
+          "rank": 1,
+          "share": 0.5271,
+          "rankDelta": 0
+        },
+        {
+          "code": "ADI",
+          "name": "阿滴英文",
+          "nameEn": "Ray Du English",
+          "region": "Taiwan",
+          "value": 1300000,
+          "rank": 2,
+          "share": 0.1958,
+          "rankDelta": 0
+        },
+        {
+          "code": "LIYL",
+          "name": "李永乐老师",
+          "nameEn": "Teacher Li Yongle",
+          "region": "中文",
+          "value": 1200000,
+          "rank": 3,
+          "share": 0.1807,
+          "rankDelta": 0
+        },
+        {
+          "code": "LKT",
+          "name": "理科太太",
+          "nameEn": "Li Ke Tai Tai",
+          "region": "Taiwan",
+          "value": 350000,
+          "rank": 4,
+          "share": 0.0527,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZHQQ",
+          "name": "志祺七七",
+          "nameEn": "Zhiqi Qiqi",
+          "region": "Taiwan",
+          "value": 150000,
+          "rank": 5,
+          "share": 0.0226,
+          "rankDelta": 0
+        },
+        {
+          "code": "HOOK",
+          "name": "HOOK",
+          "nameEn": "HOOK",
+          "region": "Taiwan",
+          "value": 80000,
+          "rank": 6,
+          "share": 0.012,
+          "rankDelta": 0
+        },
+        {
+          "code": "XNZ",
+          "name": "小宁子",
+          "nameEn": "Xiao Ningzi",
+          "region": "中文",
+          "value": 60000,
+          "rank": 7,
+          "share": 0.009,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "total": 11380000,
+      "items": [
+        {
+          "code": "LAOG",
+          "name": "老高与小茉",
+          "nameEn": "Mr & Mrs Gao",
+          "region": "中文",
+          "value": 4800000,
+          "rank": 1,
+          "share": 0.4218,
+          "rankDelta": 0
+        },
+        {
+          "code": "LIYL",
+          "name": "李永乐老师",
+          "nameEn": "Teacher Li Yongle",
+          "region": "中文",
+          "value": 2200000,
+          "rank": 2,
+          "share": 0.1933,
+          "rankDelta": 1
+        },
+        {
+          "code": "ADI",
+          "name": "阿滴英文",
+          "nameEn": "Ray Du English",
+          "region": "Taiwan",
+          "value": 1800000,
+          "rank": 3,
+          "share": 0.1582,
+          "rankDelta": -1
+        },
+        {
+          "code": "LKT",
+          "name": "理科太太",
+          "nameEn": "Li Ke Tai Tai",
+          "region": "Taiwan",
+          "value": 780000,
+          "rank": 4,
+          "share": 0.0685,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZHQQ",
+          "name": "志祺七七",
+          "nameEn": "Zhiqi Qiqi",
+          "region": "Taiwan",
+          "value": 500000,
+          "rank": 5,
+          "share": 0.0439,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZZWZ",
+          "name": "钟文泽",
+          "nameEn": "Zhong Wenze",
+          "region": "中文",
+          "value": 400000,
+          "rank": 6,
+          "share": 0.0351,
+          "rankDelta": 0
+        },
+        {
+          "code": "XNZ",
+          "name": "小宁子",
+          "nameEn": "Xiao Ningzi",
+          "region": "中文",
+          "value": 350000,
+          "rank": 7,
+          "share": 0.0308,
+          "rankDelta": 0
+        },
+        {
+          "code": "HOOK",
+          "name": "HOOK",
+          "nameEn": "HOOK",
+          "region": "Taiwan",
+          "value": 300000,
+          "rank": 8,
+          "share": 0.0264,
+          "rankDelta": -2
+        },
+        {
+          "code": "FANZ",
+          "name": "反正我很闲",
+          "nameEn": "Anyway I'm Free",
+          "region": "中文",
+          "value": 150000,
+          "rank": 9,
+          "share": 0.0132,
+          "rankDelta": 0
+        },
+        {
+          "code": "ACKY",
+          "name": "Acky",
+          "nameEn": "Acky",
+          "region": "Taiwan",
+          "value": 100000,
+          "rank": 10,
+          "share": 0.0088,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "total": 16200000,
+      "items": [
+        {
+          "code": "LAOG",
+          "name": "老高与小茉",
+          "nameEn": "Mr & Mrs Gao",
+          "region": "中文",
+          "value": 5400000,
+          "rank": 1,
+          "share": 0.3333,
+          "rankDelta": 0
+        },
+        {
+          "code": "LIYL",
+          "name": "李永乐老师",
+          "nameEn": "Teacher Li Yongle",
+          "region": "中文",
+          "value": 3200000,
+          "rank": 2,
+          "share": 0.1975,
+          "rankDelta": 0
+        },
+        {
+          "code": "ADI",
+          "name": "阿滴英文",
+          "nameEn": "Ray Du English",
+          "region": "Taiwan",
+          "value": 2200000,
+          "rank": 3,
+          "share": 0.1358,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZZWZ",
+          "name": "钟文泽",
+          "nameEn": "Zhong Wenze",
+          "region": "中文",
+          "value": 1200000,
+          "rank": 4,
+          "share": 0.0741,
+          "rankDelta": 2
+        },
+        {
+          "code": "LKT",
+          "name": "理科太太",
+          "nameEn": "Li Ke Tai Tai",
+          "region": "Taiwan",
+          "value": 900000,
+          "rank": 5,
+          "share": 0.0556,
+          "rankDelta": -1
+        },
+        {
+          "code": "ZHQQ",
+          "name": "志祺七七",
+          "nameEn": "Zhiqi Qiqi",
+          "region": "Taiwan",
+          "value": 800000,
+          "rank": 6,
+          "share": 0.0494,
+          "rankDelta": -1
+        },
+        {
+          "code": "XNZ",
+          "name": "小宁子",
+          "nameEn": "Xiao Ningzi",
+          "region": "中文",
+          "value": 750000,
+          "rank": 7,
+          "share": 0.0463,
+          "rankDelta": 0
+        },
+        {
+          "code": "HOOK",
+          "name": "HOOK",
+          "nameEn": "HOOK",
+          "region": "Taiwan",
+          "value": 650000,
+          "rank": 8,
+          "share": 0.0401,
+          "rankDelta": 0
+        },
+        {
+          "code": "FANZ",
+          "name": "反正我很闲",
+          "nameEn": "Anyway I'm Free",
+          "region": "中文",
+          "value": 350000,
+          "rank": 9,
+          "share": 0.0216,
+          "rankDelta": 0
+        },
+        {
+          "code": "HE",
+          "name": "老师好我叫何同学",
+          "nameEn": "Mr. He",
+          "region": "中文",
+          "value": 300000,
+          "rank": 10,
+          "share": 0.0185,
+          "rankDelta": 0
+        },
+        {
+          "code": "ACKY",
+          "name": "Acky",
+          "nameEn": "Acky",
+          "region": "Taiwan",
+          "value": 300000,
+          "rank": 11,
+          "share": 0.0185,
+          "rankDelta": -1
+        },
+        {
+          "code": "QIAN",
+          "name": "千森",
+          "nameEn": "Qiansen",
+          "region": "中文",
+          "value": 150000,
+          "rank": 12,
+          "share": 0.0093,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "total": 20390000,
+      "items": [
+        {
+          "code": "LAOG",
+          "name": "老高与小茉",
+          "nameEn": "Mr & Mrs Gao",
+          "region": "中文",
+          "value": 5800000,
+          "rank": 1,
+          "share": 0.2845,
+          "rankDelta": 0
+        },
+        {
+          "code": "LIYL",
+          "name": "李永乐老师",
+          "nameEn": "Teacher Li Yongle",
+          "region": "中文",
+          "value": 3900000,
+          "rank": 2,
+          "share": 0.1913,
+          "rankDelta": 0
+        },
+        {
+          "code": "ADI",
+          "name": "阿滴英文",
+          "nameEn": "Ray Du English",
+          "region": "Taiwan",
+          "value": 2450000,
+          "rank": 3,
+          "share": 0.1202,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZZWZ",
+          "name": "钟文泽",
+          "nameEn": "Zhong Wenze",
+          "region": "中文",
+          "value": 2000000,
+          "rank": 4,
+          "share": 0.0981,
+          "rankDelta": 0
+        },
+        {
+          "code": "XNZ",
+          "name": "小宁子",
+          "nameEn": "Xiao Ningzi",
+          "region": "中文",
+          "value": 1150000,
+          "rank": 5,
+          "share": 0.0564,
+          "rankDelta": 2
+        },
+        {
+          "code": "ZHQQ",
+          "name": "志祺七七",
+          "nameEn": "Zhiqi Qiqi",
+          "region": "Taiwan",
+          "value": 1050000,
+          "rank": 6,
+          "share": 0.0515,
+          "rankDelta": 0
+        },
+        {
+          "code": "HOOK",
+          "name": "HOOK",
+          "nameEn": "HOOK",
+          "region": "Taiwan",
+          "value": 950000,
+          "rank": 7,
+          "share": 0.0466,
+          "rankDelta": 1
+        },
+        {
+          "code": "LKT",
+          "name": "理科太太",
+          "nameEn": "Li Ke Tai Tai",
+          "region": "Taiwan",
+          "value": 940000,
+          "rank": 8,
+          "share": 0.0461,
+          "rankDelta": -3
+        },
+        {
+          "code": "HE",
+          "name": "老师好我叫何同学",
+          "nameEn": "Mr. He",
+          "region": "中文",
+          "value": 700000,
+          "rank": 9,
+          "share": 0.0343,
+          "rankDelta": 1
+        },
+        {
+          "code": "FANZ",
+          "name": "反正我很闲",
+          "nameEn": "Anyway I'm Free",
+          "region": "中文",
+          "value": 550000,
+          "rank": 10,
+          "share": 0.027,
+          "rankDelta": -1
+        },
+        {
+          "code": "ACKY",
+          "name": "Acky",
+          "nameEn": "Acky",
+          "region": "Taiwan",
+          "value": 500000,
+          "rank": 11,
+          "share": 0.0245,
+          "rankDelta": 0
+        },
+        {
+          "code": "QIAN",
+          "name": "千森",
+          "nameEn": "Qiansen",
+          "region": "中文",
+          "value": 400000,
+          "rank": 12,
+          "share": 0.0196,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "total": 23720000,
+      "items": [
+        {
+          "code": "LAOG",
+          "name": "老高与小茉",
+          "nameEn": "Mr & Mrs Gao",
+          "region": "中文",
+          "value": 6100000,
+          "rank": 1,
+          "share": 0.2572,
+          "rankDelta": 0
+        },
+        {
+          "code": "LIYL",
+          "name": "李永乐老师",
+          "nameEn": "Teacher Li Yongle",
+          "region": "中文",
+          "value": 4300000,
+          "rank": 2,
+          "share": 0.1813,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZZWZ",
+          "name": "钟文泽",
+          "nameEn": "Zhong Wenze",
+          "region": "中文",
+          "value": 2800000,
+          "rank": 3,
+          "share": 0.118,
+          "rankDelta": 1
+        },
+        {
+          "code": "ADI",
+          "name": "阿滴英文",
+          "nameEn": "Ray Du English",
+          "region": "Taiwan",
+          "value": 2580000,
+          "rank": 4,
+          "share": 0.1088,
+          "rankDelta": -1
+        },
+        {
+          "code": "XNZ",
+          "name": "小宁子",
+          "nameEn": "Xiao Ningzi",
+          "region": "中文",
+          "value": 1450000,
+          "rank": 5,
+          "share": 0.0611,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZHQQ",
+          "name": "志祺七七",
+          "nameEn": "Zhiqi Qiqi",
+          "region": "Taiwan",
+          "value": 1250000,
+          "rank": 6,
+          "share": 0.0527,
+          "rankDelta": 0
+        },
+        {
+          "code": "HOOK",
+          "name": "HOOK",
+          "nameEn": "HOOK",
+          "region": "Taiwan",
+          "value": 1150000,
+          "rank": 7,
+          "share": 0.0485,
+          "rankDelta": 0
+        },
+        {
+          "code": "HE",
+          "name": "老师好我叫何同学",
+          "nameEn": "Mr. He",
+          "region": "中文",
+          "value": 1100000,
+          "rank": 8,
+          "share": 0.0464,
+          "rankDelta": 1
+        },
+        {
+          "code": "LKT",
+          "name": "理科太太",
+          "nameEn": "Li Ke Tai Tai",
+          "region": "Taiwan",
+          "value": 970000,
+          "rank": 9,
+          "share": 0.0409,
+          "rankDelta": -1
+        },
+        {
+          "code": "FANZ",
+          "name": "反正我很闲",
+          "nameEn": "Anyway I'm Free",
+          "region": "中文",
+          "value": 720000,
+          "rank": 10,
+          "share": 0.0304,
+          "rankDelta": 0
+        },
+        {
+          "code": "ACKY",
+          "name": "Acky",
+          "nameEn": "Acky",
+          "region": "Taiwan",
+          "value": 700000,
+          "rank": 11,
+          "share": 0.0295,
+          "rankDelta": 0
+        },
+        {
+          "code": "QIAN",
+          "name": "千森",
+          "nameEn": "Qiansen",
+          "region": "中文",
+          "value": 600000,
+          "rank": 12,
+          "share": 0.0253,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "total": 26400000,
+      "items": [
+        {
+          "code": "LAOG",
+          "name": "老高与小茉",
+          "nameEn": "Mr & Mrs Gao",
+          "region": "中文",
+          "value": 6300000,
+          "rank": 1,
+          "share": 0.2386,
+          "rankDelta": 0
+        },
+        {
+          "code": "LIYL",
+          "name": "李永乐老师",
+          "nameEn": "Teacher Li Yongle",
+          "region": "中文",
+          "value": 4600000,
+          "rank": 2,
+          "share": 0.1742,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZZWZ",
+          "name": "钟文泽",
+          "nameEn": "Zhong Wenze",
+          "region": "中文",
+          "value": 3500000,
+          "rank": 3,
+          "share": 0.1326,
+          "rankDelta": 0
+        },
+        {
+          "code": "ADI",
+          "name": "阿滴英文",
+          "nameEn": "Ray Du English",
+          "region": "Taiwan",
+          "value": 2660000,
+          "rank": 4,
+          "share": 0.1008,
+          "rankDelta": 0
+        },
+        {
+          "code": "XNZ",
+          "name": "小宁子",
+          "nameEn": "Xiao Ningzi",
+          "region": "中文",
+          "value": 1680000,
+          "rank": 5,
+          "share": 0.0636,
+          "rankDelta": 0
+        },
+        {
+          "code": "HE",
+          "name": "老师好我叫何同学",
+          "nameEn": "Mr. He",
+          "region": "中文",
+          "value": 1500000,
+          "rank": 6,
+          "share": 0.0568,
+          "rankDelta": 2
+        },
+        {
+          "code": "ZHQQ",
+          "name": "志祺七七",
+          "nameEn": "Zhiqi Qiqi",
+          "region": "Taiwan",
+          "value": 1380000,
+          "rank": 7,
+          "share": 0.0523,
+          "rankDelta": -1
+        },
+        {
+          "code": "HOOK",
+          "name": "HOOK",
+          "nameEn": "HOOK",
+          "region": "Taiwan",
+          "value": 1300000,
+          "rank": 8,
+          "share": 0.0492,
+          "rankDelta": -1
+        },
+        {
+          "code": "LKT",
+          "name": "理科太太",
+          "nameEn": "Li Ke Tai Tai",
+          "region": "Taiwan",
+          "value": 990000,
+          "rank": 9,
+          "share": 0.0375,
+          "rankDelta": 0
+        },
+        {
+          "code": "FANZ",
+          "name": "反正我很闲",
+          "nameEn": "Anyway I'm Free",
+          "region": "中文",
+          "value": 860000,
+          "rank": 10,
+          "share": 0.0326,
+          "rankDelta": 0
+        },
+        {
+          "code": "ACKY",
+          "name": "Acky",
+          "nameEn": "Acky",
+          "region": "Taiwan",
+          "value": 850000,
+          "rank": 11,
+          "share": 0.0322,
+          "rankDelta": 0
+        },
+        {
+          "code": "QIAN",
+          "name": "千森",
+          "nameEn": "Qiansen",
+          "region": "中文",
+          "value": 780000,
+          "rank": 12,
+          "share": 0.0295,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "total": 28420000,
+      "items": [
+        {
+          "code": "LAOG",
+          "name": "老高与小茉",
+          "nameEn": "Mr & Mrs Gao",
+          "region": "中文",
+          "value": 6450000,
+          "rank": 1,
+          "share": 0.227,
+          "rankDelta": 0
+        },
+        {
+          "code": "LIYL",
+          "name": "李永乐老师",
+          "nameEn": "Teacher Li Yongle",
+          "region": "中文",
+          "value": 4850000,
+          "rank": 2,
+          "share": 0.1707,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZZWZ",
+          "name": "钟文泽",
+          "nameEn": "Zhong Wenze",
+          "region": "中文",
+          "value": 4000000,
+          "rank": 3,
+          "share": 0.1407,
+          "rankDelta": 0
+        },
+        {
+          "code": "ADI",
+          "name": "阿滴英文",
+          "nameEn": "Ray Du English",
+          "region": "Taiwan",
+          "value": 2720000,
+          "rank": 4,
+          "share": 0.0957,
+          "rankDelta": 0
+        },
+        {
+          "code": "XNZ",
+          "name": "小宁子",
+          "nameEn": "Xiao Ningzi",
+          "region": "中文",
+          "value": 1850000,
+          "rank": 5,
+          "share": 0.0651,
+          "rankDelta": 0
+        },
+        {
+          "code": "HE",
+          "name": "老师好我叫何同学",
+          "nameEn": "Mr. He",
+          "region": "中文",
+          "value": 1800000,
+          "rank": 6,
+          "share": 0.0633,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZHQQ",
+          "name": "志祺七七",
+          "nameEn": "Zhiqi Qiqi",
+          "region": "Taiwan",
+          "value": 1450000,
+          "rank": 7,
+          "share": 0.051,
+          "rankDelta": 0
+        },
+        {
+          "code": "HOOK",
+          "name": "HOOK",
+          "nameEn": "HOOK",
+          "region": "Taiwan",
+          "value": 1420000,
+          "rank": 8,
+          "share": 0.05,
+          "rankDelta": 0
+        },
+        {
+          "code": "LKT",
+          "name": "理科太太",
+          "nameEn": "Li Ke Tai Tai",
+          "region": "Taiwan",
+          "value": 1000000,
+          "rank": 9,
+          "share": 0.0352,
+          "rankDelta": 0
+        },
+        {
+          "code": "FANZ",
+          "name": "反正我很闲",
+          "nameEn": "Anyway I'm Free",
+          "region": "中文",
+          "value": 980000,
+          "rank": 10,
+          "share": 0.0345,
+          "rankDelta": 0
+        },
+        {
+          "code": "ACKY",
+          "name": "Acky",
+          "nameEn": "Acky",
+          "region": "Taiwan",
+          "value": 980000,
+          "rank": 11,
+          "share": 0.0345,
+          "rankDelta": 0
+        },
+        {
+          "code": "QIAN",
+          "name": "千森",
+          "nameEn": "Qiansen",
+          "region": "中文",
+          "value": 920000,
+          "rank": 12,
+          "share": 0.0324,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "total": 29860000,
+      "items": [
+        {
+          "code": "LAOG",
+          "name": "老高与小茉",
+          "nameEn": "Mr & Mrs Gao",
+          "region": "中文",
+          "value": 6550000,
+          "rank": 1,
+          "share": 0.2194,
+          "rankDelta": 0
+        },
+        {
+          "code": "LIYL",
+          "name": "李永乐老师",
+          "nameEn": "Teacher Li Yongle",
+          "region": "中文",
+          "value": 5000000,
+          "rank": 2,
+          "share": 0.1674,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZZWZ",
+          "name": "钟文泽",
+          "nameEn": "Zhong Wenze",
+          "region": "中文",
+          "value": 4300000,
+          "rank": 3,
+          "share": 0.144,
+          "rankDelta": 0
+        },
+        {
+          "code": "ADI",
+          "name": "阿滴英文",
+          "nameEn": "Ray Du English",
+          "region": "Taiwan",
+          "value": 2760000,
+          "rank": 4,
+          "share": 0.0924,
+          "rankDelta": 0
+        },
+        {
+          "code": "HE",
+          "name": "老师好我叫何同学",
+          "nameEn": "Mr. He",
+          "region": "中文",
+          "value": 2000000,
+          "rank": 5,
+          "share": 0.067,
+          "rankDelta": 1
+        },
+        {
+          "code": "XNZ",
+          "name": "小宁子",
+          "nameEn": "Xiao Ningzi",
+          "region": "中文",
+          "value": 1980000,
+          "rank": 6,
+          "share": 0.0663,
+          "rankDelta": -1
+        },
+        {
+          "code": "HOOK",
+          "name": "HOOK",
+          "nameEn": "HOOK",
+          "region": "Taiwan",
+          "value": 1520000,
+          "rank": 7,
+          "share": 0.0509,
+          "rankDelta": 1
+        },
+        {
+          "code": "ZHQQ",
+          "name": "志祺七七",
+          "nameEn": "Zhiqi Qiqi",
+          "region": "Taiwan",
+          "value": 1500000,
+          "rank": 8,
+          "share": 0.0502,
+          "rankDelta": -1
+        },
+        {
+          "code": "ACKY",
+          "name": "Acky",
+          "nameEn": "Acky",
+          "region": "Taiwan",
+          "value": 1100000,
+          "rank": 9,
+          "share": 0.0368,
+          "rankDelta": 2
+        },
+        {
+          "code": "FANZ",
+          "name": "反正我很闲",
+          "nameEn": "Anyway I'm Free",
+          "region": "中文",
+          "value": 1080000,
+          "rank": 10,
+          "share": 0.0362,
+          "rankDelta": 0
+        },
+        {
+          "code": "QIAN",
+          "name": "千森",
+          "nameEn": "Qiansen",
+          "region": "中文",
+          "value": 1050000,
+          "rank": 11,
+          "share": 0.0352,
+          "rankDelta": 1
+        },
+        {
+          "code": "LKT",
+          "name": "理科太太",
+          "nameEn": "Li Ke Tai Tai",
+          "region": "Taiwan",
+          "value": 1020000,
+          "rank": 12,
+          "share": 0.0342,
+          "rankDelta": -3
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "total": 30930000,
+      "items": [
+        {
+          "code": "LAOG",
+          "name": "老高与小茉",
+          "nameEn": "Mr & Mrs Gao",
+          "region": "中文",
+          "value": 6620000,
+          "rank": 1,
+          "share": 0.214,
+          "rankDelta": 0
+        },
+        {
+          "code": "LIYL",
+          "name": "李永乐老师",
+          "nameEn": "Teacher Li Yongle",
+          "region": "中文",
+          "value": 5100000,
+          "rank": 2,
+          "share": 0.1649,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZZWZ",
+          "name": "钟文泽",
+          "nameEn": "Zhong Wenze",
+          "region": "中文",
+          "value": 4500000,
+          "rank": 3,
+          "share": 0.1455,
+          "rankDelta": 0
+        },
+        {
+          "code": "ADI",
+          "name": "阿滴英文",
+          "nameEn": "Ray Du English",
+          "region": "Taiwan",
+          "value": 2800000,
+          "rank": 4,
+          "share": 0.0905,
+          "rankDelta": 0
+        },
+        {
+          "code": "HE",
+          "name": "老师好我叫何同学",
+          "nameEn": "Mr. He",
+          "region": "中文",
+          "value": 2150000,
+          "rank": 5,
+          "share": 0.0695,
+          "rankDelta": 0
+        },
+        {
+          "code": "XNZ",
+          "name": "小宁子",
+          "nameEn": "Xiao Ningzi",
+          "region": "中文",
+          "value": 2080000,
+          "rank": 6,
+          "share": 0.0672,
+          "rankDelta": 0
+        },
+        {
+          "code": "HOOK",
+          "name": "HOOK",
+          "nameEn": "HOOK",
+          "region": "Taiwan",
+          "value": 1600000,
+          "rank": 7,
+          "share": 0.0517,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZHQQ",
+          "name": "志祺七七",
+          "nameEn": "Zhiqi Qiqi",
+          "region": "Taiwan",
+          "value": 1550000,
+          "rank": 8,
+          "share": 0.0501,
+          "rankDelta": 0
+        },
+        {
+          "code": "ACKY",
+          "name": "Acky",
+          "nameEn": "Acky",
+          "region": "Taiwan",
+          "value": 1200000,
+          "rank": 9,
+          "share": 0.0388,
+          "rankDelta": 0
+        },
+        {
+          "code": "QIAN",
+          "name": "千森",
+          "nameEn": "Qiansen",
+          "region": "中文",
+          "value": 1150000,
+          "rank": 10,
+          "share": 0.0372,
+          "rankDelta": 1
+        },
+        {
+          "code": "FANZ",
+          "name": "反正我很闲",
+          "nameEn": "Anyway I'm Free",
+          "region": "中文",
+          "value": 1150000,
+          "rank": 11,
+          "share": 0.0372,
+          "rankDelta": -1
+        },
+        {
+          "code": "LKT",
+          "name": "理科太太",
+          "nameEn": "Li Ke Tai Tai",
+          "region": "Taiwan",
+          "value": 1030000,
+          "rank": 12,
+          "share": 0.0333,
+          "rankDelta": 0
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "e01",
+      "year": 2017,
+      "entityCode": "LAOG",
+      "kind": "milestone",
+      "title": "老高与小茉突破150万",
+      "titleEn": "Mr & Mrs Gao Reaches 1.5M",
+      "description": "老高与小茉凭借深夜故事讲述风格迅速崛起",
+      "descriptionEn": "Mr & Mrs Gao rapidly rises with storytelling format",
+      "entityName": "老高与小茉",
+      "rank": 1
+    },
+    {
+      "id": "e02",
+      "year": 2018,
+      "entityCode": "LAOG",
+      "kind": "milestone",
+      "title": "老高与小茉突破350万",
+      "titleEn": "Mr & Mrs Gao Surges Past 3.5M",
+      "description": "老高与小茉稳居中文 YouTube 第一",
+      "descriptionEn": "Mr & Mrs Gao solidifies #1 spot in Chinese YouTube",
+      "entityName": "老高与小茉",
+      "rank": 1
+    },
+    {
+      "id": "e03",
+      "year": 2018,
+      "entityCode": "LKT",
+      "kind": "milestone",
+      "title": "理科太太异军突起",
+      "titleEn": "Li Ke Tai Tai's Rapid Rise",
+      "description": "理科太太以科普心理学内容迅速积累35万订阅",
+      "descriptionEn": "Li Ke Tai Tai gains 350K subs rapidly with science content",
+      "entityName": "理科太太",
+      "rank": 4
+    },
+    {
+      "id": "e04",
+      "year": 2019,
+      "entityCode": "LIYL",
+      "kind": "milestone",
+      "title": "李永乐老师突破200万",
+      "titleEn": "Li Yongle Reaches 2M",
+      "description": "李永乐老师的科普数学物理内容广受欢迎",
+      "descriptionEn": "Li Yongle's science education content gains wide popularity",
+      "entityName": "李永乐老师",
+      "rank": 2
+    },
+    {
+      "id": "e05",
+      "year": 2020,
+      "entityCode": "LIYL",
+      "kind": "milestone",
+      "title": "李永乐老师突破300万",
+      "titleEn": "Li Yongle Surpasses 3M",
+      "description": "疫情期间知识类内容迎来爆发增长",
+      "descriptionEn": "Educational content booms during the pandemic",
+      "entityName": "李永乐老师",
+      "rank": 2
+    },
+    {
+      "id": "e06",
+      "year": 2020,
+      "entityCode": null,
+      "kind": "trend",
+      "title": "知识型内容黄金期",
+      "titleEn": "Golden Age of Educational Content",
+      "description": "疫情带动知识/教育类频道普遍增长",
+      "descriptionEn": "Pandemic drives growth across educational channels",
+      "entityName": null,
+      "rank": null
+    },
+    {
+      "id": "e07",
+      "year": 2021,
+      "entityCode": "ZZWZ",
+      "kind": "milestone",
+      "title": "钟文泽突破200万",
+      "titleEn": "Zhong Wenze Reaches 2M",
+      "description": "钟文泽以数码产品评测快速积累人气",
+      "descriptionEn": "Zhong Wenze gains popularity with tech reviews",
+      "entityName": "钟文泽",
+      "rank": 4
+    },
+    {
+      "id": "e08",
+      "year": 2022,
+      "entityCode": "ADI",
+      "kind": "milestone",
+      "title": "阿滴英文增长放缓",
+      "titleEn": "Ray Du English Growth Plateaus",
+      "description": "阿滴英文增长放缓，被钟文泽等后起之秀超越",
+      "descriptionEn": "Ray Du English growth slows, overtaken by newer channels",
+      "entityName": "阿滴英文",
+      "rank": 5
+    },
+    {
+      "id": "e09",
+      "year": 2023,
+      "entityCode": "ZZWZ",
+      "kind": "milestone",
+      "title": "钟文泽突破350万",
+      "titleEn": "Zhong Wenze Surpasses 3.5M",
+      "description": "钟文泽超越阿滴英文，跃居第四",
+      "descriptionEn": "Zhong Wenze overtakes Ray Du English for 4th place",
+      "entityName": "钟文泽",
+      "rank": 4
+    },
+    {
+      "id": "e10",
+      "year": 2020,
+      "entityCode": "HE",
+      "kind": "milestone",
+      "title": "何同学登陆 YouTube",
+      "titleEn": "Mr. He Joins YouTube",
+      "description": "B站顶流何同学开始在 YouTube 发布内容",
+      "descriptionEn": "Top Bilibili creator Mr. He starts posting on YouTube",
+      "entityName": "老师好我叫何同学",
+      "rank": 9
+    },
+    {
+      "id": "e11",
+      "year": 2025,
+      "entityCode": "LAOG",
+      "kind": "milestone",
+      "title": "老高与小茉稳居榜首",
+      "titleEn": "Mr & Mrs Gao Remain Unchallenged",
+      "description": "老高与小茉以655万订阅继续领跑中文 YouTube",
+      "descriptionEn": "Mr & Mrs Gao leads Chinese YouTube with 6.55M subs",
+      "entityName": "老高与小茉",
+      "rank": 1
+    },
+    {
+      "id": "e12",
+      "year": 2024,
+      "entityCode": "ZZWZ",
+      "kind": "milestone",
+      "title": "钟文泽突破400万",
+      "titleEn": "Zhong Wenze Reaches 4M",
+      "description": "钟文泽成为中文科技评测第一频道",
+      "descriptionEn": "Zhong Wenze becomes #1 Chinese tech review channel",
+      "entityName": "钟文泽",
+      "rank": 3
+    },
+    {
+      "id": "e13",
+      "year": 2018,
+      "entityCode": "ADI",
+      "kind": "milestone",
+      "title": "阿滴英文突破100万",
+      "titleEn": "Ray Du English Reaches 1M",
+      "description": "阿滴英文成为台湾首个破百万的教育类频道",
+      "descriptionEn": "Ray Du English becomes Taiwan's first education channel with 1M subs",
+      "entityName": "阿滴英文",
+      "rank": 3
+    },
+    {
+      "id": "e14",
+      "year": 2015,
+      "entityCode": null,
+      "kind": "trend",
+      "title": "老高与小茉、阿滴英文起步",
+      "titleEn": "Founding Year for Key Channels",
+      "description": "老高与小茉和阿滴英文在 2015 年先后开始发布内容",
+      "descriptionEn": "Mr & Mrs Gao and Ray Du English begin posting in 2015",
+      "entityName": null,
+      "rank": null
+    },
+    {
+      "id": "e15",
+      "year": 2026,
+      "entityCode": "LAOG",
+      "kind": "milestone",
+      "title": "老高与小茉突破660万",
+      "titleEn": "Mr & Mrs Gao Surpasses 6.6M",
+      "description": "老高与小茉继续领跑，钟文泽跃居第三",
+      "descriptionEn": "Mr & Mrs Gao continues to lead; Zhong Wenze rises to #3",
+      "entityName": "老高与小茉",
+      "rank": 1
+    }
+  ]
+}

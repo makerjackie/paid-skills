@@ -1,0 +1,9 @@
+platformTitle: GitHub Star 排名：React、Vue、TensorFlow 的开源人气之王
+coverKicker: 2014 → 2026 · GitHub Stars
+coverHeadline: GitHub Stars / React vs Vue vs TensorFlow
+coverSubline: React、Vue、TensorFlow 的 13 年 Star 争夺战
+coverBadge: 2014-2026 · 13 年 Star 排名
+hook: 13 年里，GitHub 上最火的开源项目 Star 排名经历了怎样的洗牌？
+intro: 从 2014 到 2026，React、Vue、TensorFlow、VS Code 等 14 个顶级开源项目，Star 数的排名格局经历了多次反转。
+insight: 开源人气排名背后是技术浪潮的更迭——从前端框架争霸到 AI 框架崛起，Star 数直观反映了开发者社区注意力的迁移。
+cta: 去 shapeof.world 看更完整的互动数据。

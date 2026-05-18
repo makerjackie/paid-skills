@@ -1,0 +1,9 @@
+platformTitle: YouTube 编程类频道订阅排名：AI 时代谁在爆发？
+coverKicker: 2014 → 2026 · YouTube 编程类频道
+coverHeadline: 编程 YouTuber / 谁在爆发？
+coverSubline: Tom Scott 到 Fireship，编程知识消费方式的演变
+coverBadge: 12 年订阅排名
+hook: 编程类 YouTuber，12 年里谁增长最快？
+intro: 从 2014 到 2026，编程创作者如何在 YouTube 上重新洗牌？
+insight: 从长篇教育到速食知识，编程内容在 YouTube 上发生了根本变化。
+cta: 去 shapeof.world 看更完整的互动数据。

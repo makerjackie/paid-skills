@@ -2,6 +2,31 @@
 
 这个文件用于批量发布 history race 视频。每个主题都保留互动地址和原始数据来源。
 
+## ai-products-mau-race
+
+发布标题：AI 产品月活排名：ChatGPT 一骑绝尘，谁能追得上？
+
+封面文案：
+2022 → 2026 · AI 产品月活用户
+AI 产品月活 / 谁在领跑？
+ChatGPT、Gemini、Claude 的 AI 用户争夺战
+AI 时代月活排名
+
+视频内标题：ChatGPT 两个月达到 1 亿月活，这个纪录至今无人能破。
+
+短视频描述：
+从 2022 到 2026，AI 产品月活用户排名发生了哪些剧变？ChatGPT 一骑绝尘，Gemini 和 Grok 奋力追赶。
+ChatGPT 用 2 个月达到 1 亿 MAU，成为历史上增长最快的消费级应用；Gemini 借助 Google 生态迅速崛起。
+
+站点介绍：
+「世界的形状 Shape of World」把动态排名、时间轴和事件节点，做成可以探索的真实世界历史。
+去 shapeof.world 看更完整的互动数据。
+
+数据互动地址：https://shapeof.world/history/ai-products-mau-race
+
+原始数据来源：公司公开数据 / SimilarWeb / 行业分析报告
+https://similarweb.com
+
 ## china-trade-race
 
 发布标题：中国 40 年贸易伙伴排名：日本交棒美国，越韩俄后来居上
@@ -28,6 +53,66 @@
 
 原始数据来源：中国海关总署 / 中国统计年鉴 / IMF DOTS
 https://www.customs.gov.cn/
+
+## chinese-creators-youtube-race
+
+发布标题：中文 YouTuber 订阅排名：老高称霸，谁在挑战？
+
+封面文案：
+2015 → 2026 · 中文 YouTuber 订阅排名
+中文 YouTuber / 谁在领跑？
+老高与小茉、李永乐、钟文泽、阿滴的订阅争夺战
+2015-2026 · 12 年订阅排名
+
+视频内标题：中文 YouTube 订阅排名，12 年里谁增长最快？
+
+短视频描述：
+从 2015 到 2026，看老高与小茉、李永乐老师、钟文泽、阿滴英文等 12 个中文 YouTube 频道订阅排名的演变。
+故事型、知识型、科技型、教育型内容在中文 YouTube 上各自找到了自己的观众群。
+
+站点介绍：
+「世界的形状 Shape of World」把动态排名、时间轴和事件节点，做成可以探索的真实世界历史。
+去 shapeof.world 看更完整的互动数据。
+
+数据互动地址：https://shapeof.world/history/chinese-creators-youtube-race
+
+原始数据来源：YouTube 公开数据 / Social Blade 历史记录 / NoxInfluencer
+https://socialblade.com
+
+## github-stars-race
+
+发布标题：GitHub Star 排名：React、Vue、TensorFlow 的开源人气之王
+
+封面文案：
+2014 → 2026 · GitHub Stars
+GitHub Stars / React vs Vue vs TensorFlow
+React、Vue、TensorFlow 的 13 年 Star 争夺战
+2014-2026 · 13 年 Star 排名
+
+视频内标题：13 年里，GitHub 上最火的开源项目 Star 排名经历了怎样的洗牌？
+
+短视频描述：
+从 2014 到 2026，React、Vue、TensorFlow、VS Code 等 14 个顶级开源项目，Star 数的排名格局经历了多次反转。
+开源人气排名背后是技术浪潮的更迭——从前端框架争霸到 AI 框架崛起。
+
+站点介绍：
+「世界的形状 Shape of World」把动态排名、时间轴和事件节点，做成可以探索的真实世界历史。
+去 shapeof.world 看更完整的互动数据。
+
+数据互动地址：https://shapeof.world/history/github-stars-race
+
+原始数据来源：GitHub API / Star History / GH Archive
+https://github.com
+
+参考页面：
+- React: https://github.com/facebook/react
+- Vue: https://github.com/vuejs/vue
+- Angular: https://github.com/angular/angular
+- Svelte: https://github.com/sveltejs/svelte
+- Tailwind CSS: https://github.com/tailwindlabs/tailwindcss
+- Deno: https://github.com/denoland/deno
+- Bun: https://github.com/oven-sh/bun
+- Next.js: https://github.com/vercel/next.js
 
 ## global-military-spending-race
 
@@ -82,6 +167,31 @@ https://www.sipri.org/databases/milex
 
 原始数据来源：World Bank WDI (NY.GDP.PCAP.CD) · 中国国家统计局 · AI估算补全
 https://data.worldbank.org/indicator/NY.GDP.PCAP.CD
+
+## programming-youtubers-race
+
+发布标题：YouTube 编程类频道订阅排名：AI 时代谁在爆发？
+
+封面文案：
+2014 → 2026 · YouTube 编程类频道
+编程 YouTuber / 谁在爆发？
+Tom Scott 到 Fireship，编程知识消费方式的演变
+12 年订阅排名
+
+视频内标题：编程类 YouTuber，12 年里谁增长最快？
+
+短视频描述：
+从 2014 到 2026，编程创作者如何在 YouTube 上重新洗牌？
+从长篇教育到速食知识，编程内容在 YouTube 上发生了根本变化。
+
+站点介绍：
+「世界的形状 Shape of World」把动态排名、时间轴和事件节点，做成可以探索的真实世界历史。
+去 shapeof.world 看更完整的互动数据。
+
+数据互动地址：https://shapeof.world/history/programming-youtubers-race
+
+原始数据来源：YouTube 公开数据 / Social Blade 历史记录
+https://socialblade.com
 
 ## russia-trade-race
 

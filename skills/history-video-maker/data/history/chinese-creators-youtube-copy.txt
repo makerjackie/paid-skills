@@ -1,0 +1,9 @@
+platformTitle: 中文 YouTuber 订阅排名：老高称霸，谁在挑战？
+coverKicker: 2015 → 2026 · 中文 YouTuber 订阅排名
+coverHeadline: 中文 YouTuber / 谁在领跑？
+coverSubline: 老高与小茉、李永乐、钟文泽、阿滴的订阅争夺战
+coverBadge: 2015-2026 · 12 年订阅排名
+hook: 中文 YouTube 订阅排名，12 年里谁增长最快？
+intro: 从 2015 到 2026，看老高与小茉、李永乐老师、钟文泽、阿滴英文等 12 个中文 YouTube 频道订阅排名的演变。
+insight: 故事型、知识型、科技型、教育型内容在中文 YouTube 上各自找到了自己的观众群。老高与小茉靠故事讲述稳居第一，李永乐老师用科普内容后来居上，钟文泽以数码评测快速崛起。
+cta: 去 shapeof.world 看更完整的互动数据。
