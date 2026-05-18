@@ -536,6 +536,15 @@ h3 {
   font-weight: 950;
 }
 
+.code-panel a {
+  color: var(--green);
+  font-size: 18px;
+  font-weight: 850;
+  overflow-wrap: anywhere;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
 code {
   color: var(--green);
   font-family: "SFMono-Regular", Consolas, monospace;
