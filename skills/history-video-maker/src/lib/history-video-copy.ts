@@ -172,6 +172,62 @@ const COPY_OVERRIDES: Record<string, Partial<HistoryVideoCopy>> = {
     closingTitle: '祝大家人生美满，幸福开心',
     closingBody: '数据参考 BLS ATUS、CDC、Pew、Common Sense；逐岁细分由 AI 估算，仅供娱乐参考。祝大家玩得开心。',
   },
+  'russia-trade-race': {
+    platformTitle: '俄罗斯贸易版图重写：从欧洲全面转向中国和印度',
+    coverKicker: '2000 → 2025 · 俄罗斯贸易伙伴',
+    coverHeadline: '俄罗斯贸易版图\n全面东转',
+    coverSubline: '从德国、荷兰到中国、印度，一场地缘剧变',
+    coverBadge: '25 年贸易版图重写',
+    hook: '俄罗斯最大贸易伙伴，25 年里从德国变成了中国',
+    intro: '从 2000 年到 2025 年，看俄罗斯主要贸易伙伴如何被地缘政治改写。',
+    insight:
+      '2022 年之前，德国和荷兰是俄罗斯最大的贸易伙伴。战争与制裁之后，欧洲全面撤退，中国和印度接盘——一场由硬地缘力量推动的全球贸易版图大洗牌。',
+    sourceDisclosure:
+      '数据为估算序列，基于 IMF DOTS、俄罗斯联邦海关署及各贸易伙伴国公开数据整理。\n部分年份数据为趋势估计，具体数值可能存在偏差，排名趋势可靠。',
+  },
+  'global-military-spending-race': {
+    platformTitle: '全球军费排名：俄乌战争如何引爆俄罗斯和乌克兰军费开支',
+    coverKicker: '2000 → 2025 · 全球军费',
+    coverHeadline: '全球军费\n重新洗牌',
+    coverSubline: '俄乌战争引爆俄罗斯与乌克兰军费飙升',
+    coverBadge: '26 年军费史',
+    hook: '全球军费排名，俄乌战争如何改写一切？',
+    intro: '从 2000 年到 2025 年，看全球军费排名在战争推动下的剧烈变化。',
+    insight:
+      '俄乌战争让俄罗斯军费从 2021 年的 660 亿美元飙升至 1900 亿，乌克兰从 68 亿暴增至 840 亿。战争改写的不只是地图，还有每个国家的钱袋子。全球军费在 2025 年突破 2.5 万亿美元，创历史新高。',
+    sourceDisclosure:
+      '数据基于 SIPRI Military Expenditure Database 现价美元序列。\n2000-2024 年为 SIPRI 官方数据；2025 年为 SIPRI 初步估计。乌克兰 2000-2019 年数据为合理估值。',
+  },
+  'china-trade-race': {
+    platformTitle: '中国 40 年贸易伙伴排名：日本交棒美国，越韩俄后来居上',
+    coverKicker: '1978 → 2025 · 中国主要贸易伙伴',
+    coverHeadline: '中国最大贸易伙伴\n40年换了谁？',
+    coverSubline: '从日本称霸到美国登顶，越南韩国俄罗斯改写排名',
+    coverBadge: '改革开放 47 年浓缩',
+    coverCompareRank: 2,
+    hook: '中国最大贸易伙伴，40 年里从日本变成美国，越韩俄一路追赶',
+    intro: '从 1978 年改革开放到 2025 年，看中国与主要贸易伙伴的进出口排名更替。',
+    insight:
+      '从日本称霸到美国登顶，再到韩越崛起、俄罗斯冲入前五——贸易排名背后是全球化格局、供应链转移和地缘政治的长期演变。',
+    sourceDisclosure:
+      '数据为中国进出口总额（出口+进口）估算序列，基于中国海关总署、IMF DOTS 及历年统计年鉴公开数据整理。\n1978-1991 年部分数据为趋势估计，仅供参考。',
+  },
+  'grandma-letter-nanyang-gdp': {
+    platformTitle: '《给阿嬷的情书》· 木生为什么要下南洋？—— 东南亚人均GDP排位赛（1948-2018）',
+    coverKicker: '1948 → 2018 · 人均GDP',
+    coverHeadline: '《给阿嬷的情书》\n木生为什么要下南洋？',
+    coverSubline: '七十年后，中国跃升至第二。这就是下南洋的理由。',
+    coverBadge: '71 年经济逆袭史',
+    coverCompareRank: 2,
+    hook: '东南亚人均GDP排位赛，中国从最穷到第二',
+    intro: '1948年，潮汕青年郑木生挤上红头船漂向大海。那一年，中国是这片海域最穷的国家，人均GDP不足马来西亚的四分之一。',
+    insight:
+      '七十年间，中国的人均GDP从$45飙升至$10,086，增长224倍。这场逆袭背后，是工业化、改革开放和全球化的力量。而那些侨批里的情义——咸猪肉、自行车、布料——无法用数字丈量。',
+    sourceDisclosure:
+      '1948-1959年数据基于AI估算补全（反向外推+插值）。越南1985年前、印尼1967年前为AI估算。\n1960年以后源自世界银行WDI（NY.GDP.PCAP.CD）及中国国家统计局。',
+    showInsightPanel: false,
+    showSourcePanel: false,
+  },
 };
 
 export function getHistoryVideoCopy(data: HistoryRaceData): HistoryVideoCopy {

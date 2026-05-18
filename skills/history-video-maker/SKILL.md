@@ -32,6 +32,67 @@ Use this skill to generate vertical data ranking videos. The skill folder is sel
 20. Closing should stay simple: larger `世界的形状` logo, `可游玩的知识宇宙`, short positioning copy, source note, and `shapeof.world`.
 21. Batch renders should run sequentially to avoid Remotion cache and CPU contention.
 
+## Copywriting Examples
+
+### 地缘政治类：俄罗斯贸易版图全面东转
+
+```text
+platformTitle:  俄罗斯贸易版图重写：从欧洲全面转向中国和印度
+coverKicker:    2000 → 2025 · 俄罗斯贸易伙伴
+coverHeadline:  俄罗斯贸易版图 / 全面东转
+coverSubline:   从德国、荷兰到中国、印度，一场地缘剧变
+coverBadge:     25 年贸易版图重写
+hook:           俄罗斯最大贸易伙伴，25 年里从德国变成了中国
+intro:          从 2000 年到 2025 年，看俄罗斯主要贸易伙伴如何被地缘政治改写。
+insight:        2022 年之前，德国和荷兰是俄罗斯最大的贸易伙伴。战争与制裁之后，欧洲全部撤退……
+```
+
+写法要点：
+- **`platformTitle`** 用冒号分隔事件 + 结果，30 字以内可直接用作短视频标题
+- **`coverHeadline`** 两行（/ 分隔），每行 5-8 字，必含"从 → 到"的戏剧张力
+- **`coverSubline`** 一句点明关键对手和时代转变，不可模糊
+- **`hook`** 用问句或"从…到…"结构，在视频内作为播放后的开篇句
+- **`insight`** 以具体数字和对比收束，提炼变化的底层推力
+
+### 战争影响类：全球军费重新洗牌
+
+```text
+platformTitle:  全球军费排名：俄乌战争如何引爆俄罗斯和乌克兰军费开支
+coverKicker:    2000 → 2025 · 全球军费
+coverHeadline:  全球军费 / 重新洗牌
+coverSubline:   俄乌战争引爆俄罗斯与乌克兰军费飙升
+coverBadge:     26 年军费史
+hook:           全球军费排名，俄乌战争如何改写一切？
+intro:          从 2000 年到 2025 年，看全球军费排名在战争推动下的剧烈变化。
+insight:        俄乌战争让俄罗斯军费从 2021 年的 660 亿美元飙升至 1900 亿……
+```
+
+写法要点：
+- 战争/冲突类标题用"引爆"、"改写"等动态动词
+- **`coverHeadline`** 讲趋势而非实体（"重新洗牌"而非某个国家名）
+- **`insight`** 用具体金额对比（660亿→1900亿），让观众直观感受量级
+
+### ❌ 负面案例：无信息量的模糊标题
+
+```text
+coverSubline: 把时间轴拉长，看谁守住王座
+```
+
+**致命问题：完全看不出在讲什么。** 观众看完标题都不知道这是 GDP、军费、人口还是钢铁产量，也不知道涉及哪些国家/实体。
+
+**原因：** 代码中的 `buildDefaultCoverCopy` 在首位未变化时（如美国稳居军费第一），fallback 生成了这种模糊措辞——看起来像有信息量，实际上一无所有。
+
+**规则：** 每一条 `coverSubline` 和 `coverHeadline` 必须包含**具体的实体名 + 衡量指标**。宁可直白（"美国军费 25 年稳居第一"），也不要抽象（"看谁守住王座"）。所有数据集都必须在 `COPY_OVERRIDES` 中手写文案，禁止使用自动 fallback。
+
+| ❌ 不好的 | 问题 | ✅ 好的 |
+|-----------|------|--------|
+| 把时间轴拉长，看谁守住王座 | 根本没说是关于什么数据 | 俄乌战争引爆俄罗斯与乌克兰军费飙升 |
+| 时代正在改写 | 无实体、无指标 | 从德国、荷兰到中国、印度，一场地缘剧变 |
+| 谁在上升，谁被时间改写？ | 无实体、无地域 | 俄罗斯最大贸易伙伴，25 年里从德国变成了中国 |
+| 1948 年，中国是**这里**最穷的 | "这里"是哪里？观众要猜 dataset | 1948 年，中国是**东南亚**最穷的 |
+
+写 `coverHeadline`/`hook` 时，如果涉及地域/数据集范围，**必须明确写出地域名**（东南亚、东亚、全球等），不要用"这里"、"这个区域"等指代词。观众看封面的那一瞬间必须知道是什么地理范围。其他"这里"、"这个"、"该区域"等指代一并禁止。
+
 ## Commands
 
 Install dependencies in the skill directory:
@@ -74,10 +135,10 @@ Render the bundled standalone example:
 pnpm video:history -- --slug southeast-asia-gdp-race
 ```
 
-The final 9:20 export is written to:
+Files are written to the current directory's `output/` folder:
 
 ```text
-output/history-videos/<slug>-padded-1080x2400.mp4
+output/<slug>-padded-1080x2400.mp4
 ```
 
 ## Verification
@@ -92,7 +153,7 @@ pnpm test
 Check rendered files with `ffprobe`:
 
 ```bash
-ffprobe -v error -select_streams v:0 -show_entries stream=width,height,duration -of json output/history-videos/us-stock-market-cap-race.mp4
+ffprobe -v error -select_streams v:0 -show_entries stream=width,height,duration -of json output/us-stock-market-cap-race.mp4
 ```
 
 If Remotion prints a Zod deprecation warning, note it but do not update dependencies unless the user asks for dependency work.

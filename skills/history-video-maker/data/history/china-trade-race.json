@@ -1,0 +1,4710 @@
+{
+  "slug": "china-trade-race",
+  "title": "中国与主要贸易伙伴进出口额排名",
+  "titleEn": "China's Trade with Major Partners Race",
+  "summary": "从 1978 年改革开放到 2025 年，看中国与各贸易伙伴的进出口总额排名如何变化。从日本称霸，到美国登顶，再到东盟崛起。",
+  "summaryEn": "Track how China's bilateral trade volumes with major partners ranked and shifted from reform and opening-up in 1978 through 2025.",
+  "sourceLabel": "中国海关总署 / 中国统计年鉴 / IMF DOTS",
+  "sourceLabelEn": "China General Administration of Customs / China Statistical Yearbook / IMF DOTS",
+  "sourceUrl": "https://www.customs.gov.cn/",
+  "sourceNote": "数据为估算序列，基于中国海关总署、IMF DOTS 及历年统计年鉴公开数据整理。1978-1991 年部分数据为趋势估计。",
+  "sourceNoteEn": "Estimated time series based on China Customs, IMF DOTS, and historical statistical yearbooks. Data before 1992 includes estimates.",
+  "unit": "当前美元",
+  "unitShort": "USD",
+  "valueKind": "currency-usd",
+  "axisRetreatThreshold": 0.18,
+  "startYear": 1978,
+  "endYear": 2025,
+  "entities": [
+    {
+      "code": "US",
+      "iso2": "US",
+      "name": "美国",
+      "nameEn": "United States",
+      "region": "北美"
+    },
+    {
+      "code": "JP",
+      "iso2": "JP",
+      "name": "日本",
+      "nameEn": "Japan",
+      "region": "东亚"
+    },
+    {
+      "code": "KR",
+      "iso2": "KR",
+      "name": "韩国",
+      "nameEn": "South Korea",
+      "region": "东亚"
+    },
+    {
+      "code": "DE",
+      "iso2": "DE",
+      "name": "德国",
+      "nameEn": "Germany",
+      "region": "欧洲"
+    },
+    {
+      "code": "AU",
+      "iso2": "AU",
+      "name": "澳大利亚",
+      "nameEn": "Australia",
+      "region": "大洋洲"
+    },
+    {
+      "code": "RU",
+      "iso2": "RU",
+      "name": "俄罗斯",
+      "nameEn": "Russia",
+      "region": "欧洲"
+    },
+    {
+      "code": "VN",
+      "iso2": "VN",
+      "name": "越南",
+      "nameEn": "Vietnam",
+      "region": "东南亚"
+    },
+    {
+      "code": "MY",
+      "iso2": "MY",
+      "name": "马来西亚",
+      "nameEn": "Malaysia",
+      "region": "东南亚"
+    },
+    {
+      "code": "SG",
+      "iso2": "SG",
+      "name": "新加坡",
+      "nameEn": "Singapore",
+      "region": "东南亚"
+    },
+    {
+      "code": "NL",
+      "iso2": "NL",
+      "name": "荷兰",
+      "nameEn": "Netherlands",
+      "region": "欧洲"
+    },
+    {
+      "code": "IN",
+      "iso2": "IN",
+      "name": "印度",
+      "nameEn": "India",
+      "region": "南亚"
+    },
+    {
+      "code": "BR",
+      "iso2": "BR",
+      "name": "巴西",
+      "nameEn": "Brazil",
+      "region": "南美"
+    },
+    {
+      "code": "TH",
+      "iso2": "TH",
+      "name": "泰国",
+      "nameEn": "Thailand",
+      "region": "东南亚"
+    },
+    {
+      "code": "ID",
+      "iso2": "ID",
+      "name": "印度尼西亚",
+      "nameEn": "Indonesia",
+      "region": "东南亚"
+    },
+    {
+      "code": "GB",
+      "iso2": "GB",
+      "name": "英国",
+      "nameEn": "United Kingdom",
+      "region": "欧洲"
+    },
+    {
+      "code": "FR",
+      "iso2": "FR",
+      "name": "法国",
+      "nameEn": "France",
+      "region": "欧洲"
+    },
+    {
+      "code": "SA",
+      "iso2": "SA",
+      "name": "沙特阿拉伯",
+      "nameEn": "Saudi Arabia",
+      "region": "中东"
+    },
+    {
+      "code": "CA",
+      "iso2": "CA",
+      "name": "加拿大",
+      "nameEn": "Canada",
+      "region": "北美"
+    }
+  ],
+  "events": [
+    {
+      "id": "e01",
+      "year": 1978,
+      "entityCode": null,
+      "kind": "milestone",
+      "title": "改革开放",
+      "titleEn": "Reform and Opening-up",
+      "description": "邓小平启动改革开放，中国经济开启快速增长",
+      "descriptionEn": "Deng Xiaoping launched reform and opening-up policy",
+      "entityName": null,
+      "rank": null
+    },
+    {
+      "id": "e02",
+      "year": 1980,
+      "entityCode": null,
+      "kind": "milestone",
+      "title": "经济特区成立",
+      "titleEn": "SEZs Established",
+      "description": "深圳、珠海、汕头、厦门设立经济特区",
+      "descriptionEn": "Shenzhen, Zhuhai, Shantou, Xiamen SEZs established",
+      "entityName": null,
+      "rank": null
+    },
+    {
+      "id": "e03",
+      "year": 1992,
+      "entityCode": "KR",
+      "kind": "diplomatic",
+      "title": "中韩建交",
+      "titleEn": "China-South Korea Diplomatic Relations",
+      "description": "中韩正式建立外交关系，双边贸易此后快速增长",
+      "descriptionEn": "Formal diplomatic ties established between China and South Korea",
+      "entityName": "韩国",
+      "rank": 7
+    },
+    {
+      "id": "e04",
+      "year": 2001,
+      "entityCode": null,
+      "kind": "milestone",
+      "title": "加入 WTO",
+      "titleEn": "WTO Accession",
+      "description": "中国正式加入世界贸易组织，外贸进入爆发期",
+      "descriptionEn": "China joined the World Trade Organization",
+      "entityName": null,
+      "rank": null
+    },
+    {
+      "id": "e05",
+      "year": 2008,
+      "entityCode": null,
+      "kind": "crisis",
+      "title": "全球金融危机",
+      "titleEn": "Global Financial Crisis",
+      "description": "全球金融危机冲击世界贸易，2009 年中国进出口大幅下滑",
+      "descriptionEn": "Global financial crisis severely impacted world trade",
+      "entityName": null,
+      "rank": null
+    },
+    {
+      "id": "e06",
+      "year": 2005,
+      "entityCode": "US",
+      "kind": "milestone",
+      "title": "美国成为最大贸易伙伴",
+      "titleEn": "US Becomes Top Trading Partner",
+      "description": "美国超越日本，成为中国的第一大贸易伙伴",
+      "descriptionEn": "US surpassed Japan to become China's largest trading partner",
+      "entityName": "美国",
+      "rank": 1
+    },
+    {
+      "id": "e07",
+      "year": 2011,
+      "entityCode": null,
+      "kind": "milestone",
+      "title": "中国成为第一出口大国",
+      "titleEn": "China Becomes Top Exporter",
+      "description": "中国超过美国成为世界第一大货物出口国",
+      "descriptionEn": "China surpassed US to become world's largest goods exporter",
+      "entityName": null,
+      "rank": null
+    },
+    {
+      "id": "e08",
+      "year": 2015,
+      "entityCode": "VN",
+      "kind": "trade",
+      "title": "越南跃升至第四",
+      "titleEn": "Vietnam Rises to 4th",
+      "description": "越南超过澳大利亚、德国，成为中国第四大贸易伙伴",
+      "descriptionEn": "Vietnam surpassed Australia and Germany to become China's 4th largest partner",
+      "entityName": "越南",
+      "rank": 7
+    },
+    {
+      "id": "e09",
+      "year": 2018,
+      "entityCode": "US",
+      "kind": "trade-war",
+      "title": "中美贸易战",
+      "titleEn": "US-China Trade War",
+      "description": "美国对华加征关税，贸易战全面爆发",
+      "descriptionEn": "US imposed tariffs on Chinese goods, full-scale trade war began",
+      "entityName": "美国",
+      "rank": 1
+    },
+    {
+      "id": "e10",
+      "year": 2020,
+      "entityCode": null,
+      "kind": "pandemic",
+      "title": "新冠疫情",
+      "titleEn": "COVID-19 Pandemic",
+      "description": "新冠疫情冲击全球供应链，但中国出口逆势增长",
+      "descriptionEn": "COVID-19 disrupted global supply chains, but China's exports grew",
+      "entityName": null,
+      "rank": null
+    },
+    {
+      "id": "e11",
+      "year": 2022,
+      "entityCode": "RU",
+      "kind": "geopolitical",
+      "title": "中俄贸易大幅增长",
+      "titleEn": "China-Russia Trade Surge",
+      "description": "俄乌冲突后，中俄贸易额创历史新高",
+      "descriptionEn": "After Russia-Ukraine conflict, China-Russia trade hit record highs",
+      "entityName": "俄罗斯",
+      "rank": 5
+    },
+    {
+      "id": "e12",
+      "year": 2024,
+      "entityCode": "RU",
+      "kind": "milestone",
+      "title": "中俄贸易突破 2400 亿",
+      "titleEn": "China-Russia Trade Exceeds $240B",
+      "description": "中俄贸易连续三年保持在 2000 亿美元以上",
+      "descriptionEn": "China-Russia bilateral trade exceeded $240 billion",
+      "entityName": "俄罗斯",
+      "rank": 5
+    }
+  ],
+  "frames": [
+    {
+      "year": 1978,
+      "total": 16300000000,
+      "items": [
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 5000000000,
+          "rank": 1,
+          "share": 0.3067484662576687,
+          "rankDelta": 0
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 3000000000,
+          "rank": 2,
+          "share": 0.18404907975460122,
+          "rankDelta": 0
+        },
+        {
+          "code": "SG",
+          "iso2": "SG",
+          "name": "新加坡",
+          "nameEn": "Singapore",
+          "region": "东南亚",
+          "value": 2000000000,
+          "rank": 3,
+          "share": 0.12269938650306748,
+          "rankDelta": 0
+        },
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 1500000000,
+          "rank": 4,
+          "share": 0.09202453987730061,
+          "rankDelta": 0
+        },
+        {
+          "code": "GB",
+          "iso2": "GB",
+          "name": "英国",
+          "nameEn": "United Kingdom",
+          "region": "欧洲",
+          "value": 1000000000,
+          "rank": 5,
+          "share": 0.06134969325153374,
+          "rankDelta": 0
+        },
+        {
+          "code": "FR",
+          "iso2": "FR",
+          "name": "法国",
+          "nameEn": "France",
+          "region": "欧洲",
+          "value": 900000000,
+          "rank": 6,
+          "share": 0.05521472392638037,
+          "rankDelta": 0
+        },
+        {
+          "code": "CA",
+          "iso2": "CA",
+          "name": "加拿大",
+          "nameEn": "Canada",
+          "region": "北美",
+          "value": 800000000,
+          "rank": 7,
+          "share": 0.049079754601226995,
+          "rankDelta": 0
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 700000000,
+          "rank": 8,
+          "share": 0.04294478527607362,
+          "rankDelta": 0
+        },
+        {
+          "code": "NL",
+          "iso2": "NL",
+          "name": "荷兰",
+          "nameEn": "Netherlands",
+          "region": "欧洲",
+          "value": 500000000,
+          "rank": 9,
+          "share": 0.03067484662576687,
+          "rankDelta": 0
+        },
+        {
+          "code": "TH",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 400000000,
+          "rank": 10,
+          "share": 0.024539877300613498,
+          "rankDelta": 0
+        },
+        {
+          "code": "ID",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 300000000,
+          "rank": 11,
+          "share": 0.018404907975460124,
+          "rankDelta": 0
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 200000000,
+          "rank": 12,
+          "share": 0.012269938650306749,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1980,
+      "total": 31400000000,
+      "items": [
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 9400000000,
+          "rank": 1,
+          "share": 0.29936305732484075,
+          "rankDelta": 0
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 5000000000,
+          "rank": 2,
+          "share": 0.1592356687898089,
+          "rankDelta": 0
+        },
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 4800000000,
+          "rank": 3,
+          "share": 0.15286624203821655,
+          "rankDelta": 1
+        },
+        {
+          "code": "SG",
+          "iso2": "SG",
+          "name": "新加坡",
+          "nameEn": "Singapore",
+          "region": "东南亚",
+          "value": 3000000000,
+          "rank": 4,
+          "share": 0.09554140127388536,
+          "rankDelta": -1
+        },
+        {
+          "code": "GB",
+          "iso2": "GB",
+          "name": "英国",
+          "nameEn": "United Kingdom",
+          "region": "欧洲",
+          "value": 2000000000,
+          "rank": 5,
+          "share": 0.06369426751592357,
+          "rankDelta": 0
+        },
+        {
+          "code": "FR",
+          "iso2": "FR",
+          "name": "法国",
+          "nameEn": "France",
+          "region": "欧洲",
+          "value": 1800000000,
+          "rank": 6,
+          "share": 0.05732484076433121,
+          "rankDelta": 0
+        },
+        {
+          "code": "CA",
+          "iso2": "CA",
+          "name": "加拿大",
+          "nameEn": "Canada",
+          "region": "北美",
+          "value": 1500000000,
+          "rank": 7,
+          "share": 0.04777070063694268,
+          "rankDelta": 0
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 1200000000,
+          "rank": 8,
+          "share": 0.03821656050955414,
+          "rankDelta": 0
+        },
+        {
+          "code": "NL",
+          "iso2": "NL",
+          "name": "荷兰",
+          "nameEn": "Netherlands",
+          "region": "欧洲",
+          "value": 900000000,
+          "rank": 9,
+          "share": 0.028662420382165606,
+          "rankDelta": 0
+        },
+        {
+          "code": "TH",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 700000000,
+          "rank": 10,
+          "share": 0.022292993630573247,
+          "rankDelta": 0
+        },
+        {
+          "code": "ID",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 600000000,
+          "rank": 11,
+          "share": 0.01910828025477707,
+          "rankDelta": 0
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 500000000,
+          "rank": 12,
+          "share": 0.01592356687898089,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1985,
+      "total": 46600000000,
+      "items": [
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 19000000000,
+          "rank": 1,
+          "share": 0.40772532188841204,
+          "rankDelta": 0
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 6000000000,
+          "rank": 2,
+          "share": 0.12875536480686695,
+          "rankDelta": 0
+        },
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 5500000000,
+          "rank": 3,
+          "share": 0.11802575107296137,
+          "rankDelta": 0
+        },
+        {
+          "code": "SG",
+          "iso2": "SG",
+          "name": "新加坡",
+          "nameEn": "Singapore",
+          "region": "东南亚",
+          "value": 3500000000,
+          "rank": 4,
+          "share": 0.07510729613733906,
+          "rankDelta": 0
+        },
+        {
+          "code": "GB",
+          "iso2": "GB",
+          "name": "英国",
+          "nameEn": "United Kingdom",
+          "region": "欧洲",
+          "value": 3000000000,
+          "rank": 5,
+          "share": 0.06437768240343347,
+          "rankDelta": 0
+        },
+        {
+          "code": "FR",
+          "iso2": "FR",
+          "name": "法国",
+          "nameEn": "France",
+          "region": "欧洲",
+          "value": 2300000000,
+          "rank": 6,
+          "share": 0.04935622317596566,
+          "rankDelta": 0
+        },
+        {
+          "code": "CA",
+          "iso2": "CA",
+          "name": "加拿大",
+          "nameEn": "Canada",
+          "region": "北美",
+          "value": 1800000000,
+          "rank": 7,
+          "share": 0.03862660944206009,
+          "rankDelta": 0
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 1500000000,
+          "rank": 8,
+          "share": 0.032188841201716736,
+          "rankDelta": 0
+        },
+        {
+          "code": "TH",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 1200000000,
+          "rank": 9,
+          "share": 0.02575107296137339,
+          "rankDelta": 1
+        },
+        {
+          "code": "NL",
+          "iso2": "NL",
+          "name": "荷兰",
+          "nameEn": "Netherlands",
+          "region": "欧洲",
+          "value": 1000000000,
+          "rank": 10,
+          "share": 0.02145922746781116,
+          "rankDelta": -1
+        },
+        {
+          "code": "ID",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 1000000000,
+          "rank": 11,
+          "share": 0.02145922746781116,
+          "rankDelta": 0
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 800000000,
+          "rank": 12,
+          "share": 0.017167381974248927,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1990,
+      "total": 55200000000,
+      "items": [
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 16000000000,
+          "rank": 1,
+          "share": 0.2898550724637681,
+          "rankDelta": 0
+        },
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 12000000000,
+          "rank": 2,
+          "share": 0.21739130434782608,
+          "rankDelta": 1
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 5500000000,
+          "rank": 3,
+          "share": 0.09963768115942029,
+          "rankDelta": -1
+        },
+        {
+          "code": "RU",
+          "iso2": "RU",
+          "name": "俄罗斯",
+          "nameEn": "Russia",
+          "region": "欧洲",
+          "value": 5000000000,
+          "rank": 4,
+          "share": 0.09057971014492754,
+          "rankDelta": 0
+        },
+        {
+          "code": "SG",
+          "iso2": "SG",
+          "name": "新加坡",
+          "nameEn": "Singapore",
+          "region": "东南亚",
+          "value": 3200000000,
+          "rank": 5,
+          "share": 0.057971014492753624,
+          "rankDelta": -1
+        },
+        {
+          "code": "GB",
+          "iso2": "GB",
+          "name": "英国",
+          "nameEn": "United Kingdom",
+          "region": "欧洲",
+          "value": 2800000000,
+          "rank": 6,
+          "share": 0.050724637681159424,
+          "rankDelta": -1
+        },
+        {
+          "code": "FR",
+          "iso2": "FR",
+          "name": "法国",
+          "nameEn": "France",
+          "region": "欧洲",
+          "value": 2200000000,
+          "rank": 7,
+          "share": 0.03985507246376811,
+          "rankDelta": -1
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 2000000000,
+          "rank": 8,
+          "share": 0.036231884057971016,
+          "rankDelta": 0
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 2000000000,
+          "rank": 9,
+          "share": 0.036231884057971016,
+          "rankDelta": 3
+        },
+        {
+          "code": "CA",
+          "iso2": "CA",
+          "name": "加拿大",
+          "nameEn": "Canada",
+          "region": "北美",
+          "value": 1800000000,
+          "rank": 10,
+          "share": 0.03260869565217391,
+          "rankDelta": -3
+        },
+        {
+          "code": "TH",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 1400000000,
+          "rank": 11,
+          "share": 0.025362318840579712,
+          "rankDelta": -2
+        },
+        {
+          "code": "ID",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 1300000000,
+          "rank": 12,
+          "share": 0.02355072463768116,
+          "rankDelta": -1
+        }
+      ]
+    },
+    {
+      "year": 1992,
+      "total": 78400000000,
+      "items": [
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 25000000000,
+          "rank": 1,
+          "share": 0.31887755102040816,
+          "rankDelta": 0
+        },
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 17000000000,
+          "rank": 2,
+          "share": 0.21683673469387754,
+          "rankDelta": 0
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 7000000000,
+          "rank": 3,
+          "share": 0.08928571428571429,
+          "rankDelta": 0
+        },
+        {
+          "code": "RU",
+          "iso2": "RU",
+          "name": "俄罗斯",
+          "nameEn": "Russia",
+          "region": "欧洲",
+          "value": 5200000000,
+          "rank": 4,
+          "share": 0.0663265306122449,
+          "rankDelta": 0
+        },
+        {
+          "code": "KR",
+          "iso2": "KR",
+          "name": "韩国",
+          "nameEn": "South Korea",
+          "region": "东亚",
+          "value": 5000000000,
+          "rank": 5,
+          "share": 0.06377551020408163,
+          "rankDelta": 0
+        },
+        {
+          "code": "SG",
+          "iso2": "SG",
+          "name": "新加坡",
+          "nameEn": "Singapore",
+          "region": "东南亚",
+          "value": 3500000000,
+          "rank": 6,
+          "share": 0.044642857142857144,
+          "rankDelta": -1
+        },
+        {
+          "code": "GB",
+          "iso2": "GB",
+          "name": "英国",
+          "nameEn": "United Kingdom",
+          "region": "欧洲",
+          "value": 3000000000,
+          "rank": 7,
+          "share": 0.03826530612244898,
+          "rankDelta": -1
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 3000000000,
+          "rank": 8,
+          "share": 0.03826530612244898,
+          "rankDelta": 0
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 3000000000,
+          "rank": 9,
+          "share": 0.03826530612244898,
+          "rankDelta": 0
+        },
+        {
+          "code": "FR",
+          "iso2": "FR",
+          "name": "法国",
+          "nameEn": "France",
+          "region": "欧洲",
+          "value": 2500000000,
+          "rank": 10,
+          "share": 0.03188775510204082,
+          "rankDelta": -3
+        },
+        {
+          "code": "CA",
+          "iso2": "CA",
+          "name": "加拿大",
+          "nameEn": "Canada",
+          "region": "北美",
+          "value": 2200000000,
+          "rank": 11,
+          "share": 0.02806122448979592,
+          "rankDelta": -1
+        },
+        {
+          "code": "TH",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 2000000000,
+          "rank": 12,
+          "share": 0.025510204081632654,
+          "rankDelta": -1
+        }
+      ]
+    },
+    {
+      "year": 1995,
+      "total": 171800000000,
+      "items": [
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 58000000000,
+          "rank": 1,
+          "share": 0.33760186263096625,
+          "rankDelta": 0
+        },
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 40800000000,
+          "rank": 2,
+          "share": 0.23748544819557627,
+          "rankDelta": 0
+        },
+        {
+          "code": "KR",
+          "iso2": "KR",
+          "name": "韩国",
+          "nameEn": "South Korea",
+          "region": "东亚",
+          "value": 17000000000,
+          "rank": 3,
+          "share": 0.0989522700814901,
+          "rankDelta": 2
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 15000000000,
+          "rank": 4,
+          "share": 0.08731082654249127,
+          "rankDelta": -1
+        },
+        {
+          "code": "SG",
+          "iso2": "SG",
+          "name": "新加坡",
+          "nameEn": "Singapore",
+          "region": "东南亚",
+          "value": 7000000000,
+          "rank": 5,
+          "share": 0.04074505238649592,
+          "rankDelta": 1
+        },
+        {
+          "code": "RU",
+          "iso2": "RU",
+          "name": "俄罗斯",
+          "nameEn": "Russia",
+          "region": "欧洲",
+          "value": 6000000000,
+          "rank": 6,
+          "share": 0.034924330616996506,
+          "rankDelta": -2
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 6000000000,
+          "rank": 7,
+          "share": 0.034924330616996506,
+          "rankDelta": 2
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 5000000000,
+          "rank": 8,
+          "share": 0.02910360884749709,
+          "rankDelta": 0
+        },
+        {
+          "code": "CA",
+          "iso2": "CA",
+          "name": "加拿大",
+          "nameEn": "Canada",
+          "region": "北美",
+          "value": 5000000000,
+          "rank": 9,
+          "share": 0.02910360884749709,
+          "rankDelta": 2
+        },
+        {
+          "code": "GB",
+          "iso2": "GB",
+          "name": "英国",
+          "nameEn": "United Kingdom",
+          "region": "欧洲",
+          "value": 4000000000,
+          "rank": 10,
+          "share": 0.023282887077997673,
+          "rankDelta": -3
+        },
+        {
+          "code": "ID",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 4000000000,
+          "rank": 11,
+          "share": 0.023282887077997673,
+          "rankDelta": 0
+        },
+        {
+          "code": "TH",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 4000000000,
+          "rank": 12,
+          "share": 0.023282887077997673,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2000,
+      "total": 293100000000,
+      "items": [
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 83100000000,
+          "rank": 1,
+          "share": 0.2835209825997953,
+          "rankDelta": 0
+        },
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 74500000000,
+          "rank": 2,
+          "share": 0.2541794609348345,
+          "rankDelta": 0
+        },
+        {
+          "code": "KR",
+          "iso2": "KR",
+          "name": "韩国",
+          "nameEn": "South Korea",
+          "region": "东亚",
+          "value": 34500000000,
+          "rank": 3,
+          "share": 0.11770726714431934,
+          "rankDelta": 0
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 29000000000,
+          "rank": 4,
+          "share": 0.0989423404981235,
+          "rankDelta": 0
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 12000000000,
+          "rank": 5,
+          "share": 0.04094165813715456,
+          "rankDelta": 2
+        },
+        {
+          "code": "SG",
+          "iso2": "SG",
+          "name": "新加坡",
+          "nameEn": "Singapore",
+          "region": "东南亚",
+          "value": 11000000000,
+          "rank": 6,
+          "share": 0.037529853292391675,
+          "rankDelta": -1
+        },
+        {
+          "code": "GB",
+          "iso2": "GB",
+          "name": "英国",
+          "nameEn": "United Kingdom",
+          "region": "欧洲",
+          "value": 10000000000,
+          "rank": 7,
+          "share": 0.03411804844762879,
+          "rankDelta": 3
+        },
+        {
+          "code": "NL",
+          "iso2": "NL",
+          "name": "荷兰",
+          "nameEn": "Netherlands",
+          "region": "欧洲",
+          "value": 9000000000,
+          "rank": 8,
+          "share": 0.030706243602865915,
+          "rankDelta": 0
+        },
+        {
+          "code": "RU",
+          "iso2": "RU",
+          "name": "俄罗斯",
+          "nameEn": "Russia",
+          "region": "欧洲",
+          "value": 8000000000,
+          "rank": 9,
+          "share": 0.027294438758103036,
+          "rankDelta": -3
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 8000000000,
+          "rank": 10,
+          "share": 0.027294438758103036,
+          "rankDelta": -2
+        },
+        {
+          "code": "TH",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 7000000000,
+          "rank": 11,
+          "share": 0.023882633913340157,
+          "rankDelta": 1
+        },
+        {
+          "code": "ID",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 7000000000,
+          "rank": 12,
+          "share": 0.023882633913340157,
+          "rankDelta": -1
+        }
+      ]
+    },
+    {
+      "year": 2001,
+      "total": 309400000000,
+      "items": [
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 88000000000,
+          "rank": 1,
+          "share": 0.2844214608920491,
+          "rankDelta": 0
+        },
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 80500000000,
+          "rank": 2,
+          "share": 0.26018099547511314,
+          "rankDelta": 0
+        },
+        {
+          "code": "KR",
+          "iso2": "KR",
+          "name": "韩国",
+          "nameEn": "South Korea",
+          "region": "东亚",
+          "value": 35900000000,
+          "rank": 3,
+          "share": 0.11603102779573368,
+          "rankDelta": 0
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 28000000000,
+          "rank": 4,
+          "share": 0.09049773755656108,
+          "rankDelta": 0
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 11000000000,
+          "rank": 5,
+          "share": 0.03555268261150614,
+          "rankDelta": 0
+        },
+        {
+          "code": "SG",
+          "iso2": "SG",
+          "name": "新加坡",
+          "nameEn": "Singapore",
+          "region": "东南亚",
+          "value": 11000000000,
+          "rank": 6,
+          "share": 0.03555268261150614,
+          "rankDelta": 0
+        },
+        {
+          "code": "RU",
+          "iso2": "RU",
+          "name": "俄罗斯",
+          "nameEn": "Russia",
+          "region": "欧洲",
+          "value": 11000000000,
+          "rank": 7,
+          "share": 0.03555268261150614,
+          "rankDelta": 2
+        },
+        {
+          "code": "NL",
+          "iso2": "NL",
+          "name": "荷兰",
+          "nameEn": "Netherlands",
+          "region": "欧洲",
+          "value": 10000000000,
+          "rank": 8,
+          "share": 0.03232062055591468,
+          "rankDelta": 0
+        },
+        {
+          "code": "GB",
+          "iso2": "GB",
+          "name": "英国",
+          "nameEn": "United Kingdom",
+          "region": "欧洲",
+          "value": 10000000000,
+          "rank": 9,
+          "share": 0.03232062055591468,
+          "rankDelta": -2
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 10000000000,
+          "rank": 10,
+          "share": 0.03232062055591468,
+          "rankDelta": 0
+        },
+        {
+          "code": "TH",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 7000000000,
+          "rank": 11,
+          "share": 0.02262443438914027,
+          "rankDelta": 0
+        },
+        {
+          "code": "ID",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 7000000000,
+          "rank": 12,
+          "share": 0.02262443438914027,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2002,
+      "total": 368700000000,
+      "items": [
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 102000000000,
+          "rank": 1,
+          "share": 0.2766476810414972,
+          "rankDelta": 0
+        },
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 97500000000,
+          "rank": 2,
+          "share": 0.2644426362896664,
+          "rankDelta": 0
+        },
+        {
+          "code": "KR",
+          "iso2": "KR",
+          "name": "韩国",
+          "nameEn": "South Korea",
+          "region": "东亚",
+          "value": 44100000000,
+          "rank": 3,
+          "share": 0.11960943856794141,
+          "rankDelta": 0
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 32800000000,
+          "rank": 4,
+          "share": 0.08896121508001086,
+          "rankDelta": 0
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 14300000000,
+          "rank": 5,
+          "share": 0.038784919989151075,
+          "rankDelta": 0
+        },
+        {
+          "code": "SG",
+          "iso2": "SG",
+          "name": "新加坡",
+          "nameEn": "Singapore",
+          "region": "东南亚",
+          "value": 14000000000,
+          "rank": 6,
+          "share": 0.03797125033902902,
+          "rankDelta": 0
+        },
+        {
+          "code": "RU",
+          "iso2": "RU",
+          "name": "俄罗斯",
+          "nameEn": "Russia",
+          "region": "欧洲",
+          "value": 12000000000,
+          "rank": 7,
+          "share": 0.03254678600488202,
+          "rankDelta": 0
+        },
+        {
+          "code": "GB",
+          "iso2": "GB",
+          "name": "英国",
+          "nameEn": "United Kingdom",
+          "region": "欧洲",
+          "value": 12000000000,
+          "rank": 8,
+          "share": 0.03254678600488202,
+          "rankDelta": 1
+        },
+        {
+          "code": "NL",
+          "iso2": "NL",
+          "name": "荷兰",
+          "nameEn": "Netherlands",
+          "region": "欧洲",
+          "value": 12000000000,
+          "rank": 9,
+          "share": 0.03254678600488202,
+          "rankDelta": -1
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 11000000000,
+          "rank": 10,
+          "share": 0.029834553837808517,
+          "rankDelta": 0
+        },
+        {
+          "code": "TH",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 9000000000,
+          "rank": 11,
+          "share": 0.024410089503661515,
+          "rankDelta": 0
+        },
+        {
+          "code": "ID",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 8000000000,
+          "rank": 12,
+          "share": 0.021697857336588012,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2003,
+      "total": 488400000000,
+      "items": [
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 134000000000,
+          "rank": 1,
+          "share": 0.27436527436527436,
+          "rankDelta": 0
+        },
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 126000000000,
+          "rank": 2,
+          "share": 0.257985257985258,
+          "rankDelta": 0
+        },
+        {
+          "code": "KR",
+          "iso2": "KR",
+          "name": "韩国",
+          "nameEn": "South Korea",
+          "region": "东亚",
+          "value": 63200000000,
+          "rank": 3,
+          "share": 0.1294021294021294,
+          "rankDelta": 0
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 42700000000,
+          "rank": 4,
+          "share": 0.08742833742833743,
+          "rankDelta": 0
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 20000000000,
+          "rank": 5,
+          "share": 0.04095004095004095,
+          "rankDelta": 0
+        },
+        {
+          "code": "SG",
+          "iso2": "SG",
+          "name": "新加坡",
+          "nameEn": "Singapore",
+          "region": "东南亚",
+          "value": 19400000000,
+          "rank": 6,
+          "share": 0.039721539721539724,
+          "rankDelta": 0
+        },
+        {
+          "code": "NL",
+          "iso2": "NL",
+          "name": "荷兰",
+          "nameEn": "Netherlands",
+          "region": "欧洲",
+          "value": 16000000000,
+          "rank": 7,
+          "share": 0.03276003276003276,
+          "rankDelta": 2
+        },
+        {
+          "code": "RU",
+          "iso2": "RU",
+          "name": "俄罗斯",
+          "nameEn": "Russia",
+          "region": "欧洲",
+          "value": 15800000000,
+          "rank": 8,
+          "share": 0.03235053235053235,
+          "rankDelta": -1
+        },
+        {
+          "code": "GB",
+          "iso2": "GB",
+          "name": "英国",
+          "nameEn": "United Kingdom",
+          "region": "欧洲",
+          "value": 14300000000,
+          "rank": 9,
+          "share": 0.02927927927927928,
+          "rankDelta": -1
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 14000000000,
+          "rank": 10,
+          "share": 0.028665028665028666,
+          "rankDelta": 0
+        },
+        {
+          "code": "TH",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 13000000000,
+          "rank": 11,
+          "share": 0.02661752661752662,
+          "rankDelta": 0
+        },
+        {
+          "code": "ID",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 10000000000,
+          "rank": 12,
+          "share": 0.020475020475020474,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2004,
+      "total": 651000000000,
+      "items": [
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 169000000000,
+          "rank": 1,
+          "share": 0.25960061443932414,
+          "rankDelta": 1
+        },
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 168000000000,
+          "rank": 2,
+          "share": 0.25806451612903225,
+          "rankDelta": -1
+        },
+        {
+          "code": "KR",
+          "iso2": "KR",
+          "name": "韩国",
+          "nameEn": "South Korea",
+          "region": "东亚",
+          "value": 90000000000,
+          "rank": 3,
+          "share": 0.1382488479262673,
+          "rankDelta": 0
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 54000000000,
+          "rank": 4,
+          "share": 0.08294930875576037,
+          "rankDelta": 0
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 27000000000,
+          "rank": 5,
+          "share": 0.041474654377880185,
+          "rankDelta": 0
+        },
+        {
+          "code": "SG",
+          "iso2": "SG",
+          "name": "新加坡",
+          "nameEn": "Singapore",
+          "region": "东南亚",
+          "value": 27000000000,
+          "rank": 6,
+          "share": 0.041474654377880185,
+          "rankDelta": 0
+        },
+        {
+          "code": "NL",
+          "iso2": "NL",
+          "name": "荷兰",
+          "nameEn": "Netherlands",
+          "region": "欧洲",
+          "value": 24000000000,
+          "rank": 7,
+          "share": 0.03686635944700461,
+          "rankDelta": 0
+        },
+        {
+          "code": "RU",
+          "iso2": "RU",
+          "name": "俄罗斯",
+          "nameEn": "Russia",
+          "region": "欧洲",
+          "value": 21000000000,
+          "rank": 8,
+          "share": 0.03225806451612903,
+          "rankDelta": 0
+        },
+        {
+          "code": "GB",
+          "iso2": "GB",
+          "name": "英国",
+          "nameEn": "United Kingdom",
+          "region": "欧洲",
+          "value": 20000000000,
+          "rank": 9,
+          "share": 0.030721966205837174,
+          "rankDelta": 0
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 20000000000,
+          "rank": 10,
+          "share": 0.030721966205837174,
+          "rankDelta": 0
+        },
+        {
+          "code": "TH",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 17000000000,
+          "rank": 11,
+          "share": 0.026113671274961597,
+          "rankDelta": 0
+        },
+        {
+          "code": "ID",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 14000000000,
+          "rank": 12,
+          "share": 0.021505376344086023,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2005,
+      "total": 786800000000,
+      "items": [
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 211500000000,
+          "rank": 1,
+          "share": 0.2688103711235384,
+          "rankDelta": 0
+        },
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 184400000000,
+          "rank": 2,
+          "share": 0.23436705643111336,
+          "rankDelta": 0
+        },
+        {
+          "code": "KR",
+          "iso2": "KR",
+          "name": "韩国",
+          "nameEn": "South Korea",
+          "region": "东亚",
+          "value": 111900000000,
+          "rank": 3,
+          "share": 0.1422216573462125,
+          "rankDelta": 0
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 63000000000,
+          "rank": 4,
+          "share": 0.0800711743772242,
+          "rankDelta": 0
+        },
+        {
+          "code": "SG",
+          "iso2": "SG",
+          "name": "新加坡",
+          "nameEn": "Singapore",
+          "region": "东南亚",
+          "value": 33000000000,
+          "rank": 5,
+          "share": 0.04194204372140315,
+          "rankDelta": 1
+        },
+        {
+          "code": "NL",
+          "iso2": "NL",
+          "name": "荷兰",
+          "nameEn": "Netherlands",
+          "region": "欧洲",
+          "value": 33000000000,
+          "rank": 6,
+          "share": 0.04194204372140315,
+          "rankDelta": 1
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 30000000000,
+          "rank": 7,
+          "share": 0.03812913065582105,
+          "rankDelta": -2
+        },
+        {
+          "code": "GB",
+          "iso2": "GB",
+          "name": "英国",
+          "nameEn": "United Kingdom",
+          "region": "欧洲",
+          "value": 28000000000,
+          "rank": 8,
+          "share": 0.03558718861209965,
+          "rankDelta": 1
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 27000000000,
+          "rank": 9,
+          "share": 0.034316217590238944,
+          "rankDelta": 1
+        },
+        {
+          "code": "RU",
+          "iso2": "RU",
+          "name": "俄罗斯",
+          "nameEn": "Russia",
+          "region": "欧洲",
+          "value": 22000000000,
+          "rank": 10,
+          "share": 0.027961362480935434,
+          "rankDelta": -2
+        },
+        {
+          "code": "TH",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 22000000000,
+          "rank": 11,
+          "share": 0.027961362480935434,
+          "rankDelta": 0
+        },
+        {
+          "code": "FR",
+          "iso2": "FR",
+          "name": "法国",
+          "nameEn": "France",
+          "region": "欧洲",
+          "value": 21000000000,
+          "rank": 12,
+          "share": 0.026690391459074734,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2006,
+      "total": 942000000000,
+      "items": [
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 263000000000,
+          "rank": 1,
+          "share": 0.2791932059447983,
+          "rankDelta": 0
+        },
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 207000000000,
+          "rank": 2,
+          "share": 0.2197452229299363,
+          "rankDelta": 0
+        },
+        {
+          "code": "KR",
+          "iso2": "KR",
+          "name": "韩国",
+          "nameEn": "South Korea",
+          "region": "东亚",
+          "value": 134000000000,
+          "rank": 3,
+          "share": 0.14225053078556263,
+          "rankDelta": 0
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 78000000000,
+          "rank": 4,
+          "share": 0.08280254777070063,
+          "rankDelta": 0
+        },
+        {
+          "code": "NL",
+          "iso2": "NL",
+          "name": "荷兰",
+          "nameEn": "Netherlands",
+          "region": "欧洲",
+          "value": 41000000000,
+          "rank": 5,
+          "share": 0.0435244161358811,
+          "rankDelta": 1
+        },
+        {
+          "code": "SG",
+          "iso2": "SG",
+          "name": "新加坡",
+          "nameEn": "Singapore",
+          "region": "东南亚",
+          "value": 37000000000,
+          "rank": 6,
+          "share": 0.03927813163481953,
+          "rankDelta": -1
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 36000000000,
+          "rank": 7,
+          "share": 0.03821656050955414,
+          "rankDelta": 0
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 33000000000,
+          "rank": 8,
+          "share": 0.03503184713375796,
+          "rankDelta": 1
+        },
+        {
+          "code": "GB",
+          "iso2": "GB",
+          "name": "英国",
+          "nameEn": "United Kingdom",
+          "region": "欧洲",
+          "value": 32000000000,
+          "rank": 9,
+          "share": 0.03397027600849257,
+          "rankDelta": -1
+        },
+        {
+          "code": "RU",
+          "iso2": "RU",
+          "name": "俄罗斯",
+          "nameEn": "Russia",
+          "region": "欧洲",
+          "value": 29000000000,
+          "rank": 10,
+          "share": 0.03078556263269639,
+          "rankDelta": 0
+        },
+        {
+          "code": "TH",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 26000000000,
+          "rank": 11,
+          "share": 0.027600849256900213,
+          "rankDelta": 0
+        },
+        {
+          "code": "FR",
+          "iso2": "FR",
+          "name": "法国",
+          "nameEn": "France",
+          "region": "欧洲",
+          "value": 26000000000,
+          "rank": 12,
+          "share": 0.027600849256900213,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2007,
+      "total": 1107000000000,
+      "items": [
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 302000000000,
+          "rank": 1,
+          "share": 0.2728093947606143,
+          "rankDelta": 0
+        },
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 236000000000,
+          "rank": 2,
+          "share": 0.21318879855465223,
+          "rankDelta": 0
+        },
+        {
+          "code": "KR",
+          "iso2": "KR",
+          "name": "韩国",
+          "nameEn": "South Korea",
+          "region": "东亚",
+          "value": 160000000000,
+          "rank": 3,
+          "share": 0.14453477868112014,
+          "rankDelta": 0
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 94000000000,
+          "rank": 4,
+          "share": 0.08491418247515808,
+          "rankDelta": 0
+        },
+        {
+          "code": "NL",
+          "iso2": "NL",
+          "name": "荷兰",
+          "nameEn": "Netherlands",
+          "region": "欧洲",
+          "value": 51000000000,
+          "rank": 5,
+          "share": 0.04607046070460705,
+          "rankDelta": 0
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 44000000000,
+          "rank": 6,
+          "share": 0.03974706413730804,
+          "rankDelta": 2
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 42000000000,
+          "rank": 7,
+          "share": 0.037940379403794036,
+          "rankDelta": 0
+        },
+        {
+          "code": "SG",
+          "iso2": "SG",
+          "name": "新加坡",
+          "nameEn": "Singapore",
+          "region": "东南亚",
+          "value": 41000000000,
+          "rank": 8,
+          "share": 0.037037037037037035,
+          "rankDelta": -2
+        },
+        {
+          "code": "RU",
+          "iso2": "RU",
+          "name": "俄罗斯",
+          "nameEn": "Russia",
+          "region": "欧洲",
+          "value": 40000000000,
+          "rank": 9,
+          "share": 0.036133694670280034,
+          "rankDelta": 1
+        },
+        {
+          "code": "GB",
+          "iso2": "GB",
+          "name": "英国",
+          "nameEn": "United Kingdom",
+          "region": "欧洲",
+          "value": 37000000000,
+          "rank": 10,
+          "share": 0.03342366757000903,
+          "rankDelta": -1
+        },
+        {
+          "code": "TH",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 31000000000,
+          "rank": 11,
+          "share": 0.028003613369467027,
+          "rankDelta": 0
+        },
+        {
+          "code": "FR",
+          "iso2": "FR",
+          "name": "法国",
+          "nameEn": "France",
+          "region": "欧洲",
+          "value": 29000000000,
+          "rank": 12,
+          "share": 0.026196928635953028,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2008,
+      "total": 1310300000000,
+      "items": [
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 333500000000,
+          "rank": 1,
+          "share": 0.25452186522170495,
+          "rankDelta": 0
+        },
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 266700000000,
+          "rank": 2,
+          "share": 0.20354117377699762,
+          "rankDelta": 0
+        },
+        {
+          "code": "KR",
+          "iso2": "KR",
+          "name": "韩国",
+          "nameEn": "South Korea",
+          "region": "东亚",
+          "value": 186100000000,
+          "rank": 3,
+          "share": 0.142028543081737,
+          "rankDelta": 0
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 105000000000,
+          "rank": 4,
+          "share": 0.08013432038464474,
+          "rankDelta": 0
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 60000000000,
+          "rank": 5,
+          "share": 0.04579104021979699,
+          "rankDelta": 1
+        },
+        {
+          "code": "NL",
+          "iso2": "NL",
+          "name": "荷兰",
+          "nameEn": "Netherlands",
+          "region": "欧洲",
+          "value": 58000000000,
+          "rank": 6,
+          "share": 0.04426467221247043,
+          "rankDelta": -1
+        },
+        {
+          "code": "RU",
+          "iso2": "RU",
+          "name": "俄罗斯",
+          "nameEn": "Russia",
+          "region": "欧洲",
+          "value": 57000000000,
+          "rank": 7,
+          "share": 0.04350148820880714,
+          "rankDelta": 2
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 53000000000,
+          "rank": 8,
+          "share": 0.04044875219415401,
+          "rankDelta": -1
+        },
+        {
+          "code": "SG",
+          "iso2": "SG",
+          "name": "新加坡",
+          "nameEn": "Singapore",
+          "region": "东南亚",
+          "value": 52000000000,
+          "rank": 9,
+          "share": 0.039685568190490725,
+          "rankDelta": -1
+        },
+        {
+          "code": "IN",
+          "iso2": "IN",
+          "name": "印度",
+          "nameEn": "India",
+          "region": "南亚",
+          "value": 52000000000,
+          "rank": 10,
+          "share": 0.039685568190490725,
+          "rankDelta": 0
+        },
+        {
+          "code": "GB",
+          "iso2": "GB",
+          "name": "英国",
+          "nameEn": "United Kingdom",
+          "region": "欧洲",
+          "value": 46000000000,
+          "rank": 11,
+          "share": 0.03510646416851103,
+          "rankDelta": -1
+        },
+        {
+          "code": "TH",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 41000000000,
+          "rank": 12,
+          "share": 0.03129054415019461,
+          "rankDelta": -1
+        }
+      ]
+    },
+    {
+      "year": 2009,
+      "total": 1121200000000,
+      "items": [
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 298500000000,
+          "rank": 1,
+          "share": 0.26623260792008563,
+          "rankDelta": 0
+        },
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 228500000000,
+          "rank": 2,
+          "share": 0.20379950053514093,
+          "rankDelta": 0
+        },
+        {
+          "code": "KR",
+          "iso2": "KR",
+          "name": "韩国",
+          "nameEn": "South Korea",
+          "region": "东亚",
+          "value": 156200000000,
+          "rank": 3,
+          "share": 0.13931501962183376,
+          "rankDelta": 0
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 91000000000,
+          "rank": 4,
+          "share": 0.08116303960042812,
+          "rankDelta": 0
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 60000000000,
+          "rank": 5,
+          "share": 0.053514092044238314,
+          "rankDelta": 0
+        },
+        {
+          "code": "NL",
+          "iso2": "NL",
+          "name": "荷兰",
+          "nameEn": "Netherlands",
+          "region": "欧洲",
+          "value": 46000000000,
+          "rank": 6,
+          "share": 0.041027470567249376,
+          "rankDelta": 0
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 44000000000,
+          "rank": 7,
+          "share": 0.0392436674991081,
+          "rankDelta": 1
+        },
+        {
+          "code": "SG",
+          "iso2": "SG",
+          "name": "新加坡",
+          "nameEn": "Singapore",
+          "region": "东南亚",
+          "value": 43000000000,
+          "rank": 8,
+          "share": 0.03835176596503746,
+          "rankDelta": 1
+        },
+        {
+          "code": "IN",
+          "iso2": "IN",
+          "name": "印度",
+          "nameEn": "India",
+          "region": "南亚",
+          "value": 43000000000,
+          "rank": 9,
+          "share": 0.03835176596503746,
+          "rankDelta": 1
+        },
+        {
+          "code": "RU",
+          "iso2": "RU",
+          "name": "俄罗斯",
+          "nameEn": "Russia",
+          "region": "欧洲",
+          "value": 39000000000,
+          "rank": 10,
+          "share": 0.03478415982875491,
+          "rankDelta": -3
+        },
+        {
+          "code": "GB",
+          "iso2": "GB",
+          "name": "英国",
+          "nameEn": "United Kingdom",
+          "region": "欧洲",
+          "value": 39000000000,
+          "rank": 11,
+          "share": 0.03478415982875491,
+          "rankDelta": 0
+        },
+        {
+          "code": "TH",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 33000000000,
+          "rank": 12,
+          "share": 0.029432750624331074,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "total": 1577000000000,
+      "items": [
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 385000000000,
+          "rank": 1,
+          "share": 0.24413443246670893,
+          "rankDelta": 0
+        },
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 297800000000,
+          "rank": 2,
+          "share": 0.1888395688015219,
+          "rankDelta": 0
+        },
+        {
+          "code": "KR",
+          "iso2": "KR",
+          "name": "韩国",
+          "nameEn": "South Korea",
+          "region": "东亚",
+          "value": 207200000000,
+          "rank": 3,
+          "share": 0.13138871274571973,
+          "rankDelta": 0
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 142000000000,
+          "rank": 4,
+          "share": 0.09004438807863031,
+          "rankDelta": 0
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 88000000000,
+          "rank": 5,
+          "share": 0.05580215599239061,
+          "rankDelta": 0
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 75000000000,
+          "rank": 6,
+          "share": 0.04755865567533291,
+          "rankDelta": 1
+        },
+        {
+          "code": "BR",
+          "iso2": "BR",
+          "name": "巴西",
+          "nameEn": "Brazil",
+          "region": "南美",
+          "value": 72000000000,
+          "rank": 7,
+          "share": 0.045656309448319596,
+          "rankDelta": 0
+        },
+        {
+          "code": "NL",
+          "iso2": "NL",
+          "name": "荷兰",
+          "nameEn": "Netherlands",
+          "region": "欧洲",
+          "value": 72000000000,
+          "rank": 8,
+          "share": 0.045656309448319596,
+          "rankDelta": -2
+        },
+        {
+          "code": "SG",
+          "iso2": "SG",
+          "name": "新加坡",
+          "nameEn": "Singapore",
+          "region": "东南亚",
+          "value": 67000000000,
+          "rank": 9,
+          "share": 0.0424857324032974,
+          "rankDelta": -1
+        },
+        {
+          "code": "IN",
+          "iso2": "IN",
+          "name": "印度",
+          "nameEn": "India",
+          "region": "南亚",
+          "value": 62000000000,
+          "rank": 10,
+          "share": 0.039315155358275206,
+          "rankDelta": -1
+        },
+        {
+          "code": "RU",
+          "iso2": "RU",
+          "name": "俄罗斯",
+          "nameEn": "Russia",
+          "region": "欧洲",
+          "value": 55000000000,
+          "rank": 11,
+          "share": 0.03487634749524413,
+          "rankDelta": -1
+        },
+        {
+          "code": "GB",
+          "iso2": "GB",
+          "name": "英国",
+          "nameEn": "United Kingdom",
+          "region": "欧洲",
+          "value": 54000000000,
+          "rank": 12,
+          "share": 0.03424223208623969,
+          "rankDelta": -1
+        }
+      ]
+    },
+    {
+      "year": 2011,
+      "total": 1850000000000,
+      "items": [
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 445000000000,
+          "rank": 1,
+          "share": 0.24054054054054055,
+          "rankDelta": 0
+        },
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 345000000000,
+          "rank": 2,
+          "share": 0.1864864864864865,
+          "rankDelta": 0
+        },
+        {
+          "code": "KR",
+          "iso2": "KR",
+          "name": "韩国",
+          "nameEn": "South Korea",
+          "region": "东亚",
+          "value": 245000000000,
+          "rank": 3,
+          "share": 0.13243243243243244,
+          "rankDelta": 0
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 168000000000,
+          "rank": 4,
+          "share": 0.09081081081081081,
+          "rankDelta": 0
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 117000000000,
+          "rank": 5,
+          "share": 0.06324324324324325,
+          "rankDelta": 0
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 86000000000,
+          "rank": 6,
+          "share": 0.046486486486486484,
+          "rankDelta": 0
+        },
+        {
+          "code": "BR",
+          "iso2": "BR",
+          "name": "巴西",
+          "nameEn": "Brazil",
+          "region": "南美",
+          "value": 81000000000,
+          "rank": 7,
+          "share": 0.04378378378378378,
+          "rankDelta": 0
+        },
+        {
+          "code": "NL",
+          "iso2": "NL",
+          "name": "荷兰",
+          "nameEn": "Netherlands",
+          "region": "欧洲",
+          "value": 79000000000,
+          "rank": 8,
+          "share": 0.042702702702702704,
+          "rankDelta": 0
+        },
+        {
+          "code": "RU",
+          "iso2": "RU",
+          "name": "俄罗斯",
+          "nameEn": "Russia",
+          "region": "欧洲",
+          "value": 78000000000,
+          "rank": 9,
+          "share": 0.04216216216216216,
+          "rankDelta": 2
+        },
+        {
+          "code": "SG",
+          "iso2": "SG",
+          "name": "新加坡",
+          "nameEn": "Singapore",
+          "region": "东南亚",
+          "value": 74000000000,
+          "rank": 10,
+          "share": 0.04,
+          "rankDelta": -1
+        },
+        {
+          "code": "IN",
+          "iso2": "IN",
+          "name": "印度",
+          "nameEn": "India",
+          "region": "南亚",
+          "value": 72000000000,
+          "rank": 11,
+          "share": 0.03891891891891892,
+          "rankDelta": -1
+        },
+        {
+          "code": "TH",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 60000000000,
+          "rank": 12,
+          "share": 0.032432432432432434,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2012,
+      "total": 1890000000000,
+      "items": [
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 485000000000,
+          "rank": 1,
+          "share": 0.2566137566137566,
+          "rankDelta": 0
+        },
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 328000000000,
+          "rank": 2,
+          "share": 0.17354497354497356,
+          "rankDelta": 0
+        },
+        {
+          "code": "KR",
+          "iso2": "KR",
+          "name": "韩国",
+          "nameEn": "South Korea",
+          "region": "东亚",
+          "value": 256000000000,
+          "rank": 3,
+          "share": 0.13544973544973546,
+          "rankDelta": 0
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 161000000000,
+          "rank": 4,
+          "share": 0.08518518518518518,
+          "rankDelta": 0
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 122000000000,
+          "rank": 5,
+          "share": 0.06455026455026455,
+          "rankDelta": 0
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 87000000000,
+          "rank": 6,
+          "share": 0.046031746031746035,
+          "rankDelta": 0
+        },
+        {
+          "code": "BR",
+          "iso2": "BR",
+          "name": "巴西",
+          "nameEn": "Brazil",
+          "region": "南美",
+          "value": 86000000000,
+          "rank": 7,
+          "share": 0.0455026455026455,
+          "rankDelta": 0
+        },
+        {
+          "code": "RU",
+          "iso2": "RU",
+          "name": "俄罗斯",
+          "nameEn": "Russia",
+          "region": "欧洲",
+          "value": 83000000000,
+          "rank": 8,
+          "share": 0.043915343915343914,
+          "rankDelta": 1
+        },
+        {
+          "code": "NL",
+          "iso2": "NL",
+          "name": "荷兰",
+          "nameEn": "Netherlands",
+          "region": "欧洲",
+          "value": 76000000000,
+          "rank": 9,
+          "share": 0.04021164021164021,
+          "rankDelta": -1
+        },
+        {
+          "code": "SG",
+          "iso2": "SG",
+          "name": "新加坡",
+          "nameEn": "Singapore",
+          "region": "东南亚",
+          "value": 75000000000,
+          "rank": 10,
+          "share": 0.03968253968253968,
+          "rankDelta": 0
+        },
+        {
+          "code": "IN",
+          "iso2": "IN",
+          "name": "印度",
+          "nameEn": "India",
+          "region": "南亚",
+          "value": 67000000000,
+          "rank": 11,
+          "share": 0.035449735449735446,
+          "rankDelta": 0
+        },
+        {
+          "code": "TH",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 64000000000,
+          "rank": 12,
+          "share": 0.033862433862433865,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "total": 2005000000000,
+      "items": [
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 521000000000,
+          "rank": 1,
+          "share": 0.2598503740648379,
+          "rankDelta": 0
+        },
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 312000000000,
+          "rank": 2,
+          "share": 0.15561097256857856,
+          "rankDelta": 0
+        },
+        {
+          "code": "KR",
+          "iso2": "KR",
+          "name": "韩国",
+          "nameEn": "South Korea",
+          "region": "东亚",
+          "value": 274000000000,
+          "rank": 3,
+          "share": 0.13665835411471322,
+          "rankDelta": 0
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 161000000000,
+          "rank": 4,
+          "share": 0.08029925187032419,
+          "rankDelta": 0
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 136000000000,
+          "rank": 5,
+          "share": 0.06783042394014963,
+          "rankDelta": 0
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 106000000000,
+          "rank": 6,
+          "share": 0.05286783042394015,
+          "rankDelta": 0
+        },
+        {
+          "code": "SG",
+          "iso2": "SG",
+          "name": "新加坡",
+          "nameEn": "Singapore",
+          "region": "东南亚",
+          "value": 91000000000,
+          "rank": 7,
+          "share": 0.045386533665835414,
+          "rankDelta": 3
+        },
+        {
+          "code": "BR",
+          "iso2": "BR",
+          "name": "巴西",
+          "nameEn": "Brazil",
+          "region": "南美",
+          "value": 90000000000,
+          "rank": 8,
+          "share": 0.04488778054862843,
+          "rankDelta": -1
+        },
+        {
+          "code": "RU",
+          "iso2": "RU",
+          "name": "俄罗斯",
+          "nameEn": "Russia",
+          "region": "欧洲",
+          "value": 89000000000,
+          "rank": 9,
+          "share": 0.044389027431421445,
+          "rankDelta": -1
+        },
+        {
+          "code": "NL",
+          "iso2": "NL",
+          "name": "荷兰",
+          "nameEn": "Netherlands",
+          "region": "欧洲",
+          "value": 85000000000,
+          "rank": 10,
+          "share": 0.04239401496259352,
+          "rankDelta": -1
+        },
+        {
+          "code": "TH",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 72000000000,
+          "rank": 11,
+          "share": 0.035910224438902745,
+          "rankDelta": 1
+        },
+        {
+          "code": "IN",
+          "iso2": "IN",
+          "name": "印度",
+          "nameEn": "India",
+          "region": "南亚",
+          "value": 68000000000,
+          "rank": 12,
+          "share": 0.03391521197007481,
+          "rankDelta": -1
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "total": 2082000000000,
+      "items": [
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 555000000000,
+          "rank": 1,
+          "share": 0.2665706051873199,
+          "rankDelta": 0
+        },
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 307000000000,
+          "rank": 2,
+          "share": 0.14745437079731027,
+          "rankDelta": 0
+        },
+        {
+          "code": "KR",
+          "iso2": "KR",
+          "name": "韩国",
+          "nameEn": "South Korea",
+          "region": "东亚",
+          "value": 290000000000,
+          "rank": 3,
+          "share": 0.13928914505283382,
+          "rankDelta": 0
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 178000000000,
+          "rank": 4,
+          "share": 0.08549471661863593,
+          "rankDelta": 0
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 137000000000,
+          "rank": 5,
+          "share": 0.06580211335254563,
+          "rankDelta": 0
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 102000000000,
+          "rank": 6,
+          "share": 0.04899135446685879,
+          "rankDelta": 0
+        },
+        {
+          "code": "BR",
+          "iso2": "BR",
+          "name": "巴西",
+          "nameEn": "Brazil",
+          "region": "南美",
+          "value": 97000000000,
+          "rank": 7,
+          "share": 0.046589817483189244,
+          "rankDelta": 1
+        },
+        {
+          "code": "SG",
+          "iso2": "SG",
+          "name": "新加坡",
+          "nameEn": "Singapore",
+          "region": "东南亚",
+          "value": 96000000000,
+          "rank": 8,
+          "share": 0.04610951008645533,
+          "rankDelta": -1
+        },
+        {
+          "code": "RU",
+          "iso2": "RU",
+          "name": "俄罗斯",
+          "nameEn": "Russia",
+          "region": "欧洲",
+          "value": 95000000000,
+          "rank": 9,
+          "share": 0.04562920268972142,
+          "rankDelta": 0
+        },
+        {
+          "code": "NL",
+          "iso2": "NL",
+          "name": "荷兰",
+          "nameEn": "Netherlands",
+          "region": "欧洲",
+          "value": 82000000000,
+          "rank": 10,
+          "share": 0.0393852065321806,
+          "rankDelta": 0
+        },
+        {
+          "code": "TH",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 72000000000,
+          "rank": 11,
+          "share": 0.0345821325648415,
+          "rankDelta": 0
+        },
+        {
+          "code": "IN",
+          "iso2": "IN",
+          "name": "印度",
+          "nameEn": "India",
+          "region": "南亚",
+          "value": 71000000000,
+          "rank": 12,
+          "share": 0.034101825168107586,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "total": 1947500000000,
+      "items": [
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 558400000000,
+          "rank": 1,
+          "share": 0.2867265725288832,
+          "rankDelta": 0
+        },
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 278600000000,
+          "rank": 2,
+          "share": 0.14305519897304236,
+          "rankDelta": 0
+        },
+        {
+          "code": "KR",
+          "iso2": "KR",
+          "name": "韩国",
+          "nameEn": "South Korea",
+          "region": "东亚",
+          "value": 275800000000,
+          "rank": 3,
+          "share": 0.14161745827984595,
+          "rankDelta": 0
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 156800000000,
+          "rank": 4,
+          "share": 0.08051347881899872,
+          "rankDelta": 0
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 113900000000,
+          "rank": 5,
+          "share": 0.05848523748395379,
+          "rankDelta": 0
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 97000000000,
+          "rank": 6,
+          "share": 0.04980744544287548,
+          "rankDelta": 0
+        },
+        {
+          "code": "VN",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 96000000000,
+          "rank": 7,
+          "share": 0.049293966623876764,
+          "rankDelta": 0
+        },
+        {
+          "code": "SG",
+          "iso2": "SG",
+          "name": "新加坡",
+          "nameEn": "Singapore",
+          "region": "东南亚",
+          "value": 88000000000,
+          "rank": 8,
+          "share": 0.04518613607188703,
+          "rankDelta": 0
+        },
+        {
+          "code": "NL",
+          "iso2": "NL",
+          "name": "荷兰",
+          "nameEn": "Netherlands",
+          "region": "欧洲",
+          "value": 77000000000,
+          "rank": 9,
+          "share": 0.03953786906290115,
+          "rankDelta": 1
+        },
+        {
+          "code": "IN",
+          "iso2": "IN",
+          "name": "印度",
+          "nameEn": "India",
+          "region": "南亚",
+          "value": 72000000000,
+          "rank": 10,
+          "share": 0.03697047496790758,
+          "rankDelta": 2
+        },
+        {
+          "code": "RU",
+          "iso2": "RU",
+          "name": "俄罗斯",
+          "nameEn": "Russia",
+          "region": "欧洲",
+          "value": 68000000000,
+          "rank": 11,
+          "share": 0.03491655969191271,
+          "rankDelta": -2
+        },
+        {
+          "code": "BR",
+          "iso2": "BR",
+          "name": "巴西",
+          "nameEn": "Brazil",
+          "region": "南美",
+          "value": 66000000000,
+          "rank": 12,
+          "share": 0.03388960205391527,
+          "rankDelta": -5
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "total": 1879000000000,
+      "items": [
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 520000000000,
+          "rank": 1,
+          "share": 0.2767429483767962,
+          "rankDelta": 0
+        },
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 275000000000,
+          "rank": 2,
+          "share": 0.14635444385311336,
+          "rankDelta": 0
+        },
+        {
+          "code": "KR",
+          "iso2": "KR",
+          "name": "韩国",
+          "nameEn": "South Korea",
+          "region": "东亚",
+          "value": 264000000000,
+          "rank": 3,
+          "share": 0.14050026609898883,
+          "rankDelta": 0
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 152000000000,
+          "rank": 4,
+          "share": 0.0808940926024481,
+          "rankDelta": 0
+        },
+        {
+          "code": "VN",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 111000000000,
+          "rank": 5,
+          "share": 0.05907397551889303,
+          "rankDelta": 2
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 108000000000,
+          "rank": 6,
+          "share": 0.05747738158594997,
+          "rankDelta": -1
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 91000000000,
+          "rank": 7,
+          "share": 0.04843001596593933,
+          "rankDelta": -1
+        },
+        {
+          "code": "SG",
+          "iso2": "SG",
+          "name": "新加坡",
+          "nameEn": "Singapore",
+          "region": "东南亚",
+          "value": 82000000000,
+          "rank": 8,
+          "share": 0.043640234167110166,
+          "rankDelta": 0
+        },
+        {
+          "code": "IN",
+          "iso2": "IN",
+          "name": "印度",
+          "nameEn": "India",
+          "region": "南亚",
+          "value": 71000000000,
+          "rank": 9,
+          "share": 0.03778605641298563,
+          "rankDelta": 1
+        },
+        {
+          "code": "RU",
+          "iso2": "RU",
+          "name": "俄罗斯",
+          "nameEn": "Russia",
+          "region": "欧洲",
+          "value": 69000000000,
+          "rank": 10,
+          "share": 0.036721660457690264,
+          "rankDelta": 1
+        },
+        {
+          "code": "BR",
+          "iso2": "BR",
+          "name": "巴西",
+          "nameEn": "Brazil",
+          "region": "南美",
+          "value": 68000000000,
+          "rank": 11,
+          "share": 0.036189462480042574,
+          "rankDelta": 1
+        },
+        {
+          "code": "NL",
+          "iso2": "NL",
+          "name": "荷兰",
+          "nameEn": "Netherlands",
+          "region": "欧洲",
+          "value": 68000000000,
+          "rank": 12,
+          "share": 0.036189462480042574,
+          "rankDelta": -3
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "total": 2145000000000,
+      "items": [
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 584000000000,
+          "rank": 1,
+          "share": 0.27226107226107227,
+          "rankDelta": 0
+        },
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 303000000000,
+          "rank": 2,
+          "share": 0.14125874125874127,
+          "rankDelta": 0
+        },
+        {
+          "code": "KR",
+          "iso2": "KR",
+          "name": "韩国",
+          "nameEn": "South Korea",
+          "region": "东亚",
+          "value": 279000000000,
+          "rank": 3,
+          "share": 0.13006993006993006,
+          "rankDelta": 0
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 168000000000,
+          "rank": 4,
+          "share": 0.07832167832167833,
+          "rankDelta": 0
+        },
+        {
+          "code": "VN",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 137000000000,
+          "rank": 5,
+          "share": 0.06386946386946386,
+          "rankDelta": 0
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 136000000000,
+          "rank": 6,
+          "share": 0.06340326340326341,
+          "rankDelta": 0
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 110000000000,
+          "rank": 7,
+          "share": 0.05128205128205128,
+          "rankDelta": 0
+        },
+        {
+          "code": "SG",
+          "iso2": "SG",
+          "name": "新加坡",
+          "nameEn": "Singapore",
+          "region": "东南亚",
+          "value": 91000000000,
+          "rank": 8,
+          "share": 0.04242424242424243,
+          "rankDelta": 0
+        },
+        {
+          "code": "BR",
+          "iso2": "BR",
+          "name": "巴西",
+          "nameEn": "Brazil",
+          "region": "南美",
+          "value": 88000000000,
+          "rank": 9,
+          "share": 0.041025641025641026,
+          "rankDelta": 2
+        },
+        {
+          "code": "RU",
+          "iso2": "RU",
+          "name": "俄罗斯",
+          "nameEn": "Russia",
+          "region": "欧洲",
+          "value": 87000000000,
+          "rank": 10,
+          "share": 0.04055944055944056,
+          "rankDelta": 0
+        },
+        {
+          "code": "IN",
+          "iso2": "IN",
+          "name": "印度",
+          "nameEn": "India",
+          "region": "南亚",
+          "value": 84000000000,
+          "rank": 11,
+          "share": 0.039160839160839164,
+          "rankDelta": -2
+        },
+        {
+          "code": "NL",
+          "iso2": "NL",
+          "name": "荷兰",
+          "nameEn": "Netherlands",
+          "region": "欧洲",
+          "value": 78000000000,
+          "rank": 12,
+          "share": 0.03636363636363636,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "total": 2373500000000,
+      "items": [
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 633400000000,
+          "rank": 1,
+          "share": 0.2668632820728881,
+          "rankDelta": 0
+        },
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 327000000000,
+          "rank": 2,
+          "share": 0.13777122393090374,
+          "rankDelta": 0
+        },
+        {
+          "code": "KR",
+          "iso2": "KR",
+          "name": "韩国",
+          "nameEn": "South Korea",
+          "region": "东亚",
+          "value": 313400000000,
+          "rank": 3,
+          "share": 0.1320412892353065,
+          "rankDelta": 0
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 183700000000,
+          "rank": 4,
+          "share": 0.07739625026332421,
+          "rankDelta": 0
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 152000000000,
+          "rank": 5,
+          "share": 0.06404044659785127,
+          "rankDelta": 1
+        },
+        {
+          "code": "VN",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 147000000000,
+          "rank": 6,
+          "share": 0.061933852959764064,
+          "rankDelta": -1
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 109000000000,
+          "rank": 7,
+          "share": 0.04592374131030124,
+          "rankDelta": 0
+        },
+        {
+          "code": "BR",
+          "iso2": "BR",
+          "name": "巴西",
+          "nameEn": "Brazil",
+          "region": "南美",
+          "value": 108000000000,
+          "rank": 8,
+          "share": 0.0455024225826838,
+          "rankDelta": 1
+        },
+        {
+          "code": "RU",
+          "iso2": "RU",
+          "name": "俄罗斯",
+          "nameEn": "Russia",
+          "region": "欧洲",
+          "value": 107000000000,
+          "rank": 9,
+          "share": 0.045081103855066355,
+          "rankDelta": 1
+        },
+        {
+          "code": "NL",
+          "iso2": "NL",
+          "name": "荷兰",
+          "nameEn": "Netherlands",
+          "region": "欧洲",
+          "value": 100000000000,
+          "rank": 10,
+          "share": 0.04213187276174426,
+          "rankDelta": 2
+        },
+        {
+          "code": "SG",
+          "iso2": "SG",
+          "name": "新加坡",
+          "nameEn": "Singapore",
+          "region": "东南亚",
+          "value": 97000000000,
+          "rank": 11,
+          "share": 0.04086791657889193,
+          "rankDelta": -3
+        },
+        {
+          "code": "IN",
+          "iso2": "IN",
+          "name": "印度",
+          "nameEn": "India",
+          "region": "南亚",
+          "value": 96000000000,
+          "rank": 12,
+          "share": 0.04044659785127449,
+          "rankDelta": -1
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "total": 2293000000000,
+      "items": [
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 541000000000,
+          "rank": 1,
+          "share": 0.23593545573484517,
+          "rankDelta": 0
+        },
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 305000000000,
+          "rank": 2,
+          "share": 0.13301351940689055,
+          "rankDelta": 0
+        },
+        {
+          "code": "KR",
+          "iso2": "KR",
+          "name": "韩国",
+          "nameEn": "South Korea",
+          "region": "东亚",
+          "value": 284000000000,
+          "rank": 3,
+          "share": 0.12385521151330135,
+          "rankDelta": 0
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 185000000000,
+          "rank": 4,
+          "share": 0.08068033144352377,
+          "rankDelta": 0
+        },
+        {
+          "code": "VN",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 183000000000,
+          "rank": 5,
+          "share": 0.07980811164413432,
+          "rankDelta": 1
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 158000000000,
+          "rank": 6,
+          "share": 0.06890536415176625,
+          "rankDelta": -1
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 124000000000,
+          "rank": 7,
+          "share": 0.05407762756214566,
+          "rankDelta": 0
+        },
+        {
+          "code": "RU",
+          "iso2": "RU",
+          "name": "俄罗斯",
+          "nameEn": "Russia",
+          "region": "欧洲",
+          "value": 111000000000,
+          "rank": 8,
+          "share": 0.04840819886611426,
+          "rankDelta": 1
+        },
+        {
+          "code": "BR",
+          "iso2": "BR",
+          "name": "巴西",
+          "nameEn": "Brazil",
+          "region": "南美",
+          "value": 109000000000,
+          "rank": 9,
+          "share": 0.04753597906672481,
+          "rankDelta": -1
+        },
+        {
+          "code": "SG",
+          "iso2": "SG",
+          "name": "新加坡",
+          "nameEn": "Singapore",
+          "region": "东南亚",
+          "value": 104000000000,
+          "rank": 10,
+          "share": 0.0453554295682512,
+          "rankDelta": 1
+        },
+        {
+          "code": "NL",
+          "iso2": "NL",
+          "name": "荷兰",
+          "nameEn": "Netherlands",
+          "region": "欧洲",
+          "value": 96000000000,
+          "rank": 11,
+          "share": 0.041866550370693416,
+          "rankDelta": -1
+        },
+        {
+          "code": "IN",
+          "iso2": "IN",
+          "name": "印度",
+          "nameEn": "India",
+          "region": "南亚",
+          "value": 93000000000,
+          "rank": 12,
+          "share": 0.040558220671609246,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "total": 2382500000000,
+      "items": [
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 560000000000,
+          "rank": 1,
+          "share": 0.23504721930745015,
+          "rankDelta": 0
+        },
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 317500000000,
+          "rank": 2,
+          "share": 0.13326337880377753,
+          "rankDelta": 0
+        },
+        {
+          "code": "KR",
+          "iso2": "KR",
+          "name": "韩国",
+          "nameEn": "South Korea",
+          "region": "东亚",
+          "value": 285000000000,
+          "rank": 3,
+          "share": 0.11962224554039874,
+          "rankDelta": 0
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 193000000000,
+          "rank": 4,
+          "share": 0.08100734522560336,
+          "rankDelta": 0
+        },
+        {
+          "code": "VN",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 192000000000,
+          "rank": 5,
+          "share": 0.08058761804826862,
+          "rankDelta": 0
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 168000000000,
+          "rank": 6,
+          "share": 0.07051416579223505,
+          "rankDelta": 0
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 131000000000,
+          "rank": 7,
+          "share": 0.05498426023084995,
+          "rankDelta": 0
+        },
+        {
+          "code": "BR",
+          "iso2": "BR",
+          "name": "巴西",
+          "nameEn": "Brazil",
+          "region": "南美",
+          "value": 120000000000,
+          "rank": 8,
+          "share": 0.05036726128016789,
+          "rankDelta": 1
+        },
+        {
+          "code": "RU",
+          "iso2": "RU",
+          "name": "俄罗斯",
+          "nameEn": "Russia",
+          "region": "欧洲",
+          "value": 107000000000,
+          "rank": 9,
+          "share": 0.04491080797481637,
+          "rankDelta": -1
+        },
+        {
+          "code": "SG",
+          "iso2": "SG",
+          "name": "新加坡",
+          "nameEn": "Singapore",
+          "region": "东南亚",
+          "value": 106000000000,
+          "rank": 10,
+          "share": 0.04449108079748164,
+          "rankDelta": 0
+        },
+        {
+          "code": "NL",
+          "iso2": "NL",
+          "name": "荷兰",
+          "nameEn": "Netherlands",
+          "region": "欧洲",
+          "value": 104000000000,
+          "rank": 11,
+          "share": 0.043651626442812175,
+          "rankDelta": 0
+        },
+        {
+          "code": "TH",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 99000000000,
+          "rank": 12,
+          "share": 0.04155299055613851,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "total": 2866000000000,
+      "items": [
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 657000000000,
+          "rank": 1,
+          "share": 0.2292393579902303,
+          "rankDelta": 0
+        },
+        {
+          "code": "KR",
+          "iso2": "KR",
+          "name": "韩国",
+          "nameEn": "South Korea",
+          "region": "东亚",
+          "value": 361000000000,
+          "rank": 2,
+          "share": 0.12595952547103978,
+          "rankDelta": 1
+        },
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 353000000000,
+          "rank": 3,
+          "share": 0.1231681786461968,
+          "rankDelta": -1
+        },
+        {
+          "code": "VN",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 230000000000,
+          "rank": 4,
+          "share": 0.08025122121423586,
+          "rankDelta": 1
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 222000000000,
+          "rank": 5,
+          "share": 0.07745987438939288,
+          "rankDelta": -1
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 208000000000,
+          "rank": 6,
+          "share": 0.07257501744591766,
+          "rankDelta": 0
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 175000000000,
+          "rank": 7,
+          "share": 0.06106071179344034,
+          "rankDelta": 0
+        },
+        {
+          "code": "BR",
+          "iso2": "BR",
+          "name": "巴西",
+          "nameEn": "Brazil",
+          "region": "南美",
+          "value": 156000000000,
+          "rank": 8,
+          "share": 0.05443126308443824,
+          "rankDelta": 0
+        },
+        {
+          "code": "RU",
+          "iso2": "RU",
+          "name": "俄罗斯",
+          "nameEn": "Russia",
+          "region": "欧洲",
+          "value": 147000000000,
+          "rank": 9,
+          "share": 0.05129099790648988,
+          "rankDelta": 0
+        },
+        {
+          "code": "TH",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 131000000000,
+          "rank": 10,
+          "share": 0.04570830425680391,
+          "rankDelta": 2
+        },
+        {
+          "code": "NL",
+          "iso2": "NL",
+          "name": "荷兰",
+          "nameEn": "Netherlands",
+          "region": "欧洲",
+          "value": 116000000000,
+          "rank": 11,
+          "share": 0.040474528960223306,
+          "rankDelta": 0
+        },
+        {
+          "code": "SG",
+          "iso2": "SG",
+          "name": "新加坡",
+          "nameEn": "Singapore",
+          "region": "东南亚",
+          "value": 110000000000,
+          "rank": 12,
+          "share": 0.03838101884159107,
+          "rankDelta": -2
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "total": 3067200000000,
+      "items": [
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 690600000000,
+          "rank": 1,
+          "share": 0.2251564945226917,
+          "rankDelta": 0
+        },
+        {
+          "code": "KR",
+          "iso2": "KR",
+          "name": "韩国",
+          "nameEn": "South Korea",
+          "region": "东亚",
+          "value": 362300000000,
+          "rank": 2,
+          "share": 0.1181207616066771,
+          "rankDelta": 0
+        },
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 357300000000,
+          "rank": 3,
+          "share": 0.1164906103286385,
+          "rankDelta": 0
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 246000000000,
+          "rank": 4,
+          "share": 0.08020344287949922,
+          "rankDelta": 1
+        },
+        {
+          "code": "VN",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 234000000000,
+          "rank": 5,
+          "share": 0.07629107981220658,
+          "rankDelta": -1
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 213000000000,
+          "rank": 6,
+          "share": 0.06944444444444445,
+          "rankDelta": 0
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 203000000000,
+          "rank": 7,
+          "share": 0.06618414188836724,
+          "rankDelta": 0
+        },
+        {
+          "code": "RU",
+          "iso2": "RU",
+          "name": "俄罗斯",
+          "nameEn": "Russia",
+          "region": "欧洲",
+          "value": 190000000000,
+          "rank": 8,
+          "share": 0.06194574856546688,
+          "rankDelta": 1
+        },
+        {
+          "code": "BR",
+          "iso2": "BR",
+          "name": "巴西",
+          "nameEn": "Brazil",
+          "region": "南美",
+          "value": 171000000000,
+          "rank": 9,
+          "share": 0.05575117370892019,
+          "rankDelta": -1
+        },
+        {
+          "code": "ID",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 149000000000,
+          "rank": 10,
+          "share": 0.04857850808555034,
+          "rankDelta": 0
+        },
+        {
+          "code": "TH",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 135000000000,
+          "rank": 11,
+          "share": 0.04401408450704225,
+          "rankDelta": -1
+        },
+        {
+          "code": "SA",
+          "iso2": "SA",
+          "name": "沙特阿拉伯",
+          "nameEn": "Saudi Arabia",
+          "region": "中东",
+          "value": 116000000000,
+          "rank": 12,
+          "share": 0.03781950965049557,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "total": 3026000000000,
+      "items": [
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 575000000000,
+          "rank": 1,
+          "share": 0.1900198281559815,
+          "rankDelta": 0
+        },
+        {
+          "code": "KR",
+          "iso2": "KR",
+          "name": "韩国",
+          "nameEn": "South Korea",
+          "region": "东亚",
+          "value": 346000000000,
+          "rank": 2,
+          "share": 0.11434236615994713,
+          "rankDelta": 0
+        },
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 330000000000,
+          "rank": 3,
+          "share": 0.10905485789821547,
+          "rankDelta": 0
+        },
+        {
+          "code": "VN",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 250000000000,
+          "rank": 4,
+          "share": 0.08261731658955718,
+          "rankDelta": 1
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 240000000000,
+          "rank": 5,
+          "share": 0.07931262392597488,
+          "rankDelta": -1
+        },
+        {
+          "code": "RU",
+          "iso2": "RU",
+          "name": "俄罗斯",
+          "nameEn": "Russia",
+          "region": "欧洲",
+          "value": 240000000000,
+          "rank": 6,
+          "share": 0.07931262392597488,
+          "rankDelta": 2
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 225000000000,
+          "rank": 7,
+          "share": 0.07435558493060146,
+          "rankDelta": -1
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 210000000000,
+          "rank": 8,
+          "share": 0.06939854593522803,
+          "rankDelta": -1
+        },
+        {
+          "code": "BR",
+          "iso2": "BR",
+          "name": "巴西",
+          "nameEn": "Brazil",
+          "region": "南美",
+          "value": 180000000000,
+          "rank": 9,
+          "share": 0.059484467944481166,
+          "rankDelta": 0
+        },
+        {
+          "code": "ID",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 160000000000,
+          "rank": 10,
+          "share": 0.05287508261731659,
+          "rankDelta": 0
+        },
+        {
+          "code": "TH",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 140000000000,
+          "rank": 11,
+          "share": 0.046265697290152015,
+          "rankDelta": 0
+        },
+        {
+          "code": "SA",
+          "iso2": "SA",
+          "name": "沙特阿拉伯",
+          "nameEn": "Saudi Arabia",
+          "region": "中东",
+          "value": 130000000000,
+          "rank": 12,
+          "share": 0.04296100462656973,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "total": 2936000000000,
+      "items": [
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 570000000000,
+          "rank": 1,
+          "share": 0.194141689373297,
+          "rankDelta": 0
+        },
+        {
+          "code": "KR",
+          "iso2": "KR",
+          "name": "韩国",
+          "nameEn": "South Korea",
+          "region": "东亚",
+          "value": 320000000000,
+          "rank": 2,
+          "share": 0.10899182561307902,
+          "rankDelta": 0
+        },
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 310000000000,
+          "rank": 3,
+          "share": 0.1055858310626703,
+          "rankDelta": 0
+        },
+        {
+          "code": "VN",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 260000000000,
+          "rank": 4,
+          "share": 0.0885558583106267,
+          "rankDelta": 0
+        },
+        {
+          "code": "RU",
+          "iso2": "RU",
+          "name": "俄罗斯",
+          "nameEn": "Russia",
+          "region": "欧洲",
+          "value": 244000000000,
+          "rank": 5,
+          "share": 0.08310626702997276,
+          "rankDelta": 1
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 220000000000,
+          "rank": 6,
+          "share": 0.07493188010899182,
+          "rankDelta": -1
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 212000000000,
+          "rank": 7,
+          "share": 0.07220708446866485,
+          "rankDelta": 1
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 210000000000,
+          "rank": 8,
+          "share": 0.07152588555858311,
+          "rankDelta": -1
+        },
+        {
+          "code": "BR",
+          "iso2": "BR",
+          "name": "巴西",
+          "nameEn": "Brazil",
+          "region": "南美",
+          "value": 165000000000,
+          "rank": 9,
+          "share": 0.056198910081743866,
+          "rankDelta": 0
+        },
+        {
+          "code": "ID",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 155000000000,
+          "rank": 10,
+          "share": 0.05279291553133515,
+          "rankDelta": 0
+        },
+        {
+          "code": "TH",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 140000000000,
+          "rank": 11,
+          "share": 0.047683923705722074,
+          "rankDelta": 0
+        },
+        {
+          "code": "IN",
+          "iso2": "IN",
+          "name": "印度",
+          "nameEn": "India",
+          "region": "南亚",
+          "value": 130000000000,
+          "rank": 12,
+          "share": 0.04427792915531335,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "total": 2942000000000,
+      "items": [
+        {
+          "code": "US",
+          "iso2": "US",
+          "name": "美国",
+          "nameEn": "United States",
+          "region": "北美",
+          "value": 580000000000,
+          "rank": 1,
+          "share": 0.19714479945615226,
+          "rankDelta": 0
+        },
+        {
+          "code": "JP",
+          "iso2": "JP",
+          "name": "日本",
+          "nameEn": "Japan",
+          "region": "东亚",
+          "value": 322000000000,
+          "rank": 2,
+          "share": 0.10944935418082936,
+          "rankDelta": 1
+        },
+        {
+          "code": "KR",
+          "iso2": "KR",
+          "name": "韩国",
+          "nameEn": "South Korea",
+          "region": "东亚",
+          "value": 310000000000,
+          "rank": 3,
+          "share": 0.1053704962610469,
+          "rankDelta": -1
+        },
+        {
+          "code": "VN",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 268000000000,
+          "rank": 4,
+          "share": 0.09109449354180829,
+          "rankDelta": 0
+        },
+        {
+          "code": "RU",
+          "iso2": "RU",
+          "name": "俄罗斯",
+          "nameEn": "Russia",
+          "region": "欧洲",
+          "value": 234000000000,
+          "rank": 5,
+          "share": 0.07953772943575799,
+          "rankDelta": 0
+        },
+        {
+          "code": "MY",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 218000000000,
+          "rank": 6,
+          "share": 0.07409925220938138,
+          "rankDelta": 1
+        },
+        {
+          "code": "DE",
+          "iso2": "DE",
+          "name": "德国",
+          "nameEn": "Germany",
+          "region": "欧洲",
+          "value": 215000000000,
+          "rank": 7,
+          "share": 0.07307953772943576,
+          "rankDelta": -1
+        },
+        {
+          "code": "AU",
+          "iso2": "AU",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "region": "大洋洲",
+          "value": 205000000000,
+          "rank": 8,
+          "share": 0.06968048946295037,
+          "rankDelta": 0
+        },
+        {
+          "code": "ID",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 160000000000,
+          "rank": 9,
+          "share": 0.054384772263766146,
+          "rankDelta": 1
+        },
+        {
+          "code": "BR",
+          "iso2": "BR",
+          "name": "巴西",
+          "nameEn": "Brazil",
+          "region": "南美",
+          "value": 160000000000,
+          "rank": 10,
+          "share": 0.054384772263766146,
+          "rankDelta": -1
+        },
+        {
+          "code": "TH",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 142000000000,
+          "rank": 11,
+          "share": 0.04826648538409246,
+          "rankDelta": 0
+        },
+        {
+          "code": "IN",
+          "iso2": "IN",
+          "name": "印度",
+          "nameEn": "India",
+          "region": "南亚",
+          "value": 128000000000,
+          "rank": 12,
+          "share": 0.043507817811012914,
+          "rankDelta": 0
+        }
+      ]
+    }
+  ]
+}

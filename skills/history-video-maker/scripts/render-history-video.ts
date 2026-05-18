@@ -28,7 +28,7 @@ type CliOptions = {
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA_DIR = path.join(ROOT, 'data/history');
-const OUTPUT_DIR = path.join(ROOT, 'output/history-videos');
+const OUTPUT_DIR = path.join(process.cwd(), 'output');
 const PROPS_DIR = path.join(OUTPUT_DIR, 'props');
 const COPY_PATH = path.join(ROOT, 'docs/history-video-copy.md');
 const PLAYWRIGHT_HEADLESS_SHELL_PATH =

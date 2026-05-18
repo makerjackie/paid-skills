@@ -9,9 +9,10 @@ export const HISTORY_RACE_VIDEO_FALLBACK_SECONDS = 120;
 export const HISTORY_RACE_VIDEO_MIN_SECONDS = 30;
 export const HISTORY_RACE_VIDEO_MAX_SECONDS = 240;
 export const HISTORY_RACE_VIDEO_SECONDS_PER_TIMELINE_STEP = 1.05;
+export const EVENT_BONUS_SECONDS = 1.5;
+export const HISTORY_RACE_CLOSING_SECONDS = 7;
 
 const RACE_START_SECONDS = 3.2;
-const CLOSING_SECONDS = 10;
 const RACE_TO_CLOSING_GAP_SECONDS = 2;
 const PANEL_GAP_SECONDS = 4;
 const INSIGHT_PANEL_SECONDS = 12;
@@ -42,14 +43,16 @@ export function resolveHistoryRaceVideoDuration({
 
 export function estimateHistoryRaceVideoDuration(data: HistoryRaceData, panels: HistoryVideoPanelFlags) {
   const timelineSteps = Math.max(1, data.frames.length - 1);
-  const raceSeconds = timelineSteps * HISTORY_RACE_VIDEO_SECONDS_PER_TIMELINE_STEP;
+  const uniqueEventYears = new Set(data.events?.map((e) => e.year) ?? []).size;
+  const eventBonus = uniqueEventYears * EVENT_BONUS_SECONDS;
+  const raceSeconds = timelineSteps * HISTORY_RACE_VIDEO_SECONDS_PER_TIMELINE_STEP + eventBonus;
   const postRaceSeconds =
     panels.showInsightPanel || panels.showSourcePanel
       ? PANEL_GAP_SECONDS +
         (panels.showInsightPanel ? INSIGHT_PANEL_SECONDS : 0) +
         (panels.showSourcePanel ? SOURCE_PANEL_SECONDS : 0) +
-        CLOSING_SECONDS
-      : RACE_TO_CLOSING_GAP_SECONDS + CLOSING_SECONDS;
+        HISTORY_RACE_CLOSING_SECONDS
+      : RACE_TO_CLOSING_GAP_SECONDS + HISTORY_RACE_CLOSING_SECONDS;
 
   return clampHistoryRaceVideoDuration(RACE_START_SECONDS + raceSeconds + postRaceSeconds);
 }

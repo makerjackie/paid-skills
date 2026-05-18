@@ -5,6 +5,9 @@ import {buildRaceSnapshot, createRaceFrameMap, interpolateNumber, type RaceSnaps
 import {getHistoryVideoCopy, type HistoryVideoCopy} from '../src/lib/history-video-copy';
 import {
   HISTORY_RACE_VIDEO_FALLBACK_SECONDS,
+  HISTORY_RACE_VIDEO_SECONDS_PER_TIMELINE_STEP,
+  EVENT_BONUS_SECONDS,
+  HISTORY_RACE_CLOSING_SECONDS,
   resolveHistoryRaceVideoDuration as resolveHistoryRaceVideoDurationValue,
 } from '../src/lib/history-video-duration';
 import {
@@ -98,7 +101,7 @@ export function HistoryRaceVideo({data, copy: copyOverride, durationSeconds, mus
     showSourcePanel,
   });
   const timing = getVideoTiming(resolvedDurationSeconds, {showInsightPanel, showSourcePanel});
-  const raceProgress = getRaceProgress(seconds, timing);
+  const raceProgress = getRaceProgress(seconds, timing, data);
   const raceYear = data.startYear + raceProgress * (data.endYear - data.startYear);
   const snapshot = buildRaceSnapshot({
     startYear: data.startYear,
@@ -308,6 +311,14 @@ function RaceChart({
           extrapolateRight: 'clamp',
         });
 
+        const isEventEntity = snapshot.event?.entityCode === item.code;
+        const eventBadgeOpacity = isEventEntity
+          ? interpolate(seconds, [RACE_START_SECONDS, RACE_START_SECONDS + 0.8, timing.raceEnd + 1.2, timing.raceEnd + 2], [0, 1, 1, 0], {
+              extrapolateLeft: 'clamp',
+              extrapolateRight: 'clamp',
+            })
+          : 0;
+
         return (
           <div
             key={item.code}
@@ -320,21 +331,27 @@ function RaceChart({
             }}
           >
             <div style={styles.rank}>{item.rank}</div>
-            <div style={{...styles.bar, width, backgroundColor: color}}>
+            <div style={{...styles.bar, width, backgroundColor: color, position: 'relative', overflow: 'visible'}}>
               {labelInside ? (
                 <>
                   <div style={styles.barName}>{item.name}</div>
                   <div style={styles.barMeta}>{item.region}</div>
                 </>
               ) : null}
+              {isEventEntity ? (
+                <div style={{...styles.eventBarBadge, opacity: eventBadgeOpacity}}>
+                  {snapshot.event!.title}
+                </div>
+              ) : null}
             </div>
             {!labelInside ? (
               <div style={styles.outsideLabel}>
                 <div style={styles.outsideName}>{item.name}</div>
-                <div style={styles.outsideMeta}>{item.region}</div>
+                <div style={styles.outsideMeta}>{item.region} · {formatRaceValue(value, data)}</div>
               </div>
-            ) : null}
-            <div style={styles.value}>{formatRaceValue(value, data)}</div>
+            ) : (
+              <div style={styles.value}>{formatRaceValue(value, data)}</div>
+            )}
           </div>
         );
       })}
@@ -489,13 +506,14 @@ type HistoryRaceVideoTiming = {
   insightStart: number;
   sourceStart: number;
   closingStart: number;
+  eventBonusSeconds: number;
 };
 
 function getVideoTiming(
   durationSeconds: number,
   panels: {showInsightPanel: boolean; showSourcePanel: boolean},
 ): HistoryRaceVideoTiming {
-  const closingStart = Math.max(RACE_START_SECONDS + 10, durationSeconds - 10);
+  const closingStart = Math.max(RACE_START_SECONDS + HISTORY_RACE_CLOSING_SECONDS, durationSeconds - HISTORY_RACE_CLOSING_SECONDS);
   const sourceStart = panels.showSourcePanel
     ? Math.max(RACE_START_SECONDS + 14, closingStart - 14)
     : closingStart;
@@ -515,10 +533,11 @@ function getVideoTiming(
     insightStart: Math.min(insightStart, closingStart - 4),
     sourceStart,
     closingStart,
+    eventBonusSeconds: EVENT_BONUS_SECONDS,
   };
 }
 
-function getRaceProgress(seconds: number, timing: HistoryRaceVideoTiming) {
+function getRaceProgress(seconds: number, timing: HistoryRaceVideoTiming, data: HistoryRaceData) {
   if (seconds <= timing.raceStart) {
     return 0;
   }
@@ -527,7 +546,34 @@ function getRaceProgress(seconds: number, timing: HistoryRaceVideoTiming) {
     return 1;
   }
 
-  return Math.min(1, Math.max(0, (seconds - timing.raceStart) / (timing.raceEnd - timing.raceStart)));
+  const elapsed = seconds - timing.raceStart;
+  const raceDuration = timing.raceEnd - timing.raceStart;
+  const totalYears = data.endYear - data.startYear;
+  const eventYears = new Set(data.events?.map((e) => e.year) ?? []);
+  const baseStep = HISTORY_RACE_VIDEO_SECONDS_PER_TIMELINE_STEP;
+  const extraPerEvent = timing.eventBonusSeconds;
+
+  // Build weighted time map: each year gets base time, event years get extra
+  let totalWeight = 0;
+  for (let y = data.startYear; y < data.endYear; y++) {
+    totalWeight += baseStep + (eventYears.has(y) ? extraPerEvent : 0);
+  }
+
+  // Elapsed as fraction of total weight
+  const targetWeight = (elapsed / raceDuration) * totalWeight;
+
+  // Map weight back to years with non-linear lingering at events
+  let accumulatedWeight = 0;
+  for (let y = data.startYear; y < data.endYear; y++) {
+    const yearWeight = baseStep + (eventYears.has(y) ? extraPerEvent : 0);
+    if (accumulatedWeight + yearWeight >= targetWeight) {
+      const yearProgress = (targetWeight - accumulatedWeight) / yearWeight;
+      return (y - data.startYear + yearProgress) / totalYears;
+    }
+    accumulatedWeight += yearWeight;
+  }
+
+  return 1;
 }
 
 function getMusicVolume(frame: number, durationInFrames: number, fps: number) {
@@ -578,6 +624,7 @@ function formatRaceValue(value: number, data: HistoryRaceData) {
   if (kind === 'oil-mbbl-d') return `${formatCompact(value)} 百万桶/日`;
   if (kind === 'steel-mt') return `${formatCompact(value)} 百万吨`;
   if (kind === 'hours-per-day') return `${formatCompact(value)} 小时/天`;
+  if (kind === 'per-capita-usd') return `$${Math.round(value).toLocaleString('zh-CN')}`;
   if (kind === 'count') return Math.round(value).toLocaleString('zh-CN');
 
   if (value >= 1e12) return `$${formatCompact(value / 1e12)}T`;
@@ -886,11 +933,24 @@ const styles: Record<string, CSSProperties> = {
     marginLeft: 18,
     minWidth: 145,
   },
+  eventBarBadge: {
+    position: 'absolute' as const,
+    right: -4,
+    top: -30,
+    backgroundColor: '#c7342a',
+    color: '#fffaf0',
+    fontSize: 16,
+    fontWeight: 900,
+    lineHeight: 1,
+    padding: '6px 10px 5px',
+    borderRadius: 3,
+    whiteSpace: 'nowrap' as const,
+  },
   eventCallout: {
     position: 'absolute',
-    right: 118,
+    right: 32,
     bottom: 620,
-    width: 500,
+    maxWidth: 400,
     padding: 0,
     textAlign: 'right',
   },

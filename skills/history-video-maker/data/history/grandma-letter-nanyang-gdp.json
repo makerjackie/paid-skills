@@ -1,0 +1,4858 @@
+{
+  "slug": "grandma-letter-nanyang-gdp",
+  "title": "东南亚人均GDP排位赛（1948-2018）",
+  "titleEn": "Southeast Asia GDP Per Capita Race (1948-2018)",
+  "summary": "从1948年到2018年，看中国与东南亚国家的人均GDP排名如何在七十年间从悬殊走向逆转。",
+  "summaryEn": "From 1948 to 2018, see how China's per capita GDP ranking against Southeast Asian nations reversed over seven decades.",
+  "sourceLabel": "World Bank WDI (NY.GDP.PCAP.CD) · 中国国家统计局 · AI估算补全",
+  "sourceLabelEn": "World Bank WDI (NY.GDP.PCAP.CD) · China NBS · AI estimation",
+  "sourceUrl": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD",
+  "sourceNote": "1960年以前数据基于AI估算补全，通过反向外推和插值方法生成。越南因战争数据波动较大，1985年前为AI估算。印度尼西亚1967年前为AI估算。",
+  "sourceNoteEn": "Pre-1960 data estimated via back-extrapolation and interpolation. Vietnam data before 1985 estimated. Indonesia data before 1967 estimated.",
+  "unit": "人均GDP（当前美元）",
+  "unitShort": "USD",
+  "valueKind": "per-capita-usd",
+  "axisRetreatThreshold": 0.2,
+  "showFlags": true,
+  "startYear": 1948,
+  "endYear": 2018,
+  "entities": [
+    {
+      "code": "MYS",
+      "iso2": "MY",
+      "name": "马来西亚",
+      "nameEn": "Malaysia",
+      "region": "东南亚"
+    },
+    {
+      "code": "THA",
+      "iso2": "TH",
+      "name": "泰国",
+      "nameEn": "Thailand",
+      "region": "东南亚"
+    },
+    {
+      "code": "VNM",
+      "iso2": "VN",
+      "name": "越南",
+      "nameEn": "Vietnam",
+      "region": "东南亚"
+    },
+    {
+      "code": "IDN",
+      "iso2": "ID",
+      "name": "印度尼西亚",
+      "nameEn": "Indonesia",
+      "region": "东南亚"
+    },
+    {
+      "code": "CHN",
+      "iso2": "CN",
+      "name": "中国",
+      "nameEn": "China",
+      "region": "东亚"
+    }
+  ],
+  "events": [
+    {
+      "id": "musheng-departure",
+      "year": 1948,
+      "entityCode": "CHN",
+      "kind": "context",
+      "title": "木生告别潮汕，乘红头船下南洋",
+      "titleEn": "Musheng leaves Chaoshan for Nanyang",
+      "description": "潮汕青年郑木生为躲抓壮丁，告别妻儿，挤上红头船漂向大海。彼时中国人均GDP仅$45，不足马来西亚的四分之一。",
+      "descriptionEn": "To escape conscription, Musheng leaves his wife and children for Nanyang. China's per capita GDP is only $45.",
+      "entityName": "中国",
+      "rank": 5,
+      "value": 45,
+      "gdp": 45
+    },
+    {
+      "id": "musheng-malaysia",
+      "year": 1953,
+      "entityCode": "MYS",
+      "kind": "context",
+      "title": "马来西亚锡矿 · 木生第一站",
+      "titleEn": "Malaysia tin mines",
+      "description": "木生到马来西亚锡矿场和橡胶园做苦力。马来亚人均GDP近$218，是中国的4倍。",
+      "descriptionEn": "Musheng works in tin mines and rubber plantations. Malaya's per capita GDP is 4x China's.",
+      "entityName": "马来西亚",
+      "rank": 1,
+      "value": 218,
+      "gdp": 218
+    },
+    {
+      "id": "musheng-thailand",
+      "year": 1957,
+      "entityCode": "THA",
+      "kind": "context",
+      "title": "辗转暹罗 · 曼谷唐人街",
+      "titleEn": "Bangkok Chinatown",
+      "description": "木生辗转曼谷唐人街，蹬三轮、扛码头货。在旅馆结识房东女儿谢南枝。",
+      "descriptionEn": "Musheng arrives in Bangkok Chinatown, working as a rickshaw puller. He meets Xie Nanzhi at a hostel.",
+      "entityName": "泰国",
+      "rank": 2,
+      "value": 94,
+      "gdp": 94
+    },
+    {
+      "id": "musheng-death",
+      "year": 1960,
+      "entityCode": "CHN",
+      "kind": "context",
+      "title": "木生之死 · 南枝代写侨批十八年",
+      "titleEn": "Musheng dies, Nanzhi writes for 18 years",
+      "description": "木生为救落水同乡不幸遇难。谢南枝隐瞒死讯，以他的名义继续向潮汕写信寄钱，一写就是十八年。",
+      "descriptionEn": "Musheng drowns saving a fellow villager. Xie Nanzhi conceals his death and continues sending money home for 18 years.",
+      "entityName": "中国",
+      "rank": 3,
+      "value": 90,
+      "gdp": 90
+    },
+    {
+      "id": "nanzhi-letters",
+      "year": 1970,
+      "entityCode": "CHN",
+      "kind": "context",
+      "title": "十八年侨批 · 咸猪肉、自行车、布料",
+      "titleEn": "18 years of remittance letters",
+      "description": "南枝模仿木生笔迹，寄咸猪肉、寄自行车、寄布料、寄学费。中国正值文革，人均GDP仅$113。",
+      "descriptionEn": "Nanzhi forges Musheng's handwriting, sending money for food, bicycles, cloth, and school fees during the Cultural Revolution.",
+      "entityName": "中国",
+      "rank": 4,
+      "value": 113,
+      "gdp": 113
+    },
+    {
+      "id": "reform-opening",
+      "year": 1978,
+      "entityCode": "CHN",
+      "kind": "context",
+      "title": "改革开放 · 南枝的信还在写",
+      "titleEn": "Reform and Opening Up",
+      "description": "中国迎来改革开放。但人均GDP仅$157，东南亚领先中国数倍。南枝继续写信——她不知道，故土已经开始变了。",
+      "descriptionEn": "China begins Reform and Opening Up, but per capita GDP is only $157. Nanzhi keeps writing, unaware things are changing back home.",
+      "entityName": "中国",
+      "rank": 5,
+      "value": 157,
+      "gdp": 157
+    },
+    {
+      "id": "asian-crisis",
+      "year": 1997,
+      "entityCode": "THA",
+      "kind": "context",
+      "title": "亚洲金融风暴 · 泰国梦碎",
+      "titleEn": "Asian Financial Crisis",
+      "description": "泰铢崩溃，泰国人均GDP从$3,036暴跌至$2,459。曼谷唐人街侨批汇款缩水大半。",
+      "descriptionEn": "Thai baht collapses, per capita GDP drops from $3,036 to $2,459. Remittance values shrink dramatically.",
+      "entityName": "泰国",
+      "rank": 3,
+      "value": 2459,
+      "gdp": 2459
+    },
+    {
+      "id": "letter-secret-revealed",
+      "year": 2018,
+      "entityCode": "CHN",
+      "kind": "context",
+      "title": "七十年后 · 给阿嬷的情书",
+      "titleEn": "The Secret Letter",
+      "description": "淑柔的孙子去泰国寻亲，揭开南枝守护了半个世纪的秘密——木生1960年已去世。中国人均GDP达$10,086，但那些侨批里的情义，无法用数字丈量。",
+      "descriptionEn": "The grandson goes to Thailand and uncovers Nanzhi's half-century secret — Musheng died in 1960. China's per capita GDP reaches $10,086.",
+      "entityName": "中国",
+      "rank": 2,
+      "value": 10086,
+      "gdp": 10086
+    }
+  ],
+  "frames": [
+    {
+      "year": 1948,
+      "total": 441,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 202,
+          "gdp": 202,
+          "rank": 1,
+          "share": 0.4580498866213152,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 73,
+          "gdp": 73,
+          "rank": 2,
+          "share": 0.1655328798185941,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 66,
+          "gdp": 66,
+          "rank": 3,
+          "share": 0.14965986394557823,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 55,
+          "gdp": 55,
+          "rank": 4,
+          "share": 0.12471655328798185,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 45,
+          "gdp": 45,
+          "rank": 5,
+          "share": 0.10204081632653061,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1949,
+      "total": 449,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 205,
+          "gdp": 205,
+          "rank": 1,
+          "share": 0.45657015590200445,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 75,
+          "gdp": 75,
+          "rank": 2,
+          "share": 0.16703786191536749,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 67,
+          "gdp": 67,
+          "rank": 3,
+          "share": 0.1492204899777283,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 55,
+          "gdp": 55,
+          "rank": 4,
+          "share": 0.12249443207126949,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 47,
+          "gdp": 47,
+          "rank": 5,
+          "share": 0.10467706013363029,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1950,
+      "total": 456,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 208,
+          "gdp": 208,
+          "rank": 1,
+          "share": 0.45614035087719296,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 77,
+          "gdp": 77,
+          "rank": 2,
+          "share": 0.16885964912280702,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 68,
+          "gdp": 68,
+          "rank": 3,
+          "share": 0.14912280701754385,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 55,
+          "gdp": 55,
+          "rank": 4,
+          "share": 0.1206140350877193,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 48,
+          "gdp": 48,
+          "rank": 5,
+          "share": 0.10526315789473684,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1951,
+      "total": 464,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 211,
+          "gdp": 211,
+          "rank": 1,
+          "share": 0.4547413793103448,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 79,
+          "gdp": 79,
+          "rank": 2,
+          "share": 0.17025862068965517,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 69,
+          "gdp": 69,
+          "rank": 3,
+          "share": 0.14870689655172414,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 55,
+          "gdp": 55,
+          "rank": 4,
+          "share": 0.11853448275862069,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 50,
+          "gdp": 50,
+          "rank": 5,
+          "share": 0.10775862068965517,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1952,
+      "total": 473,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 214,
+          "gdp": 214,
+          "rank": 1,
+          "share": 0.452431289640592,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 82,
+          "gdp": 82,
+          "rank": 2,
+          "share": 0.1733615221987315,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 70,
+          "gdp": 70,
+          "rank": 3,
+          "share": 0.14799154334038056,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 55,
+          "gdp": 55,
+          "rank": 4,
+          "share": 0.11627906976744186,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 52,
+          "gdp": 52,
+          "rank": 5,
+          "share": 0.10993657505285412,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1953,
+      "total": 481,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 218,
+          "gdp": 218,
+          "rank": 1,
+          "share": 0.45322245322245325,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 84,
+          "gdp": 84,
+          "rank": 2,
+          "share": 0.17463617463617465,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 71,
+          "gdp": 71,
+          "rank": 3,
+          "share": 0.14760914760914762,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 55,
+          "gdp": 55,
+          "rank": 4,
+          "share": 0.11434511434511435,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 53,
+          "gdp": 53,
+          "rank": 5,
+          "share": 0.1101871101871102,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1954,
+      "total": 489,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 221,
+          "gdp": 221,
+          "rank": 1,
+          "share": 0.45194274028629855,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 86,
+          "gdp": 86,
+          "rank": 2,
+          "share": 0.17586912065439672,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 72,
+          "gdp": 72,
+          "rank": 3,
+          "share": 0.147239263803681,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 55,
+          "gdp": 55,
+          "rank": 4,
+          "share": 0.11247443762781185,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 55,
+          "gdp": 55,
+          "rank": 5,
+          "share": 0.11247443762781185,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1955,
+      "total": 498,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 224,
+          "gdp": 224,
+          "rank": 1,
+          "share": 0.4497991967871486,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 89,
+          "gdp": 89,
+          "rank": 2,
+          "share": 0.178714859437751,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 73,
+          "gdp": 73,
+          "rank": 3,
+          "share": 0.1465863453815261,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 57,
+          "gdp": 57,
+          "rank": 4,
+          "share": 0.1144578313253012,
+          "rankDelta": 1
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 55,
+          "gdp": 55,
+          "rank": 5,
+          "share": 0.11044176706827309,
+          "rankDelta": -1
+        }
+      ]
+    },
+    {
+      "year": 1956,
+      "total": 512,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 227,
+          "gdp": 227,
+          "rank": 1,
+          "share": 0.443359375,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 92,
+          "gdp": 92,
+          "rank": 2,
+          "share": 0.1796875,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 74,
+          "gdp": 74,
+          "rank": 3,
+          "share": 0.14453125,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 64,
+          "gdp": 64,
+          "rank": 4,
+          "share": 0.125,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 55,
+          "gdp": 55,
+          "rank": 5,
+          "share": 0.107421875,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1957,
+      "total": 528,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 231,
+          "gdp": 231,
+          "rank": 1,
+          "share": 0.4375,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 94,
+          "gdp": 94,
+          "rank": 2,
+          "share": 0.17803030303030304,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 76,
+          "gdp": 76,
+          "rank": 3,
+          "share": 0.14393939393939395,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 71,
+          "gdp": 71,
+          "rank": 4,
+          "share": 0.13446969696969696,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 56,
+          "gdp": 56,
+          "rank": 5,
+          "share": 0.10606060606060606,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1958,
+      "total": 542,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 234,
+          "gdp": 234,
+          "rank": 1,
+          "share": 0.4317343173431734,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 97,
+          "gdp": 97,
+          "rank": 2,
+          "share": 0.17896678966789667,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 78,
+          "gdp": 78,
+          "rank": 3,
+          "share": 0.14391143911439114,
+          "rankDelta": 1
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 77,
+          "gdp": 77,
+          "rank": 4,
+          "share": 0.14206642066420663,
+          "rankDelta": -1
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 56,
+          "gdp": 56,
+          "rank": 5,
+          "share": 0.1033210332103321,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1959,
+      "total": 555,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 237,
+          "gdp": 237,
+          "rank": 1,
+          "share": 0.42702702702702705,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 100,
+          "gdp": 100,
+          "rank": 2,
+          "share": 0.18018018018018017,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 84,
+          "gdp": 84,
+          "rank": 3,
+          "share": 0.15135135135135136,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 78,
+          "gdp": 78,
+          "rank": 4,
+          "share": 0.14054054054054055,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 56,
+          "gdp": 56,
+          "rank": 5,
+          "share": 0.1009009009009009,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1960,
+      "total": 569,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 241,
+          "gdp": 241,
+          "rank": 1,
+          "share": 0.4235500878734622,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 103,
+          "gdp": 103,
+          "rank": 2,
+          "share": 0.18101933216168717,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 90,
+          "gdp": 90,
+          "rank": 3,
+          "share": 0.15817223198594024,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 79,
+          "gdp": 79,
+          "rank": 4,
+          "share": 0.13884007029876977,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 56,
+          "gdp": 56,
+          "rank": 5,
+          "share": 0.0984182776801406,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1961,
+      "total": 552,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 232,
+          "gdp": 232,
+          "rank": 1,
+          "share": 0.42028985507246375,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 109,
+          "gdp": 109,
+          "rank": 2,
+          "share": 0.19746376811594202,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 79,
+          "gdp": 79,
+          "rank": 3,
+          "share": 0.1431159420289855,
+          "rankDelta": 1
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 76,
+          "gdp": 76,
+          "rank": 4,
+          "share": 0.13768115942028986,
+          "rankDelta": -1
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 56,
+          "gdp": 56,
+          "rank": 5,
+          "share": 0.10144927536231885,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1962,
+      "total": 558,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 237,
+          "gdp": 237,
+          "rank": 1,
+          "share": 0.42473118279569894,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 115,
+          "gdp": 115,
+          "rank": 2,
+          "share": 0.2060931899641577,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 80,
+          "gdp": 80,
+          "rank": 3,
+          "share": 0.14336917562724014,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 71,
+          "gdp": 71,
+          "rank": 4,
+          "share": 0.12724014336917563,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 55,
+          "gdp": 55,
+          "rank": 5,
+          "share": 0.0985663082437276,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1963,
+      "total": 617,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 289,
+          "gdp": 289,
+          "rank": 1,
+          "share": 0.4683954619124797,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 119,
+          "gdp": 119,
+          "rank": 2,
+          "share": 0.19286871961102106,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 80,
+          "gdp": 80,
+          "rank": 3,
+          "share": 0.12965964343598055,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 74,
+          "gdp": 74,
+          "rank": 4,
+          "share": 0.11993517017828201,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 55,
+          "gdp": 55,
+          "rank": 5,
+          "share": 0.08914100486223663,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1964,
+      "total": 648,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 300,
+          "gdp": 300,
+          "rank": 1,
+          "share": 0.46296296296296297,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 126,
+          "gdp": 126,
+          "rank": 2,
+          "share": 0.19444444444444445,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 86,
+          "gdp": 86,
+          "rank": 3,
+          "share": 0.13271604938271606,
+          "rankDelta": 1
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 81,
+          "gdp": 81,
+          "rank": 4,
+          "share": 0.125,
+          "rankDelta": -1
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 55,
+          "gdp": 55,
+          "rank": 5,
+          "share": 0.08487654320987655,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1965,
+      "total": 697,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 324,
+          "gdp": 324,
+          "rank": 1,
+          "share": 0.4648493543758967,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 138,
+          "gdp": 138,
+          "rank": 2,
+          "share": 0.19799139167862267,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 99,
+          "gdp": 99,
+          "rank": 3,
+          "share": 0.14203730272596843,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 81,
+          "gdp": 81,
+          "rank": 4,
+          "share": 0.11621233859397417,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 55,
+          "gdp": 55,
+          "rank": 5,
+          "share": 0.07890961262553801,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1966,
+      "total": 737,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 336,
+          "gdp": 336,
+          "rank": 1,
+          "share": 0.4559023066485753,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 160,
+          "gdp": 160,
+          "rank": 2,
+          "share": 0.21709633649932158,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 105,
+          "gdp": 105,
+          "rank": 3,
+          "share": 0.14246947082767977,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 82,
+          "gdp": 82,
+          "rank": 4,
+          "share": 0.1112618724559023,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 54,
+          "gdp": 54,
+          "rank": 5,
+          "share": 0.07327001356852103,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "total": 731,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 333,
+          "gdp": 333,
+          "rank": 1,
+          "share": 0.45554035567715456,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 165,
+          "gdp": 165,
+          "rank": 2,
+          "share": 0.22571819425444598,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 97,
+          "gdp": 97,
+          "rank": 3,
+          "share": 0.1326949384404925,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 82,
+          "gdp": 82,
+          "rank": 4,
+          "share": 0.1121751025991792,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 54,
+          "gdp": 54,
+          "rank": 5,
+          "share": 0.07387140902872777,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1968,
+      "total": 754,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 341,
+          "gdp": 341,
+          "rank": 1,
+          "share": 0.45225464190981435,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 172,
+          "gdp": 172,
+          "rank": 2,
+          "share": 0.22811671087533156,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 92,
+          "gdp": 92,
+          "rank": 3,
+          "share": 0.1220159151193634,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 83,
+          "gdp": 83,
+          "rank": 4,
+          "share": 0.11007957559681697,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 66,
+          "gdp": 66,
+          "rank": 5,
+          "share": 0.08753315649867374,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1969,
+      "total": 812,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 368,
+          "gdp": 368,
+          "rank": 1,
+          "share": 0.45320197044334976,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 184,
+          "gdp": 184,
+          "rank": 2,
+          "share": 0.22660098522167488,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 100,
+          "gdp": 100,
+          "rank": 3,
+          "share": 0.12315270935960591,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 84,
+          "gdp": 84,
+          "rank": 4,
+          "share": 0.10344827586206896,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 76,
+          "gdp": 76,
+          "rank": 5,
+          "share": 0.09359605911330049,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1970,
+      "total": 852,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 380,
+          "gdp": 380,
+          "rank": 1,
+          "share": 0.4460093896713615,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 197,
+          "gdp": 197,
+          "rank": 2,
+          "share": 0.2312206572769953,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 113,
+          "gdp": 113,
+          "rank": 3,
+          "share": 0.13262910798122066,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 83,
+          "gdp": 83,
+          "rank": 4,
+          "share": 0.09741784037558686,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 79,
+          "gdp": 79,
+          "rank": 5,
+          "share": 0.09272300469483569,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1971,
+      "total": 885,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 404,
+          "gdp": 404,
+          "rank": 1,
+          "share": 0.45649717514124294,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 199,
+          "gdp": 199,
+          "rank": 2,
+          "share": 0.2248587570621469,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 119,
+          "gdp": 119,
+          "rank": 3,
+          "share": 0.1344632768361582,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 84,
+          "gdp": 84,
+          "rank": 4,
+          "share": 0.09491525423728814,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 79,
+          "gdp": 79,
+          "rank": 5,
+          "share": 0.08926553672316384,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1972,
+      "total": 983,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 462,
+          "gdp": 462,
+          "rank": 1,
+          "share": 0.46998982706002035,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 214,
+          "gdp": 214,
+          "rank": 2,
+          "share": 0.21770091556459817,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 132,
+          "gdp": 132,
+          "rank": 3,
+          "share": 0.1342828077314344,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 91,
+          "gdp": 91,
+          "rank": 4,
+          "share": 0.09257375381485249,
+          "rankDelta": 1
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 84,
+          "gdp": 84,
+          "rank": 5,
+          "share": 0.08545269582909461,
+          "rankDelta": -1
+        }
+      ]
+    },
+    {
+      "year": 1973,
+      "total": 1324,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 676,
+          "gdp": 676,
+          "rank": 1,
+          "share": 0.5105740181268882,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 275,
+          "gdp": 275,
+          "rank": 2,
+          "share": 0.20770392749244712,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 157,
+          "gdp": 157,
+          "rank": 3,
+          "share": 0.11858006042296072,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 131,
+          "gdp": 131,
+          "rank": 4,
+          "share": 0.09894259818731117,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 85,
+          "gdp": 85,
+          "rank": 5,
+          "share": 0.06419939577039276,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1974,
+      "total": 1595,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 808,
+          "gdp": 808,
+          "rank": 1,
+          "share": 0.5065830721003135,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 338,
+          "gdp": 338,
+          "rank": 2,
+          "share": 0.21191222570532917,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 203,
+          "gdp": 203,
+          "rank": 3,
+          "share": 0.12727272727272726,
+          "rankDelta": 1
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 160,
+          "gdp": 160,
+          "rank": 4,
+          "share": 0.10031347962382445,
+          "rankDelta": -1
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 86,
+          "gdp": 86,
+          "rank": 5,
+          "share": 0.053918495297805645,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1975,
+      "total": 1623,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 768,
+          "gdp": 768,
+          "rank": 1,
+          "share": 0.4731977818853974,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 356,
+          "gdp": 356,
+          "rank": 2,
+          "share": 0.21934688847812692,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 234,
+          "gdp": 234,
+          "rank": 3,
+          "share": 0.14417744916820702,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 179,
+          "gdp": 179,
+          "rank": 4,
+          "share": 0.11028958718422674,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 86,
+          "gdp": 86,
+          "rank": 5,
+          "share": 0.0529882932840419,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1976,
+      "total": 1830,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 893,
+          "gdp": 893,
+          "rank": 1,
+          "share": 0.48797814207650275,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 395,
+          "gdp": 395,
+          "rank": 2,
+          "share": 0.21584699453551912,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 280,
+          "gdp": 280,
+          "rank": 3,
+          "share": 0.15300546448087432,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 166,
+          "gdp": 166,
+          "rank": 4,
+          "share": 0.0907103825136612,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 96,
+          "gdp": 96,
+          "rank": 5,
+          "share": 0.05245901639344262,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1977,
+      "total": 2121,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 1044,
+          "gdp": 1044,
+          "rank": 1,
+          "share": 0.49222065063649223,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 448,
+          "gdp": 448,
+          "rank": 2,
+          "share": 0.21122112211221122,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 336,
+          "gdp": 336,
+          "rank": 3,
+          "share": 0.15841584158415842,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 186,
+          "gdp": 186,
+          "rank": 4,
+          "share": 0.0876944837340877,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 107,
+          "gdp": 107,
+          "rank": 5,
+          "share": 0.050447901933050446,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1978,
+      "total": 2456,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 1280,
+          "gdp": 1280,
+          "rank": 1,
+          "share": 0.5211726384364821,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 529,
+          "gdp": 529,
+          "rank": 2,
+          "share": 0.21539087947882737,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 370,
+          "gdp": 370,
+          "rank": 3,
+          "share": 0.15065146579804561,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 157,
+          "gdp": 157,
+          "rank": 4,
+          "share": 0.06392508143322476,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 120,
+          "gdp": 120,
+          "rank": 5,
+          "share": 0.048859934853420196,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1979,
+      "total": 2898,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 1630,
+          "gdp": 1630,
+          "rank": 1,
+          "share": 0.5624568668046929,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 588,
+          "gdp": 588,
+          "rank": 2,
+          "share": 0.2028985507246377,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 362,
+          "gdp": 362,
+          "rank": 3,
+          "share": 0.12491373360938578,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 184,
+          "gdp": 184,
+          "rank": 4,
+          "share": 0.06349206349206349,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 134,
+          "gdp": 134,
+          "rank": 5,
+          "share": 0.04623878536922015,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1980,
+      "total": 3420,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 1886,
+          "gdp": 1886,
+          "rank": 1,
+          "share": 0.5514619883040935,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 709,
+          "gdp": 709,
+          "rank": 2,
+          "share": 0.20730994152046783,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 487,
+          "gdp": 487,
+          "rank": 3,
+          "share": 0.14239766081871344,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 195,
+          "gdp": 195,
+          "rank": 4,
+          "share": 0.05701754385964912,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 143,
+          "gdp": 143,
+          "rank": 5,
+          "share": 0.041812865497076024,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1981,
+      "total": 3561,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 1899,
+          "gdp": 1899,
+          "rank": 1,
+          "share": 0.5332771693344566,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 744,
+          "gdp": 744,
+          "rank": 2,
+          "share": 0.20893007582139847,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 561,
+          "gdp": 561,
+          "rank": 3,
+          "share": 0.15754001684919966,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 197,
+          "gdp": 197,
+          "rank": 4,
+          "share": 0.05532153889356922,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 160,
+          "gdp": 160,
+          "rank": 5,
+          "share": 0.04493119910137602,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1982,
+      "total": 3717,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 1995,
+          "gdp": 1995,
+          "rank": 1,
+          "share": 0.536723163841808,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 762,
+          "gdp": 762,
+          "rank": 2,
+          "share": 0.2050040355125101,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 578,
+          "gdp": 578,
+          "rank": 3,
+          "share": 0.15550174872208772,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 204,
+          "gdp": 204,
+          "rank": 4,
+          "share": 0.05488297013720742,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 178,
+          "gdp": 178,
+          "rank": 5,
+          "share": 0.04788808178638687,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1983,
+      "total": 3955,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 2208,
+          "gdp": 2208,
+          "rank": 1,
+          "share": 0.5582806573957017,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 813,
+          "gdp": 813,
+          "rank": 2,
+          "share": 0.20556257901390645,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 509,
+          "gdp": 509,
+          "rank": 3,
+          "share": 0.12869785082174462,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 226,
+          "gdp": 226,
+          "rank": 4,
+          "share": 0.05714285714285714,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 199,
+          "gdp": 199,
+          "rank": 5,
+          "share": 0.05031605562579014,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1984,
+      "total": 4234,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 2411,
+          "gdp": 2411,
+          "rank": 1,
+          "share": 0.5694378837978271,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 829,
+          "gdp": 829,
+          "rank": 2,
+          "share": 0.19579593764761455,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 521,
+          "gdp": 521,
+          "rank": 3,
+          "share": 0.12305148795465282,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 251,
+          "gdp": 251,
+          "rank": 4,
+          "share": 0.05928200283419934,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 222,
+          "gdp": 222,
+          "rank": 5,
+          "share": 0.052432687765706185,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1985,
+      "total": 3970,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 2161,
+          "gdp": 2161,
+          "rank": 1,
+          "share": 0.5443324937027708,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 754,
+          "gdp": 754,
+          "rank": 2,
+          "share": 0.18992443324937028,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 513,
+          "gdp": 513,
+          "rank": 3,
+          "share": 0.1292191435768262,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 295,
+          "gdp": 295,
+          "rank": 4,
+          "share": 0.0743073047858942,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 247,
+          "gdp": 247,
+          "rank": 5,
+          "share": 0.06221662468513854,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1986,
+      "total": 3898,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 1872,
+          "gdp": 1872,
+          "rank": 1,
+          "share": 0.48024628014366344,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 817,
+          "gdp": 817,
+          "rank": 2,
+          "share": 0.20959466393022064,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 472,
+          "gdp": 472,
+          "rank": 3,
+          "share": 0.1210877373011801,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 455,
+          "gdp": 455,
+          "rank": 4,
+          "share": 0.11672652642380708,
+          "rankDelta": 1
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 282,
+          "gdp": 282,
+          "rank": 5,
+          "share": 0.07234479220112879,
+          "rankDelta": -1
+        }
+      ]
+    },
+    {
+      "year": 1987,
+      "total": 4370,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 2116,
+          "gdp": 2116,
+          "rank": 1,
+          "share": 0.4842105263157895,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 939,
+          "gdp": 939,
+          "rank": 2,
+          "share": 0.2148741418764302,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 624,
+          "gdp": 624,
+          "rank": 3,
+          "share": 0.14279176201372998,
+          "rankDelta": 1
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 439,
+          "gdp": 439,
+          "rank": 4,
+          "share": 0.10045766590389016,
+          "rankDelta": -1
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 252,
+          "gdp": 252,
+          "rank": 5,
+          "share": 0.057665903890160186,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1988,
+      "total": 4571,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 2258,
+          "gdp": 2258,
+          "rank": 1,
+          "share": 0.4939838109822796,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 1124,
+          "gdp": 1124,
+          "rank": 2,
+          "share": 0.24589805294246336,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 479,
+          "gdp": 479,
+          "rank": 3,
+          "share": 0.1047910741632028,
+          "rankDelta": 1
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 426,
+          "gdp": 426,
+          "rank": 4,
+          "share": 0.09319623714723255,
+          "rankDelta": -1
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 284,
+          "gdp": 284,
+          "rank": 5,
+          "share": 0.0621308247648217,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1989,
+      "total": 4653,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 2418,
+          "gdp": 2418,
+          "rank": 1,
+          "share": 0.5196647324306899,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 1293,
+          "gdp": 1293,
+          "rank": 2,
+          "share": 0.27788523533204385,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 527,
+          "gdp": 527,
+          "rank": 3,
+          "share": 0.11326026219643241,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 311,
+          "gdp": 311,
+          "rank": 4,
+          "share": 0.06683859875349236,
+          "rankDelta": 1
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 104,
+          "gdp": 104,
+          "rank": 5,
+          "share": 0.0223511712873415,
+          "rankDelta": -1
+        }
+      ]
+    },
+    {
+      "year": 1990,
+      "total": 5024,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 2469,
+          "gdp": 2469,
+          "rank": 1,
+          "share": 0.4914410828025478,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 1559,
+          "gdp": 1559,
+          "rank": 2,
+          "share": 0.31031050955414013,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 578,
+          "gdp": 578,
+          "rank": 3,
+          "share": 0.11504777070063694,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 319,
+          "gdp": 319,
+          "rank": 4,
+          "share": 0.06349522292993631,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 99,
+          "gdp": 99,
+          "rank": 5,
+          "share": 0.019705414012738853,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1991,
+      "total": 5536,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 2672,
+          "gdp": 2672,
+          "rank": 1,
+          "share": 0.48265895953757226,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 1763,
+          "gdp": 1763,
+          "rank": 2,
+          "share": 0.31846098265895956,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 623,
+          "gdp": 623,
+          "rank": 3,
+          "share": 0.11253612716763006,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 334,
+          "gdp": 334,
+          "rank": 4,
+          "share": 0.06033236994219653,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 144,
+          "gdp": 144,
+          "rank": 5,
+          "share": 0.02601156069364162,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1992,
+      "total": 6272,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 3120,
+          "gdp": 3120,
+          "rank": 1,
+          "share": 0.49744897959183676,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 1967,
+          "gdp": 1967,
+          "rank": 2,
+          "share": 0.31361607142857145,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 671,
+          "gdp": 671,
+          "rank": 3,
+          "share": 0.10698341836734694,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 368,
+          "gdp": 368,
+          "rank": 4,
+          "share": 0.058673469387755105,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 146,
+          "gdp": 146,
+          "rank": 5,
+          "share": 0.023278061224489797,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1993,
+      "total": 7044,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 3423,
+          "gdp": 3423,
+          "rank": 1,
+          "share": 0.48594548551959116,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 2237,
+          "gdp": 2237,
+          "rank": 2,
+          "share": 0.31757524134014764,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 813,
+          "gdp": 813,
+          "rank": 3,
+          "share": 0.11541737649063033,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 379,
+          "gdp": 379,
+          "rank": 4,
+          "share": 0.05380465644520159,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 192,
+          "gdp": 192,
+          "rank": 5,
+          "share": 0.027257240204429302,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1994,
+      "total": 7814,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 3706,
+          "gdp": 3706,
+          "rank": 1,
+          "share": 0.4742769388277451,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 2506,
+          "gdp": 2506,
+          "rank": 2,
+          "share": 0.32070642436652164,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 893,
+          "gdp": 893,
+          "rank": 3,
+          "share": 0.11428205784489379,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 476,
+          "gdp": 476,
+          "rank": 4,
+          "share": 0.060916304069618635,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 233,
+          "gdp": 233,
+          "rank": 5,
+          "share": 0.029818274891220884,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1995,
+      "total": 9056,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 4300,
+          "gdp": 4300,
+          "rank": 1,
+          "share": 0.4748233215547703,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 2848,
+          "gdp": 2848,
+          "rank": 2,
+          "share": 0.31448763250883394,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 1002,
+          "gdp": 1002,
+          "rank": 3,
+          "share": 0.11064487632508833,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 613,
+          "gdp": 613,
+          "rank": 4,
+          "share": 0.0676899293286219,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 293,
+          "gdp": 293,
+          "rank": 5,
+          "share": 0.03235424028268551,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1996,
+      "total": 9970,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 4770,
+          "gdp": 4770,
+          "rank": 1,
+          "share": 0.47843530591775324,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 3036,
+          "gdp": 3036,
+          "rank": 2,
+          "share": 0.3045135406218656,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 1107,
+          "gdp": 1107,
+          "rank": 3,
+          "share": 0.11103309929789368,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 713,
+          "gdp": 713,
+          "rank": 4,
+          "share": 0.07151454363089267,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 344,
+          "gdp": 344,
+          "rank": 5,
+          "share": 0.03450351053159478,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1997,
+      "total": 9266,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 4619,
+          "gdp": 4619,
+          "rank": 1,
+          "share": 0.49848909993524715,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 2459,
+          "gdp": 2459,
+          "rank": 2,
+          "share": 0.2653788042305202,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 1032,
+          "gdp": 1032,
+          "rank": 3,
+          "share": 0.1113749190589251,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 787,
+          "gdp": 787,
+          "rank": 4,
+          "share": 0.08493416792575005,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 369,
+          "gdp": 369,
+          "rank": 5,
+          "share": 0.03982300884955752,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1998,
+      "total": 6757,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 3264,
+          "gdp": 3264,
+          "rank": 1,
+          "share": 0.48305461003403877,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 1839,
+          "gdp": 1839,
+          "rank": 2,
+          "share": 0.27216220216072223,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 835,
+          "gdp": 835,
+          "rank": 3,
+          "share": 0.12357555128015392,
+          "rankDelta": 1
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 449,
+          "gdp": 449,
+          "rank": 4,
+          "share": 0.0664496078141187,
+          "rankDelta": -1
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 370,
+          "gdp": 370,
+          "rank": 5,
+          "share": 0.054758028710966404,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1999,
+      "total": 7450,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 3511,
+          "gdp": 3511,
+          "rank": 1,
+          "share": 0.47127516778523487,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 2026,
+          "gdp": 2026,
+          "rank": 2,
+          "share": 0.2719463087248322,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 881,
+          "gdp": 881,
+          "rank": 3,
+          "share": 0.11825503355704697,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 647,
+          "gdp": 647,
+          "rank": 4,
+          "share": 0.08684563758389262,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 385,
+          "gdp": 385,
+          "rank": 5,
+          "share": 0.05167785234899329,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2000,
+      "total": 8227,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 4084,
+          "gdp": 4084,
+          "rank": 1,
+          "share": 0.4964142457761031,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 2006,
+          "gdp": 2006,
+          "rank": 2,
+          "share": 0.2438312872249909,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 969,
+          "gdp": 969,
+          "rank": 3,
+          "share": 0.11778290993071594,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 764,
+          "gdp": 764,
+          "rank": 4,
+          "share": 0.09286495684939833,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 404,
+          "gdp": 404,
+          "rank": 5,
+          "share": 0.049106600218791784,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2001,
+      "total": 8077,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 3969,
+          "gdp": 3969,
+          "rank": 1,
+          "share": 0.491395320044571,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 1894,
+          "gdp": 1894,
+          "rank": 2,
+          "share": 0.23449300482852545,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 1065,
+          "gdp": 1065,
+          "rank": 3,
+          "share": 0.13185588708678964,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 732,
+          "gdp": 732,
+          "rank": 4,
+          "share": 0.09062770830753993,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 417,
+          "gdp": 417,
+          "rank": 5,
+          "share": 0.051628079732573974,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2002,
+      "total": 8827,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 4244,
+          "gdp": 4244,
+          "rank": 1,
+          "share": 0.48079755296250143,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 2098,
+          "gdp": 2098,
+          "rank": 2,
+          "share": 0.2376798459272686,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 1164,
+          "gdp": 1164,
+          "rank": 3,
+          "share": 0.13186813186813187,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 879,
+          "gdp": 879,
+          "rank": 4,
+          "share": 0.09958083153959442,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 442,
+          "gdp": 442,
+          "rank": 5,
+          "share": 0.050073637702503684,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2003,
+      "total": 9765,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 4567,
+          "gdp": 4567,
+          "rank": 1,
+          "share": 0.46769073220686125,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 2361,
+          "gdp": 2361,
+          "rank": 2,
+          "share": 0.24178187403993856,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 1307,
+          "gdp": 1307,
+          "rank": 3,
+          "share": 0.13384536610343062,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 1039,
+          "gdp": 1039,
+          "rank": 4,
+          "share": 0.10640040962621608,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 491,
+          "gdp": 491,
+          "rank": 5,
+          "share": 0.050281618023553507,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2004,
+      "total": 10956,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 5086,
+          "gdp": 5086,
+          "rank": 1,
+          "share": 0.46422051843738593,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 2662,
+          "gdp": 2662,
+          "rank": 2,
+          "share": 0.2429718875502008,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 1531,
+          "gdp": 1531,
+          "rank": 3,
+          "share": 0.13974078130704637,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 1120,
+          "gdp": 1120,
+          "rank": 4,
+          "share": 0.1022270901788974,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 557,
+          "gdp": 557,
+          "rank": 5,
+          "share": 0.05083972252646952,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2005,
+      "total": 12357,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 5753,
+          "gdp": 5753,
+          "rank": 1,
+          "share": 0.465566075908392,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 2899,
+          "gdp": 2899,
+          "rank": 2,
+          "share": 0.23460386825281218,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 1778,
+          "gdp": 1778,
+          "rank": 3,
+          "share": 0.14388605648620215,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 1229,
+          "gdp": 1229,
+          "rank": 4,
+          "share": 0.09945779719996763,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 698,
+          "gdp": 698,
+          "rank": 5,
+          "share": 0.05648620215262604,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2006,
+      "total": 14246,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 6400,
+          "gdp": 6400,
+          "rank": 1,
+          "share": 0.4492489119752913,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 3378,
+          "gdp": 3378,
+          "rank": 2,
+          "share": 0.23711919135195844,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 2129,
+          "gdp": 2129,
+          "rank": 3,
+          "share": 0.1494454583742805,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 1545,
+          "gdp": 1545,
+          "rank": 4,
+          "share": 0.10845149515653517,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 794,
+          "gdp": 794,
+          "rank": 5,
+          "share": 0.05573494314193458,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2007,
+      "total": 16909,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 7467,
+          "gdp": 7467,
+          "rank": 1,
+          "share": 0.4415991483825182,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 3986,
+          "gdp": 3986,
+          "rank": 2,
+          "share": 0.23573245017446331,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 2735,
+          "gdp": 2735,
+          "rank": 3,
+          "share": 0.1617481814418357,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 1805,
+          "gdp": 1805,
+          "rank": 4,
+          "share": 0.10674788574132119,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 916,
+          "gdp": 916,
+          "rank": 5,
+          "share": 0.054172334259861614,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2008,
+      "total": 19919,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 8738,
+          "gdp": 8738,
+          "rank": 1,
+          "share": 0.43867664039359405,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 4397,
+          "gdp": 4397,
+          "rank": 2,
+          "share": 0.2207440132536774,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 3523,
+          "gdp": 3523,
+          "rank": 3,
+          "share": 0.17686630854962598,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 2101,
+          "gdp": 2101,
+          "rank": 4,
+          "share": 0.10547718258948742,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 1160,
+          "gdp": 1160,
+          "rank": 5,
+          "share": 0.05823585521361514,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2009,
+      "total": 19077,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 7526,
+          "gdp": 7526,
+          "rank": 1,
+          "share": 0.3945064737642187,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 4235,
+          "gdp": 4235,
+          "rank": 2,
+          "share": 0.2219950726005137,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 3898,
+          "gdp": 3898,
+          "rank": 3,
+          "share": 0.20432982125072077,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 2190,
+          "gdp": 2190,
+          "rank": 4,
+          "share": 0.11479792420191855,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 1228,
+          "gdp": 1228,
+          "rank": 5,
+          "share": 0.0643707081826283,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "total": 23251,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 8899,
+          "gdp": 8899,
+          "rank": 1,
+          "share": 0.38273622639886457,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 4974,
+          "gdp": 4974,
+          "rank": 2,
+          "share": 0.2139262827405273,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 4629,
+          "gdp": 4629,
+          "rank": 3,
+          "share": 0.19908821125973075,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 3066,
+          "gdp": 3066,
+          "rank": 4,
+          "share": 0.13186529611629608,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 1683,
+          "gdp": 1683,
+          "rank": 5,
+          "share": 0.0723839834845813,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2011,
+      "total": 26830,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 10210,
+          "gdp": 10210,
+          "rank": 1,
+          "share": 0.38054416697726423,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 5708,
+          "gdp": 5708,
+          "rank": 2,
+          "share": 0.21274692508386134,
+          "rankDelta": 1
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 5386,
+          "gdp": 5386,
+          "rank": 3,
+          "share": 0.20074543421543048,
+          "rankDelta": -1
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 3578,
+          "gdp": 3578,
+          "rank": 4,
+          "share": 0.13335818114051434,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 1948,
+          "gdp": 1948,
+          "rank": 5,
+          "share": 0.07260529258292955,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2012,
+      "total": 28580,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 10596,
+          "gdp": 10596,
+          "rank": 1,
+          "share": 0.37074877536738976,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 6422,
+          "gdp": 6422,
+          "rank": 2,
+          "share": 0.22470258922323302,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 5755,
+          "gdp": 5755,
+          "rank": 3,
+          "share": 0.20136459062281314,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 3630,
+          "gdp": 3630,
+          "rank": 4,
+          "share": 0.1270118964310707,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 2177,
+          "gdp": 2177,
+          "rank": 5,
+          "share": 0.07617214835549335,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "total": 29882,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 10730,
+          "gdp": 10730,
+          "rank": 1,
+          "share": 0.35907904424068,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 7178,
+          "gdp": 7178,
+          "rank": 2,
+          "share": 0.24021149856100663,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 6067,
+          "gdp": 6067,
+          "rank": 3,
+          "share": 0.2030319255739241,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 3563,
+          "gdp": 3563,
+          "rank": 4,
+          "share": 0.1192356602637039,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 2344,
+          "gdp": 2344,
+          "rank": 5,
+          "share": 0.07844187136068537,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "total": 30719,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 11072,
+          "gdp": 11072,
+          "rank": 1,
+          "share": 0.3604283993619584,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 7824,
+          "gdp": 7824,
+          "rank": 2,
+          "share": 0.25469579087860933,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 5865,
+          "gdp": 5865,
+          "rank": 3,
+          "share": 0.19092418372993913,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 3435,
+          "gdp": 3435,
+          "rank": 4,
+          "share": 0.11182004622546307,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 2523,
+          "gdp": 2523,
+          "rank": 5,
+          "share": 0.08213157980403007,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "total": 29562,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 9740,
+          "gdp": 9740,
+          "rank": 1,
+          "share": 0.329477031323997,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 8227,
+          "gdp": 8227,
+          "rank": 2,
+          "share": 0.27829646167377037,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 5765,
+          "gdp": 5765,
+          "rank": 3,
+          "share": 0.19501386915634936,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 3281,
+          "gdp": 3281,
+          "rank": 4,
+          "share": 0.11098707800554766,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 2549,
+          "gdp": 2549,
+          "rank": 5,
+          "share": 0.08622555984033557,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "total": 30059,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 9610,
+          "gdp": 9610,
+          "rank": 1,
+          "share": 0.31970458099071825,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 8310,
+          "gdp": 8310,
+          "rank": 2,
+          "share": 0.2764563026048771,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 5928,
+          "gdp": 5928,
+          "rank": 3,
+          "share": 0.19721214943943577,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 3512,
+          "gdp": 3512,
+          "rank": 4,
+          "share": 0.11683688745467248,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 2699,
+          "gdp": 2699,
+          "rank": 5,
+          "share": 0.08979007951029641,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "total": 32323,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 10049,
+          "gdp": 10049,
+          "rank": 1,
+          "share": 0.3108931720446741,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 9043,
+          "gdp": 9043,
+          "rank": 2,
+          "share": 0.2797698233456053,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 6533,
+          "gdp": 6533,
+          "rank": 3,
+          "share": 0.20211614020975777,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 3786,
+          "gdp": 3786,
+          "rank": 4,
+          "share": 0.11713021687343378,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 2912,
+          "gdp": 2912,
+          "rank": 5,
+          "share": 0.0900906475265291,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "total": 35171,
+      "items": [
+        {
+          "code": "MYS",
+          "iso2": "MY",
+          "name": "马来西亚",
+          "nameEn": "Malaysia",
+          "region": "东南亚",
+          "value": 10902,
+          "gdp": 10902,
+          "rank": 1,
+          "share": 0.30997128315942113,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHN",
+          "iso2": "CN",
+          "name": "中国",
+          "nameEn": "China",
+          "region": "东亚",
+          "value": 10086,
+          "gdp": 10086,
+          "rank": 2,
+          "share": 0.28677035057291517,
+          "rankDelta": 0
+        },
+        {
+          "code": "THA",
+          "iso2": "TH",
+          "name": "泰国",
+          "nameEn": "Thailand",
+          "region": "东南亚",
+          "value": 7100,
+          "gdp": 7100,
+          "rank": 3,
+          "share": 0.2018708595149413,
+          "rankDelta": 0
+        },
+        {
+          "code": "IDN",
+          "iso2": "ID",
+          "name": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "region": "东南亚",
+          "value": 3861,
+          "gdp": 3861,
+          "rank": 4,
+          "share": 0.10977794205453356,
+          "rankDelta": 0
+        },
+        {
+          "code": "VNM",
+          "iso2": "VN",
+          "name": "越南",
+          "nameEn": "Vietnam",
+          "region": "东南亚",
+          "value": 3222,
+          "gdp": 3222,
+          "rank": 5,
+          "share": 0.09160956469818884,
+          "rankDelta": 0
+        }
+      ]
+    }
+  ]
+}
