@@ -1,7 +1,47 @@
+# Dependencies
 node_modules/
+.pnpm-store/
+
+# OS files
 .DS_Store
+*~
+*.swp
+*.swo
+Thumbs.db
+
+# Build & output
 output/
 out/
+dist/
+build/
+*.tsbuildinfo
+
+# Cloudflare
 .wrangler/
-docs/history-video-copy.md
+worker/
+
+# Remotion
+.remotion/
+remotion-cache/
+input-root/
+
+# IDE
+.vscode/settings.json
+.idea/
+*.sublime-*
+
+# Claude Code (local config)
+.claude/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
 *.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Docs
+docs/history-video-copy.md

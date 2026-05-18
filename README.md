@@ -2,11 +2,19 @@
 
 Private skill repository for paid MakerJackie workflows.
 
-## Skills
+## Available Skills
 
-| Skill | Source |
+| Skill | Install |
 | --- | --- |
-| [history-video-maker](./skills/history-video-maker/SKILL.md) | `skills/history-video-maker/` |
+| history-video-maker | `npx skills add makerjackie/paid-skills -skill history-video-maker` |
+
+## Installation
+
+```bash
+npx skills add makerjackie/paid-skills -skill history-video-maker
+```
+
+> Replace `history-video-maker` with the skill name from the table above.
 
 ## Package Shape
 
