@@ -1,0 +1,1210 @@
+{
+  "slug": "ai-youtube-creators-race",
+  "title": "AI 内容 YouTuber 订阅增长史",
+  "titleEn": "AI YouTube Creator Subscriber Race",
+  "summary": "从 2018 到 2026，看 AI 内容创作者如何从论文讲解、机器学习教育，转向工具测评、模型新闻和开发者科普。",
+  "sourceLabel": "YouTube 公开数据 / Social Blade / vidIQ / AI 频道榜单",
+  "sourceLabelEn": "YouTube public data / Social Blade / vidIQ / AI channel rankings",
+  "sourceUrl": "https://www.aidatahub.io/youtube",
+  "sourcePages": [
+    {
+      "year": 2026,
+      "title": "AI Data Hub: Best AI YouTube Channels",
+      "url": "https://www.aidatahub.io/youtube"
+    },
+    {
+      "year": 2026,
+      "title": "TubeScout AI and Technology Channels",
+      "url": "https://tubescout.app/guides/best-ai-tech-youtube-channels"
+    },
+    {
+      "year": 2025,
+      "title": "Skim AI: Top AI YouTubers",
+      "url": "https://skimai.com/top-ten-ai-youtubers-you-need-to-follow-in-2025/"
+    }
+  ],
+  "sourceNote": "频道订阅为公开页面、第三方频道统计和历史里程碑估算。AI 垂类频道定义较宽，包含论文讲解、AI 新闻、AI 工具测评和开发者 AI 科普。",
+  "unit": "订阅者",
+  "unitShort": "subs",
+  "valueKind": "count",
+  "musicId": "hd235-bright-life",
+  "themeId": "tech-signal",
+  "startYear": 2018,
+  "endYear": 2026,
+  "entities": [
+    {
+      "code": "TMP",
+      "iso2": "TMP",
+      "name": "Two Minute Papers",
+      "nameEn": "Two Minute Papers",
+      "region": "AI 论文"
+    },
+    {
+      "code": "FIRESHIP",
+      "iso2": "FIRESHIP",
+      "name": "Fireship",
+      "nameEn": "Fireship",
+      "region": "开发者科普"
+    },
+    {
+      "code": "WOLFE",
+      "iso2": "WOLFE",
+      "name": "Matt Wolfe",
+      "nameEn": "Matt Wolfe",
+      "region": "AI 工具"
+    },
+    {
+      "code": "BERMAN",
+      "iso2": "BERMAN",
+      "name": "Matthew Berman",
+      "nameEn": "Matthew Berman",
+      "region": "AI 工具"
+    },
+    {
+      "code": "AIE",
+      "iso2": "AIE",
+      "name": "AI Explained",
+      "nameEn": "AI Explained",
+      "region": "AI 分析"
+    },
+    {
+      "code": "WES",
+      "iso2": "WES",
+      "name": "Wes Roth",
+      "nameEn": "Wes Roth",
+      "region": "AI 新闻"
+    },
+    {
+      "code": "YANNIC",
+      "iso2": "YANNIC",
+      "name": "Yannic Kilcher",
+      "nameEn": "Yannic Kilcher",
+      "region": "ML 论文"
+    },
+    {
+      "code": "KARPATHY",
+      "iso2": "KARPATHY",
+      "name": "Andrej Karpathy",
+      "nameEn": "Andrej Karpathy",
+      "region": "AI 教育"
+    },
+    {
+      "code": "MATT",
+      "iso2": "MATT",
+      "name": "MattVidPro AI",
+      "nameEn": "MattVidPro AI",
+      "region": "AI 创作"
+    },
+    {
+      "code": "SHA",
+      "iso2": "SHA",
+      "name": "David Shapiro",
+      "nameEn": "David Shapiro",
+      "region": "AI 评论"
+    }
+  ],
+  "frames": [
+    {
+      "year": 2018,
+      "total": 655000,
+      "items": [
+        {
+          "code": "TMP",
+          "iso2": "TMP",
+          "name": "Two Minute Papers",
+          "nameEn": "Two Minute Papers",
+          "region": "AI 论文",
+          "value": 350000,
+          "rank": 1,
+          "share": 0.5343511450381679,
+          "rankDelta": 0
+        },
+        {
+          "code": "FIRESHIP",
+          "iso2": "FIRESHIP",
+          "name": "Fireship",
+          "nameEn": "Fireship",
+          "region": "开发者科普",
+          "value": 200000,
+          "rank": 2,
+          "share": 0.3053435114503817,
+          "rankDelta": 0
+        },
+        {
+          "code": "WOLFE",
+          "iso2": "WOLFE",
+          "name": "Matt Wolfe",
+          "nameEn": "Matt Wolfe",
+          "region": "AI 工具",
+          "value": 30000,
+          "rank": 3,
+          "share": 0.04580152671755725,
+          "rankDelta": 0
+        },
+        {
+          "code": "YANNIC",
+          "iso2": "YANNIC",
+          "name": "Yannic Kilcher",
+          "nameEn": "Yannic Kilcher",
+          "region": "ML 论文",
+          "value": 20000,
+          "rank": 4,
+          "share": 0.030534351145038167,
+          "rankDelta": 0
+        },
+        {
+          "code": "KARPATHY",
+          "iso2": "KARPATHY",
+          "name": "Andrej Karpathy",
+          "nameEn": "Andrej Karpathy",
+          "region": "AI 教育",
+          "value": 20000,
+          "rank": 5,
+          "share": 0.030534351145038167,
+          "rankDelta": 0
+        },
+        {
+          "code": "MATT",
+          "iso2": "MATT",
+          "name": "MattVidPro AI",
+          "nameEn": "MattVidPro AI",
+          "region": "AI 创作",
+          "value": 15000,
+          "rank": 6,
+          "share": 0.022900763358778626,
+          "rankDelta": 0
+        },
+        {
+          "code": "AIE",
+          "iso2": "AIE",
+          "name": "AI Explained",
+          "nameEn": "AI Explained",
+          "region": "AI 分析",
+          "value": 10000,
+          "rank": 7,
+          "share": 0.015267175572519083,
+          "rankDelta": 0
+        },
+        {
+          "code": "BERMAN",
+          "iso2": "BERMAN",
+          "name": "Matthew Berman",
+          "nameEn": "Matthew Berman",
+          "region": "AI 工具",
+          "value": 5000,
+          "rank": 8,
+          "share": 0.007633587786259542,
+          "rankDelta": 0
+        },
+        {
+          "code": "SHA",
+          "iso2": "SHA",
+          "name": "David Shapiro",
+          "nameEn": "David Shapiro",
+          "region": "AI 评论",
+          "value": 5000,
+          "rank": 9,
+          "share": 0.007633587786259542,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "total": 1141000,
+      "items": [
+        {
+          "code": "TMP",
+          "iso2": "TMP",
+          "name": "Two Minute Papers",
+          "nameEn": "Two Minute Papers",
+          "region": "AI 论文",
+          "value": 500000,
+          "rank": 1,
+          "share": 0.43821209465381245,
+          "rankDelta": 0
+        },
+        {
+          "code": "FIRESHIP",
+          "iso2": "FIRESHIP",
+          "name": "Fireship",
+          "nameEn": "Fireship",
+          "region": "开发者科普",
+          "value": 450000,
+          "rank": 2,
+          "share": 0.3943908851884312,
+          "rankDelta": 0
+        },
+        {
+          "code": "WOLFE",
+          "iso2": "WOLFE",
+          "name": "Matt Wolfe",
+          "nameEn": "Matt Wolfe",
+          "region": "AI 工具",
+          "value": 50000,
+          "rank": 3,
+          "share": 0.04382120946538125,
+          "rankDelta": 0
+        },
+        {
+          "code": "YANNIC",
+          "iso2": "YANNIC",
+          "name": "Yannic Kilcher",
+          "nameEn": "Yannic Kilcher",
+          "region": "ML 论文",
+          "value": 45000,
+          "rank": 4,
+          "share": 0.03943908851884312,
+          "rankDelta": 0
+        },
+        {
+          "code": "KARPATHY",
+          "iso2": "KARPATHY",
+          "name": "Andrej Karpathy",
+          "nameEn": "Andrej Karpathy",
+          "region": "AI 教育",
+          "value": 40000,
+          "rank": 5,
+          "share": 0.035056967572304996,
+          "rankDelta": 0
+        },
+        {
+          "code": "MATT",
+          "iso2": "MATT",
+          "name": "MattVidPro AI",
+          "nameEn": "MattVidPro AI",
+          "region": "AI 创作",
+          "value": 25000,
+          "rank": 6,
+          "share": 0.021910604732690624,
+          "rankDelta": 0
+        },
+        {
+          "code": "AIE",
+          "iso2": "AIE",
+          "name": "AI Explained",
+          "nameEn": "AI Explained",
+          "region": "AI 分析",
+          "value": 15000,
+          "rank": 7,
+          "share": 0.013146362839614373,
+          "rankDelta": 0
+        },
+        {
+          "code": "BERMAN",
+          "iso2": "BERMAN",
+          "name": "Matthew Berman",
+          "nameEn": "Matthew Berman",
+          "region": "AI 工具",
+          "value": 8000,
+          "rank": 8,
+          "share": 0.007011393514460999,
+          "rankDelta": 0
+        },
+        {
+          "code": "SHA",
+          "iso2": "SHA",
+          "name": "David Shapiro",
+          "nameEn": "David Shapiro",
+          "region": "AI 评论",
+          "value": 8000,
+          "rank": 9,
+          "share": 0.007011393514460999,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "total": 1947000,
+      "items": [
+        {
+          "code": "FIRESHIP",
+          "iso2": "FIRESHIP",
+          "name": "Fireship",
+          "nameEn": "Fireship",
+          "region": "开发者科普",
+          "value": 900000,
+          "rank": 1,
+          "share": 0.4622496147919877,
+          "rankDelta": 1
+        },
+        {
+          "code": "TMP",
+          "iso2": "TMP",
+          "name": "Two Minute Papers",
+          "nameEn": "Two Minute Papers",
+          "region": "AI 论文",
+          "value": 700000,
+          "rank": 2,
+          "share": 0.35952747817154596,
+          "rankDelta": -1
+        },
+        {
+          "code": "YANNIC",
+          "iso2": "YANNIC",
+          "name": "Yannic Kilcher",
+          "nameEn": "Yannic Kilcher",
+          "region": "ML 论文",
+          "value": 100000,
+          "rank": 3,
+          "share": 0.05136106831022085,
+          "rankDelta": 1
+        },
+        {
+          "code": "WOLFE",
+          "iso2": "WOLFE",
+          "name": "Matt Wolfe",
+          "nameEn": "Matt Wolfe",
+          "region": "AI 工具",
+          "value": 80000,
+          "rank": 4,
+          "share": 0.04108885464817668,
+          "rankDelta": -1
+        },
+        {
+          "code": "KARPATHY",
+          "iso2": "KARPATHY",
+          "name": "Andrej Karpathy",
+          "nameEn": "Andrej Karpathy",
+          "region": "AI 教育",
+          "value": 70000,
+          "rank": 5,
+          "share": 0.035952747817154594,
+          "rankDelta": 0
+        },
+        {
+          "code": "MATT",
+          "iso2": "MATT",
+          "name": "MattVidPro AI",
+          "nameEn": "MattVidPro AI",
+          "region": "AI 创作",
+          "value": 40000,
+          "rank": 6,
+          "share": 0.02054442732408834,
+          "rankDelta": 0
+        },
+        {
+          "code": "AIE",
+          "iso2": "AIE",
+          "name": "AI Explained",
+          "nameEn": "AI Explained",
+          "region": "AI 分析",
+          "value": 25000,
+          "rank": 7,
+          "share": 0.012840267077555213,
+          "rankDelta": 0
+        },
+        {
+          "code": "BERMAN",
+          "iso2": "BERMAN",
+          "name": "Matthew Berman",
+          "nameEn": "Matthew Berman",
+          "region": "AI 工具",
+          "value": 15000,
+          "rank": 8,
+          "share": 0.007704160246533128,
+          "rankDelta": 0
+        },
+        {
+          "code": "SHA",
+          "iso2": "SHA",
+          "name": "David Shapiro",
+          "nameEn": "David Shapiro",
+          "region": "AI 评论",
+          "value": 12000,
+          "rank": 9,
+          "share": 0.0061633281972265025,
+          "rankDelta": 0
+        },
+        {
+          "code": "WES",
+          "iso2": "WES",
+          "name": "Wes Roth",
+          "nameEn": "Wes Roth",
+          "region": "AI 新闻",
+          "value": 5000,
+          "rank": 10,
+          "share": 0.0025680534155110425,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "total": 3025000,
+      "items": [
+        {
+          "code": "FIRESHIP",
+          "iso2": "FIRESHIP",
+          "name": "Fireship",
+          "nameEn": "Fireship",
+          "region": "开发者科普",
+          "value": 1500000,
+          "rank": 1,
+          "share": 0.49586776859504134,
+          "rankDelta": 0
+        },
+        {
+          "code": "TMP",
+          "iso2": "TMP",
+          "name": "Two Minute Papers",
+          "nameEn": "Two Minute Papers",
+          "region": "AI 论文",
+          "value": 950000,
+          "rank": 2,
+          "share": 0.3140495867768595,
+          "rankDelta": 0
+        },
+        {
+          "code": "YANNIC",
+          "iso2": "YANNIC",
+          "name": "Yannic Kilcher",
+          "nameEn": "Yannic Kilcher",
+          "region": "ML 论文",
+          "value": 180000,
+          "rank": 3,
+          "share": 0.05950413223140496,
+          "rankDelta": 0
+        },
+        {
+          "code": "WOLFE",
+          "iso2": "WOLFE",
+          "name": "Matt Wolfe",
+          "nameEn": "Matt Wolfe",
+          "region": "AI 工具",
+          "value": 120000,
+          "rank": 4,
+          "share": 0.03966942148760331,
+          "rankDelta": 0
+        },
+        {
+          "code": "KARPATHY",
+          "iso2": "KARPATHY",
+          "name": "Andrej Karpathy",
+          "nameEn": "Andrej Karpathy",
+          "region": "AI 教育",
+          "value": 100000,
+          "rank": 5,
+          "share": 0.03305785123966942,
+          "rankDelta": 0
+        },
+        {
+          "code": "MATT",
+          "iso2": "MATT",
+          "name": "MattVidPro AI",
+          "nameEn": "MattVidPro AI",
+          "region": "AI 创作",
+          "value": 80000,
+          "rank": 6,
+          "share": 0.026446280991735537,
+          "rankDelta": 0
+        },
+        {
+          "code": "AIE",
+          "iso2": "AIE",
+          "name": "AI Explained",
+          "nameEn": "AI Explained",
+          "region": "AI 分析",
+          "value": 40000,
+          "rank": 7,
+          "share": 0.013223140495867768,
+          "rankDelta": 0
+        },
+        {
+          "code": "BERMAN",
+          "iso2": "BERMAN",
+          "name": "Matthew Berman",
+          "nameEn": "Matthew Berman",
+          "region": "AI 工具",
+          "value": 25000,
+          "rank": 8,
+          "share": 0.008264462809917356,
+          "rankDelta": 0
+        },
+        {
+          "code": "SHA",
+          "iso2": "SHA",
+          "name": "David Shapiro",
+          "nameEn": "David Shapiro",
+          "region": "AI 评论",
+          "value": 20000,
+          "rank": 9,
+          "share": 0.006611570247933884,
+          "rankDelta": 0
+        },
+        {
+          "code": "WES",
+          "iso2": "WES",
+          "name": "Wes Roth",
+          "nameEn": "Wes Roth",
+          "region": "AI 新闻",
+          "value": 10000,
+          "rank": 10,
+          "share": 0.003305785123966942,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "total": 4170000,
+      "items": [
+        {
+          "code": "FIRESHIP",
+          "iso2": "FIRESHIP",
+          "name": "Fireship",
+          "nameEn": "Fireship",
+          "region": "开发者科普",
+          "value": 2000000,
+          "rank": 1,
+          "share": 0.47961630695443647,
+          "rankDelta": 0
+        },
+        {
+          "code": "TMP",
+          "iso2": "TMP",
+          "name": "Two Minute Papers",
+          "nameEn": "Two Minute Papers",
+          "region": "AI 论文",
+          "value": 1150000,
+          "rank": 2,
+          "share": 0.27577937649880097,
+          "rankDelta": 0
+        },
+        {
+          "code": "WOLFE",
+          "iso2": "WOLFE",
+          "name": "Matt Wolfe",
+          "nameEn": "Matt Wolfe",
+          "region": "AI 工具",
+          "value": 250000,
+          "rank": 3,
+          "share": 0.05995203836930456,
+          "rankDelta": 1
+        },
+        {
+          "code": "YANNIC",
+          "iso2": "YANNIC",
+          "name": "Yannic Kilcher",
+          "nameEn": "Yannic Kilcher",
+          "region": "ML 论文",
+          "value": 230000,
+          "rank": 4,
+          "share": 0.05515587529976019,
+          "rankDelta": -1
+        },
+        {
+          "code": "KARPATHY",
+          "iso2": "KARPATHY",
+          "name": "Andrej Karpathy",
+          "nameEn": "Andrej Karpathy",
+          "region": "AI 教育",
+          "value": 160000,
+          "rank": 5,
+          "share": 0.03836930455635491,
+          "rankDelta": 0
+        },
+        {
+          "code": "MATT",
+          "iso2": "MATT",
+          "name": "MattVidPro AI",
+          "nameEn": "MattVidPro AI",
+          "region": "AI 创作",
+          "value": 140000,
+          "rank": 6,
+          "share": 0.03357314148681055,
+          "rankDelta": 0
+        },
+        {
+          "code": "AIE",
+          "iso2": "AIE",
+          "name": "AI Explained",
+          "nameEn": "AI Explained",
+          "region": "AI 分析",
+          "value": 90000,
+          "rank": 7,
+          "share": 0.02158273381294964,
+          "rankDelta": 0
+        },
+        {
+          "code": "BERMAN",
+          "iso2": "BERMAN",
+          "name": "Matthew Berman",
+          "nameEn": "Matthew Berman",
+          "region": "AI 工具",
+          "value": 70000,
+          "rank": 8,
+          "share": 0.016786570743405275,
+          "rankDelta": 0
+        },
+        {
+          "code": "SHA",
+          "iso2": "SHA",
+          "name": "David Shapiro",
+          "nameEn": "David Shapiro",
+          "region": "AI 评论",
+          "value": 50000,
+          "rank": 9,
+          "share": 0.011990407673860911,
+          "rankDelta": 0
+        },
+        {
+          "code": "WES",
+          "iso2": "WES",
+          "name": "Wes Roth",
+          "nameEn": "Wes Roth",
+          "region": "AI 新闻",
+          "value": 30000,
+          "rank": 10,
+          "share": 0.007194244604316547,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "total": 6100000,
+      "items": [
+        {
+          "code": "FIRESHIP",
+          "iso2": "FIRESHIP",
+          "name": "Fireship",
+          "nameEn": "Fireship",
+          "region": "开发者科普",
+          "value": 2600000,
+          "rank": 1,
+          "share": 0.4262295081967213,
+          "rankDelta": 0
+        },
+        {
+          "code": "TMP",
+          "iso2": "TMP",
+          "name": "Two Minute Papers",
+          "nameEn": "Two Minute Papers",
+          "region": "AI 论文",
+          "value": 1350000,
+          "rank": 2,
+          "share": 0.22131147540983606,
+          "rankDelta": 0
+        },
+        {
+          "code": "WOLFE",
+          "iso2": "WOLFE",
+          "name": "Matt Wolfe",
+          "nameEn": "Matt Wolfe",
+          "region": "AI 工具",
+          "value": 550000,
+          "rank": 3,
+          "share": 0.09016393442622951,
+          "rankDelta": 0
+        },
+        {
+          "code": "KARPATHY",
+          "iso2": "KARPATHY",
+          "name": "Andrej Karpathy",
+          "nameEn": "Andrej Karpathy",
+          "region": "AI 教育",
+          "value": 350000,
+          "rank": 4,
+          "share": 0.05737704918032787,
+          "rankDelta": 1
+        },
+        {
+          "code": "YANNIC",
+          "iso2": "YANNIC",
+          "name": "Yannic Kilcher",
+          "nameEn": "Yannic Kilcher",
+          "region": "ML 论文",
+          "value": 270000,
+          "rank": 5,
+          "share": 0.04426229508196721,
+          "rankDelta": -1
+        },
+        {
+          "code": "AIE",
+          "iso2": "AIE",
+          "name": "AI Explained",
+          "nameEn": "AI Explained",
+          "region": "AI 分析",
+          "value": 250000,
+          "rank": 6,
+          "share": 0.040983606557377046,
+          "rankDelta": 1
+        },
+        {
+          "code": "MATT",
+          "iso2": "MATT",
+          "name": "MattVidPro AI",
+          "nameEn": "MattVidPro AI",
+          "region": "AI 创作",
+          "value": 250000,
+          "rank": 7,
+          "share": 0.040983606557377046,
+          "rankDelta": -1
+        },
+        {
+          "code": "BERMAN",
+          "iso2": "BERMAN",
+          "name": "Matthew Berman",
+          "nameEn": "Matthew Berman",
+          "region": "AI 工具",
+          "value": 180000,
+          "rank": 8,
+          "share": 0.029508196721311476,
+          "rankDelta": 0
+        },
+        {
+          "code": "SHA",
+          "iso2": "SHA",
+          "name": "David Shapiro",
+          "nameEn": "David Shapiro",
+          "region": "AI 评论",
+          "value": 180000,
+          "rank": 9,
+          "share": 0.029508196721311476,
+          "rankDelta": 0
+        },
+        {
+          "code": "WES",
+          "iso2": "WES",
+          "name": "Wes Roth",
+          "nameEn": "Wes Roth",
+          "region": "AI 新闻",
+          "value": 120000,
+          "rank": 10,
+          "share": 0.019672131147540985,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "total": 8100000,
+      "items": [
+        {
+          "code": "FIRESHIP",
+          "iso2": "FIRESHIP",
+          "name": "Fireship",
+          "nameEn": "Fireship",
+          "region": "开发者科普",
+          "value": 3100000,
+          "rank": 1,
+          "share": 0.38271604938271603,
+          "rankDelta": 0
+        },
+        {
+          "code": "TMP",
+          "iso2": "TMP",
+          "name": "Two Minute Papers",
+          "nameEn": "Two Minute Papers",
+          "region": "AI 论文",
+          "value": 1500000,
+          "rank": 2,
+          "share": 0.18518518518518517,
+          "rankDelta": 0
+        },
+        {
+          "code": "WOLFE",
+          "iso2": "WOLFE",
+          "name": "Matt Wolfe",
+          "nameEn": "Matt Wolfe",
+          "region": "AI 工具",
+          "value": 800000,
+          "rank": 3,
+          "share": 0.09876543209876543,
+          "rankDelta": 0
+        },
+        {
+          "code": "KARPATHY",
+          "iso2": "KARPATHY",
+          "name": "Andrej Karpathy",
+          "nameEn": "Andrej Karpathy",
+          "region": "AI 教育",
+          "value": 650000,
+          "rank": 4,
+          "share": 0.08024691358024691,
+          "rankDelta": 0
+        },
+        {
+          "code": "AIE",
+          "iso2": "AIE",
+          "name": "AI Explained",
+          "nameEn": "AI Explained",
+          "region": "AI 分析",
+          "value": 420000,
+          "rank": 5,
+          "share": 0.05185185185185185,
+          "rankDelta": 1
+        },
+        {
+          "code": "BERMAN",
+          "iso2": "BERMAN",
+          "name": "Matthew Berman",
+          "nameEn": "Matthew Berman",
+          "region": "AI 工具",
+          "value": 350000,
+          "rank": 6,
+          "share": 0.043209876543209874,
+          "rankDelta": 2
+        },
+        {
+          "code": "WES",
+          "iso2": "WES",
+          "name": "Wes Roth",
+          "nameEn": "Wes Roth",
+          "region": "AI 新闻",
+          "value": 350000,
+          "rank": 7,
+          "share": 0.043209876543209874,
+          "rankDelta": 3
+        },
+        {
+          "code": "MATT",
+          "iso2": "MATT",
+          "name": "MattVidPro AI",
+          "nameEn": "MattVidPro AI",
+          "region": "AI 创作",
+          "value": 320000,
+          "rank": 8,
+          "share": 0.03950617283950617,
+          "rankDelta": -1
+        },
+        {
+          "code": "YANNIC",
+          "iso2": "YANNIC",
+          "name": "Yannic Kilcher",
+          "nameEn": "Yannic Kilcher",
+          "region": "ML 论文",
+          "value": 310000,
+          "rank": 9,
+          "share": 0.03827160493827161,
+          "rankDelta": -4
+        },
+        {
+          "code": "SHA",
+          "iso2": "SHA",
+          "name": "David Shapiro",
+          "nameEn": "David Shapiro",
+          "region": "AI 评论",
+          "value": 300000,
+          "rank": 10,
+          "share": 0.037037037037037035,
+          "rankDelta": -1
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "total": 9980000,
+      "items": [
+        {
+          "code": "FIRESHIP",
+          "iso2": "FIRESHIP",
+          "name": "Fireship",
+          "nameEn": "Fireship",
+          "region": "开发者科普",
+          "value": 3500000,
+          "rank": 1,
+          "share": 0.35070140280561124,
+          "rankDelta": 0
+        },
+        {
+          "code": "TMP",
+          "iso2": "TMP",
+          "name": "Two Minute Papers",
+          "nameEn": "Two Minute Papers",
+          "region": "AI 论文",
+          "value": 1650000,
+          "rank": 2,
+          "share": 0.1653306613226453,
+          "rankDelta": 0
+        },
+        {
+          "code": "WOLFE",
+          "iso2": "WOLFE",
+          "name": "Matt Wolfe",
+          "nameEn": "Matt Wolfe",
+          "region": "AI 工具",
+          "value": 1050000,
+          "rank": 3,
+          "share": 0.10521042084168336,
+          "rankDelta": 0
+        },
+        {
+          "code": "KARPATHY",
+          "iso2": "KARPATHY",
+          "name": "Andrej Karpathy",
+          "nameEn": "Andrej Karpathy",
+          "region": "AI 教育",
+          "value": 950000,
+          "rank": 4,
+          "share": 0.09519038076152304,
+          "rankDelta": 0
+        },
+        {
+          "code": "WES",
+          "iso2": "WES",
+          "name": "Wes Roth",
+          "nameEn": "Wes Roth",
+          "region": "AI 新闻",
+          "value": 600000,
+          "rank": 5,
+          "share": 0.06012024048096192,
+          "rankDelta": 2
+        },
+        {
+          "code": "AIE",
+          "iso2": "AIE",
+          "name": "AI Explained",
+          "nameEn": "AI Explained",
+          "region": "AI 分析",
+          "value": 550000,
+          "rank": 6,
+          "share": 0.05511022044088176,
+          "rankDelta": -1
+        },
+        {
+          "code": "BERMAN",
+          "iso2": "BERMAN",
+          "name": "Matthew Berman",
+          "nameEn": "Matthew Berman",
+          "region": "AI 工具",
+          "value": 520000,
+          "rank": 7,
+          "share": 0.052104208416833664,
+          "rankDelta": -1
+        },
+        {
+          "code": "SHA",
+          "iso2": "SHA",
+          "name": "David Shapiro",
+          "nameEn": "David Shapiro",
+          "region": "AI 评论",
+          "value": 420000,
+          "rank": 8,
+          "share": 0.04208416833667335,
+          "rankDelta": 2
+        },
+        {
+          "code": "MATT",
+          "iso2": "MATT",
+          "name": "MattVidPro AI",
+          "nameEn": "MattVidPro AI",
+          "region": "AI 创作",
+          "value": 400000,
+          "rank": 9,
+          "share": 0.04008016032064128,
+          "rankDelta": -1
+        },
+        {
+          "code": "YANNIC",
+          "iso2": "YANNIC",
+          "name": "Yannic Kilcher",
+          "nameEn": "Yannic Kilcher",
+          "region": "ML 论文",
+          "value": 340000,
+          "rank": 10,
+          "share": 0.03406813627254509,
+          "rankDelta": -1
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "total": 11490000,
+      "items": [
+        {
+          "code": "FIRESHIP",
+          "iso2": "FIRESHIP",
+          "name": "Fireship",
+          "nameEn": "Fireship",
+          "region": "开发者科普",
+          "value": 3800000,
+          "rank": 1,
+          "share": 0.3307223672758921,
+          "rankDelta": 0
+        },
+        {
+          "code": "TMP",
+          "iso2": "TMP",
+          "name": "Two Minute Papers",
+          "nameEn": "Two Minute Papers",
+          "region": "AI 论文",
+          "value": 1750000,
+          "rank": 2,
+          "share": 0.15230635335073978,
+          "rankDelta": 0
+        },
+        {
+          "code": "WOLFE",
+          "iso2": "WOLFE",
+          "name": "Matt Wolfe",
+          "nameEn": "Matt Wolfe",
+          "region": "AI 工具",
+          "value": 1250000,
+          "rank": 3,
+          "share": 0.10879025239338555,
+          "rankDelta": 0
+        },
+        {
+          "code": "KARPATHY",
+          "iso2": "KARPATHY",
+          "name": "Andrej Karpathy",
+          "nameEn": "Andrej Karpathy",
+          "region": "AI 教育",
+          "value": 1200000,
+          "rank": 4,
+          "share": 0.10443864229765012,
+          "rankDelta": 0
+        },
+        {
+          "code": "WES",
+          "iso2": "WES",
+          "name": "Wes Roth",
+          "nameEn": "Wes Roth",
+          "region": "AI 新闻",
+          "value": 850000,
+          "rank": 5,
+          "share": 0.07397737162750218,
+          "rankDelta": 0
+        },
+        {
+          "code": "BERMAN",
+          "iso2": "BERMAN",
+          "name": "Matthew Berman",
+          "nameEn": "Matthew Berman",
+          "region": "AI 工具",
+          "value": 650000,
+          "rank": 6,
+          "share": 0.05657093124456049,
+          "rankDelta": 1
+        },
+        {
+          "code": "AIE",
+          "iso2": "AIE",
+          "name": "AI Explained",
+          "nameEn": "AI Explained",
+          "region": "AI 分析",
+          "value": 650000,
+          "rank": 7,
+          "share": 0.05657093124456049,
+          "rankDelta": -1
+        },
+        {
+          "code": "SHA",
+          "iso2": "SHA",
+          "name": "David Shapiro",
+          "nameEn": "David Shapiro",
+          "region": "AI 评论",
+          "value": 500000,
+          "rank": 8,
+          "share": 0.04351610095735422,
+          "rankDelta": 0
+        },
+        {
+          "code": "MATT",
+          "iso2": "MATT",
+          "name": "MattVidPro AI",
+          "nameEn": "MattVidPro AI",
+          "region": "AI 创作",
+          "value": 480000,
+          "rank": 9,
+          "share": 0.04177545691906005,
+          "rankDelta": 0
+        },
+        {
+          "code": "YANNIC",
+          "iso2": "YANNIC",
+          "name": "Yannic Kilcher",
+          "nameEn": "Yannic Kilcher",
+          "region": "ML 论文",
+          "value": 360000,
+          "rank": 10,
+          "share": 0.031331592689295036,
+          "rankDelta": 0
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "gan-era",
+      "year": 2018,
+      "entityCode": "TMP",
+      "kind": "milestone",
+      "title": "AI 论文视频时代",
+      "titleEn": "AI 论文视频时代",
+      "description": "Two Minute Papers 把研究论文变成大众可看的短视频。",
+      "descriptionEn": "Two Minute Papers 把研究论文变成大众可看的短视频。",
+      "entityName": "Two Minute Papers",
+      "rank": 1,
+      "value": 350000
+    },
+    {
+      "id": "gpt3",
+      "year": 2020,
+      "entityCode": null,
+      "kind": "context",
+      "title": "GPT-3 引发关注",
+      "titleEn": "GPT-3 引发关注",
+      "description": "大模型能力开始把 AI 内容带出学术圈。",
+      "descriptionEn": "大模型能力开始把 AI 内容带出学术圈。",
+      "entityName": null,
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "chatgpt",
+      "year": 2022,
+      "entityCode": null,
+      "kind": "context",
+      "title": "ChatGPT 发布",
+      "titleEn": "ChatGPT 发布",
+      "description": "AI 工具测评和模型新闻频道进入增长快车道。",
+      "descriptionEn": "AI 工具测评和模型新闻频道进入增长快车道。",
+      "entityName": null,
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "wolfe-rise",
+      "year": 2023,
+      "entityCode": "WOLFE",
+      "kind": "milestone",
+      "title": "AI 工具频道爆发",
+      "titleEn": "AI 工具频道爆发",
+      "description": "Matt Wolfe、Matthew Berman、Wes Roth 等频道吃到生成式 AI 红利。",
+      "descriptionEn": "Matt Wolfe、Matthew Berman、Wes Roth 等频道吃到生成式 AI 红利。",
+      "entityName": "Matt Wolfe",
+      "rank": 4,
+      "value": 550000
+    },
+    {
+      "id": "karpathy-return",
+      "year": 2024,
+      "entityCode": "KARPATHY",
+      "kind": "milestone",
+      "title": "Karpathy 教程出圈",
+      "titleEn": "Karpathy 教程出圈",
+      "description": "深度学习和 LLM 教育内容重新获得大众关注。",
+      "descriptionEn": "深度学习和 LLM 教育内容重新获得大众关注。",
+      "entityName": "Andrej Karpathy",
+      "rank": 4,
+      "value": 650000
+    },
+    {
+      "id": "fireship-ai",
+      "year": 2025,
+      "entityCode": "FIRESHIP",
+      "kind": "milestone",
+      "title": "开发者科普继续领跑",
+      "titleEn": "开发者科普继续领跑",
+      "description": "Fireship 用高密度短视频承接 AI 开发者关注。",
+      "descriptionEn": "Fireship 用高密度短视频承接 AI 开发者关注。",
+      "entityName": "Fireship",
+      "rank": 1,
+      "value": 3500000
+    }
+  ]
+}

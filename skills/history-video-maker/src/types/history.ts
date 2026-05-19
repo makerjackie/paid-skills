@@ -66,6 +66,8 @@ export type HistoryRaceData = {
   timeValueSuffixEn?: string;
   showFlags?: boolean;
   axisRetreatThreshold?: number;
+  musicId?: string;
+  themeId?: string;
   startYear: number;
   endYear: number;
   entities: HistoryRaceEntity[];

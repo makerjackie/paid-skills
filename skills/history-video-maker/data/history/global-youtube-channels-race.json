@@ -1,0 +1,2131 @@
+{
+  "slug": "global-youtube-channels-race",
+  "title": "全球 YouTube 订阅排名变化",
+  "titleEn": "Global YouTube Subscriber Race",
+  "summary": "从 2012 到 2026，看全球 YouTube 订阅榜如何从个人创作者时代，转向音乐厂牌、儿童内容和超级创作者并存。",
+  "sourceLabel": "YouTube 公开数据 / Social Blade / HypeAuditor / Wikipedia",
+  "sourceLabelEn": "YouTube public data / Social Blade / HypeAuditor / Wikipedia",
+  "sourceUrl": "https://en.wikipedia.org/wiki/List_of_most-subscribed_YouTube_channels",
+  "sourcePages": [
+    {
+      "year": 2026,
+      "title": "HypeAuditor YouTube Ranking",
+      "url": "https://hypeauditor.com/top-youtube/"
+    },
+    {
+      "year": 2026,
+      "title": "DataReport-style YouTube channel stats",
+      "url": "https://www.demandsage.com/youtube-stats/"
+    },
+    {
+      "year": 2024,
+      "title": "Axios: MrBeast takes YouTube crown",
+      "url": "https://www.axios.com/2024/06/03/mrbeast-youtube-most-subscribers-tseries"
+    }
+  ],
+  "sourceNote": "逐年订阅数为公开榜单、里程碑报道、Social Blade 记录和频道页面近似值整理；适合展示趋势，不代表逐日精确快照。",
+  "unit": "订阅者",
+  "unitShort": "subs",
+  "valueKind": "count",
+  "musicId": "hd235-bright-life",
+  "themeId": "tech-signal",
+  "startYear": 2012,
+  "endYear": 2026,
+  "entities": [
+    {
+      "code": "PEW",
+      "iso2": "PEW",
+      "name": "PewDiePie",
+      "nameEn": "PewDiePie",
+      "region": "个人创作者"
+    },
+    {
+      "code": "TS",
+      "iso2": "TS",
+      "name": "T-Series",
+      "nameEn": "T-Series",
+      "region": "音乐厂牌"
+    },
+    {
+      "code": "BEAST",
+      "iso2": "BEAST",
+      "name": "MrBeast",
+      "nameEn": "MrBeast",
+      "region": "个人创作者"
+    },
+    {
+      "code": "COCO",
+      "iso2": "COCO",
+      "name": "Cocomelon",
+      "nameEn": "Cocomelon",
+      "region": "儿童内容"
+    },
+    {
+      "code": "SET",
+      "iso2": "SET",
+      "name": "SET India",
+      "nameEn": "SET India",
+      "region": "影视娱乐"
+    },
+    {
+      "code": "DIANA",
+      "iso2": "DIANA",
+      "name": "Kids Diana Show",
+      "nameEn": "Kids Diana Show",
+      "region": "儿童内容"
+    },
+    {
+      "code": "NASTYA",
+      "iso2": "NASTYA",
+      "name": "Like Nastya",
+      "nameEn": "Like Nastya",
+      "region": "儿童内容"
+    },
+    {
+      "code": "WWE",
+      "iso2": "WWE",
+      "name": "WWE",
+      "nameEn": "WWE",
+      "region": "体育娱乐"
+    },
+    {
+      "code": "ZEE",
+      "iso2": "ZEE",
+      "name": "Zee Music",
+      "nameEn": "Zee Music",
+      "region": "音乐厂牌"
+    },
+    {
+      "code": "VLAD",
+      "iso2": "VLAD",
+      "name": "Vlad and Niki",
+      "nameEn": "Vlad and Niki",
+      "region": "儿童内容"
+    },
+    {
+      "code": "BLACK",
+      "iso2": "BLACK",
+      "name": "BLACKPINK",
+      "nameEn": "BLACKPINK",
+      "region": "音乐艺人"
+    },
+    {
+      "code": "BIEBER",
+      "iso2": "BIEBER",
+      "name": "Justin Bieber",
+      "nameEn": "Justin Bieber",
+      "region": "音乐艺人"
+    }
+  ],
+  "frames": [
+    {
+      "year": 2012,
+      "total": 40850000,
+      "items": [
+        {
+          "code": "BIEBER",
+          "iso2": "BIEBER",
+          "name": "Justin Bieber",
+          "nameEn": "Justin Bieber",
+          "region": "音乐艺人",
+          "value": 30000000,
+          "rank": 1,
+          "share": 0.7343941248470012,
+          "rankDelta": 0
+        },
+        {
+          "code": "WWE",
+          "iso2": "WWE",
+          "name": "WWE",
+          "nameEn": "WWE",
+          "region": "体育娱乐",
+          "value": 5000000,
+          "rank": 2,
+          "share": 0.12239902080783353,
+          "rankDelta": 0
+        },
+        {
+          "code": "SET",
+          "iso2": "SET",
+          "name": "SET India",
+          "nameEn": "SET India",
+          "region": "影视娱乐",
+          "value": 2500000,
+          "rank": 3,
+          "share": 0.06119951040391677,
+          "rankDelta": 0
+        },
+        {
+          "code": "PEW",
+          "iso2": "PEW",
+          "name": "PewDiePie",
+          "nameEn": "PewDiePie",
+          "region": "个人创作者",
+          "value": 2000000,
+          "rank": 4,
+          "share": 0.04895960832313342,
+          "rankDelta": 0
+        },
+        {
+          "code": "TS",
+          "iso2": "TS",
+          "name": "T-Series",
+          "nameEn": "T-Series",
+          "region": "音乐厂牌",
+          "value": 700000,
+          "rank": 5,
+          "share": 0.017135862913096694,
+          "rankDelta": 0
+        },
+        {
+          "code": "COCO",
+          "iso2": "COCO",
+          "name": "Cocomelon",
+          "nameEn": "Cocomelon",
+          "region": "儿童内容",
+          "value": 300000,
+          "rank": 6,
+          "share": 0.0073439412484700125,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZEE",
+          "iso2": "ZEE",
+          "name": "Zee Music",
+          "nameEn": "Zee Music",
+          "region": "音乐厂牌",
+          "value": 300000,
+          "rank": 7,
+          "share": 0.0073439412484700125,
+          "rankDelta": 0
+        },
+        {
+          "code": "BEAST",
+          "iso2": "BEAST",
+          "name": "MrBeast",
+          "nameEn": "MrBeast",
+          "region": "个人创作者",
+          "value": 50000,
+          "rank": 8,
+          "share": 0.0012239902080783353,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "total": 68020000,
+      "items": [
+        {
+          "code": "BIEBER",
+          "iso2": "BIEBER",
+          "name": "Justin Bieber",
+          "nameEn": "Justin Bieber",
+          "region": "音乐艺人",
+          "value": 35000000,
+          "rank": 1,
+          "share": 0.5145545427815349,
+          "rankDelta": 0
+        },
+        {
+          "code": "PEW",
+          "iso2": "PEW",
+          "name": "PewDiePie",
+          "nameEn": "PewDiePie",
+          "region": "个人创作者",
+          "value": 19000000,
+          "rank": 2,
+          "share": 0.27932960893854747,
+          "rankDelta": 2
+        },
+        {
+          "code": "WWE",
+          "iso2": "WWE",
+          "name": "WWE",
+          "nameEn": "WWE",
+          "region": "体育娱乐",
+          "value": 7000000,
+          "rank": 3,
+          "share": 0.10291090855630697,
+          "rankDelta": -1
+        },
+        {
+          "code": "SET",
+          "iso2": "SET",
+          "name": "SET India",
+          "nameEn": "SET India",
+          "region": "影视娱乐",
+          "value": 4000000,
+          "rank": 4,
+          "share": 0.058806233460746836,
+          "rankDelta": -1
+        },
+        {
+          "code": "TS",
+          "iso2": "TS",
+          "name": "T-Series",
+          "nameEn": "T-Series",
+          "region": "音乐厂牌",
+          "value": 1500000,
+          "rank": 5,
+          "share": 0.022052337547780066,
+          "rankDelta": 0
+        },
+        {
+          "code": "COCO",
+          "iso2": "COCO",
+          "name": "Cocomelon",
+          "nameEn": "Cocomelon",
+          "region": "儿童内容",
+          "value": 700000,
+          "rank": 6,
+          "share": 0.010291090855630698,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZEE",
+          "iso2": "ZEE",
+          "name": "Zee Music",
+          "nameEn": "Zee Music",
+          "region": "音乐厂牌",
+          "value": 700000,
+          "rank": 7,
+          "share": 0.010291090855630698,
+          "rankDelta": 0
+        },
+        {
+          "code": "BEAST",
+          "iso2": "BEAST",
+          "name": "MrBeast",
+          "nameEn": "MrBeast",
+          "region": "个人创作者",
+          "value": 120000,
+          "rank": 8,
+          "share": 0.0017641870038224052,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "total": 96950000,
+      "items": [
+        {
+          "code": "BIEBER",
+          "iso2": "BIEBER",
+          "name": "Justin Bieber",
+          "nameEn": "Justin Bieber",
+          "region": "音乐艺人",
+          "value": 40000000,
+          "rank": 1,
+          "share": 0.4125838060856111,
+          "rankDelta": 0
+        },
+        {
+          "code": "PEW",
+          "iso2": "PEW",
+          "name": "PewDiePie",
+          "nameEn": "PewDiePie",
+          "region": "个人创作者",
+          "value": 33000000,
+          "rank": 2,
+          "share": 0.3403816400206292,
+          "rankDelta": 0
+        },
+        {
+          "code": "WWE",
+          "iso2": "WWE",
+          "name": "WWE",
+          "nameEn": "WWE",
+          "region": "体育娱乐",
+          "value": 10000000,
+          "rank": 3,
+          "share": 0.10314595152140278,
+          "rankDelta": 0
+        },
+        {
+          "code": "SET",
+          "iso2": "SET",
+          "name": "SET India",
+          "nameEn": "SET India",
+          "region": "影视娱乐",
+          "value": 6000000,
+          "rank": 4,
+          "share": 0.06188757091284167,
+          "rankDelta": 0
+        },
+        {
+          "code": "TS",
+          "iso2": "TS",
+          "name": "T-Series",
+          "nameEn": "T-Series",
+          "region": "音乐厂牌",
+          "value": 4000000,
+          "rank": 5,
+          "share": 0.041258380608561115,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZEE",
+          "iso2": "ZEE",
+          "name": "Zee Music",
+          "nameEn": "Zee Music",
+          "region": "音乐厂牌",
+          "value": 2000000,
+          "rank": 6,
+          "share": 0.020629190304280558,
+          "rankDelta": 1
+        },
+        {
+          "code": "COCO",
+          "iso2": "COCO",
+          "name": "Cocomelon",
+          "nameEn": "Cocomelon",
+          "region": "儿童内容",
+          "value": 1500000,
+          "rank": 7,
+          "share": 0.015471892728210418,
+          "rankDelta": -1
+        },
+        {
+          "code": "BEAST",
+          "iso2": "BEAST",
+          "name": "MrBeast",
+          "nameEn": "MrBeast",
+          "region": "个人创作者",
+          "value": 450000,
+          "rank": 8,
+          "share": 0.0046415678184631255,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "total": 129800000,
+      "items": [
+        {
+          "code": "BIEBER",
+          "iso2": "BIEBER",
+          "name": "Justin Bieber",
+          "nameEn": "Justin Bieber",
+          "region": "音乐艺人",
+          "value": 45000000,
+          "rank": 1,
+          "share": 0.34668721109399075,
+          "rankDelta": 0
+        },
+        {
+          "code": "PEW",
+          "iso2": "PEW",
+          "name": "PewDiePie",
+          "nameEn": "PewDiePie",
+          "region": "个人创作者",
+          "value": 40000000,
+          "rank": 2,
+          "share": 0.3081664098613251,
+          "rankDelta": 0
+        },
+        {
+          "code": "WWE",
+          "iso2": "WWE",
+          "name": "WWE",
+          "nameEn": "WWE",
+          "region": "体育娱乐",
+          "value": 15000000,
+          "rank": 3,
+          "share": 0.11556240369799692,
+          "rankDelta": 0
+        },
+        {
+          "code": "SET",
+          "iso2": "SET",
+          "name": "SET India",
+          "nameEn": "SET India",
+          "region": "影视娱乐",
+          "value": 10000000,
+          "rank": 4,
+          "share": 0.07704160246533127,
+          "rankDelta": 0
+        },
+        {
+          "code": "TS",
+          "iso2": "TS",
+          "name": "T-Series",
+          "nameEn": "T-Series",
+          "region": "音乐厂牌",
+          "value": 9000000,
+          "rank": 5,
+          "share": 0.06933744221879815,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZEE",
+          "iso2": "ZEE",
+          "name": "Zee Music",
+          "nameEn": "Zee Music",
+          "region": "音乐厂牌",
+          "value": 5000000,
+          "rank": 6,
+          "share": 0.03852080123266564,
+          "rankDelta": 0
+        },
+        {
+          "code": "COCO",
+          "iso2": "COCO",
+          "name": "Cocomelon",
+          "nameEn": "Cocomelon",
+          "region": "儿童内容",
+          "value": 4000000,
+          "rank": 7,
+          "share": 0.030816640986132512,
+          "rankDelta": 0
+        },
+        {
+          "code": "BEAST",
+          "iso2": "BEAST",
+          "name": "MrBeast",
+          "nameEn": "MrBeast",
+          "region": "个人创作者",
+          "value": 1200000,
+          "rank": 8,
+          "share": 0.009244992295839754,
+          "rankDelta": 0
+        },
+        {
+          "code": "DIANA",
+          "iso2": "DIANA",
+          "name": "Kids Diana Show",
+          "nameEn": "Kids Diana Show",
+          "region": "儿童内容",
+          "value": 500000,
+          "rank": 9,
+          "share": 0.003852080123266564,
+          "rankDelta": 0
+        },
+        {
+          "code": "NASTYA",
+          "iso2": "NASTYA",
+          "name": "Like Nastya",
+          "nameEn": "Like Nastya",
+          "region": "儿童内容",
+          "value": 100000,
+          "rank": 10,
+          "share": 0.0007704160246533128,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "total": 189000000,
+      "items": [
+        {
+          "code": "PEW",
+          "iso2": "PEW",
+          "name": "PewDiePie",
+          "nameEn": "PewDiePie",
+          "region": "个人创作者",
+          "value": 50000000,
+          "rank": 1,
+          "share": 0.26455026455026454,
+          "rankDelta": 1
+        },
+        {
+          "code": "BIEBER",
+          "iso2": "BIEBER",
+          "name": "Justin Bieber",
+          "nameEn": "Justin Bieber",
+          "region": "音乐艺人",
+          "value": 50000000,
+          "rank": 2,
+          "share": 0.26455026455026454,
+          "rankDelta": -1
+        },
+        {
+          "code": "WWE",
+          "iso2": "WWE",
+          "name": "WWE",
+          "nameEn": "WWE",
+          "region": "体育娱乐",
+          "value": 21000000,
+          "rank": 3,
+          "share": 0.1111111111111111,
+          "rankDelta": 0
+        },
+        {
+          "code": "SET",
+          "iso2": "SET",
+          "name": "SET India",
+          "nameEn": "SET India",
+          "region": "影视娱乐",
+          "value": 18000000,
+          "rank": 4,
+          "share": 0.09523809523809523,
+          "rankDelta": 0
+        },
+        {
+          "code": "TS",
+          "iso2": "TS",
+          "name": "T-Series",
+          "nameEn": "T-Series",
+          "region": "音乐厂牌",
+          "value": 17000000,
+          "rank": 5,
+          "share": 0.08994708994708994,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZEE",
+          "iso2": "ZEE",
+          "name": "Zee Music",
+          "nameEn": "Zee Music",
+          "region": "音乐厂牌",
+          "value": 12000000,
+          "rank": 6,
+          "share": 0.06349206349206349,
+          "rankDelta": 0
+        },
+        {
+          "code": "COCO",
+          "iso2": "COCO",
+          "name": "Cocomelon",
+          "nameEn": "Cocomelon",
+          "region": "儿童内容",
+          "value": 9000000,
+          "rank": 7,
+          "share": 0.047619047619047616,
+          "rankDelta": 0
+        },
+        {
+          "code": "BLACK",
+          "iso2": "BLACK",
+          "name": "BLACKPINK",
+          "nameEn": "BLACKPINK",
+          "region": "音乐艺人",
+          "value": 5000000,
+          "rank": 8,
+          "share": 0.026455026455026454,
+          "rankDelta": 0
+        },
+        {
+          "code": "BEAST",
+          "iso2": "BEAST",
+          "name": "MrBeast",
+          "nameEn": "MrBeast",
+          "region": "个人创作者",
+          "value": 3000000,
+          "rank": 9,
+          "share": 0.015873015873015872,
+          "rankDelta": -1
+        },
+        {
+          "code": "DIANA",
+          "iso2": "DIANA",
+          "name": "Kids Diana Show",
+          "nameEn": "Kids Diana Show",
+          "region": "儿童内容",
+          "value": 2000000,
+          "rank": 10,
+          "share": 0.010582010582010581,
+          "rankDelta": -1
+        },
+        {
+          "code": "NASTYA",
+          "iso2": "NASTYA",
+          "name": "Like Nastya",
+          "nameEn": "Like Nastya",
+          "region": "儿童内容",
+          "value": 1500000,
+          "rank": 11,
+          "share": 0.007936507936507936,
+          "rankDelta": -1
+        },
+        {
+          "code": "VLAD",
+          "iso2": "VLAD",
+          "name": "Vlad and Niki",
+          "nameEn": "Vlad and Niki",
+          "region": "儿童内容",
+          "value": 500000,
+          "rank": 12,
+          "share": 0.0026455026455026454,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "total": 280000000,
+      "items": [
+        {
+          "code": "PEW",
+          "iso2": "PEW",
+          "name": "PewDiePie",
+          "nameEn": "PewDiePie",
+          "region": "个人创作者",
+          "value": 58000000,
+          "rank": 1,
+          "share": 0.20714285714285716,
+          "rankDelta": 0
+        },
+        {
+          "code": "BIEBER",
+          "iso2": "BIEBER",
+          "name": "Justin Bieber",
+          "nameEn": "Justin Bieber",
+          "region": "音乐艺人",
+          "value": 55000000,
+          "rank": 2,
+          "share": 0.19642857142857142,
+          "rankDelta": 0
+        },
+        {
+          "code": "TS",
+          "iso2": "TS",
+          "name": "T-Series",
+          "nameEn": "T-Series",
+          "region": "音乐厂牌",
+          "value": 30000000,
+          "rank": 3,
+          "share": 0.10714285714285714,
+          "rankDelta": 2
+        },
+        {
+          "code": "WWE",
+          "iso2": "WWE",
+          "name": "WWE",
+          "nameEn": "WWE",
+          "region": "体育娱乐",
+          "value": 30000000,
+          "rank": 4,
+          "share": 0.10714285714285714,
+          "rankDelta": -1
+        },
+        {
+          "code": "SET",
+          "iso2": "SET",
+          "name": "SET India",
+          "nameEn": "SET India",
+          "region": "影视娱乐",
+          "value": 28000000,
+          "rank": 5,
+          "share": 0.1,
+          "rankDelta": -1
+        },
+        {
+          "code": "ZEE",
+          "iso2": "ZEE",
+          "name": "Zee Music",
+          "nameEn": "Zee Music",
+          "region": "音乐厂牌",
+          "value": 22000000,
+          "rank": 6,
+          "share": 0.07857142857142857,
+          "rankDelta": 0
+        },
+        {
+          "code": "COCO",
+          "iso2": "COCO",
+          "name": "Cocomelon",
+          "nameEn": "Cocomelon",
+          "region": "儿童内容",
+          "value": 18000000,
+          "rank": 7,
+          "share": 0.06428571428571428,
+          "rankDelta": 0
+        },
+        {
+          "code": "BLACK",
+          "iso2": "BLACK",
+          "name": "BLACKPINK",
+          "nameEn": "BLACKPINK",
+          "region": "音乐艺人",
+          "value": 14000000,
+          "rank": 8,
+          "share": 0.05,
+          "rankDelta": 0
+        },
+        {
+          "code": "DIANA",
+          "iso2": "DIANA",
+          "name": "Kids Diana Show",
+          "nameEn": "Kids Diana Show",
+          "region": "儿童内容",
+          "value": 8000000,
+          "rank": 9,
+          "share": 0.02857142857142857,
+          "rankDelta": 1
+        },
+        {
+          "code": "NASTYA",
+          "iso2": "NASTYA",
+          "name": "Like Nastya",
+          "nameEn": "Like Nastya",
+          "region": "儿童内容",
+          "value": 7000000,
+          "rank": 10,
+          "share": 0.025,
+          "rankDelta": 1
+        },
+        {
+          "code": "BEAST",
+          "iso2": "BEAST",
+          "name": "MrBeast",
+          "nameEn": "MrBeast",
+          "region": "个人创作者",
+          "value": 6000000,
+          "rank": 11,
+          "share": 0.02142857142857143,
+          "rankDelta": -2
+        },
+        {
+          "code": "VLAD",
+          "iso2": "VLAD",
+          "name": "Vlad and Niki",
+          "nameEn": "Vlad and Niki",
+          "region": "儿童内容",
+          "value": 4000000,
+          "rank": 12,
+          "share": 0.014285714285714285,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "total": 471000000,
+      "items": [
+        {
+          "code": "PEW",
+          "iso2": "PEW",
+          "name": "PewDiePie",
+          "nameEn": "PewDiePie",
+          "region": "个人创作者",
+          "value": 79000000,
+          "rank": 1,
+          "share": 0.16772823779193205,
+          "rankDelta": 0
+        },
+        {
+          "code": "TS",
+          "iso2": "TS",
+          "name": "T-Series",
+          "nameEn": "T-Series",
+          "region": "音乐厂牌",
+          "value": 75000000,
+          "rank": 2,
+          "share": 0.1592356687898089,
+          "rankDelta": 1
+        },
+        {
+          "code": "BIEBER",
+          "iso2": "BIEBER",
+          "name": "Justin Bieber",
+          "nameEn": "Justin Bieber",
+          "region": "音乐艺人",
+          "value": 60000000,
+          "rank": 3,
+          "share": 0.12738853503184713,
+          "rankDelta": -1
+        },
+        {
+          "code": "SET",
+          "iso2": "SET",
+          "name": "SET India",
+          "nameEn": "SET India",
+          "region": "影视娱乐",
+          "value": 45000000,
+          "rank": 4,
+          "share": 0.09554140127388536,
+          "rankDelta": 1
+        },
+        {
+          "code": "COCO",
+          "iso2": "COCO",
+          "name": "Cocomelon",
+          "nameEn": "Cocomelon",
+          "region": "儿童内容",
+          "value": 42000000,
+          "rank": 5,
+          "share": 0.08917197452229299,
+          "rankDelta": 2
+        },
+        {
+          "code": "WWE",
+          "iso2": "WWE",
+          "name": "WWE",
+          "nameEn": "WWE",
+          "region": "体育娱乐",
+          "value": 40000000,
+          "rank": 6,
+          "share": 0.08492569002123142,
+          "rankDelta": -2
+        },
+        {
+          "code": "ZEE",
+          "iso2": "ZEE",
+          "name": "Zee Music",
+          "nameEn": "Zee Music",
+          "region": "音乐厂牌",
+          "value": 35000000,
+          "rank": 7,
+          "share": 0.07430997876857749,
+          "rankDelta": -1
+        },
+        {
+          "code": "BLACK",
+          "iso2": "BLACK",
+          "name": "BLACKPINK",
+          "nameEn": "BLACKPINK",
+          "region": "音乐艺人",
+          "value": 25000000,
+          "rank": 8,
+          "share": 0.05307855626326964,
+          "rankDelta": 0
+        },
+        {
+          "code": "DIANA",
+          "iso2": "DIANA",
+          "name": "Kids Diana Show",
+          "nameEn": "Kids Diana Show",
+          "region": "儿童内容",
+          "value": 22000000,
+          "rank": 9,
+          "share": 0.04670912951167728,
+          "rankDelta": 0
+        },
+        {
+          "code": "NASTYA",
+          "iso2": "NASTYA",
+          "name": "Like Nastya",
+          "nameEn": "Like Nastya",
+          "region": "儿童内容",
+          "value": 20000000,
+          "rank": 10,
+          "share": 0.04246284501061571,
+          "rankDelta": 0
+        },
+        {
+          "code": "BEAST",
+          "iso2": "BEAST",
+          "name": "MrBeast",
+          "nameEn": "MrBeast",
+          "region": "个人创作者",
+          "value": 15000000,
+          "rank": 11,
+          "share": 0.03184713375796178,
+          "rankDelta": 0
+        },
+        {
+          "code": "VLAD",
+          "iso2": "VLAD",
+          "name": "Vlad and Niki",
+          "nameEn": "Vlad and Niki",
+          "region": "儿童内容",
+          "value": 13000000,
+          "rank": 12,
+          "share": 0.027600849256900213,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "total": 674000000,
+      "items": [
+        {
+          "code": "PEW",
+          "iso2": "PEW",
+          "name": "PewDiePie",
+          "nameEn": "PewDiePie",
+          "region": "个人创作者",
+          "value": 102000000,
+          "rank": 1,
+          "share": 0.1513353115727003,
+          "rankDelta": 0
+        },
+        {
+          "code": "TS",
+          "iso2": "TS",
+          "name": "T-Series",
+          "nameEn": "T-Series",
+          "region": "音乐厂牌",
+          "value": 100000000,
+          "rank": 2,
+          "share": 0.14836795252225518,
+          "rankDelta": 0
+        },
+        {
+          "code": "COCO",
+          "iso2": "COCO",
+          "name": "Cocomelon",
+          "nameEn": "Cocomelon",
+          "region": "儿童内容",
+          "value": 70000000,
+          "rank": 3,
+          "share": 0.10385756676557864,
+          "rankDelta": 2
+        },
+        {
+          "code": "BIEBER",
+          "iso2": "BIEBER",
+          "name": "Justin Bieber",
+          "nameEn": "Justin Bieber",
+          "region": "音乐艺人",
+          "value": 62000000,
+          "rank": 4,
+          "share": 0.09198813056379822,
+          "rankDelta": -1
+        },
+        {
+          "code": "SET",
+          "iso2": "SET",
+          "name": "SET India",
+          "nameEn": "SET India",
+          "region": "影视娱乐",
+          "value": 60000000,
+          "rank": 5,
+          "share": 0.08902077151335312,
+          "rankDelta": -1
+        },
+        {
+          "code": "WWE",
+          "iso2": "WWE",
+          "name": "WWE",
+          "nameEn": "WWE",
+          "region": "体育娱乐",
+          "value": 50000000,
+          "rank": 6,
+          "share": 0.07418397626112759,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZEE",
+          "iso2": "ZEE",
+          "name": "Zee Music",
+          "nameEn": "Zee Music",
+          "region": "音乐厂牌",
+          "value": 50000000,
+          "rank": 7,
+          "share": 0.07418397626112759,
+          "rankDelta": 0
+        },
+        {
+          "code": "DIANA",
+          "iso2": "DIANA",
+          "name": "Kids Diana Show",
+          "nameEn": "Kids Diana Show",
+          "region": "儿童内容",
+          "value": 45000000,
+          "rank": 8,
+          "share": 0.06676557863501484,
+          "rankDelta": 1
+        },
+        {
+          "code": "NASTYA",
+          "iso2": "NASTYA",
+          "name": "Like Nastya",
+          "nameEn": "Like Nastya",
+          "region": "儿童内容",
+          "value": 45000000,
+          "rank": 9,
+          "share": 0.06676557863501484,
+          "rankDelta": 1
+        },
+        {
+          "code": "VLAD",
+          "iso2": "VLAD",
+          "name": "Vlad and Niki",
+          "nameEn": "Vlad and Niki",
+          "region": "儿童内容",
+          "value": 33000000,
+          "rank": 10,
+          "share": 0.04896142433234421,
+          "rankDelta": 2
+        },
+        {
+          "code": "BLACK",
+          "iso2": "BLACK",
+          "name": "BLACKPINK",
+          "nameEn": "BLACKPINK",
+          "region": "音乐艺人",
+          "value": 32000000,
+          "rank": 11,
+          "share": 0.04747774480712166,
+          "rankDelta": -3
+        },
+        {
+          "code": "BEAST",
+          "iso2": "BEAST",
+          "name": "MrBeast",
+          "nameEn": "MrBeast",
+          "region": "个人创作者",
+          "value": 25000000,
+          "rank": 12,
+          "share": 0.037091988130563795,
+          "rankDelta": -1
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "total": 918000000,
+      "items": [
+        {
+          "code": "TS",
+          "iso2": "TS",
+          "name": "T-Series",
+          "nameEn": "T-Series",
+          "region": "音乐厂牌",
+          "value": 155000000,
+          "rank": 1,
+          "share": 0.16884531590413943,
+          "rankDelta": 1
+        },
+        {
+          "code": "PEW",
+          "iso2": "PEW",
+          "name": "PewDiePie",
+          "nameEn": "PewDiePie",
+          "region": "个人创作者",
+          "value": 108000000,
+          "rank": 2,
+          "share": 0.11764705882352941,
+          "rankDelta": -1
+        },
+        {
+          "code": "COCO",
+          "iso2": "COCO",
+          "name": "Cocomelon",
+          "nameEn": "Cocomelon",
+          "region": "儿童内容",
+          "value": 100000000,
+          "rank": 3,
+          "share": 0.10893246187363835,
+          "rankDelta": 0
+        },
+        {
+          "code": "SET",
+          "iso2": "SET",
+          "name": "SET India",
+          "nameEn": "SET India",
+          "region": "影视娱乐",
+          "value": 80000000,
+          "rank": 4,
+          "share": 0.08714596949891068,
+          "rankDelta": 1
+        },
+        {
+          "code": "DIANA",
+          "iso2": "DIANA",
+          "name": "Kids Diana Show",
+          "nameEn": "Kids Diana Show",
+          "region": "儿童内容",
+          "value": 65000000,
+          "rank": 5,
+          "share": 0.07080610021786492,
+          "rankDelta": 3
+        },
+        {
+          "code": "NASTYA",
+          "iso2": "NASTYA",
+          "name": "Like Nastya",
+          "nameEn": "Like Nastya",
+          "region": "儿童内容",
+          "value": 65000000,
+          "rank": 6,
+          "share": 0.07080610021786492,
+          "rankDelta": 3
+        },
+        {
+          "code": "WWE",
+          "iso2": "WWE",
+          "name": "WWE",
+          "nameEn": "WWE",
+          "region": "体育娱乐",
+          "value": 65000000,
+          "rank": 7,
+          "share": 0.07080610021786492,
+          "rankDelta": -1
+        },
+        {
+          "code": "ZEE",
+          "iso2": "ZEE",
+          "name": "Zee Music",
+          "nameEn": "Zee Music",
+          "region": "音乐厂牌",
+          "value": 65000000,
+          "rank": 8,
+          "share": 0.07080610021786492,
+          "rankDelta": -1
+        },
+        {
+          "code": "BIEBER",
+          "iso2": "BIEBER",
+          "name": "Justin Bieber",
+          "nameEn": "Justin Bieber",
+          "region": "音乐艺人",
+          "value": 65000000,
+          "rank": 9,
+          "share": 0.07080610021786492,
+          "rankDelta": -5
+        },
+        {
+          "code": "VLAD",
+          "iso2": "VLAD",
+          "name": "Vlad and Niki",
+          "nameEn": "Vlad and Niki",
+          "region": "儿童内容",
+          "value": 55000000,
+          "rank": 10,
+          "share": 0.05991285403050109,
+          "rankDelta": 0
+        },
+        {
+          "code": "BLACK",
+          "iso2": "BLACK",
+          "name": "BLACKPINK",
+          "nameEn": "BLACKPINK",
+          "region": "音乐艺人",
+          "value": 50000000,
+          "rank": 11,
+          "share": 0.054466230936819175,
+          "rankDelta": 0
+        },
+        {
+          "code": "BEAST",
+          "iso2": "BEAST",
+          "name": "MrBeast",
+          "nameEn": "MrBeast",
+          "region": "个人创作者",
+          "value": 45000000,
+          "rank": 12,
+          "share": 0.049019607843137254,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "total": 1137000000,
+      "items": [
+        {
+          "code": "TS",
+          "iso2": "TS",
+          "name": "T-Series",
+          "nameEn": "T-Series",
+          "region": "音乐厂牌",
+          "value": 200000000,
+          "rank": 1,
+          "share": 0.1759014951627089,
+          "rankDelta": 0
+        },
+        {
+          "code": "COCO",
+          "iso2": "COCO",
+          "name": "Cocomelon",
+          "nameEn": "Cocomelon",
+          "region": "儿童内容",
+          "value": 120000000,
+          "rank": 2,
+          "share": 0.10554089709762533,
+          "rankDelta": 1
+        },
+        {
+          "code": "PEW",
+          "iso2": "PEW",
+          "name": "PewDiePie",
+          "nameEn": "PewDiePie",
+          "region": "个人创作者",
+          "value": 110000000,
+          "rank": 3,
+          "share": 0.09674582233948989,
+          "rankDelta": -1
+        },
+        {
+          "code": "SET",
+          "iso2": "SET",
+          "name": "SET India",
+          "nameEn": "SET India",
+          "region": "影视娱乐",
+          "value": 105000000,
+          "rank": 4,
+          "share": 0.09234828496042216,
+          "rankDelta": 0
+        },
+        {
+          "code": "DIANA",
+          "iso2": "DIANA",
+          "name": "Kids Diana Show",
+          "nameEn": "Kids Diana Show",
+          "region": "儿童内容",
+          "value": 82000000,
+          "rank": 5,
+          "share": 0.07211961301671065,
+          "rankDelta": 0
+        },
+        {
+          "code": "BEAST",
+          "iso2": "BEAST",
+          "name": "MrBeast",
+          "nameEn": "MrBeast",
+          "region": "个人创作者",
+          "value": 80000000,
+          "rank": 6,
+          "share": 0.07036059806508356,
+          "rankDelta": 6
+        },
+        {
+          "code": "NASTYA",
+          "iso2": "NASTYA",
+          "name": "Like Nastya",
+          "nameEn": "Like Nastya",
+          "region": "儿童内容",
+          "value": 80000000,
+          "rank": 7,
+          "share": 0.07036059806508356,
+          "rankDelta": -1
+        },
+        {
+          "code": "ZEE",
+          "iso2": "ZEE",
+          "name": "Zee Music",
+          "nameEn": "Zee Music",
+          "region": "音乐厂牌",
+          "value": 80000000,
+          "rank": 8,
+          "share": 0.07036059806508356,
+          "rankDelta": 0
+        },
+        {
+          "code": "WWE",
+          "iso2": "WWE",
+          "name": "WWE",
+          "nameEn": "WWE",
+          "region": "体育娱乐",
+          "value": 78000000,
+          "rank": 9,
+          "share": 0.06860158311345646,
+          "rankDelta": -2
+        },
+        {
+          "code": "VLAD",
+          "iso2": "VLAD",
+          "name": "Vlad and Niki",
+          "nameEn": "Vlad and Niki",
+          "region": "儿童内容",
+          "value": 75000000,
+          "rank": 10,
+          "share": 0.06596306068601583,
+          "rankDelta": 0
+        },
+        {
+          "code": "BIEBER",
+          "iso2": "BIEBER",
+          "name": "Justin Bieber",
+          "nameEn": "Justin Bieber",
+          "region": "音乐艺人",
+          "value": 67000000,
+          "rank": 11,
+          "share": 0.058927000879507474,
+          "rankDelta": -2
+        },
+        {
+          "code": "BLACK",
+          "iso2": "BLACK",
+          "name": "BLACKPINK",
+          "nameEn": "BLACKPINK",
+          "region": "音乐艺人",
+          "value": 60000000,
+          "rank": 12,
+          "share": 0.052770448548812667,
+          "rankDelta": -1
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "total": 1338000000,
+      "items": [
+        {
+          "code": "TS",
+          "iso2": "TS",
+          "name": "T-Series",
+          "nameEn": "T-Series",
+          "region": "音乐厂牌",
+          "value": 230000000,
+          "rank": 1,
+          "share": 0.17189835575485798,
+          "rankDelta": 0
+        },
+        {
+          "code": "COCO",
+          "iso2": "COCO",
+          "name": "Cocomelon",
+          "nameEn": "Cocomelon",
+          "region": "儿童内容",
+          "value": 145000000,
+          "rank": 2,
+          "share": 0.10837070254110613,
+          "rankDelta": 0
+        },
+        {
+          "code": "SET",
+          "iso2": "SET",
+          "name": "SET India",
+          "nameEn": "SET India",
+          "region": "影视娱乐",
+          "value": 130000000,
+          "rank": 3,
+          "share": 0.09715994020926756,
+          "rankDelta": 1
+        },
+        {
+          "code": "BEAST",
+          "iso2": "BEAST",
+          "name": "MrBeast",
+          "nameEn": "MrBeast",
+          "region": "个人创作者",
+          "value": 112000000,
+          "rank": 4,
+          "share": 0.08370702541106129,
+          "rankDelta": 2
+        },
+        {
+          "code": "PEW",
+          "iso2": "PEW",
+          "name": "PewDiePie",
+          "nameEn": "PewDiePie",
+          "region": "个人创作者",
+          "value": 111000000,
+          "rank": 5,
+          "share": 0.08295964125560538,
+          "rankDelta": -2
+        },
+        {
+          "code": "DIANA",
+          "iso2": "DIANA",
+          "name": "Kids Diana Show",
+          "nameEn": "Kids Diana Show",
+          "region": "儿童内容",
+          "value": 98000000,
+          "rank": 6,
+          "share": 0.07324364723467862,
+          "rankDelta": -1
+        },
+        {
+          "code": "NASTYA",
+          "iso2": "NASTYA",
+          "name": "Like Nastya",
+          "nameEn": "Like Nastya",
+          "region": "儿童内容",
+          "value": 95000000,
+          "rank": 7,
+          "share": 0.07100149476831091,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZEE",
+          "iso2": "ZEE",
+          "name": "Zee Music",
+          "nameEn": "Zee Music",
+          "region": "音乐厂牌",
+          "value": 92000000,
+          "rank": 8,
+          "share": 0.0687593423019432,
+          "rankDelta": 0
+        },
+        {
+          "code": "WWE",
+          "iso2": "WWE",
+          "name": "WWE",
+          "nameEn": "WWE",
+          "region": "体育娱乐",
+          "value": 90000000,
+          "rank": 9,
+          "share": 0.06726457399103139,
+          "rankDelta": 0
+        },
+        {
+          "code": "VLAD",
+          "iso2": "VLAD",
+          "name": "Vlad and Niki",
+          "nameEn": "Vlad and Niki",
+          "region": "儿童内容",
+          "value": 90000000,
+          "rank": 10,
+          "share": 0.06726457399103139,
+          "rankDelta": 0
+        },
+        {
+          "code": "BLACK",
+          "iso2": "BLACK",
+          "name": "BLACKPINK",
+          "nameEn": "BLACKPINK",
+          "region": "音乐艺人",
+          "value": 75000000,
+          "rank": 11,
+          "share": 0.05605381165919283,
+          "rankDelta": 1
+        },
+        {
+          "code": "BIEBER",
+          "iso2": "BIEBER",
+          "name": "Justin Bieber",
+          "nameEn": "Justin Bieber",
+          "region": "音乐艺人",
+          "value": 70000000,
+          "rank": 12,
+          "share": 0.052316890881913304,
+          "rankDelta": -1
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "total": 1569000000,
+      "items": [
+        {
+          "code": "TS",
+          "iso2": "TS",
+          "name": "T-Series",
+          "nameEn": "T-Series",
+          "region": "音乐厂牌",
+          "value": 250000000,
+          "rank": 1,
+          "share": 0.15933715742511154,
+          "rankDelta": 0
+        },
+        {
+          "code": "BEAST",
+          "iso2": "BEAST",
+          "name": "MrBeast",
+          "nameEn": "MrBeast",
+          "region": "个人创作者",
+          "value": 210000000,
+          "rank": 2,
+          "share": 0.1338432122370937,
+          "rankDelta": 2
+        },
+        {
+          "code": "COCO",
+          "iso2": "COCO",
+          "name": "Cocomelon",
+          "nameEn": "Cocomelon",
+          "region": "儿童内容",
+          "value": 165000000,
+          "rank": 3,
+          "share": 0.10516252390057361,
+          "rankDelta": -1
+        },
+        {
+          "code": "SET",
+          "iso2": "SET",
+          "name": "SET India",
+          "nameEn": "SET India",
+          "region": "影视娱乐",
+          "value": 155000000,
+          "rank": 4,
+          "share": 0.09878903760356915,
+          "rankDelta": -1
+        },
+        {
+          "code": "PEW",
+          "iso2": "PEW",
+          "name": "PewDiePie",
+          "nameEn": "PewDiePie",
+          "region": "个人创作者",
+          "value": 111000000,
+          "rank": 5,
+          "share": 0.07074569789674952,
+          "rankDelta": 0
+        },
+        {
+          "code": "DIANA",
+          "iso2": "DIANA",
+          "name": "Kids Diana Show",
+          "nameEn": "Kids Diana Show",
+          "region": "儿童内容",
+          "value": 110000000,
+          "rank": 6,
+          "share": 0.07010834926704908,
+          "rankDelta": 0
+        },
+        {
+          "code": "NASTYA",
+          "iso2": "NASTYA",
+          "name": "Like Nastya",
+          "nameEn": "Like Nastya",
+          "region": "儿童内容",
+          "value": 110000000,
+          "rank": 7,
+          "share": 0.07010834926704908,
+          "rankDelta": 0
+        },
+        {
+          "code": "VLAD",
+          "iso2": "VLAD",
+          "name": "Vlad and Niki",
+          "nameEn": "Vlad and Niki",
+          "region": "儿童内容",
+          "value": 105000000,
+          "rank": 8,
+          "share": 0.06692160611854685,
+          "rankDelta": 2
+        },
+        {
+          "code": "ZEE",
+          "iso2": "ZEE",
+          "name": "Zee Music",
+          "nameEn": "Zee Music",
+          "region": "音乐厂牌",
+          "value": 100000000,
+          "rank": 9,
+          "share": 0.06373486297004462,
+          "rankDelta": -1
+        },
+        {
+          "code": "WWE",
+          "iso2": "WWE",
+          "name": "WWE",
+          "nameEn": "WWE",
+          "region": "体育娱乐",
+          "value": 96000000,
+          "rank": 10,
+          "share": 0.06118546845124283,
+          "rankDelta": -1
+        },
+        {
+          "code": "BLACK",
+          "iso2": "BLACK",
+          "name": "BLACKPINK",
+          "nameEn": "BLACKPINK",
+          "region": "音乐艺人",
+          "value": 85000000,
+          "rank": 11,
+          "share": 0.05417463352453792,
+          "rankDelta": 0
+        },
+        {
+          "code": "BIEBER",
+          "iso2": "BIEBER",
+          "name": "Justin Bieber",
+          "nameEn": "Justin Bieber",
+          "region": "音乐艺人",
+          "value": 72000000,
+          "rank": 12,
+          "share": 0.045889101338432124,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "total": 1719000000,
+      "items": [
+        {
+          "code": "BEAST",
+          "iso2": "BEAST",
+          "name": "MrBeast",
+          "nameEn": "MrBeast",
+          "region": "个人创作者",
+          "value": 270000000,
+          "rank": 1,
+          "share": 0.15706806282722513,
+          "rankDelta": 1
+        },
+        {
+          "code": "TS",
+          "iso2": "TS",
+          "name": "T-Series",
+          "nameEn": "T-Series",
+          "region": "音乐厂牌",
+          "value": 266000000,
+          "rank": 2,
+          "share": 0.15474112856311809,
+          "rankDelta": -1
+        },
+        {
+          "code": "COCO",
+          "iso2": "COCO",
+          "name": "Cocomelon",
+          "nameEn": "Cocomelon",
+          "region": "儿童内容",
+          "value": 176000000,
+          "rank": 3,
+          "share": 0.10238510762070971,
+          "rankDelta": 0
+        },
+        {
+          "code": "SET",
+          "iso2": "SET",
+          "name": "SET India",
+          "nameEn": "SET India",
+          "region": "影视娱乐",
+          "value": 170000000,
+          "rank": 4,
+          "share": 0.09889470622454916,
+          "rankDelta": 0
+        },
+        {
+          "code": "DIANA",
+          "iso2": "DIANA",
+          "name": "Kids Diana Show",
+          "nameEn": "Kids Diana Show",
+          "region": "儿童内容",
+          "value": 120000000,
+          "rank": 5,
+          "share": 0.06980802792321117,
+          "rankDelta": 1
+        },
+        {
+          "code": "NASTYA",
+          "iso2": "NASTYA",
+          "name": "Like Nastya",
+          "nameEn": "Like Nastya",
+          "region": "儿童内容",
+          "value": 118000000,
+          "rank": 6,
+          "share": 0.06864456079115765,
+          "rankDelta": 1
+        },
+        {
+          "code": "VLAD",
+          "iso2": "VLAD",
+          "name": "Vlad and Niki",
+          "nameEn": "Vlad and Niki",
+          "region": "儿童内容",
+          "value": 115000000,
+          "rank": 7,
+          "share": 0.06689936009307737,
+          "rankDelta": 1
+        },
+        {
+          "code": "PEW",
+          "iso2": "PEW",
+          "name": "PewDiePie",
+          "nameEn": "PewDiePie",
+          "region": "个人创作者",
+          "value": 111000000,
+          "rank": 8,
+          "share": 0.06457242582897033,
+          "rankDelta": -3
+        },
+        {
+          "code": "ZEE",
+          "iso2": "ZEE",
+          "name": "Zee Music",
+          "nameEn": "Zee Music",
+          "region": "音乐厂牌",
+          "value": 106000000,
+          "rank": 9,
+          "share": 0.061663757998836534,
+          "rankDelta": 0
+        },
+        {
+          "code": "WWE",
+          "iso2": "WWE",
+          "name": "WWE",
+          "nameEn": "WWE",
+          "region": "体育娱乐",
+          "value": 102000000,
+          "rank": 10,
+          "share": 0.059336823734729496,
+          "rankDelta": 0
+        },
+        {
+          "code": "BLACK",
+          "iso2": "BLACK",
+          "name": "BLACKPINK",
+          "nameEn": "BLACKPINK",
+          "region": "音乐艺人",
+          "value": 92000000,
+          "rank": 11,
+          "share": 0.0535194880744619,
+          "rankDelta": 0
+        },
+        {
+          "code": "BIEBER",
+          "iso2": "BIEBER",
+          "name": "Justin Bieber",
+          "nameEn": "Justin Bieber",
+          "region": "音乐艺人",
+          "value": 73000000,
+          "rank": 12,
+          "share": 0.04246655031995346,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "total": 1934000000,
+      "items": [
+        {
+          "code": "BEAST",
+          "iso2": "BEAST",
+          "name": "MrBeast",
+          "nameEn": "MrBeast",
+          "region": "个人创作者",
+          "value": 400000000,
+          "rank": 1,
+          "share": 0.20682523267838676,
+          "rankDelta": 0
+        },
+        {
+          "code": "TS",
+          "iso2": "TS",
+          "name": "T-Series",
+          "nameEn": "T-Series",
+          "region": "音乐厂牌",
+          "value": 290000000,
+          "rank": 2,
+          "share": 0.1499482936918304,
+          "rankDelta": 0
+        },
+        {
+          "code": "COCO",
+          "iso2": "COCO",
+          "name": "Cocomelon",
+          "nameEn": "Cocomelon",
+          "region": "儿童内容",
+          "value": 190000000,
+          "rank": 3,
+          "share": 0.09824198552223372,
+          "rankDelta": 0
+        },
+        {
+          "code": "SET",
+          "iso2": "SET",
+          "name": "SET India",
+          "nameEn": "SET India",
+          "region": "影视娱乐",
+          "value": 180000000,
+          "rank": 4,
+          "share": 0.09307135470527404,
+          "rankDelta": 0
+        },
+        {
+          "code": "DIANA",
+          "iso2": "DIANA",
+          "name": "Kids Diana Show",
+          "nameEn": "Kids Diana Show",
+          "region": "儿童内容",
+          "value": 130000000,
+          "rank": 5,
+          "share": 0.0672182006204757,
+          "rankDelta": 0
+        },
+        {
+          "code": "VLAD",
+          "iso2": "VLAD",
+          "name": "Vlad and Niki",
+          "nameEn": "Vlad and Niki",
+          "region": "儿童内容",
+          "value": 125000000,
+          "rank": 6,
+          "share": 0.06463288521199587,
+          "rankDelta": 1
+        },
+        {
+          "code": "NASTYA",
+          "iso2": "NASTYA",
+          "name": "Like Nastya",
+          "nameEn": "Like Nastya",
+          "region": "儿童内容",
+          "value": 123000000,
+          "rank": 7,
+          "share": 0.06359875904860393,
+          "rankDelta": -1
+        },
+        {
+          "code": "PEW",
+          "iso2": "PEW",
+          "name": "PewDiePie",
+          "nameEn": "PewDiePie",
+          "region": "个人创作者",
+          "value": 110000000,
+          "rank": 8,
+          "share": 0.05687693898655636,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZEE",
+          "iso2": "ZEE",
+          "name": "Zee Music",
+          "nameEn": "Zee Music",
+          "region": "音乐厂牌",
+          "value": 110000000,
+          "rank": 9,
+          "share": 0.05687693898655636,
+          "rankDelta": 0
+        },
+        {
+          "code": "WWE",
+          "iso2": "WWE",
+          "name": "WWE",
+          "nameEn": "WWE",
+          "region": "体育娱乐",
+          "value": 106000000,
+          "rank": 10,
+          "share": 0.05480868665977249,
+          "rankDelta": 0
+        },
+        {
+          "code": "BLACK",
+          "iso2": "BLACK",
+          "name": "BLACKPINK",
+          "nameEn": "BLACKPINK",
+          "region": "音乐艺人",
+          "value": 96000000,
+          "rank": 11,
+          "share": 0.04963805584281282,
+          "rankDelta": 0
+        },
+        {
+          "code": "BIEBER",
+          "iso2": "BIEBER",
+          "name": "Justin Bieber",
+          "nameEn": "Justin Bieber",
+          "region": "音乐艺人",
+          "value": 74000000,
+          "rank": 12,
+          "share": 0.038262668045501554,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "total": 2089000000,
+      "items": [
+        {
+          "code": "BEAST",
+          "iso2": "BEAST",
+          "name": "MrBeast",
+          "nameEn": "MrBeast",
+          "region": "个人创作者",
+          "value": 483000000,
+          "rank": 1,
+          "share": 0.2312111057922451,
+          "rankDelta": 0
+        },
+        {
+          "code": "TS",
+          "iso2": "TS",
+          "name": "T-Series",
+          "nameEn": "T-Series",
+          "region": "音乐厂牌",
+          "value": 311000000,
+          "rank": 2,
+          "share": 0.1488750598372427,
+          "rankDelta": 0
+        },
+        {
+          "code": "COCO",
+          "iso2": "COCO",
+          "name": "Cocomelon",
+          "nameEn": "Cocomelon",
+          "region": "儿童内容",
+          "value": 201000000,
+          "rank": 3,
+          "share": 0.09621828626136908,
+          "rankDelta": 0
+        },
+        {
+          "code": "SET",
+          "iso2": "SET",
+          "name": "SET India",
+          "nameEn": "SET India",
+          "region": "影视娱乐",
+          "value": 188000000,
+          "rank": 4,
+          "share": 0.08999521302058401,
+          "rankDelta": 0
+        },
+        {
+          "code": "DIANA",
+          "iso2": "DIANA",
+          "name": "Kids Diana Show",
+          "nameEn": "Kids Diana Show",
+          "region": "儿童内容",
+          "value": 138000000,
+          "rank": 5,
+          "share": 0.06606031594064146,
+          "rankDelta": 0
+        },
+        {
+          "code": "VLAD",
+          "iso2": "VLAD",
+          "name": "Vlad and Niki",
+          "nameEn": "Vlad and Niki",
+          "region": "儿童内容",
+          "value": 132000000,
+          "rank": 6,
+          "share": 0.06318812829104835,
+          "rankDelta": 0
+        },
+        {
+          "code": "NASTYA",
+          "iso2": "NASTYA",
+          "name": "Like Nastya",
+          "nameEn": "Like Nastya",
+          "region": "儿童内容",
+          "value": 127000000,
+          "rank": 7,
+          "share": 0.060794638583054096,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZEE",
+          "iso2": "ZEE",
+          "name": "Zee Music",
+          "nameEn": "Zee Music",
+          "region": "音乐厂牌",
+          "value": 114000000,
+          "rank": 8,
+          "share": 0.05457156534226903,
+          "rankDelta": 1
+        },
+        {
+          "code": "PEW",
+          "iso2": "PEW",
+          "name": "PewDiePie",
+          "nameEn": "PewDiePie",
+          "region": "个人创作者",
+          "value": 110000000,
+          "rank": 9,
+          "share": 0.052656773575873624,
+          "rankDelta": -1
+        },
+        {
+          "code": "WWE",
+          "iso2": "WWE",
+          "name": "WWE",
+          "nameEn": "WWE",
+          "region": "体育娱乐",
+          "value": 110000000,
+          "rank": 10,
+          "share": 0.052656773575873624,
+          "rankDelta": 0
+        },
+        {
+          "code": "BLACK",
+          "iso2": "BLACK",
+          "name": "BLACKPINK",
+          "nameEn": "BLACKPINK",
+          "region": "音乐艺人",
+          "value": 100000000,
+          "rank": 11,
+          "share": 0.04786979415988511,
+          "rankDelta": 0
+        },
+        {
+          "code": "BIEBER",
+          "iso2": "BIEBER",
+          "name": "Justin Bieber",
+          "nameEn": "Justin Bieber",
+          "region": "音乐艺人",
+          "value": 75000000,
+          "rank": 12,
+          "share": 0.03590234561991384,
+          "rankDelta": 0
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "pew-first",
+      "year": 2013,
+      "entityCode": "PEW",
+      "kind": "milestone",
+      "title": "PewDiePie 成为第一",
+      "titleEn": "PewDiePie 成为第一",
+      "description": "个人游戏创作者登上 YouTube 订阅榜首。",
+      "descriptionEn": "个人游戏创作者登上 YouTube 订阅榜首。",
+      "entityName": "PewDiePie",
+      "rank": 1,
+      "value": 19000000
+    },
+    {
+      "id": "tseries-race",
+      "year": 2018,
+      "entityCode": null,
+      "kind": "context",
+      "title": "PewDiePie vs T-Series",
+      "titleEn": "PewDiePie vs T-Series",
+      "description": "订阅大战把 YouTube 频道竞争推向主流舆论。",
+      "descriptionEn": "订阅大战把 YouTube 频道竞争推向主流舆论。",
+      "entityName": null,
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "tseries-first",
+      "year": 2019,
+      "entityCode": "TS",
+      "kind": "milestone",
+      "title": "T-Series 登顶",
+      "titleEn": "T-Series 登顶",
+      "description": "印度音乐厂牌超过 PewDiePie，平台第一从个人转向机构。",
+      "descriptionEn": "印度音乐厂牌超过 PewDiePie，平台第一从个人转向机构。",
+      "entityName": "T-Series",
+      "rank": 1,
+      "value": 100000000
+    },
+    {
+      "id": "cocomelon-100m",
+      "year": 2020,
+      "entityCode": "COCO",
+      "kind": "milestone",
+      "title": "Cocomelon 破亿",
+      "titleEn": "Cocomelon 破亿",
+      "description": "儿童内容成为全球 YouTube 订阅榜最强品类之一。",
+      "descriptionEn": "儿童内容成为全球 YouTube 订阅榜最强品类之一。",
+      "entityName": "Cocomelon",
+      "rank": 3,
+      "value": 100000000
+    },
+    {
+      "id": "beast-100m",
+      "year": 2022,
+      "entityCode": "BEAST",
+      "kind": "milestone",
+      "title": "MrBeast 破亿",
+      "titleEn": "MrBeast 破亿",
+      "description": "挑战、慈善和高预算视频把个人创作者带回榜单中心。",
+      "descriptionEn": "挑战、慈善和高预算视频把个人创作者带回榜单中心。",
+      "entityName": "MrBeast",
+      "rank": 4,
+      "value": 112000000
+    },
+    {
+      "id": "beast-first",
+      "year": 2024,
+      "entityCode": "BEAST",
+      "kind": "milestone",
+      "title": "MrBeast 超过 T-Series",
+      "titleEn": "MrBeast 超过 T-Series",
+      "description": "MrBeast 以约 2.7 亿订阅成为全球第一频道。",
+      "descriptionEn": "MrBeast 以约 2.7 亿订阅成为全球第一频道。",
+      "entityName": "MrBeast",
+      "rank": 1,
+      "value": 270000000
+    },
+    {
+      "id": "beast-400m",
+      "year": 2025,
+      "entityCode": "BEAST",
+      "kind": "milestone",
+      "title": "MrBeast 进入 4 亿时代",
+      "titleEn": "MrBeast 进入 4 亿时代",
+      "description": "个人创作者频道规模接近传统媒体网络。",
+      "descriptionEn": "个人创作者频道规模接近传统媒体网络。",
+      "entityName": "MrBeast",
+      "rank": 1,
+      "value": 400000000
+    }
+  ]
+}

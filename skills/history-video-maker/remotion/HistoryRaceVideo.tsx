@@ -12,14 +12,17 @@ import {
 } from '../src/lib/history-video-duration';
 import {
   DEFAULT_HISTORY_VIDEO_MUSIC_ID,
-  getHistoryVideoMusicTrack,
+  resolveHistoryVideoMusicTrack,
   toRemotionStaticFilePath,
 } from '../src/lib/history-video-music';
+import {resolveHistoryVideoTheme, type HistoryVideoTheme} from '../src/lib/history-video-theme';
 import type {HistoryRaceData, HistoryRaceEvent, HistoryRaceItem} from '../src/types/history';
 import sampleData from '../data/history/southeast-asia-gdp-race.json';
 
 export const HISTORY_RACE_VIDEO_WIDTH = 1080;
 export const HISTORY_RACE_VIDEO_HEIGHT = 1920;
+export const HISTORY_RACE_VIDEO_LANDSCAPE_WIDTH = 1920;
+export const HISTORY_RACE_VIDEO_LANDSCAPE_HEIGHT = 1080;
 export const HISTORY_RACE_VIDEO_FPS = 30;
 export const HISTORY_RACE_VIDEO_SECONDS = HISTORY_RACE_VIDEO_FALLBACK_SECONDS;
 
@@ -30,6 +33,7 @@ export type HistoryRaceVideoProps = {
   durationSeconds?: number;
   musicId?: string;
   musicSrc?: string;
+  themeId?: string;
 };
 
 export const DEFAULT_HISTORY_RACE_VIDEO_PROPS: HistoryRaceVideoProps = {
@@ -46,11 +50,13 @@ const RACE_START_SECONDS = 3.2;
 const VIDEO_BAR_INSIDE_LABEL_MIN_WIDTH = 260;
 const CHART_TOP = 640;
 const CHART_LEFT = 72;
-const CHART_WIDTH = 760;
-const PLATFORM_RIGHT_SAFE_INSET = 188;
+const CHART_WIDTH = 880;
+const EVENT_RIGHT_INSET = 232;
 const AXIS_TOP = CHART_TOP - 16;
 const AXIS_BOTTOM = 560;
-const EVENT_BAR_BADGE_WIDTH = 260;
+const MIN_VISIBLE_BAR_WIDTH = 4;
+const TITLE_MAX_CHARS = 30;
+const INTRO_MAX_CHARS = 58;
 const COLOR_TONES = [
   '#3f6f9f',
   '#4f8073',
@@ -88,7 +94,7 @@ export function resolveHistoryRaceVideoDurationFromProps(props: Pick<HistoryRace
   });
 }
 
-export function HistoryRaceVideo({data, copy: copyOverride, durationSeconds, musicId, musicSrc}: HistoryRaceVideoProps) {
+export function HistoryRaceVideo({data, copy: copyOverride, durationSeconds, musicId, musicSrc, themeId}: HistoryRaceVideoProps) {
   const frame = useCurrentFrame();
   const {fps, durationInFrames} = useVideoConfig();
   const seconds = frame / fps;
@@ -123,7 +129,8 @@ export function HistoryRaceVideo({data, copy: copyOverride, durationSeconds, mus
       share: interpolateNumber(lower?.share ?? 0, upper?.share ?? 0, progress),
     }),
   });
-  const track = getHistoryVideoMusicTrack(musicId);
+  const track = resolveHistoryVideoMusicTrack(data, musicId ?? data.musicId);
+  const theme = resolveHistoryVideoTheme(data, themeId ?? data.themeId);
   const audioPath = toRemotionStaticFilePath(musicSrc ?? track.src);
   const titleOpacity = interpolate(seconds, [COVER_END_SECONDS, RACE_START_SECONDS, timing.closingStart, timing.closingStart + 2], [0, 1, 1, 0], {
     extrapolateLeft: 'clamp',
@@ -147,9 +154,11 @@ export function HistoryRaceVideo({data, copy: copyOverride, durationSeconds, mus
     extrapolateLeft: 'clamp',
     extrapolateRight: 'clamp',
   });
+  const titleText = truncateDisplayText(copy.hook, TITLE_MAX_CHARS);
+  const introText = truncateDisplayText(copy.intro, INTRO_MAX_CHARS);
 
   return (
-    <AbsoluteFill style={styles.root}>
+    <AbsoluteFill style={{...styles.root, backgroundColor: theme.background, color: theme.text}}>
       <Audio
         src={staticFile(audioPath)}
         loop
@@ -157,12 +166,13 @@ export function HistoryRaceVideo({data, copy: copyOverride, durationSeconds, mus
         volume={(audioFrame) => getMusicVolume(audioFrame, durationInFrames, fps)}
       />
 
-      <div style={styles.backdropGrid} />
+      <div style={{...styles.backdropGrid, backgroundColor: theme.background}} />
+      <ThemeMotif theme={theme} seconds={seconds} />
       <div style={styles.header}>
         <div style={styles.brandMark}>世界的形状</div>
-        <div style={styles.brandEnglish}>Shape of World</div>
+        <div style={{...styles.brandEnglish, color: theme.accentDeep}}>Shape of World</div>
       </div>
-      <CoverFrame data={data} copy={copy} seconds={seconds} />
+      <CoverFrame data={data} copy={copy} seconds={seconds} theme={theme} />
 
       <div
         style={{
@@ -171,15 +181,15 @@ export function HistoryRaceVideo({data, copy: copyOverride, durationSeconds, mus
           transform: `translateY(${titleLift}px) scale(${titleScale})`,
         }}
       >
-        <div style={styles.eyebrow}>ALL HISTORY · {formatRaceTimeValue(data.startYear, data)}-{formatRaceTimeValue(data.endYear, data)}</div>
-        <h1 style={styles.title}>{copy.hook}</h1>
-        <p style={{...styles.lead, opacity: leadOpacity}}>{copy.intro}</p>
+        <div style={{...styles.eyebrow, color: theme.accentDeep}}>ALL HISTORY · {formatRaceTimeValue(data.startYear, data)}-{formatRaceTimeValue(data.endYear, data)}</div>
+        <h1 style={styles.title}>{titleText}</h1>
+        <p style={{...styles.lead, color: theme.muted, opacity: leadOpacity}}>{introText}</p>
       </div>
 
-      <EventCallout data={data} event={snapshot.event} seconds={seconds} timing={timing} />
+      <EventCallout data={data} event={snapshot.event} seconds={seconds} timing={timing} theme={theme} />
       <RaceChart data={data} snapshot={snapshot} seconds={seconds} timing={timing} />
       <YearStamp yearLabel={formatRaceTimeValue(snapshot.year, data)} seconds={seconds} timing={timing} />
-      <ClosingCard copy={copy} seconds={seconds} timing={timing} />
+      <ClosingCard copy={copy} seconds={seconds} timing={timing} theme={theme} />
 
       <div style={{...styles.footer, opacity: footerOpacity}}>
         <span>shapeof.world/history/{data.slug}</span>
@@ -189,7 +199,109 @@ export function HistoryRaceVideo({data, copy: copyOverride, durationSeconds, mus
   );
 }
 
-function CoverFrame({data, copy, seconds}: {data: HistoryRaceData; copy: ReturnType<typeof getHistoryVideoCopy>; seconds: number}) {
+export function HistoryRaceVideoLandscape({data, copy: copyOverride, durationSeconds, musicId, musicSrc, themeId}: HistoryRaceVideoProps) {
+  const frame = useCurrentFrame();
+  const {fps, durationInFrames} = useVideoConfig();
+  const seconds = frame / fps;
+  const frameMap = createRaceFrameMap(data.frames);
+  const copy = copyOverride ?? getHistoryVideoCopy(data);
+  const {showInsightPanel, showSourcePanel} = {
+    showInsightPanel: false,
+    showSourcePanel: false,
+  };
+  const resolvedDurationSeconds = resolveHistoryRaceVideoDuration(durationSeconds, data, {
+    showInsightPanel,
+    showSourcePanel,
+  });
+  const timing = getVideoTiming(resolvedDurationSeconds, {showInsightPanel, showSourcePanel});
+  const raceProgress = getRaceProgress(seconds, timing, data);
+  const raceYear = data.startYear + raceProgress * (data.endYear - data.startYear);
+  const snapshot = buildRaceSnapshot({
+    startYear: data.startYear,
+    endYear: data.endYear,
+    frames: data.frames,
+    frameMap,
+    events: data.events,
+    raceYear,
+    topCount: TOP_COUNT,
+    eventDurationYears: EVENT_DURATION_YEARS,
+    axisPadding: RACE_AXIS_PADDING,
+    axisRetreatThreshold: data.axisRetreatThreshold,
+    valueOf: (item) => item.value ?? item.gdp ?? 0,
+    interpolateItem: ({source, lower, upper, progress}) => ({
+      ...source,
+      value: interpolateNumber(lower?.value ?? lower?.gdp ?? 0, upper?.value ?? upper?.gdp ?? 0, progress),
+      share: interpolateNumber(lower?.share ?? 0, upper?.share ?? 0, progress),
+    }),
+  });
+  const track = resolveHistoryVideoMusicTrack(data, musicId ?? data.musicId);
+  const theme = resolveHistoryVideoTheme(data, themeId ?? data.themeId);
+  const audioPath = toRemotionStaticFilePath(musicSrc ?? track.src);
+  const contentOpacity = interpolate(seconds, [COVER_END_SECONDS, RACE_START_SECONDS, timing.closingStart], [0, 1, 1], {
+    extrapolateLeft: 'clamp',
+    extrapolateRight: 'clamp',
+  });
+  const footerOpacity = interpolate(seconds, [timing.closingStart - 1, timing.closingStart], [1, 0], {
+    extrapolateLeft: 'clamp',
+    extrapolateRight: 'clamp',
+  });
+
+  return (
+    <AbsoluteFill style={{...styles.root, backgroundColor: theme.background, color: theme.text}}>
+      <Audio
+        src={staticFile(audioPath)}
+        loop
+        loopVolumeCurveBehavior="extend"
+        volume={(audioFrame) => getMusicVolume(audioFrame, durationInFrames, fps)}
+      />
+
+      <div style={{...styles.backdropGrid, backgroundColor: theme.background}} />
+      <ThemeMotif theme={theme} seconds={seconds} />
+      <div style={styles.landscapeHeader}>
+        <div style={styles.brandMark}>世界的形状</div>
+        <div style={{...styles.brandEnglish, color: theme.accentDeep}}>Shape of World</div>
+      </div>
+      <LandscapeCoverFrame data={data} copy={copy} seconds={seconds} theme={theme} />
+
+      <div style={{...styles.landscapeInfoPanel, opacity: contentOpacity}}>
+        <div style={{...styles.eyebrow, color: theme.accentDeep}}>ALL HISTORY · {formatRaceTimeValue(data.startYear, data)}-{formatRaceTimeValue(data.endYear, data)}</div>
+        <h1 style={styles.landscapeTitle}>{truncateDisplayText(copy.hook, 38)}</h1>
+        <p style={{...styles.landscapeLead, color: theme.muted}}>{truncateDisplayText(copy.intro, 74)}</p>
+        <LandscapeEventCallout data={data} event={snapshot.event} seconds={seconds} timing={timing} theme={theme} />
+      </div>
+
+      <LandscapeRaceChart data={data} snapshot={snapshot} seconds={seconds} timing={timing} theme={theme} />
+      <LandscapeYearStamp yearLabel={formatRaceTimeValue(snapshot.year, data)} seconds={seconds} timing={timing} />
+      <LandscapeClosingCard copy={copy} seconds={seconds} timing={timing} theme={theme} />
+
+      <div style={{...styles.landscapeFooter, opacity: footerOpacity}}>
+        <span>shapeof.world/history/{data.slug}</span>
+        <span>{copy.sourceLine}</span>
+      </div>
+    </AbsoluteFill>
+  );
+}
+
+function ThemeMotif({theme, seconds}: {theme: HistoryVideoTheme; seconds: number}) {
+  const opacity = interpolate(seconds, [0, RACE_START_SECONDS, RACE_START_SECONDS + 1.4], [0.72, 0.36, 0.16], {
+    extrapolateLeft: 'clamp',
+    extrapolateRight: 'clamp',
+  });
+
+  return <div style={{...styles.themeMotif, color: theme.accent, opacity}}>{theme.motif}</div>;
+}
+
+function CoverFrame({
+  data,
+  copy,
+  seconds,
+  theme,
+}: {
+  data: HistoryRaceData;
+  copy: ReturnType<typeof getHistoryVideoCopy>;
+  seconds: number;
+  theme: HistoryVideoTheme;
+}) {
   if (seconds > RACE_START_SECONDS + 0.4) {
     return null;
   }
@@ -220,25 +332,25 @@ function CoverFrame({data, copy, seconds}: {data: HistoryRaceData; copy: ReturnT
   });
 
   return (
-    <div style={{...styles.coverLayer, opacity}}>
-      <div style={styles.coverGrid} />
-      <div style={styles.coverWatermark}>#1</div>
+    <div style={{...styles.coverLayer, backgroundColor: theme.background, opacity}}>
+      <div style={{...styles.coverGrid, backgroundColor: theme.background}} />
+      <div style={{...styles.coverWatermark, color: theme.accentSoft}}>{theme.motif}</div>
       <div style={styles.coverHeader}>
         <div style={styles.coverBrand}>世界的形状</div>
-        <div style={styles.coverRange}>{copy.coverKicker}</div>
+        <div style={{...styles.coverRange, color: theme.accentDeep}}>{copy.coverKicker}</div>
       </div>
       <div style={{...styles.coverTitleGroup, transform: `translateY(${titleY}px)`}}>
-        <div style={styles.coverBadge}>{copy.coverBadge}</div>
+        <div style={{...styles.coverBadge, backgroundColor: theme.text, color: theme.paper}}>{copy.coverBadge}</div>
         <div style={{...styles.coverHeadline, fontSize: headlineFontSize}}>
           {headlineLines.map((line) => (
             <div key={line}>{line}</div>
           ))}
         </div>
-        <div style={styles.coverSubline}>{copy.coverSubline}</div>
+        <div style={{...styles.coverSubline, color: theme.accentDeep}}>{copy.coverSubline}</div>
       </div>
       <div style={{...styles.coverLeaderStrip, transform: `translateY(${stripY}px)`}}>
         <CoverLeader label={startLabel} year={data.startYear} item={firstComparison} data={data} />
-        <div style={styles.coverArrow}>→</div>
+        <div style={{...styles.coverArrow, color: theme.accent}}>→</div>
         <CoverLeader label={endLabel} year={data.endYear} item={lastComparison} data={data} align="right" />
       </div>
     </div>
@@ -263,6 +375,63 @@ function CoverLeader({
       <div style={styles.coverLeaderLabel}>{label} · {formatRaceTimeValue(year, data)}</div>
       <div style={styles.coverLeaderName}>{item?.name ?? '未知'}</div>
       <div style={styles.coverLeaderValue}>{item ? formatRaceValue(item.value ?? item.gdp ?? 0, data) : ''}</div>
+    </div>
+  );
+}
+
+function LandscapeCoverFrame({
+  data,
+  copy,
+  seconds,
+  theme,
+}: {
+  data: HistoryRaceData;
+  copy: ReturnType<typeof getHistoryVideoCopy>;
+  seconds: number;
+  theme: HistoryVideoTheme;
+}) {
+  if (seconds > RACE_START_SECONDS + 0.4) {
+    return null;
+  }
+
+  const firstFrame = data.frames[0];
+  const lastFrame = data.frames[data.frames.length - 1];
+  const compareRank = Math.max(1, copy.coverCompareRank ?? 1);
+  const firstComparison = firstFrame?.items[compareRank - 1] ?? firstFrame?.items[0] ?? null;
+  const lastComparison = lastFrame?.items[compareRank - 1] ?? lastFrame?.items[0] ?? null;
+  const headlineLines = copy.coverHeadline.split('\n');
+  const opacity = interpolate(seconds, [0, COVER_END_SECONDS + 0.15, RACE_START_SECONDS], [1, 1, 0], {
+    extrapolateLeft: 'clamp',
+    extrapolateRight: 'clamp',
+  });
+  const titleY = interpolate(seconds, [0, RACE_START_SECONDS], [0, -24], {
+    extrapolateLeft: 'clamp',
+    extrapolateRight: 'clamp',
+    easing: Easing.out(Easing.cubic),
+  });
+
+  return (
+    <div style={{...styles.landscapeCoverLayer, backgroundColor: theme.background, opacity}}>
+      <div style={{...styles.coverGrid, backgroundColor: theme.background}} />
+      <div style={{...styles.landscapeCoverWatermark, color: theme.accentSoft}}>{theme.motif}</div>
+      <div style={styles.landscapeCoverHeader}>
+        <div style={styles.coverBrand}>世界的形状</div>
+        <div style={{...styles.coverRange, color: theme.accentDeep}}>{copy.coverKicker}</div>
+      </div>
+      <div style={{...styles.landscapeCoverTitleGroup, transform: `translateY(${titleY}px)`}}>
+        <div style={{...styles.coverBadge, backgroundColor: theme.text, color: theme.paper}}>{copy.coverBadge}</div>
+        <div style={styles.landscapeCoverHeadline}>
+          {headlineLines.map((line) => (
+            <div key={line}>{line}</div>
+          ))}
+        </div>
+        <div style={{...styles.landscapeCoverSubline, color: theme.accentDeep}}>{copy.coverSubline}</div>
+      </div>
+      <div style={styles.landscapeCoverLeaderStrip}>
+        <CoverLeader label={compareRank === 1 ? '起点' : `第 ${compareRank} 名`} year={data.startYear} item={firstComparison} data={data} />
+        <div style={{...styles.coverArrow, color: theme.accent}}>→</div>
+        <CoverLeader label={compareRank === 1 ? '现在' : `第 ${compareRank} 名`} year={data.endYear} item={lastComparison} data={data} align="right" />
+      </div>
     </div>
   );
 }
@@ -302,28 +471,19 @@ function RaceChart({
       }}
     >
       <AxisLabels data={data} axisMax={snapshot.axisMax} />
-      {snapshot.items.map((item) => {
+      {snapshot.items.map((item, index) => {
         const value = item.value ?? item.gdp ?? 0;
-        const width = Math.max(8, (value / snapshot.axisMax) * chartWidth);
-        const y = chartTop + item.displayRank * rowStep;
+        const rawWidth = snapshot.axisMax > 0 ? (value / snapshot.axisMax) * chartWidth : 0;
+        const width = value > 0 ? Math.max(MIN_VISIBLE_BAR_WIDTH, rawWidth) : 0;
+        const y = chartTop + index * rowStep;
         const color = getEntityColor(data, item.code);
-        const labelInside = width >= VIDEO_BAR_INSIDE_LABEL_MIN_WIDTH;
+        const formattedValue = formatRaceValue(value, data);
+        const labelInside = width >= getInsideLabelMinWidth(item.name, formattedValue);
+        const barStyle = labelInside ? styles.bar : styles.compactBar;
         const rankOpacity = interpolate(seconds, [RACE_START_SECONDS - 0.45, RACE_START_SECONDS + 0.1], [0, 1], {
           extrapolateLeft: 'clamp',
           extrapolateRight: 'clamp',
         });
-
-        const isEventEntity = snapshot.event?.entityCode === item.code;
-        const eventBadgeOpacity = isEventEntity
-          ? interpolate(seconds, [RACE_START_SECONDS, RACE_START_SECONDS + 0.8, timing.raceEnd + 1.2, timing.raceEnd + 2], [0, 1, 1, 0], {
-              extrapolateLeft: 'clamp',
-              extrapolateRight: 'clamp',
-            })
-          : 0;
-        const eventBadgeLeft = Math.min(
-          Math.max(width - 12, 92),
-          chartWidth - EVENT_BAR_BADGE_WIDTH,
-        );
 
         return (
           <div
@@ -337,26 +497,96 @@ function RaceChart({
             }}
           >
             <div style={styles.rank}>{item.rank}</div>
-            <div style={{...styles.bar, width, backgroundColor: color, position: 'relative', overflow: 'visible'}}>
+            <div style={{...barStyle, width, backgroundColor: color, position: 'relative'}}>
               {labelInside ? (
                 <>
                   <div style={styles.barName}>{item.name}</div>
                   <div style={styles.barMeta}>{item.region}</div>
                 </>
               ) : null}
-              {isEventEntity ? (
-                <div style={{...styles.eventBarBadge, left: eventBadgeLeft, opacity: eventBadgeOpacity}}>
-                  {snapshot.event!.title}
-                </div>
-              ) : null}
               {labelInside ? (
-                <div style={styles.barValue}>{formatRaceValue(value, data)}</div>
+                <div style={styles.barValue}>{formattedValue}</div>
               ) : null}
             </div>
             {!labelInside ? (
               <div style={styles.outsideLabel}>
                 <div style={styles.outsideName}>{item.name}</div>
-                <div style={styles.outsideMeta}>{item.region} · {formatRaceValue(value, data)}</div>
+                <div style={styles.outsideMeta}>{item.region} · {formattedValue}</div>
+              </div>
+            ) : null}
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+function LandscapeRaceChart({
+  data,
+  snapshot,
+  seconds,
+  timing,
+  theme,
+}: {
+  data: HistoryRaceData;
+  snapshot: RaceSnapshot<HistoryRaceItem, HistoryRaceEvent>;
+  seconds: number;
+  timing: HistoryRaceVideoTiming;
+  theme: HistoryVideoTheme;
+}) {
+  const chartTop = 180;
+  const chartLeft = 680;
+  const chartWidth = 1120;
+  const rowHeight = 48;
+  const rowGap = 9;
+  const rowStep = rowHeight + rowGap;
+  const opacity = interpolate(seconds, [COVER_END_SECONDS, RACE_START_SECONDS, timing.closingStart], [0, 1, 1], {
+    extrapolateLeft: 'clamp',
+    extrapolateRight: 'clamp',
+  });
+  const lift = interpolate(seconds, [COVER_END_SECONDS, RACE_START_SECONDS + 1.4], [24, 0], {
+    extrapolateLeft: 'clamp',
+    extrapolateRight: 'clamp',
+    easing: Easing.out(Easing.cubic),
+  });
+
+  return (
+    <div style={{...styles.landscapeChart, opacity, transform: `translateY(${lift}px)`}}>
+      <LandscapeAxisLabels data={data} axisMax={snapshot.axisMax} chartLeft={chartLeft} chartWidth={chartWidth} />
+      {snapshot.items.map((item, index) => {
+        const value = item.value ?? item.gdp ?? 0;
+        const rawWidth = snapshot.axisMax > 0 ? (value / snapshot.axisMax) * chartWidth : 0;
+        const width = value > 0 ? Math.max(MIN_VISIBLE_BAR_WIDTH, rawWidth) : 0;
+        const y = chartTop + index * rowStep;
+        const color = getEntityColor(data, item.code);
+        const formattedValue = formatRaceValue(value, data);
+        const labelInside = width >= Math.max(260, getInsideLabelMinWidth(item.name, formattedValue) - 60);
+        const barStyle = labelInside ? styles.landscapeBar : styles.landscapeCompactBar;
+
+        return (
+          <div
+            key={item.code}
+            style={{
+              ...styles.landscapeRow,
+              left: chartLeft,
+              top: y,
+              height: rowHeight,
+            }}
+          >
+            <div style={styles.landscapeRank}>{item.rank}</div>
+            <div style={{...barStyle, width, backgroundColor: color, position: 'relative'}}>
+              {labelInside ? (
+                <>
+                  <div style={styles.landscapeBarName}>{item.name}</div>
+                  <div style={styles.landscapeBarMeta}>{item.region}</div>
+                  <div style={styles.landscapeBarValue}>{formattedValue}</div>
+                </>
+              ) : null}
+            </div>
+            {!labelInside ? (
+              <div style={styles.landscapeOutsideLabel}>
+                <div style={styles.landscapeOutsideName}>{item.name}</div>
+                <div style={{...styles.landscapeOutsideMeta, color: theme.muted}}>{item.region} · {formattedValue}</div>
               </div>
             ) : null}
           </div>
@@ -381,16 +611,43 @@ function AxisLabels({axisMax, data}: {axisMax: number; data: HistoryRaceData}) {
   );
 }
 
+function LandscapeAxisLabels({
+  axisMax,
+  data,
+  chartLeft,
+  chartWidth,
+}: {
+  axisMax: number;
+  data: HistoryRaceData;
+  chartLeft: number;
+  chartWidth: number;
+}) {
+  const ticks = [0.25, 0.5, 0.75, 1].map((ratio) => axisMax * ratio);
+
+  return (
+    <div style={styles.axisLayer}>
+      {ticks.map((tick) => (
+        <div key={tick} style={{...styles.landscapeAxisTick, left: chartLeft + (tick / axisMax) * chartWidth}}>
+          <div style={styles.axisLine} />
+          <div style={styles.landscapeAxisText}>{formatRaceValue(tick, data)}</div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 function EventCallout({
   data,
   event,
   seconds,
   timing,
+  theme,
 }: {
   data: HistoryRaceData;
   event: HistoryRaceEvent | null;
   seconds: number;
   timing: HistoryRaceVideoTiming;
+  theme: HistoryVideoTheme;
 }) {
   if (!event || seconds < RACE_START_SECONDS || seconds > timing.raceEnd + 2) {
     return null;
@@ -403,9 +660,40 @@ function EventCallout({
 
   return (
     <div style={{...styles.eventCallout, opacity}}>
-      <div style={styles.eventYear}>{formatRaceTimeValue(event.year, data)}</div>
+      <div style={{...styles.eventYear, color: theme.accentDeep}}>{formatRaceTimeValue(event.year, data)}</div>
       <div style={styles.eventTitle}>{event.title}</div>
-      <div style={styles.eventDescription}>{event.description}</div>
+      <div style={{...styles.eventDescription, color: theme.muted}}>{event.description}</div>
+    </div>
+  );
+}
+
+function LandscapeEventCallout({
+  data,
+  event,
+  seconds,
+  timing,
+  theme,
+}: {
+  data: HistoryRaceData;
+  event: HistoryRaceEvent | null;
+  seconds: number;
+  timing: HistoryRaceVideoTiming;
+  theme: HistoryVideoTheme;
+}) {
+  if (!event || seconds < RACE_START_SECONDS || seconds > timing.raceEnd + 2) {
+    return null;
+  }
+
+  const opacity = interpolate(seconds, [RACE_START_SECONDS, RACE_START_SECONDS + 0.8, timing.raceEnd + 1.2, timing.raceEnd + 2], [0, 1, 1, 0], {
+    extrapolateLeft: 'clamp',
+    extrapolateRight: 'clamp',
+  });
+
+  return (
+    <div style={{...styles.landscapeEventCallout, opacity}}>
+      <div style={{...styles.eventYear, color: theme.accentDeep}}>{formatRaceTimeValue(event.year, data)}</div>
+      <div style={styles.landscapeEventTitle}>{event.title}</div>
+      <div style={{...styles.landscapeEventDescription, color: theme.muted}}>{event.description}</div>
     </div>
   );
 }
@@ -417,6 +705,15 @@ function YearStamp({yearLabel, seconds, timing}: {yearLabel: string; seconds: nu
   });
 
   return <div style={{...styles.year, opacity}}>{yearLabel}</div>;
+}
+
+function LandscapeYearStamp({yearLabel, seconds, timing}: {yearLabel: string; seconds: number; timing: HistoryRaceVideoTiming}) {
+  const opacity = interpolate(seconds, [RACE_START_SECONDS, RACE_START_SECONDS + 1, timing.closingStart], [0, 1, 1], {
+    extrapolateLeft: 'clamp',
+    extrapolateRight: 'clamp',
+  });
+
+  return <div style={{...styles.landscapeYear, opacity}}>{yearLabel}</div>;
 }
 
 function InsightPanel({
@@ -475,10 +772,12 @@ function ClosingCard({
   copy,
   seconds,
   timing,
+  theme,
 }: {
   copy: ReturnType<typeof getHistoryVideoCopy>;
   seconds: number;
   timing: HistoryRaceVideoTiming;
+  theme: HistoryVideoTheme;
 }) {
   if (seconds < timing.closingStart) {
     return null;
@@ -491,15 +790,52 @@ function ClosingCard({
 
   return (
     <div style={{...styles.closingLayer, opacity}}>
-      <div style={styles.closingVeil} />
+      <div style={{...styles.closingVeil, backgroundColor: theme.background}} />
       <div style={styles.closing}>
         <div style={styles.closingBrandRow}>
           <Img src={staticFile('logo-horizontal.svg')} style={styles.closingLogo} />
-          <div style={styles.closingBrandText}>A Playable Universe of Human Knowledge</div>
+          <div style={{...styles.closingBrandText, color: theme.accentDeep}}>A Playable Universe of Human Knowledge</div>
         </div>
         <div style={styles.closingTitle}>{copy.closingTitle ?? '可游玩的知识宇宙'}</div>
-        <div style={styles.closingBody}>{copy.closingBody ?? '像逛博物馆、翻地图、玩游戏一样，探索真实世界的数据与历史。'}</div>
+        <div style={{...styles.closingBody, color: theme.accentDeep}}>{copy.closingBody ?? '像逛博物馆、翻地图、玩游戏一样，探索真实世界的数据与历史。'}</div>
         <div style={styles.closingNote}>{copy.sourceDisclosure ?? copy.sourceLine}</div>
+        <div style={styles.closingDomain}>shapeof.world</div>
+      </div>
+    </div>
+  );
+}
+
+function LandscapeClosingCard({
+  copy,
+  seconds,
+  timing,
+  theme,
+}: {
+  copy: ReturnType<typeof getHistoryVideoCopy>;
+  seconds: number;
+  timing: HistoryRaceVideoTiming;
+  theme: HistoryVideoTheme;
+}) {
+  if (seconds < timing.closingStart) {
+    return null;
+  }
+
+  const opacity = interpolate(seconds, [timing.closingStart, timing.closingStart + 1.2], [0, 1], {
+    extrapolateLeft: 'clamp',
+    extrapolateRight: 'clamp',
+  });
+
+  return (
+    <div style={{...styles.closingLayer, opacity}}>
+      <div style={{...styles.closingVeil, backgroundColor: theme.background}} />
+      <div style={styles.landscapeClosing}>
+        <div style={styles.closingBrandRow}>
+          <Img src={staticFile('logo-horizontal.svg')} style={styles.landscapeClosingLogo} />
+          <div style={{...styles.closingBrandText, color: theme.accentDeep}}>A Playable Universe of Human Knowledge</div>
+        </div>
+        <div style={styles.landscapeClosingTitle}>{copy.closingTitle ?? '可游玩的知识宇宙'}</div>
+        <div style={{...styles.landscapeClosingBody, color: theme.accentDeep}}>{copy.closingBody ?? '像逛博物馆、翻地图、玩游戏一样，探索真实世界的数据与历史。'}</div>
+        <div style={styles.landscapeClosingNote}>{copy.sourceDisclosure ?? copy.sourceLine}</div>
         <div style={styles.closingDomain}>shapeof.world</div>
       </div>
     </div>
@@ -652,6 +988,39 @@ function formatCompact(value: number) {
   }).format(value);
 }
 
+function truncateDisplayText(text: string, maxChars: number) {
+  const normalized = text.replace(/\s+/g, ' ').trim();
+
+  if (normalized.length <= maxChars) {
+    return normalized;
+  }
+
+  return `${normalized.slice(0, Math.max(0, maxChars - 1)).trimEnd()}…`;
+}
+
+function getInsideLabelMinWidth(name: string, value: string) {
+  return Math.max(
+    VIDEO_BAR_INSIDE_LABEL_MIN_WIDTH,
+    estimateInlineTextWidth(name, 26) + estimateInlineTextWidth(value, 21) + 94,
+  );
+}
+
+function estimateInlineTextWidth(text: string, fontSize: number) {
+  let width = 0;
+
+  for (const char of text) {
+    if (/\s/.test(char)) {
+      width += fontSize * 0.34;
+    } else if (/[\u4e00-\u9fff]/.test(char)) {
+      width += fontSize;
+    } else {
+      width += fontSize * 0.58;
+    }
+  }
+
+  return width;
+}
+
 const styles: Record<string, CSSProperties> = {
   root: {
     backgroundColor: '#e9e2d6',
@@ -665,6 +1034,121 @@ const styles: Record<string, CSSProperties> = {
     backgroundImage:
       'linear-gradient(180deg, rgba(36,32,22,0.048) 1px, transparent 1px), linear-gradient(90deg, rgba(36,32,22,0.032) 1px, transparent 1px)',
     backgroundSize: '72px 72px',
+  },
+  themeMotif: {
+    position: 'absolute',
+    right: 56,
+    top: 142,
+    fontSize: 54,
+    fontWeight: 900,
+    letterSpacing: 0,
+    lineHeight: 1,
+  },
+  landscapeHeader: {
+    position: 'absolute',
+    top: 38,
+    left: 64,
+    right: 64,
+    display: 'flex',
+    alignItems: 'baseline',
+    justifyContent: 'space-between',
+    borderBottom: '1px solid rgba(36,32,22,0.16)',
+    paddingBottom: 20,
+  },
+  landscapeInfoPanel: {
+    position: 'absolute',
+    left: 64,
+    top: 170,
+    width: 520,
+    bottom: 116,
+    overflow: 'hidden',
+  },
+  landscapeTitle: {
+    margin: '18px 0 0',
+    maxWidth: 520,
+    maxHeight: 172,
+    color: '#15130f',
+    fontSize: 58,
+    fontWeight: 900,
+    lineHeight: 1.08,
+    display: '-webkit-box',
+    WebkitLineClamp: 3,
+    WebkitBoxOrient: 'vertical',
+    overflow: 'hidden',
+  },
+  landscapeLead: {
+    margin: '22px 0 0',
+    maxWidth: 500,
+    maxHeight: 92,
+    color: '#50636b',
+    display: '-webkit-box',
+    WebkitLineClamp: 3,
+    WebkitBoxOrient: 'vertical',
+    overflow: 'hidden',
+    fontSize: 23,
+    fontWeight: 700,
+    lineHeight: 1.35,
+  },
+  landscapeCoverLayer: {
+    position: 'absolute',
+    inset: 0,
+    zIndex: 20,
+    overflow: 'hidden',
+    backgroundColor: '#e9e2d6',
+  },
+  landscapeCoverWatermark: {
+    position: 'absolute',
+    right: 70,
+    top: 190,
+    color: 'rgba(21,19,15,0.07)',
+    fontSize: 330,
+    fontWeight: 900,
+    lineHeight: 0.82,
+  },
+  landscapeCoverHeader: {
+    position: 'absolute',
+    top: 52,
+    left: 64,
+    right: 64,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    borderBottom: '4px solid #15130f',
+    paddingBottom: 24,
+  },
+  landscapeCoverTitleGroup: {
+    position: 'absolute',
+    top: 220,
+    left: 64,
+    width: 960,
+  },
+  landscapeCoverHeadline: {
+    marginTop: 28,
+    maxWidth: 940,
+    color: '#15130f',
+    fontSize: 92,
+    fontWeight: 900,
+    lineHeight: 0.98,
+  },
+  landscapeCoverSubline: {
+    marginTop: 28,
+    maxWidth: 860,
+    color: '#1e313c',
+    fontSize: 32,
+    fontWeight: 900,
+    lineHeight: 1.28,
+  },
+  landscapeCoverLeaderStrip: {
+    position: 'absolute',
+    left: 64,
+    right: 64,
+    bottom: 96,
+    display: 'grid',
+    gridTemplateColumns: '1fr 104px 1fr',
+    alignItems: 'center',
+    borderTop: '5px solid #15130f',
+    borderBottom: '1px solid rgba(36,32,22,0.2)',
+    padding: '30px 0 34px',
   },
   coverLayer: {
     position: 'absolute',
@@ -813,6 +1297,8 @@ const styles: Record<string, CSSProperties> = {
     top: 280,
     left: 56,
     right: 56,
+    maxHeight: 326,
+    overflow: 'hidden',
     transformOrigin: 'left top',
   },
   eyebrow: {
@@ -823,13 +1309,19 @@ const styles: Record<string, CSSProperties> = {
   title: {
     margin: '20px 0 0',
     maxWidth: 900,
+    maxHeight: 164,
     fontSize: 76,
     fontWeight: 900,
     lineHeight: 1.08,
+    display: '-webkit-box',
+    WebkitLineClamp: 2,
+    WebkitBoxOrient: 'vertical',
+    overflow: 'hidden',
   },
   lead: {
-    margin: '28px 0 0',
+    margin: '24px 0 0',
     maxWidth: 880,
+    maxHeight: 84,
     color: '#50636b',
     display: '-webkit-box',
     WebkitLineClamp: 2,
@@ -840,6 +1332,10 @@ const styles: Record<string, CSSProperties> = {
     lineHeight: 1.42,
   },
   chart: {
+    position: 'absolute',
+    inset: 0,
+  },
+  landscapeChart: {
     position: 'absolute',
     inset: 0,
   },
@@ -870,6 +1366,22 @@ const styles: Record<string, CSSProperties> = {
     fontSize: 18,
     fontWeight: 800,
   },
+  landscapeAxisTick: {
+    position: 'absolute',
+    top: 164,
+    bottom: 164,
+    width: 1,
+  },
+  landscapeAxisText: {
+    position: 'absolute',
+    bottom: -32,
+    left: -52,
+    width: 104,
+    textAlign: 'center',
+    color: '#8b7c67',
+    fontSize: 18,
+    fontWeight: 800,
+  },
   row: {
     position: 'absolute',
     display: 'flex',
@@ -884,9 +1396,23 @@ const styles: Record<string, CSSProperties> = {
     textAlign: 'right',
     marginRight: 18,
   },
+  landscapeRow: {
+    position: 'absolute',
+    display: 'flex',
+    alignItems: 'center',
+    transition: 'none',
+  },
+  landscapeRank: {
+    width: 42,
+    color: '#8b7c67',
+    fontSize: 22,
+    fontWeight: 900,
+    textAlign: 'right',
+    marginRight: 18,
+  },
   bar: {
     height: 62,
-    minWidth: 70,
+    minWidth: 0,
     borderRadius: 4,
     boxShadow: '0 12px 26px rgba(35,45,46,0.16)',
     boxSizing: 'border-box',
@@ -897,10 +1423,68 @@ const styles: Record<string, CSSProperties> = {
     paddingRight: 132,
     overflow: 'hidden',
   },
+  landscapeBar: {
+    height: 48,
+    minWidth: 0,
+    borderRadius: 4,
+    boxShadow: '0 10px 24px rgba(35,45,46,0.14)',
+    boxSizing: 'border-box',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    paddingLeft: 18,
+    paddingRight: 122,
+    overflow: 'hidden',
+  },
+  landscapeCompactBar: {
+    height: 48,
+    minWidth: 0,
+    borderRadius: 4,
+    boxShadow: '0 10px 24px rgba(35,45,46,0.14)',
+    boxSizing: 'border-box',
+    overflow: 'hidden',
+  },
+  compactBar: {
+    height: 62,
+    minWidth: 0,
+    borderRadius: 4,
+    boxShadow: '0 12px 26px rgba(35,45,46,0.16)',
+    boxSizing: 'border-box',
+    overflow: 'hidden',
+  },
   barName: {
     color: '#fffaf0',
     fontSize: 26,
     fontWeight: 900,
+    whiteSpace: 'nowrap',
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+  },
+  landscapeBarName: {
+    color: '#fffaf0',
+    fontSize: 23,
+    fontWeight: 900,
+    whiteSpace: 'nowrap',
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+  },
+  landscapeBarMeta: {
+    color: 'rgba(255,250,240,0.76)',
+    fontSize: 14,
+    fontWeight: 700,
+    marginTop: 1,
+    whiteSpace: 'nowrap',
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+  },
+  landscapeBarValue: {
+    position: 'absolute',
+    right: 16,
+    top: 14,
+    color: 'rgba(255,250,240,0.92)',
+    fontSize: 19,
+    fontWeight: 900,
+    lineHeight: 1,
     whiteSpace: 'nowrap',
   },
   barMeta: {
@@ -909,6 +1493,8 @@ const styles: Record<string, CSSProperties> = {
     fontWeight: 700,
     marginTop: 2,
     whiteSpace: 'nowrap',
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
   },
   barValue: {
     position: 'absolute',
@@ -922,9 +1508,33 @@ const styles: Record<string, CSSProperties> = {
   },
   outsideLabel: {
     minWidth: 110,
-    maxWidth: 210,
+    maxWidth: 280,
     marginLeft: 14,
     overflow: 'hidden',
+  },
+  landscapeOutsideLabel: {
+    minWidth: 120,
+    maxWidth: 300,
+    marginLeft: 14,
+    overflow: 'hidden',
+  },
+  landscapeOutsideName: {
+    color: '#15130f',
+    fontSize: 22,
+    fontWeight: 900,
+    lineHeight: 1.08,
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+    whiteSpace: 'nowrap',
+  },
+  landscapeOutsideMeta: {
+    marginTop: 3,
+    color: '#6a5a45',
+    fontSize: 14,
+    fontWeight: 800,
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+    whiteSpace: 'nowrap',
   },
   outsideName: {
     color: '#15130f',
@@ -951,29 +1561,23 @@ const styles: Record<string, CSSProperties> = {
     marginLeft: 18,
     minWidth: 145,
   },
-  eventBarBadge: {
-    position: 'absolute' as const,
-    top: -30,
-    width: EVENT_BAR_BADGE_WIDTH,
-    maxWidth: EVENT_BAR_BADGE_WIDTH,
-    backgroundColor: '#c7342a',
-    color: '#fffaf0',
-    fontSize: 16,
-    fontWeight: 900,
-    lineHeight: 1,
-    padding: '6px 10px 5px',
-    borderRadius: 3,
-    whiteSpace: 'nowrap' as const,
-    overflow: 'hidden',
-    textOverflow: 'ellipsis',
-  },
   eventCallout: {
     position: 'absolute',
-    right: PLATFORM_RIGHT_SAFE_INSET,
+    right: EVENT_RIGHT_INSET,
     bottom: 620,
     maxWidth: 400,
     padding: 0,
     textAlign: 'right',
+  },
+  landscapeEventCallout: {
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    bottom: 74,
+    maxWidth: 500,
+    paddingTop: 28,
+    borderTop: '1px solid rgba(36,32,22,0.16)',
+    textAlign: 'left',
   },
   eventYear: {
     color: 'rgba(138,107,66,0.78)',
@@ -987,6 +1591,20 @@ const styles: Record<string, CSSProperties> = {
     fontWeight: 900,
     lineHeight: 1.08,
   },
+  landscapeEventTitle: {
+    marginTop: 8,
+    color: 'rgba(21,19,15,0.64)',
+    fontSize: 38,
+    fontWeight: 900,
+    lineHeight: 1.08,
+  },
+  landscapeEventDescription: {
+    marginTop: 12,
+    color: 'rgba(80,99,107,0.74)',
+    fontSize: 22,
+    fontWeight: 800,
+    lineHeight: 1.34,
+  },
   eventDescription: {
     marginTop: 12,
     color: 'rgba(80,99,107,0.72)',
@@ -996,10 +1614,19 @@ const styles: Record<string, CSSProperties> = {
   },
   year: {
     position: 'absolute',
-    right: PLATFORM_RIGHT_SAFE_INSET,
+    right: EVENT_RIGHT_INSET,
     bottom: 560,
     color: 'rgba(21,19,15,0.095)',
     fontSize: 190,
+    fontWeight: 900,
+    lineHeight: 1,
+  },
+  landscapeYear: {
+    position: 'absolute',
+    left: 500,
+    bottom: 126,
+    color: 'rgba(21,19,15,0.082)',
+    fontSize: 170,
     fontWeight: 900,
     lineHeight: 1,
   },
@@ -1068,6 +1695,16 @@ const styles: Record<string, CSSProperties> = {
     borderBottom: '1px solid rgba(36,32,22,0.18)',
     padding: '48px 0',
   },
+  landscapeClosing: {
+    position: 'absolute',
+    inset: '190px 240px 190px',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    borderTop: '5px solid #15130f',
+    borderBottom: '1px solid rgba(36,32,22,0.18)',
+    padding: '42px 0',
+  },
   closingBrandRow: {
     display: 'flex',
     alignItems: 'center',
@@ -1077,6 +1714,11 @@ const styles: Record<string, CSSProperties> = {
   closingLogo: {
     width: 430,
     height: 108,
+    objectFit: 'contain',
+  },
+  landscapeClosingLogo: {
+    width: 390,
+    height: 98,
     objectFit: 'contain',
   },
   closingBrandText: {
@@ -1094,6 +1736,13 @@ const styles: Record<string, CSSProperties> = {
     fontWeight: 900,
     lineHeight: 1.05,
   },
+  landscapeClosingTitle: {
+    marginTop: 42,
+    color: '#15130f',
+    fontSize: 58,
+    fontWeight: 900,
+    lineHeight: 1.05,
+  },
   closingBody: {
     marginTop: 26,
     maxWidth: 820,
@@ -1102,6 +1751,14 @@ const styles: Record<string, CSSProperties> = {
     fontWeight: 800,
     lineHeight: 1.42,
   },
+  landscapeClosingBody: {
+    marginTop: 22,
+    maxWidth: 980,
+    color: '#1e313c',
+    fontSize: 31,
+    fontWeight: 800,
+    lineHeight: 1.36,
+  },
   closingNote: {
     marginTop: 26,
     maxWidth: 880,
@@ -1109,6 +1766,15 @@ const styles: Record<string, CSSProperties> = {
     fontSize: 22,
     fontWeight: 800,
     lineHeight: 1.36,
+    whiteSpace: 'pre-line',
+  },
+  landscapeClosingNote: {
+    marginTop: 22,
+    maxWidth: 1160,
+    color: '#6a5a45',
+    fontSize: 20,
+    fontWeight: 800,
+    lineHeight: 1.34,
     whiteSpace: 'pre-line',
   },
   closingDomain: {
@@ -1131,6 +1797,20 @@ const styles: Record<string, CSSProperties> = {
     paddingTop: 20,
     color: '#6a5a45',
     fontSize: 18,
+    fontWeight: 800,
+  },
+  landscapeFooter: {
+    position: 'absolute',
+    left: 64,
+    right: 64,
+    bottom: 38,
+    display: 'flex',
+    justifyContent: 'space-between',
+    gap: 26,
+    borderTop: '1px solid rgba(36,32,22,0.16)',
+    paddingTop: 18,
+    color: '#6a5a45',
+    fontSize: 17,
     fontWeight: 800,
   },
 };

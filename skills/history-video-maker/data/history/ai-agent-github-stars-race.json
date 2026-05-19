@@ -1,0 +1,775 @@
+{
+  "slug": "ai-agent-github-stars-race",
+  "title": "AI Agent 开源项目 Star 增长排名",
+  "titleEn": "AI Agent GitHub Star Race",
+  "summary": "从 2019 到 2026，看 AI Agent、RAG、LLM 应用框架如何在 GitHub 上轮流爆发，直到 OpenClaw 把榜单彻底打穿。",
+  "sourceLabel": "GitHub API / Star History / GH Archive / 项目公开报道",
+  "sourceLabelEn": "GitHub API / Star History / GH Archive / public reports",
+  "sourceUrl": "https://github.com/openclaw/openclaw",
+  "sourcePages": [
+    {
+      "year": 2026,
+      "title": "GitHub API: openclaw/openclaw",
+      "url": "https://api.github.com/repos/openclaw/openclaw"
+    },
+    {
+      "year": 2026,
+      "title": "OpenClaw public guide coverage",
+      "url": "https://www.techradar.com/pro/what-is-openclaw"
+    },
+    {
+      "year": 2026,
+      "title": "Star History",
+      "url": "https://star-history.com/"
+    }
+  ],
+  "sourceNote": "当前 Star 使用 GitHub API/公开仓库页；历史节点按 Star History、GH Archive 趋势和项目报道估算。OpenClaw 为 2026 年突增项目，数值按 2026-05-19 GitHub API 快照写入。",
+  "unit": "Stars",
+  "unitShort": "stars",
+  "valueKind": "count",
+  "musicId": "hd235-bold-forward",
+  "themeId": "tech-signal",
+  "startYear": 2019,
+  "endYear": 2026,
+  "entities": [
+    {
+      "code": "LANG",
+      "iso2": "LANG",
+      "name": "LangChain",
+      "nameEn": "LangChain",
+      "region": "LLM 应用框架"
+    },
+    {
+      "code": "AUTOGPT",
+      "iso2": "AUTOGPT",
+      "name": "AutoGPT",
+      "nameEn": "AutoGPT",
+      "region": "AI Agent"
+    },
+    {
+      "code": "CREW",
+      "iso2": "CREW",
+      "name": "CrewAI",
+      "nameEn": "CrewAI",
+      "region": "多 Agent"
+    },
+    {
+      "code": "DIFY",
+      "iso2": "DIFY",
+      "name": "Dify",
+      "nameEn": "Dify",
+      "region": "AI 应用平台"
+    },
+    {
+      "code": "OPENWEB",
+      "iso2": "OPENWEB",
+      "name": "Open WebUI",
+      "nameEn": "Open WebUI",
+      "region": "AI 应用"
+    },
+    {
+      "code": "OLLAMA",
+      "iso2": "OLLAMA",
+      "name": "Ollama",
+      "nameEn": "Ollama",
+      "region": "本地模型"
+    },
+    {
+      "code": "LLAMAI",
+      "iso2": "LLAMAI",
+      "name": "LlamaIndex",
+      "nameEn": "LlamaIndex",
+      "region": "RAG 框架"
+    },
+    {
+      "code": "AIDER",
+      "iso2": "AIDER",
+      "name": "Aider",
+      "nameEn": "Aider",
+      "region": "AI 编程"
+    },
+    {
+      "code": "OPENCLAW",
+      "iso2": "OPENCLAW",
+      "name": "OpenClaw",
+      "nameEn": "OpenClaw",
+      "region": "个人 AI Agent"
+    },
+    {
+      "code": "SWARM",
+      "iso2": "SWARM",
+      "name": "OpenAI Swarm",
+      "nameEn": "OpenAI Swarm",
+      "region": "多 Agent 示例"
+    },
+    {
+      "code": "AUTOGEN",
+      "iso2": "AUTOGEN",
+      "name": "AutoGen",
+      "nameEn": "AutoGen",
+      "region": "多 Agent"
+    },
+    {
+      "code": "METAGPT",
+      "iso2": "METAGPT",
+      "name": "MetaGPT",
+      "nameEn": "MetaGPT",
+      "region": "多 Agent"
+    }
+  ],
+  "frames": [
+    {
+      "year": 2019,
+      "total": 0,
+      "items": []
+    },
+    {
+      "year": 2020,
+      "total": 0,
+      "items": []
+    },
+    {
+      "year": 2021,
+      "total": 0,
+      "items": []
+    },
+    {
+      "year": 2022,
+      "total": 10000,
+      "items": [
+        {
+          "code": "LANG",
+          "iso2": "LANG",
+          "name": "LangChain",
+          "nameEn": "LangChain",
+          "region": "LLM 应用框架",
+          "value": 5000,
+          "rank": 1,
+          "share": 0.5,
+          "rankDelta": 0
+        },
+        {
+          "code": "LLAMAI",
+          "iso2": "LLAMAI",
+          "name": "LlamaIndex",
+          "nameEn": "LlamaIndex",
+          "region": "RAG 框架",
+          "value": 3000,
+          "rank": 2,
+          "share": 0.3,
+          "rankDelta": 0
+        },
+        {
+          "code": "DIFY",
+          "iso2": "DIFY",
+          "name": "Dify",
+          "nameEn": "Dify",
+          "region": "AI 应用平台",
+          "value": 2000,
+          "rank": 3,
+          "share": 0.2,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "total": 306000,
+      "items": [
+        {
+          "code": "AUTOGPT",
+          "iso2": "AUTOGPT",
+          "name": "AutoGPT",
+          "nameEn": "AutoGPT",
+          "region": "AI Agent",
+          "value": 120000,
+          "rank": 1,
+          "share": 0.39215686274509803,
+          "rankDelta": 0
+        },
+        {
+          "code": "LANG",
+          "iso2": "LANG",
+          "name": "LangChain",
+          "nameEn": "LangChain",
+          "region": "LLM 应用框架",
+          "value": 45000,
+          "rank": 2,
+          "share": 0.14705882352941177,
+          "rankDelta": -1
+        },
+        {
+          "code": "OLLAMA",
+          "iso2": "OLLAMA",
+          "name": "Ollama",
+          "nameEn": "Ollama",
+          "region": "本地模型",
+          "value": 35000,
+          "rank": 3,
+          "share": 0.11437908496732026,
+          "rankDelta": 0
+        },
+        {
+          "code": "LLAMAI",
+          "iso2": "LLAMAI",
+          "name": "LlamaIndex",
+          "nameEn": "LlamaIndex",
+          "region": "RAG 框架",
+          "value": 35000,
+          "rank": 4,
+          "share": 0.11437908496732026,
+          "rankDelta": -2
+        },
+        {
+          "code": "METAGPT",
+          "iso2": "METAGPT",
+          "name": "MetaGPT",
+          "nameEn": "MetaGPT",
+          "region": "多 Agent",
+          "value": 20000,
+          "rank": 5,
+          "share": 0.06535947712418301,
+          "rankDelta": 0
+        },
+        {
+          "code": "DIFY",
+          "iso2": "DIFY",
+          "name": "Dify",
+          "nameEn": "Dify",
+          "region": "AI 应用平台",
+          "value": 15000,
+          "rank": 6,
+          "share": 0.049019607843137254,
+          "rankDelta": -3
+        },
+        {
+          "code": "AUTOGEN",
+          "iso2": "AUTOGEN",
+          "name": "AutoGen",
+          "nameEn": "AutoGen",
+          "region": "多 Agent",
+          "value": 15000,
+          "rank": 7,
+          "share": 0.049019607843137254,
+          "rankDelta": 0
+        },
+        {
+          "code": "OPENWEB",
+          "iso2": "OPENWEB",
+          "name": "Open WebUI",
+          "nameEn": "Open WebUI",
+          "region": "AI 应用",
+          "value": 10000,
+          "rank": 8,
+          "share": 0.032679738562091505,
+          "rankDelta": 0
+        },
+        {
+          "code": "AIDER",
+          "iso2": "AIDER",
+          "name": "Aider",
+          "nameEn": "Aider",
+          "region": "AI 编程",
+          "value": 6000,
+          "rank": 9,
+          "share": 0.0196078431372549,
+          "rankDelta": 0
+        },
+        {
+          "code": "CREW",
+          "iso2": "CREW",
+          "name": "CrewAI",
+          "nameEn": "CrewAI",
+          "region": "多 Agent",
+          "value": 5000,
+          "rank": 10,
+          "share": 0.016339869281045753,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "total": 606000,
+      "items": [
+        {
+          "code": "AUTOGPT",
+          "iso2": "AUTOGPT",
+          "name": "AutoGPT",
+          "nameEn": "AutoGPT",
+          "region": "AI Agent",
+          "value": 160000,
+          "rank": 1,
+          "share": 0.264026402640264,
+          "rankDelta": 0
+        },
+        {
+          "code": "OLLAMA",
+          "iso2": "OLLAMA",
+          "name": "Ollama",
+          "nameEn": "Ollama",
+          "region": "本地模型",
+          "value": 90000,
+          "rank": 2,
+          "share": 0.1485148514851485,
+          "rankDelta": 1
+        },
+        {
+          "code": "LANG",
+          "iso2": "LANG",
+          "name": "LangChain",
+          "nameEn": "LangChain",
+          "region": "LLM 应用框架",
+          "value": 75000,
+          "rank": 3,
+          "share": 0.12376237623762376,
+          "rankDelta": -1
+        },
+        {
+          "code": "LLAMAI",
+          "iso2": "LLAMAI",
+          "name": "LlamaIndex",
+          "nameEn": "LlamaIndex",
+          "region": "RAG 框架",
+          "value": 55000,
+          "rank": 4,
+          "share": 0.09075907590759076,
+          "rankDelta": 0
+        },
+        {
+          "code": "DIFY",
+          "iso2": "DIFY",
+          "name": "Dify",
+          "nameEn": "Dify",
+          "region": "AI 应用平台",
+          "value": 45000,
+          "rank": 5,
+          "share": 0.07425742574257425,
+          "rankDelta": 1
+        },
+        {
+          "code": "OPENWEB",
+          "iso2": "OPENWEB",
+          "name": "Open WebUI",
+          "nameEn": "Open WebUI",
+          "region": "AI 应用",
+          "value": 45000,
+          "rank": 6,
+          "share": 0.07425742574257425,
+          "rankDelta": 2
+        },
+        {
+          "code": "METAGPT",
+          "iso2": "METAGPT",
+          "name": "MetaGPT",
+          "nameEn": "MetaGPT",
+          "region": "多 Agent",
+          "value": 38000,
+          "rank": 7,
+          "share": 0.0627062706270627,
+          "rankDelta": -2
+        },
+        {
+          "code": "AUTOGEN",
+          "iso2": "AUTOGEN",
+          "name": "AutoGen",
+          "nameEn": "AutoGen",
+          "region": "多 Agent",
+          "value": 35000,
+          "rank": 8,
+          "share": 0.057755775577557754,
+          "rankDelta": -1
+        },
+        {
+          "code": "CREW",
+          "iso2": "CREW",
+          "name": "CrewAI",
+          "nameEn": "CrewAI",
+          "region": "多 Agent",
+          "value": 25000,
+          "rank": 9,
+          "share": 0.041254125412541254,
+          "rankDelta": 1
+        },
+        {
+          "code": "SWARM",
+          "iso2": "SWARM",
+          "name": "OpenAI Swarm",
+          "nameEn": "OpenAI Swarm",
+          "region": "多 Agent 示例",
+          "value": 20000,
+          "rank": 10,
+          "share": 0.033003300330033,
+          "rankDelta": 0
+        },
+        {
+          "code": "AIDER",
+          "iso2": "AIDER",
+          "name": "Aider",
+          "nameEn": "Aider",
+          "region": "AI 编程",
+          "value": 18000,
+          "rank": 11,
+          "share": 0.0297029702970297,
+          "rankDelta": -2
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "total": 852000,
+      "items": [
+        {
+          "code": "AUTOGPT",
+          "iso2": "AUTOGPT",
+          "name": "AutoGPT",
+          "nameEn": "AutoGPT",
+          "region": "AI Agent",
+          "value": 170000,
+          "rank": 1,
+          "share": 0.19953051643192488,
+          "rankDelta": 0
+        },
+        {
+          "code": "OLLAMA",
+          "iso2": "OLLAMA",
+          "name": "Ollama",
+          "nameEn": "Ollama",
+          "region": "本地模型",
+          "value": 130000,
+          "rank": 2,
+          "share": 0.15258215962441316,
+          "rankDelta": 0
+        },
+        {
+          "code": "LANG",
+          "iso2": "LANG",
+          "name": "LangChain",
+          "nameEn": "LangChain",
+          "region": "LLM 应用框架",
+          "value": 110000,
+          "rank": 3,
+          "share": 0.12910798122065728,
+          "rankDelta": 0
+        },
+        {
+          "code": "DIFY",
+          "iso2": "DIFY",
+          "name": "Dify",
+          "nameEn": "Dify",
+          "region": "AI 应用平台",
+          "value": 85000,
+          "rank": 4,
+          "share": 0.09976525821596244,
+          "rankDelta": 1
+        },
+        {
+          "code": "OPENWEB",
+          "iso2": "OPENWEB",
+          "name": "Open WebUI",
+          "nameEn": "Open WebUI",
+          "region": "AI 应用",
+          "value": 75000,
+          "rank": 5,
+          "share": 0.0880281690140845,
+          "rankDelta": 1
+        },
+        {
+          "code": "LLAMAI",
+          "iso2": "LLAMAI",
+          "name": "LlamaIndex",
+          "nameEn": "LlamaIndex",
+          "region": "RAG 框架",
+          "value": 75000,
+          "rank": 6,
+          "share": 0.0880281690140845,
+          "rankDelta": -2
+        },
+        {
+          "code": "AUTOGEN",
+          "iso2": "AUTOGEN",
+          "name": "AutoGen",
+          "nameEn": "AutoGen",
+          "region": "多 Agent",
+          "value": 50000,
+          "rank": 7,
+          "share": 0.05868544600938967,
+          "rankDelta": 1
+        },
+        {
+          "code": "METAGPT",
+          "iso2": "METAGPT",
+          "name": "MetaGPT",
+          "nameEn": "MetaGPT",
+          "region": "多 Agent",
+          "value": 48000,
+          "rank": 8,
+          "share": 0.056338028169014086,
+          "rankDelta": -1
+        },
+        {
+          "code": "CREW",
+          "iso2": "CREW",
+          "name": "CrewAI",
+          "nameEn": "CrewAI",
+          "region": "多 Agent",
+          "value": 40000,
+          "rank": 9,
+          "share": 0.046948356807511735,
+          "rankDelta": 0
+        },
+        {
+          "code": "AIDER",
+          "iso2": "AIDER",
+          "name": "Aider",
+          "nameEn": "Aider",
+          "region": "AI 编程",
+          "value": 35000,
+          "rank": 10,
+          "share": 0.04107981220657277,
+          "rankDelta": 1
+        },
+        {
+          "code": "SWARM",
+          "iso2": "SWARM",
+          "name": "OpenAI Swarm",
+          "nameEn": "OpenAI Swarm",
+          "region": "多 Agent 示例",
+          "value": 25000,
+          "rank": 11,
+          "share": 0.029342723004694836,
+          "rankDelta": -1
+        },
+        {
+          "code": "OPENCLAW",
+          "iso2": "OPENCLAW",
+          "name": "OpenClaw",
+          "nameEn": "OpenClaw",
+          "region": "个人 AI Agent",
+          "value": 9000,
+          "rank": 12,
+          "share": 0.01056338028169014,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "total": 1392918,
+      "items": [
+        {
+          "code": "OPENCLAW",
+          "iso2": "OPENCLAW",
+          "name": "OpenClaw",
+          "nameEn": "OpenClaw",
+          "region": "个人 AI Agent",
+          "value": 372918,
+          "rank": 1,
+          "share": 0.26772430250739815,
+          "rankDelta": 11
+        },
+        {
+          "code": "AUTOGPT",
+          "iso2": "AUTOGPT",
+          "name": "AutoGPT",
+          "nameEn": "AutoGPT",
+          "region": "AI Agent",
+          "value": 175000,
+          "rank": 2,
+          "share": 0.12563553633451502,
+          "rankDelta": -1
+        },
+        {
+          "code": "OLLAMA",
+          "iso2": "OLLAMA",
+          "name": "Ollama",
+          "nameEn": "Ollama",
+          "region": "本地模型",
+          "value": 160000,
+          "rank": 3,
+          "share": 0.11486677607727087,
+          "rankDelta": -1
+        },
+        {
+          "code": "LANG",
+          "iso2": "LANG",
+          "name": "LangChain",
+          "nameEn": "LangChain",
+          "region": "LLM 应用框架",
+          "value": 125000,
+          "rank": 4,
+          "share": 0.08973966881036788,
+          "rankDelta": -1
+        },
+        {
+          "code": "DIFY",
+          "iso2": "DIFY",
+          "name": "Dify",
+          "nameEn": "Dify",
+          "region": "AI 应用平台",
+          "value": 120000,
+          "rank": 5,
+          "share": 0.08615008205795316,
+          "rankDelta": -1
+        },
+        {
+          "code": "OPENWEB",
+          "iso2": "OPENWEB",
+          "name": "Open WebUI",
+          "nameEn": "Open WebUI",
+          "region": "AI 应用",
+          "value": 95000,
+          "rank": 6,
+          "share": 0.06820214829587959,
+          "rankDelta": -1
+        },
+        {
+          "code": "LLAMAI",
+          "iso2": "LLAMAI",
+          "name": "LlamaIndex",
+          "nameEn": "LlamaIndex",
+          "region": "RAG 框架",
+          "value": 90000,
+          "rank": 7,
+          "share": 0.06461256154346487,
+          "rankDelta": -1
+        },
+        {
+          "code": "AUTOGEN",
+          "iso2": "AUTOGEN",
+          "name": "AutoGen",
+          "nameEn": "AutoGen",
+          "region": "多 Agent",
+          "value": 62000,
+          "rank": 8,
+          "share": 0.044510875729942466,
+          "rankDelta": -1
+        },
+        {
+          "code": "CREW",
+          "iso2": "CREW",
+          "name": "CrewAI",
+          "nameEn": "CrewAI",
+          "region": "多 Agent",
+          "value": 55000,
+          "rank": 9,
+          "share": 0.03948545427656187,
+          "rankDelta": 0
+        },
+        {
+          "code": "AIDER",
+          "iso2": "AIDER",
+          "name": "Aider",
+          "nameEn": "Aider",
+          "region": "AI 编程",
+          "value": 55000,
+          "rank": 10,
+          "share": 0.03948545427656187,
+          "rankDelta": 0
+        },
+        {
+          "code": "METAGPT",
+          "iso2": "METAGPT",
+          "name": "MetaGPT",
+          "nameEn": "MetaGPT",
+          "region": "多 Agent",
+          "value": 55000,
+          "rank": 11,
+          "share": 0.03948545427656187,
+          "rankDelta": -3
+        },
+        {
+          "code": "SWARM",
+          "iso2": "SWARM",
+          "name": "OpenAI Swarm",
+          "nameEn": "OpenAI Swarm",
+          "region": "多 Agent 示例",
+          "value": 28000,
+          "rank": 12,
+          "share": 0.020101685813522403,
+          "rankDelta": -1
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "langchain-start",
+      "year": 2022,
+      "entityCode": "LANG",
+      "kind": "milestone",
+      "title": "LangChain 出现",
+      "titleEn": "LangChain 出现",
+      "description": "LLM 应用开发开始出现统一框架。",
+      "descriptionEn": "LLM 应用开发开始出现统一框架。",
+      "entityName": "LangChain",
+      "rank": 1,
+      "value": 5000
+    },
+    {
+      "id": "chatgpt-agent-boom",
+      "year": 2023,
+      "entityCode": "AUTOGPT",
+      "kind": "milestone",
+      "title": "AutoGPT 引爆 Agent 热",
+      "titleEn": "AutoGPT 引爆 Agent 热",
+      "description": "AutoGPT 让“自主智能体”成为开发者社区热词。",
+      "descriptionEn": "AutoGPT 让“自主智能体”成为开发者社区热词。",
+      "entityName": "AutoGPT",
+      "rank": 1,
+      "value": 120000
+    },
+    {
+      "id": "local-llm",
+      "year": 2024,
+      "entityCode": "OLLAMA",
+      "kind": "milestone",
+      "title": "本地模型工具爆发",
+      "titleEn": "本地模型工具爆发",
+      "description": "Ollama、Open WebUI 把本地 LLM 使用门槛大幅降低。",
+      "descriptionEn": "Ollama、Open WebUI 把本地 LLM 使用门槛大幅降低。",
+      "entityName": "Ollama",
+      "rank": 2,
+      "value": 90000
+    },
+    {
+      "id": "dify-rise",
+      "year": 2025,
+      "entityCode": "DIFY",
+      "kind": "milestone",
+      "title": "AI 应用平台上升",
+      "titleEn": "AI 应用平台上升",
+      "description": "Dify、LlamaIndex、CrewAI 继续承接企业和个人开发者需求。",
+      "descriptionEn": "Dify、LlamaIndex、CrewAI 继续承接企业和个人开发者需求。",
+      "entityName": "Dify",
+      "rank": 4,
+      "value": 85000
+    },
+    {
+      "id": "openclaw-launch",
+      "year": 2025,
+      "entityCode": "OPENCLAW",
+      "kind": "milestone",
+      "title": "OpenClaw 亮相",
+      "titleEn": "OpenClaw 亮相",
+      "description": "个人 AI Agent 项目进入开发者视野。",
+      "descriptionEn": "个人 AI Agent 项目进入开发者视野。",
+      "entityName": "OpenClaw",
+      "rank": null,
+      "value": 9000
+    },
+    {
+      "id": "openclaw-surge",
+      "year": 2026,
+      "entityCode": "OPENCLAW",
+      "kind": "milestone",
+      "title": "OpenClaw 打穿榜单",
+      "titleEn": "OpenClaw 打穿榜单",
+      "description": "OpenClaw 在数月内跃升到 37 万 Star 级别，超过传统 AI Agent 项目。",
+      "descriptionEn": "OpenClaw 在数月内跃升到 37 万 Star 级别，超过传统 AI Agent 项目。",
+      "entityName": "OpenClaw",
+      "rank": 1,
+      "value": 372918
+    }
+  ]
+}

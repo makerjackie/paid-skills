@@ -1,0 +1,1517 @@
+{
+  "slug": "bilibili-creators-race",
+  "title": "B站 UP 主粉丝排名变化",
+  "titleEn": "Bilibili Creator Follower Race",
+  "summary": "从 2016 到 2026，看 B站头部 UP 主粉丝量如何从游戏、动画，转向知识、科技、影视和泛娱乐混战。",
+  "sourceLabel": "Bilibili 公开主页 / 粉丝榜归档 / 维基百科条目",
+  "sourceLabelEn": "Bilibili public pages / follower ranking archives / Wikipedia",
+  "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%B2%89%E4%B8%9D%E6%95%B0%E6%9C%80%E5%A4%9A%E7%9A%84%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9UP%E4%B8%BB",
+  "sourcePages": [
+    {
+      "year": 2025,
+      "title": "粉丝数最多的哔哩哔哩UP主",
+      "url": "https://zh.wikipedia.org/wiki/%E7%B2%89%E4%B8%9D%E6%95%B0%E6%9C%80%E5%A4%9A%E7%9A%84%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9UP%E4%B8%BB"
+    },
+    {
+      "year": 2020,
+      "title": "老番茄粉丝破千万",
+      "url": "https://zh.wikipedia.org/wiki/%E8%80%81%E7%95%AA%E8%8C%84"
+    }
+  ],
+  "sourceNote": "B站未提供官方历史粉丝 API，逐年数据按公开里程碑、历史榜单视频、页面快照和当前公开粉丝量估算；排名趋势优先于单点精确值。",
+  "unit": "粉丝",
+  "unitShort": "fans",
+  "valueKind": "count",
+  "musicId": "hd235-bright-life",
+  "themeId": "tech-signal",
+  "startYear": 2016,
+  "endYear": 2026,
+  "entities": [
+    {
+      "code": "LUO",
+      "iso2": "LUO",
+      "name": "罗翔说刑法",
+      "nameEn": "罗翔说刑法",
+      "region": "知识"
+    },
+    {
+      "code": "FAN",
+      "iso2": "FAN",
+      "name": "老番茄",
+      "nameEn": "老番茄",
+      "region": "游戏"
+    },
+    {
+      "code": "HE",
+      "iso2": "HE",
+      "name": "老师好我叫何同学",
+      "nameEn": "老师好我叫何同学",
+      "region": "科技"
+    },
+    {
+      "code": "BI",
+      "iso2": "BI",
+      "name": "哔哩哔哩漫画",
+      "nameEn": "哔哩哔哩漫画",
+      "region": "平台账号"
+    },
+    {
+      "code": "ZHOU",
+      "iso2": "ZHOU",
+      "name": "周深",
+      "nameEn": "周深",
+      "region": "音乐"
+    },
+    {
+      "code": "MENG",
+      "iso2": "MENG",
+      "name": "萌宠小队",
+      "nameEn": "萌宠小队",
+      "region": "泛娱乐"
+    },
+    {
+      "code": "MUMU",
+      "iso2": "MUMU",
+      "name": "木鱼水心",
+      "nameEn": "木鱼水心",
+      "region": "影视解说"
+    },
+    {
+      "code": "ZHU",
+      "iso2": "ZHU",
+      "name": "朱一旦的枯燥生活",
+      "nameEn": "朱一旦的枯燥生活",
+      "region": "短剧"
+    },
+    {
+      "code": "KAN",
+      "iso2": "KAN",
+      "name": "看理想",
+      "nameEn": "看理想",
+      "region": "知识"
+    },
+    {
+      "code": "ALEX",
+      "iso2": "ALEX",
+      "name": "LexBurner",
+      "nameEn": "LexBurner",
+      "region": "动画"
+    },
+    {
+      "code": "CHAI",
+      "iso2": "CHAI",
+      "name": "差评君",
+      "nameEn": "差评君",
+      "region": "科技"
+    },
+    {
+      "code": "BAN",
+      "iso2": "BAN",
+      "name": "半佛仙人",
+      "nameEn": "半佛仙人",
+      "region": "商业"
+    }
+  ],
+  "frames": [
+    {
+      "year": 2016,
+      "total": 4000000,
+      "items": [
+        {
+          "code": "ALEX",
+          "iso2": "ALEX",
+          "name": "LexBurner",
+          "nameEn": "LexBurner",
+          "region": "动画",
+          "value": 2000000,
+          "rank": 1,
+          "share": 0.5,
+          "rankDelta": 0
+        },
+        {
+          "code": "FAN",
+          "iso2": "FAN",
+          "name": "老番茄",
+          "nameEn": "老番茄",
+          "region": "游戏",
+          "value": 1000000,
+          "rank": 2,
+          "share": 0.25,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHAI",
+          "iso2": "CHAI",
+          "name": "差评君",
+          "nameEn": "差评君",
+          "region": "科技",
+          "value": 500000,
+          "rank": 3,
+          "share": 0.125,
+          "rankDelta": 0
+        },
+        {
+          "code": "MUMU",
+          "iso2": "MUMU",
+          "name": "木鱼水心",
+          "nameEn": "木鱼水心",
+          "region": "影视解说",
+          "value": 300000,
+          "rank": 4,
+          "share": 0.075,
+          "rankDelta": 0
+        },
+        {
+          "code": "KAN",
+          "iso2": "KAN",
+          "name": "看理想",
+          "nameEn": "看理想",
+          "region": "知识",
+          "value": 200000,
+          "rank": 5,
+          "share": 0.05,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "total": 8800000,
+      "items": [
+        {
+          "code": "ALEX",
+          "iso2": "ALEX",
+          "name": "LexBurner",
+          "nameEn": "LexBurner",
+          "region": "动画",
+          "value": 3500000,
+          "rank": 1,
+          "share": 0.3977272727272727,
+          "rankDelta": 0
+        },
+        {
+          "code": "FAN",
+          "iso2": "FAN",
+          "name": "老番茄",
+          "nameEn": "老番茄",
+          "region": "游戏",
+          "value": 2500000,
+          "rank": 2,
+          "share": 0.2840909090909091,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHAI",
+          "iso2": "CHAI",
+          "name": "差评君",
+          "nameEn": "差评君",
+          "region": "科技",
+          "value": 1000000,
+          "rank": 3,
+          "share": 0.11363636363636363,
+          "rankDelta": 0
+        },
+        {
+          "code": "MUMU",
+          "iso2": "MUMU",
+          "name": "木鱼水心",
+          "nameEn": "木鱼水心",
+          "region": "影视解说",
+          "value": 800000,
+          "rank": 4,
+          "share": 0.09090909090909091,
+          "rankDelta": 0
+        },
+        {
+          "code": "BI",
+          "iso2": "BI",
+          "name": "哔哩哔哩漫画",
+          "nameEn": "哔哩哔哩漫画",
+          "region": "平台账号",
+          "value": 500000,
+          "rank": 5,
+          "share": 0.056818181818181816,
+          "rankDelta": 0
+        },
+        {
+          "code": "KAN",
+          "iso2": "KAN",
+          "name": "看理想",
+          "nameEn": "看理想",
+          "region": "知识",
+          "value": 500000,
+          "rank": 6,
+          "share": 0.056818181818181816,
+          "rankDelta": -1
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "total": 16900000,
+      "items": [
+        {
+          "code": "ALEX",
+          "iso2": "ALEX",
+          "name": "LexBurner",
+          "nameEn": "LexBurner",
+          "region": "动画",
+          "value": 5500000,
+          "rank": 1,
+          "share": 0.3254437869822485,
+          "rankDelta": 0
+        },
+        {
+          "code": "FAN",
+          "iso2": "FAN",
+          "name": "老番茄",
+          "nameEn": "老番茄",
+          "region": "游戏",
+          "value": 5000000,
+          "rank": 2,
+          "share": 0.2958579881656805,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHAI",
+          "iso2": "CHAI",
+          "name": "差评君",
+          "nameEn": "差评君",
+          "region": "科技",
+          "value": 2000000,
+          "rank": 3,
+          "share": 0.11834319526627218,
+          "rankDelta": 0
+        },
+        {
+          "code": "BI",
+          "iso2": "BI",
+          "name": "哔哩哔哩漫画",
+          "nameEn": "哔哩哔哩漫画",
+          "region": "平台账号",
+          "value": 1500000,
+          "rank": 4,
+          "share": 0.08875739644970414,
+          "rankDelta": 1
+        },
+        {
+          "code": "MUMU",
+          "iso2": "MUMU",
+          "name": "木鱼水心",
+          "nameEn": "木鱼水心",
+          "region": "影视解说",
+          "value": 1500000,
+          "rank": 5,
+          "share": 0.08875739644970414,
+          "rankDelta": -1
+        },
+        {
+          "code": "KAN",
+          "iso2": "KAN",
+          "name": "看理想",
+          "nameEn": "看理想",
+          "region": "知识",
+          "value": 900000,
+          "rank": 6,
+          "share": 0.05325443786982249,
+          "rankDelta": 0
+        },
+        {
+          "code": "HE",
+          "iso2": "HE",
+          "name": "老师好我叫何同学",
+          "nameEn": "老师好我叫何同学",
+          "region": "科技",
+          "value": 500000,
+          "rank": 7,
+          "share": 0.029585798816568046,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "total": 32500000,
+      "items": [
+        {
+          "code": "FAN",
+          "iso2": "FAN",
+          "name": "老番茄",
+          "nameEn": "老番茄",
+          "region": "游戏",
+          "value": 8000000,
+          "rank": 1,
+          "share": 0.24615384615384617,
+          "rankDelta": 1
+        },
+        {
+          "code": "ALEX",
+          "iso2": "ALEX",
+          "name": "LexBurner",
+          "nameEn": "LexBurner",
+          "region": "动画",
+          "value": 8000000,
+          "rank": 2,
+          "share": 0.24615384615384617,
+          "rankDelta": -1
+        },
+        {
+          "code": "CHAI",
+          "iso2": "CHAI",
+          "name": "差评君",
+          "nameEn": "差评君",
+          "region": "科技",
+          "value": 3500000,
+          "rank": 3,
+          "share": 0.1076923076923077,
+          "rankDelta": 0
+        },
+        {
+          "code": "BI",
+          "iso2": "BI",
+          "name": "哔哩哔哩漫画",
+          "nameEn": "哔哩哔哩漫画",
+          "region": "平台账号",
+          "value": 3000000,
+          "rank": 4,
+          "share": 0.09230769230769231,
+          "rankDelta": 0
+        },
+        {
+          "code": "MUMU",
+          "iso2": "MUMU",
+          "name": "木鱼水心",
+          "nameEn": "木鱼水心",
+          "region": "影视解说",
+          "value": 3000000,
+          "rank": 5,
+          "share": 0.09230769230769231,
+          "rankDelta": 0
+        },
+        {
+          "code": "HE",
+          "iso2": "HE",
+          "name": "老师好我叫何同学",
+          "nameEn": "老师好我叫何同学",
+          "region": "科技",
+          "value": 2000000,
+          "rank": 6,
+          "share": 0.06153846153846154,
+          "rankDelta": 1
+        },
+        {
+          "code": "ZHU",
+          "iso2": "ZHU",
+          "name": "朱一旦的枯燥生活",
+          "nameEn": "朱一旦的枯燥生活",
+          "region": "短剧",
+          "value": 2000000,
+          "rank": 7,
+          "share": 0.06153846153846154,
+          "rankDelta": 0
+        },
+        {
+          "code": "KAN",
+          "iso2": "KAN",
+          "name": "看理想",
+          "nameEn": "看理想",
+          "region": "知识",
+          "value": 1500000,
+          "rank": 8,
+          "share": 0.046153846153846156,
+          "rankDelta": -2
+        },
+        {
+          "code": "MENG",
+          "iso2": "MENG",
+          "name": "萌宠小队",
+          "nameEn": "萌宠小队",
+          "region": "泛娱乐",
+          "value": 500000,
+          "rank": 9,
+          "share": 0.015384615384615385,
+          "rankDelta": 0
+        },
+        {
+          "code": "BAN",
+          "iso2": "BAN",
+          "name": "半佛仙人",
+          "nameEn": "半佛仙人",
+          "region": "商业",
+          "value": 500000,
+          "rank": 10,
+          "share": 0.015384615384615385,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZHOU",
+          "iso2": "ZHOU",
+          "name": "周深",
+          "nameEn": "周深",
+          "region": "音乐",
+          "value": 300000,
+          "rank": 11,
+          "share": 0.009230769230769232,
+          "rankDelta": 0
+        },
+        {
+          "code": "LUO",
+          "iso2": "LUO",
+          "name": "罗翔说刑法",
+          "nameEn": "罗翔说刑法",
+          "region": "知识",
+          "value": 200000,
+          "rank": 12,
+          "share": 0.006153846153846154,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "total": 65500000,
+      "items": [
+        {
+          "code": "FAN",
+          "iso2": "FAN",
+          "name": "老番茄",
+          "nameEn": "老番茄",
+          "region": "游戏",
+          "value": 12000000,
+          "rank": 1,
+          "share": 0.183206106870229,
+          "rankDelta": 0
+        },
+        {
+          "code": "LUO",
+          "iso2": "LUO",
+          "name": "罗翔说刑法",
+          "nameEn": "罗翔说刑法",
+          "region": "知识",
+          "value": 10000000,
+          "rank": 2,
+          "share": 0.15267175572519084,
+          "rankDelta": 10
+        },
+        {
+          "code": "ALEX",
+          "iso2": "ALEX",
+          "name": "LexBurner",
+          "nameEn": "LexBurner",
+          "region": "动画",
+          "value": 9500000,
+          "rank": 3,
+          "share": 0.1450381679389313,
+          "rankDelta": -1
+        },
+        {
+          "code": "BI",
+          "iso2": "BI",
+          "name": "哔哩哔哩漫画",
+          "nameEn": "哔哩哔哩漫画",
+          "region": "平台账号",
+          "value": 5500000,
+          "rank": 4,
+          "share": 0.08396946564885496,
+          "rankDelta": 0
+        },
+        {
+          "code": "HE",
+          "iso2": "HE",
+          "name": "老师好我叫何同学",
+          "nameEn": "老师好我叫何同学",
+          "region": "科技",
+          "value": 5000000,
+          "rank": 5,
+          "share": 0.07633587786259542,
+          "rankDelta": 1
+        },
+        {
+          "code": "MUMU",
+          "iso2": "MUMU",
+          "name": "木鱼水心",
+          "nameEn": "木鱼水心",
+          "region": "影视解说",
+          "value": 5000000,
+          "rank": 6,
+          "share": 0.07633587786259542,
+          "rankDelta": -1
+        },
+        {
+          "code": "ZHU",
+          "iso2": "ZHU",
+          "name": "朱一旦的枯燥生活",
+          "nameEn": "朱一旦的枯燥生活",
+          "region": "短剧",
+          "value": 5000000,
+          "rank": 7,
+          "share": 0.07633587786259542,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHAI",
+          "iso2": "CHAI",
+          "name": "差评君",
+          "nameEn": "差评君",
+          "region": "科技",
+          "value": 5000000,
+          "rank": 8,
+          "share": 0.07633587786259542,
+          "rankDelta": -5
+        },
+        {
+          "code": "KAN",
+          "iso2": "KAN",
+          "name": "看理想",
+          "nameEn": "看理想",
+          "region": "知识",
+          "value": 2500000,
+          "rank": 9,
+          "share": 0.03816793893129771,
+          "rankDelta": -1
+        },
+        {
+          "code": "BAN",
+          "iso2": "BAN",
+          "name": "半佛仙人",
+          "nameEn": "半佛仙人",
+          "region": "商业",
+          "value": 2500000,
+          "rank": 10,
+          "share": 0.03816793893129771,
+          "rankDelta": 0
+        },
+        {
+          "code": "MENG",
+          "iso2": "MENG",
+          "name": "萌宠小队",
+          "nameEn": "萌宠小队",
+          "region": "泛娱乐",
+          "value": 2000000,
+          "rank": 11,
+          "share": 0.030534351145038167,
+          "rankDelta": -2
+        },
+        {
+          "code": "ZHOU",
+          "iso2": "ZHOU",
+          "name": "周深",
+          "nameEn": "周深",
+          "region": "音乐",
+          "value": 1500000,
+          "rank": 12,
+          "share": 0.022900763358778626,
+          "rankDelta": -1
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "total": 98500000,
+      "items": [
+        {
+          "code": "LUO",
+          "iso2": "LUO",
+          "name": "罗翔说刑法",
+          "nameEn": "罗翔说刑法",
+          "region": "知识",
+          "value": 18000000,
+          "rank": 1,
+          "share": 0.18274111675126903,
+          "rankDelta": 1
+        },
+        {
+          "code": "FAN",
+          "iso2": "FAN",
+          "name": "老番茄",
+          "nameEn": "老番茄",
+          "region": "游戏",
+          "value": 15000000,
+          "rank": 2,
+          "share": 0.15228426395939088,
+          "rankDelta": -1
+        },
+        {
+          "code": "ALEX",
+          "iso2": "ALEX",
+          "name": "LexBurner",
+          "nameEn": "LexBurner",
+          "region": "动画",
+          "value": 10500000,
+          "rank": 3,
+          "share": 0.1065989847715736,
+          "rankDelta": 0
+        },
+        {
+          "code": "HE",
+          "iso2": "HE",
+          "name": "老师好我叫何同学",
+          "nameEn": "老师好我叫何同学",
+          "region": "科技",
+          "value": 8000000,
+          "rank": 4,
+          "share": 0.08121827411167512,
+          "rankDelta": 1
+        },
+        {
+          "code": "BI",
+          "iso2": "BI",
+          "name": "哔哩哔哩漫画",
+          "nameEn": "哔哩哔哩漫画",
+          "region": "平台账号",
+          "value": 8000000,
+          "rank": 5,
+          "share": 0.08121827411167512,
+          "rankDelta": -1
+        },
+        {
+          "code": "MUMU",
+          "iso2": "MUMU",
+          "name": "木鱼水心",
+          "nameEn": "木鱼水心",
+          "region": "影视解说",
+          "value": 7000000,
+          "rank": 6,
+          "share": 0.07106598984771574,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZHU",
+          "iso2": "ZHU",
+          "name": "朱一旦的枯燥生活",
+          "nameEn": "朱一旦的枯燥生活",
+          "region": "短剧",
+          "value": 7000000,
+          "rank": 7,
+          "share": 0.07106598984771574,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHAI",
+          "iso2": "CHAI",
+          "name": "差评君",
+          "nameEn": "差评君",
+          "region": "科技",
+          "value": 6500000,
+          "rank": 8,
+          "share": 0.06598984771573604,
+          "rankDelta": 0
+        },
+        {
+          "code": "BAN",
+          "iso2": "BAN",
+          "name": "半佛仙人",
+          "nameEn": "半佛仙人",
+          "region": "商业",
+          "value": 5500000,
+          "rank": 9,
+          "share": 0.05583756345177665,
+          "rankDelta": 1
+        },
+        {
+          "code": "MENG",
+          "iso2": "MENG",
+          "name": "萌宠小队",
+          "nameEn": "萌宠小队",
+          "region": "泛娱乐",
+          "value": 5000000,
+          "rank": 10,
+          "share": 0.050761421319796954,
+          "rankDelta": 1
+        },
+        {
+          "code": "ZHOU",
+          "iso2": "ZHOU",
+          "name": "周深",
+          "nameEn": "周深",
+          "region": "音乐",
+          "value": 4000000,
+          "rank": 11,
+          "share": 0.04060913705583756,
+          "rankDelta": 1
+        },
+        {
+          "code": "KAN",
+          "iso2": "KAN",
+          "name": "看理想",
+          "nameEn": "看理想",
+          "region": "知识",
+          "value": 4000000,
+          "rank": 12,
+          "share": 0.04060913705583756,
+          "rankDelta": -3
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "total": 124800000,
+      "items": [
+        {
+          "code": "LUO",
+          "iso2": "LUO",
+          "name": "罗翔说刑法",
+          "nameEn": "罗翔说刑法",
+          "region": "知识",
+          "value": 24000000,
+          "rank": 1,
+          "share": 0.19230769230769232,
+          "rankDelta": 0
+        },
+        {
+          "code": "FAN",
+          "iso2": "FAN",
+          "name": "老番茄",
+          "nameEn": "老番茄",
+          "region": "游戏",
+          "value": 17000000,
+          "rank": 2,
+          "share": 0.1362179487179487,
+          "rankDelta": 0
+        },
+        {
+          "code": "ALEX",
+          "iso2": "ALEX",
+          "name": "LexBurner",
+          "nameEn": "LexBurner",
+          "region": "动画",
+          "value": 10800000,
+          "rank": 3,
+          "share": 0.08653846153846154,
+          "rankDelta": 0
+        },
+        {
+          "code": "BI",
+          "iso2": "BI",
+          "name": "哔哩哔哩漫画",
+          "nameEn": "哔哩哔哩漫画",
+          "region": "平台账号",
+          "value": 10500000,
+          "rank": 4,
+          "share": 0.08413461538461539,
+          "rankDelta": 1
+        },
+        {
+          "code": "HE",
+          "iso2": "HE",
+          "name": "老师好我叫何同学",
+          "nameEn": "老师好我叫何同学",
+          "region": "科技",
+          "value": 10000000,
+          "rank": 5,
+          "share": 0.08012820512820513,
+          "rankDelta": -1
+        },
+        {
+          "code": "MUMU",
+          "iso2": "MUMU",
+          "name": "木鱼水心",
+          "nameEn": "木鱼水心",
+          "region": "影视解说",
+          "value": 8500000,
+          "rank": 6,
+          "share": 0.06810897435897435,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZHU",
+          "iso2": "ZHU",
+          "name": "朱一旦的枯燥生活",
+          "nameEn": "朱一旦的枯燥生活",
+          "region": "短剧",
+          "value": 8500000,
+          "rank": 7,
+          "share": 0.06810897435897435,
+          "rankDelta": 0
+        },
+        {
+          "code": "MENG",
+          "iso2": "MENG",
+          "name": "萌宠小队",
+          "nameEn": "萌宠小队",
+          "region": "泛娱乐",
+          "value": 8000000,
+          "rank": 8,
+          "share": 0.0641025641025641,
+          "rankDelta": 2
+        },
+        {
+          "code": "CHAI",
+          "iso2": "CHAI",
+          "name": "差评君",
+          "nameEn": "差评君",
+          "region": "科技",
+          "value": 7500000,
+          "rank": 9,
+          "share": 0.06009615384615385,
+          "rankDelta": -1
+        },
+        {
+          "code": "ZHOU",
+          "iso2": "ZHOU",
+          "name": "周深",
+          "nameEn": "周深",
+          "region": "音乐",
+          "value": 7000000,
+          "rank": 10,
+          "share": 0.05608974358974359,
+          "rankDelta": 1
+        },
+        {
+          "code": "BAN",
+          "iso2": "BAN",
+          "name": "半佛仙人",
+          "nameEn": "半佛仙人",
+          "region": "商业",
+          "value": 7000000,
+          "rank": 11,
+          "share": 0.05608974358974359,
+          "rankDelta": -2
+        },
+        {
+          "code": "KAN",
+          "iso2": "KAN",
+          "name": "看理想",
+          "nameEn": "看理想",
+          "region": "知识",
+          "value": 6000000,
+          "rank": 12,
+          "share": 0.04807692307692308,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "total": 143800000,
+      "items": [
+        {
+          "code": "LUO",
+          "iso2": "LUO",
+          "name": "罗翔说刑法",
+          "nameEn": "罗翔说刑法",
+          "region": "知识",
+          "value": 28000000,
+          "rank": 1,
+          "share": 0.19471488178025034,
+          "rankDelta": 0
+        },
+        {
+          "code": "FAN",
+          "iso2": "FAN",
+          "name": "老番茄",
+          "nameEn": "老番茄",
+          "region": "游戏",
+          "value": 18300000,
+          "rank": 2,
+          "share": 0.12726008344923506,
+          "rankDelta": 0
+        },
+        {
+          "code": "BI",
+          "iso2": "BI",
+          "name": "哔哩哔哩漫画",
+          "nameEn": "哔哩哔哩漫画",
+          "region": "平台账号",
+          "value": 12000000,
+          "rank": 3,
+          "share": 0.08344923504867872,
+          "rankDelta": 1
+        },
+        {
+          "code": "HE",
+          "iso2": "HE",
+          "name": "老师好我叫何同学",
+          "nameEn": "老师好我叫何同学",
+          "region": "科技",
+          "value": 11000000,
+          "rank": 4,
+          "share": 0.07649513212795549,
+          "rankDelta": 1
+        },
+        {
+          "code": "MENG",
+          "iso2": "MENG",
+          "name": "萌宠小队",
+          "nameEn": "萌宠小队",
+          "region": "泛娱乐",
+          "value": 11000000,
+          "rank": 5,
+          "share": 0.07649513212795549,
+          "rankDelta": 3
+        },
+        {
+          "code": "ALEX",
+          "iso2": "ALEX",
+          "name": "LexBurner",
+          "nameEn": "LexBurner",
+          "region": "动画",
+          "value": 10600000,
+          "rank": 6,
+          "share": 0.0737134909596662,
+          "rankDelta": -3
+        },
+        {
+          "code": "ZHOU",
+          "iso2": "ZHOU",
+          "name": "周深",
+          "nameEn": "周深",
+          "region": "音乐",
+          "value": 10000000,
+          "rank": 7,
+          "share": 0.06954102920723226,
+          "rankDelta": 3
+        },
+        {
+          "code": "MUMU",
+          "iso2": "MUMU",
+          "name": "木鱼水心",
+          "nameEn": "木鱼水心",
+          "region": "影视解说",
+          "value": 9500000,
+          "rank": 8,
+          "share": 0.06606397774687066,
+          "rankDelta": -2
+        },
+        {
+          "code": "ZHU",
+          "iso2": "ZHU",
+          "name": "朱一旦的枯燥生活",
+          "nameEn": "朱一旦的枯燥生活",
+          "region": "短剧",
+          "value": 9200000,
+          "rank": 9,
+          "share": 0.06397774687065369,
+          "rankDelta": -2
+        },
+        {
+          "code": "CHAI",
+          "iso2": "CHAI",
+          "name": "差评君",
+          "nameEn": "差评君",
+          "region": "科技",
+          "value": 8200000,
+          "rank": 10,
+          "share": 0.05702364394993046,
+          "rankDelta": -1
+        },
+        {
+          "code": "KAN",
+          "iso2": "KAN",
+          "name": "看理想",
+          "nameEn": "看理想",
+          "region": "知识",
+          "value": 8000000,
+          "rank": 11,
+          "share": 0.055632823365785816,
+          "rankDelta": 1
+        },
+        {
+          "code": "BAN",
+          "iso2": "BAN",
+          "name": "半佛仙人",
+          "nameEn": "半佛仙人",
+          "region": "商业",
+          "value": 8000000,
+          "rank": 12,
+          "share": 0.055632823365785816,
+          "rankDelta": -1
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "total": 157100000,
+      "items": [
+        {
+          "code": "LUO",
+          "iso2": "LUO",
+          "name": "罗翔说刑法",
+          "nameEn": "罗翔说刑法",
+          "region": "知识",
+          "value": 30000000,
+          "rank": 1,
+          "share": 0.19096117122851686,
+          "rankDelta": 0
+        },
+        {
+          "code": "FAN",
+          "iso2": "FAN",
+          "name": "老番茄",
+          "nameEn": "老番茄",
+          "region": "游戏",
+          "value": 19000000,
+          "rank": 2,
+          "share": 0.12094207511139402,
+          "rankDelta": 0
+        },
+        {
+          "code": "BI",
+          "iso2": "BI",
+          "name": "哔哩哔哩漫画",
+          "nameEn": "哔哩哔哩漫画",
+          "region": "平台账号",
+          "value": 13500000,
+          "rank": 3,
+          "share": 0.0859325270528326,
+          "rankDelta": 0
+        },
+        {
+          "code": "MENG",
+          "iso2": "MENG",
+          "name": "萌宠小队",
+          "nameEn": "萌宠小队",
+          "region": "泛娱乐",
+          "value": 13000000,
+          "rank": 4,
+          "share": 0.08274984086569065,
+          "rankDelta": 1
+        },
+        {
+          "code": "ZHOU",
+          "iso2": "ZHOU",
+          "name": "周深",
+          "nameEn": "周深",
+          "region": "音乐",
+          "value": 12000000,
+          "rank": 5,
+          "share": 0.07638446849140675,
+          "rankDelta": 2
+        },
+        {
+          "code": "HE",
+          "iso2": "HE",
+          "name": "老师好我叫何同学",
+          "nameEn": "老师好我叫何同学",
+          "region": "科技",
+          "value": 11800000,
+          "rank": 6,
+          "share": 0.07511139401654997,
+          "rankDelta": -2
+        },
+        {
+          "code": "MUMU",
+          "iso2": "MUMU",
+          "name": "木鱼水心",
+          "nameEn": "木鱼水心",
+          "region": "影视解说",
+          "value": 10500000,
+          "rank": 7,
+          "share": 0.0668364099299809,
+          "rankDelta": 1
+        },
+        {
+          "code": "ALEX",
+          "iso2": "ALEX",
+          "name": "LexBurner",
+          "nameEn": "LexBurner",
+          "region": "动画",
+          "value": 10400000,
+          "rank": 8,
+          "share": 0.06619987269255251,
+          "rankDelta": -2
+        },
+        {
+          "code": "ZHU",
+          "iso2": "ZHU",
+          "name": "朱一旦的枯燥生活",
+          "nameEn": "朱一旦的枯燥生活",
+          "region": "短剧",
+          "value": 9800000,
+          "rank": 9,
+          "share": 0.062380649267982174,
+          "rankDelta": 0
+        },
+        {
+          "code": "KAN",
+          "iso2": "KAN",
+          "name": "看理想",
+          "nameEn": "看理想",
+          "region": "知识",
+          "value": 9500000,
+          "rank": 10,
+          "share": 0.06047103755569701,
+          "rankDelta": 1
+        },
+        {
+          "code": "CHAI",
+          "iso2": "CHAI",
+          "name": "差评君",
+          "nameEn": "差评君",
+          "region": "科技",
+          "value": 8800000,
+          "rank": 11,
+          "share": 0.056015276893698285,
+          "rankDelta": -1
+        },
+        {
+          "code": "BAN",
+          "iso2": "BAN",
+          "name": "半佛仙人",
+          "nameEn": "半佛仙人",
+          "region": "商业",
+          "value": 8800000,
+          "rank": 12,
+          "share": 0.056015276893698285,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "total": 167100000,
+      "items": [
+        {
+          "code": "LUO",
+          "iso2": "LUO",
+          "name": "罗翔说刑法",
+          "nameEn": "罗翔说刑法",
+          "region": "知识",
+          "value": 32200000,
+          "rank": 1,
+          "share": 0.19269898264512267,
+          "rankDelta": 0
+        },
+        {
+          "code": "FAN",
+          "iso2": "FAN",
+          "name": "老番茄",
+          "nameEn": "老番茄",
+          "region": "游戏",
+          "value": 19700000,
+          "rank": 2,
+          "share": 0.11789347695990425,
+          "rankDelta": 0
+        },
+        {
+          "code": "BI",
+          "iso2": "BI",
+          "name": "哔哩哔哩漫画",
+          "nameEn": "哔哩哔哩漫画",
+          "region": "平台账号",
+          "value": 14500000,
+          "rank": 3,
+          "share": 0.08677438659485338,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZHOU",
+          "iso2": "ZHOU",
+          "name": "周深",
+          "nameEn": "周深",
+          "region": "音乐",
+          "value": 14000000,
+          "rank": 4,
+          "share": 0.08378216636744465,
+          "rankDelta": 1
+        },
+        {
+          "code": "MENG",
+          "iso2": "MENG",
+          "name": "萌宠小队",
+          "nameEn": "萌宠小队",
+          "region": "泛娱乐",
+          "value": 14000000,
+          "rank": 5,
+          "share": 0.08378216636744465,
+          "rankDelta": -1
+        },
+        {
+          "code": "HE",
+          "iso2": "HE",
+          "name": "老师好我叫何同学",
+          "nameEn": "老师好我叫何同学",
+          "region": "科技",
+          "value": 12500000,
+          "rank": 6,
+          "share": 0.07480550568521843,
+          "rankDelta": 0
+        },
+        {
+          "code": "MUMU",
+          "iso2": "MUMU",
+          "name": "木鱼水心",
+          "nameEn": "木鱼水心",
+          "region": "影视解说",
+          "value": 11000000,
+          "rank": 7,
+          "share": 0.06582884500299221,
+          "rankDelta": 0
+        },
+        {
+          "code": "KAN",
+          "iso2": "KAN",
+          "name": "看理想",
+          "nameEn": "看理想",
+          "region": "知识",
+          "value": 10500000,
+          "rank": 8,
+          "share": 0.06283662477558348,
+          "rankDelta": 2
+        },
+        {
+          "code": "ZHU",
+          "iso2": "ZHU",
+          "name": "朱一旦的枯燥生活",
+          "nameEn": "朱一旦的枯燥生活",
+          "region": "短剧",
+          "value": 10200000,
+          "rank": 9,
+          "share": 0.06104129263913824,
+          "rankDelta": 0
+        },
+        {
+          "code": "ALEX",
+          "iso2": "ALEX",
+          "name": "LexBurner",
+          "nameEn": "LexBurner",
+          "region": "动画",
+          "value": 10200000,
+          "rank": 10,
+          "share": 0.06104129263913824,
+          "rankDelta": -2
+        },
+        {
+          "code": "CHAI",
+          "iso2": "CHAI",
+          "name": "差评君",
+          "nameEn": "差评君",
+          "region": "科技",
+          "value": 9200000,
+          "rank": 11,
+          "share": 0.05505685218432076,
+          "rankDelta": 0
+        },
+        {
+          "code": "BAN",
+          "iso2": "BAN",
+          "name": "半佛仙人",
+          "nameEn": "半佛仙人",
+          "region": "商业",
+          "value": 9100000,
+          "rank": 12,
+          "share": 0.054458408138839016,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "total": 172800000,
+      "items": [
+        {
+          "code": "LUO",
+          "iso2": "LUO",
+          "name": "罗翔说刑法",
+          "nameEn": "罗翔说刑法",
+          "region": "知识",
+          "value": 33000000,
+          "rank": 1,
+          "share": 0.1909722222222222,
+          "rankDelta": 0
+        },
+        {
+          "code": "FAN",
+          "iso2": "FAN",
+          "name": "老番茄",
+          "nameEn": "老番茄",
+          "region": "游戏",
+          "value": 20000000,
+          "rank": 2,
+          "share": 0.11574074074074074,
+          "rankDelta": 0
+        },
+        {
+          "code": "BI",
+          "iso2": "BI",
+          "name": "哔哩哔哩漫画",
+          "nameEn": "哔哩哔哩漫画",
+          "region": "平台账号",
+          "value": 15500000,
+          "rank": 3,
+          "share": 0.08969907407407407,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZHOU",
+          "iso2": "ZHOU",
+          "name": "周深",
+          "nameEn": "周深",
+          "region": "音乐",
+          "value": 15000000,
+          "rank": 4,
+          "share": 0.08680555555555555,
+          "rankDelta": 0
+        },
+        {
+          "code": "MENG",
+          "iso2": "MENG",
+          "name": "萌宠小队",
+          "nameEn": "萌宠小队",
+          "region": "泛娱乐",
+          "value": 14500000,
+          "rank": 5,
+          "share": 0.08391203703703703,
+          "rankDelta": 0
+        },
+        {
+          "code": "HE",
+          "iso2": "HE",
+          "name": "老师好我叫何同学",
+          "nameEn": "老师好我叫何同学",
+          "region": "科技",
+          "value": 13000000,
+          "rank": 6,
+          "share": 0.07523148148148148,
+          "rankDelta": 0
+        },
+        {
+          "code": "MUMU",
+          "iso2": "MUMU",
+          "name": "木鱼水心",
+          "nameEn": "木鱼水心",
+          "region": "影视解说",
+          "value": 11500000,
+          "rank": 7,
+          "share": 0.06655092592592593,
+          "rankDelta": 0
+        },
+        {
+          "code": "KAN",
+          "iso2": "KAN",
+          "name": "看理想",
+          "nameEn": "看理想",
+          "region": "知识",
+          "value": 11000000,
+          "rank": 8,
+          "share": 0.06365740740740741,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZHU",
+          "iso2": "ZHU",
+          "name": "朱一旦的枯燥生活",
+          "nameEn": "朱一旦的枯燥生活",
+          "region": "短剧",
+          "value": 10500000,
+          "rank": 9,
+          "share": 0.06076388888888889,
+          "rankDelta": 0
+        },
+        {
+          "code": "ALEX",
+          "iso2": "ALEX",
+          "name": "LexBurner",
+          "nameEn": "LexBurner",
+          "region": "动画",
+          "value": 10000000,
+          "rank": 10,
+          "share": 0.05787037037037037,
+          "rankDelta": 0
+        },
+        {
+          "code": "CHAI",
+          "iso2": "CHAI",
+          "name": "差评君",
+          "nameEn": "差评君",
+          "region": "科技",
+          "value": 9500000,
+          "rank": 11,
+          "share": 0.05497685185185185,
+          "rankDelta": 0
+        },
+        {
+          "code": "BAN",
+          "iso2": "BAN",
+          "name": "半佛仙人",
+          "nameEn": "半佛仙人",
+          "region": "商业",
+          "value": 9300000,
+          "rank": 12,
+          "share": 0.05381944444444445,
+          "rankDelta": 0
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "laofanqie-fast",
+      "year": 2018,
+      "entityCode": "FAN",
+      "kind": "milestone",
+      "title": "老番茄进入头部",
+      "titleEn": "老番茄进入头部",
+      "description": "游戏内容和高密度剪辑让老番茄成为 B站头部个人创作者。",
+      "descriptionEn": "游戏内容和高密度剪辑让老番茄成为 B站头部个人创作者。",
+      "entityName": "老番茄",
+      "rank": 1,
+      "value": 5000000
+    },
+    {
+      "id": "he-hey",
+      "year": 2019,
+      "entityCode": "HE",
+      "kind": "milestone",
+      "title": "何同学 5G 视频出圈",
+      "titleEn": "何同学 5G 视频出圈",
+      "description": "科技视频从数码圈扩散到大众讨论。",
+      "descriptionEn": "科技视频从数码圈扩散到大众讨论。",
+      "entityName": "老师好我叫何同学",
+      "rank": null,
+      "value": 2000000
+    },
+    {
+      "id": "luoxiang-join",
+      "year": 2020,
+      "entityCode": "LUO",
+      "kind": "milestone",
+      "title": "罗翔入驻 B站",
+      "titleEn": "罗翔入驻 B站",
+      "description": "法律知识内容快速破圈，知识区获得全民级入口。",
+      "descriptionEn": "法律知识内容快速破圈，知识区获得全民级入口。",
+      "entityName": "罗翔说刑法",
+      "rank": 2,
+      "value": 10000000
+    },
+    {
+      "id": "laofanqie-10m",
+      "year": 2020,
+      "entityCode": "FAN",
+      "kind": "milestone",
+      "title": "老番茄破千万",
+      "titleEn": "老番茄破千万",
+      "description": "老番茄成为 B站首个粉丝破千万的 UP 主。",
+      "descriptionEn": "老番茄成为 B站首个粉丝破千万的 UP 主。",
+      "entityName": "老番茄",
+      "rank": 1,
+      "value": 12000000
+    },
+    {
+      "id": "knowledge-rise",
+      "year": 2021,
+      "entityCode": null,
+      "kind": "context",
+      "title": "知识区集体上升",
+      "titleEn": "知识区集体上升",
+      "description": "罗翔、半佛、看理想等账号继续推高知识内容天花板。",
+      "descriptionEn": "罗翔、半佛、看理想等账号继续推高知识内容天花板。",
+      "entityName": null,
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "luoxiang-first",
+      "year": 2022,
+      "entityCode": "LUO",
+      "kind": "milestone",
+      "title": "罗翔长期领跑",
+      "titleEn": "罗翔长期领跑",
+      "description": "罗翔说刑法成为 B站非站方账号粉丝第一梯队。",
+      "descriptionEn": "罗翔说刑法成为 B站非站方账号粉丝第一梯队。",
+      "entityName": "罗翔说刑法",
+      "rank": 1,
+      "value": 24000000
+    }
+  ]
+}

@@ -13,24 +13,26 @@ Use this skill to generate vertical data ranking videos. The skill folder is sel
 2. Run `pnpm install` in the skill directory before the first render.
 3. Use the bundled Remotion composition in `remotion/HistoryRaceVideo.tsx` and entrypoint `scripts/render-history-video.ts`.
 4. Use music from `public/music/` only when the file name starts with `HD235`. Treat these as the default commercial-safe tracks for this package.
-4. Keep the default video vertical and native quality for final output: render the core `1080x1920` (9:16) video, then generate the default padded `1080x2400` (9:20) export for WeChat Channels and similar platforms. Use `30fps`, `h264`, `aac`, CRF around `18`. Do not pass `--scale` for final renders.
-5. Do not force every final video into the same duration. By default, render without `--duration`; the script will estimate duration from the number of timeline steps at about `1.05s` per step, plus cover and closing. Use `--duration` only when the user explicitly wants a fixed length.
-6. For previews, use `--scale 0.5` and a short duration only when speed matters.
-7. Keep core content inside a conservative TikTok/Douyin safe area. On a 1080x1920 canvas, titles, years, bars, event text, source notes, and CTAs should stay roughly within y=280-1400. Leave about 280px at the top and 500px+ at the bottom for platform UI overlays. The bottom footer, URL, and secondary branding may remain lower because they are not critical.
-8. Default to a padded export with equal blank top/bottom space: `--pad-height 2400` for `1080x2400` (9:20). Critical content should remain in the centered 1080x1920 region so platform crops mostly hit blank space. Use `--no-pad` only when the user explicitly wants 9:16 only.
-9. Treat the first frame as a distribution thumbnail. It needs a platform-native hook, not a dataset title. Prefer conflict, reversal, historical turnover, or curiosity: "王座易主", "时代迁移", "彻底换人了", "正在重新洗牌".
-10. Separate copy surfaces: `platformTitle` for the post title, `coverHeadline` for the thumbnail, and `hook` for the in-video title after playback starts.
-11. Give titles a historical feel, but do not make them abstract labels. A cover headline must reveal the subject plus the tension in 2 lines: "谁才是 / 历史上最大的帝国？", "世界人口第一 / 真的换人了", "钢铁产量第一 / 怎么变成中国？". Avoid vague labels like "最大帝国不断易主" because viewers cannot tell why they should click.
-12. For explanatory or distribution datasets that are not actually a ranking contest, use a literal title that names the subject and measure, such as "人一生中不同活动的时间占比". Do not force "race", "排位赛", "王座易主", or historical-turnover framing onto topics where viewers mainly need to understand what is being measured.
-13. Use a clear information split: `coverHeadline` is the click reason, `coverSubline` is the historical hint, and `platformTitle` can be longer and more searchable. `coverHeadline` should usually be 10-18 Chinese characters across 2 lines, not 4-8 characters.
-14. Keep cover and intro text controlled. `coverSubline` should be one compact phrase; visible `intro` should fit two lines above the bars. Long descriptions belong in the Markdown publishing copy, not on screen.
-15. Keep the first 3 seconds fast: cover title should fill the screen, then fade quickly as the race starts. Avoid a long static intro.
-16. Pick or create datasets in `data/history/*.json` with clear first-frame appeal: long time span, obvious rank turnover, strong before/after contrast, or a historically recognizable entity. The bundled `southeast-asia-gdp-race` dataset is the install-test example.
-17. Events should feel like background context, not cards. Prefer right-middle or lower-right placement with low-contrast text, pulled inward from platform UI edges; keep one event per year unless the renderer supports prioritization.
-18. Add dataset events when the story feels sparse. Use neutral, scoped wording and values/ranks from the matching frame where available.
-19. Do not show separate insight/source cards before closing. Put data notes and source disclosure on the final closing page.
-20. Closing should stay simple: larger `世界的形状` logo, `可游玩的知识宇宙`, short positioning copy, source note, and `shapeof.world`.
-21. Batch renders should run sequentially to avoid Remotion cache and CPU contention.
+5. Match audio to the dataset theme instead of reusing one default track. The renderer auto-selects a track from the dataset title, summary, entities, events, and `valueKind`; use `--music` only for a deliberate manual override. Region-specific topics should feel culturally specific where the bundle allows it: Russia / Soviet / Russian datasets should use `hd235-violin-epic`; war or military datasets should use `hd235-epic-inspire`; trade and shipping datasets should use `hd235-riding-waves`; tech / creator / AI datasets can use the lighter track.
+6. Let small UI accents follow the same theme. The renderer auto-selects a visual theme such as `russian-north`, `war-room`, `trade-route`, or `tech-signal`, changing accent colors, the cover watermark, and the small motif. Use `--theme` only when the automatic theme is wrong.
+7. Keep the default video exports native quality: render the core `1080x1920` (9:16) video, generate the default padded `1080x2400` (9:20) export for WeChat Channels and similar platforms, and render a separate `1920x1080` (16:9) landscape export for desktop/video sites. Use `30fps`, `h264`, `aac`, CRF around `18`. Do not pass `--scale` for final renders.
+8. Do not force every final video into the same duration. By default, render without `--duration`; the script will estimate duration from the number of timeline steps at about `1.35s` per step, plus cover and closing. Use `--duration` only when the user explicitly wants a fixed length.
+9. For previews, use `--scale 0.5` and a short duration only when speed matters.
+10. Keep core content inside a conservative TikTok/Douyin safe area. On a 1080x1920 canvas, titles, years, bars, event text, source notes, and CTAs should stay roughly within y=280-1400. Leave about 280px at the top and 500px+ at the bottom for platform UI overlays. The bottom footer, URL, and secondary branding may remain lower because they are not critical.
+11. Default to a padded export with equal blank top/bottom space: `--pad-height 2400` for `1080x2400` (9:20). Critical content should remain in the centered 1080x1920 region so platform crops mostly hit blank space. Use `--no-pad` only when the user explicitly wants 9:16 only.
+12. Treat the first frame as a distribution thumbnail. It needs a platform-native hook, not a dataset title. Prefer conflict, reversal, historical turnover, or curiosity: "王座易主", "时代迁移", "彻底换人了", "正在重新洗牌".
+13. Separate copy surfaces: `platformTitle` for the post title, `coverHeadline` for the thumbnail, and `hook` for the in-video title after playback starts.
+14. Give titles a historical feel, but do not make them abstract labels. A cover headline must reveal the subject plus the tension in 2 lines: "谁才是 / 历史上最大的帝国？", "世界人口第一 / 真的换人了", "钢铁产量第一 / 怎么变成中国？". Avoid vague labels like "最大帝国不断易主" because viewers cannot tell why they should click.
+15. For explanatory or distribution datasets that are not actually a ranking contest, use a literal title that names the subject and measure, such as "人一生中不同活动的时间占比". Do not force "race", "排位赛", "王座易主", or historical-turnover framing onto topics where viewers mainly need to understand what is being measured.
+16. Use a clear information split: `coverHeadline` is the click reason, `coverSubline` is the historical hint, and `platformTitle` can be longer and more searchable. `coverHeadline` should usually be 10-18 Chinese characters across 2 lines, not 4-8 characters.
+17. Keep cover and intro text controlled. `coverSubline` should be one compact phrase; visible `intro` should fit two lines above the bars. Long descriptions belong in the Markdown publishing copy, not on screen.
+18. Keep the first 3 seconds fast: cover title should fill the screen, then fade quickly as the race starts. Avoid a long static intro.
+19. Pick or create datasets in `data/history/*.json` with clear first-frame appeal: long time span, obvious rank turnover, strong before/after contrast, or a historically recognizable entity. The bundled `southeast-asia-gdp-race` dataset is the install-test example.
+20. Events should feel like background context, not cards. Prefer right-middle or lower-right placement with low-contrast text, pulled inward from platform UI edges; keep one event per year unless the renderer supports prioritization.
+21. Add dataset events when the story feels sparse. Use neutral, scoped wording and values/ranks from the matching frame where available.
+22. Do not show separate insight/source cards before closing. Put data notes and source disclosure on the final closing page.
+23. Closing should stay simple: larger `世界的形状` logo, `可游玩的知识宇宙`, short positioning copy, source note, and `shapeof.world`.
+24. Batch renders should run sequentially to avoid Remotion cache and CPU contention.
 
 ## Copywriting Examples
 
@@ -102,16 +104,22 @@ cd ~/.agents/skills/history-video-maker
 pnpm install
 ```
 
-Render one final video from the project folder where the output should be saved. This writes both the core 9:16 video and the default 9:20 padded export to `./output/` in the invoking folder:
+Render one final video from the project folder where the output should be saved. This writes the core 9:16 video, the default 9:20 padded export, and the 16:9 landscape export to `./output/` in the invoking folder:
 
 ```bash
 pnpm --dir ~/.agents/skills/history-video-maker video:history -- --slug us-stock-market-cap-race
 ```
 
-Render one 9:16-only video:
+Render one 9:16-only video without the 9:20 padded export. The 16:9 landscape export is still written unless `--no-landscape` is also passed:
 
 ```bash
 pnpm --dir ~/.agents/skills/history-video-maker video:history -- --slug us-stock-market-cap-race --no-pad
+```
+
+Render only the vertical outputs without the 16:9 landscape export:
+
+```bash
+pnpm --dir ~/.agents/skills/history-video-maker video:history -- --slug us-stock-market-cap-race --no-landscape
 ```
 
 Render one preview:
@@ -145,6 +153,7 @@ Files are written to the current directory's `output/` folder:
 
 ```text
 output/<slug>-padded-1080x2400.mp4
+output/<slug>-landscape-1920x1080.mp4
 ```
 
 ## Verification

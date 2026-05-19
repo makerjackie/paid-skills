@@ -10,10 +10,8 @@ import {
   estimateHistoryRaceVideoDuration,
   resolveHistoryRaceVideoDuration,
 } from '../src/lib/history-video-duration';
-import {
-  DEFAULT_HISTORY_VIDEO_MUSIC_ID,
-  getHistoryVideoMusicTrack,
-} from '../src/lib/history-video-music';
+import {resolveHistoryVideoMusicTrack} from '../src/lib/history-video-music';
+import {resolveHistoryVideoTheme} from '../src/lib/history-video-theme';
 import type {HistoryRaceData} from '../src/types/history';
 
 type CliOptions = {
@@ -21,10 +19,12 @@ type CliOptions = {
   all: boolean;
   copyOnly: boolean;
   durationSeconds?: number;
-  musicId: string;
+  musicId?: string;
   outputDir?: string;
   padHeight: number | null;
+  renderLandscape: boolean;
   scale: string;
+  themeId?: string;
 };
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -48,12 +48,13 @@ function main() {
   }
 
   mkdirSync(propsDir, {recursive: true});
-  const track = getHistoryVideoMusicTrack(options.musicId);
 
   for (const dataset of datasets) {
     const propsPath = path.join(propsDir, `${dataset.slug}.json`);
     const outputPath = path.join(outputDir, `${dataset.slug}.mp4`);
     const copy = getHistoryVideoCopy(dataset);
+    const track = resolveHistoryVideoMusicTrack(dataset, options.musicId ?? dataset.musicId);
+    const theme = resolveHistoryVideoTheme(dataset, options.themeId ?? dataset.themeId);
     const renderPanels = {
       showInsightPanel: false,
       showSourcePanel: false,
@@ -85,17 +86,20 @@ function main() {
           durationSeconds,
           musicId: track.id,
           musicSrc: track.src,
+          themeId: theme.id,
         },
         null,
         2,
       ),
     );
 
-    console.log(`Rendering ${dataset.slug} with ${track.label}`);
+    console.log(`Rendering ${dataset.slug} with ${track.label} / ${theme.label}`);
     runRemotionRender({
+      compositionId: 'HistoryRaceVideo',
       outputPath,
       propsPath,
       scale: options.scale,
+      port: 3109,
     });
     console.log(`Wrote ${outputPath}`);
 
@@ -105,8 +109,21 @@ function main() {
         inputPath: outputPath,
         outputPath: paddedOutputPath,
         height: options.padHeight,
+        color: theme.background,
       });
       console.log(`Wrote ${paddedOutputPath}`);
+    }
+
+    if (options.renderLandscape) {
+      const landscapeOutputPath = getLandscapeOutputPath(outputPath);
+      runRemotionRender({
+        compositionId: 'HistoryRaceVideoLandscape',
+        outputPath: landscapeOutputPath,
+        propsPath,
+        scale: options.scale,
+        port: 3110,
+      });
+      console.log(`Wrote ${landscapeOutputPath}`);
     }
   }
 }
@@ -147,13 +164,17 @@ function writeCopyMarkdown(datasets: HistoryRaceData[]) {
 }
 
 function runRemotionRender({
+  compositionId,
   outputPath,
   propsPath,
   scale,
+  port,
 }: {
+  compositionId: 'HistoryRaceVideo' | 'HistoryRaceVideoLandscape';
   outputPath: string;
   propsPath: string;
   scale: string;
+  port: number;
 }) {
   mkdirSync(path.dirname(outputPath), {recursive: true});
 
@@ -162,7 +183,7 @@ function runRemotionRender({
     'remotion',
     'render',
     'remotion/index.ts',
-    'HistoryRaceVideo',
+    compositionId,
     outputPath,
     `--props=${propsPath}`,
     '--codec=h264',
@@ -170,7 +191,7 @@ function runRemotionRender({
     '--crf=18',
     '--overwrite',
     '--log=info',
-    '--port=3109',
+    `--port=${port}`,
     '--ipv4',
   ];
 
@@ -200,14 +221,20 @@ function getPaddedOutputPath(outputPath: string, height: number) {
   return outputPath.replace(/\.mp4$/, `-padded-1080x${height}.mp4`);
 }
 
+function getLandscapeOutputPath(outputPath: string) {
+  return outputPath.replace(/\.mp4$/, '-landscape-1920x1080.mp4');
+}
+
 function padVideoHeight({
   inputPath,
   outputPath,
   height,
+  color,
 }: {
   inputPath: string;
   outputPath: string;
   height: number;
+  color: string;
 }) {
   const result = spawnSync(
     'ffmpeg',
@@ -216,7 +243,7 @@ function padVideoHeight({
       '-i',
       inputPath,
       '-vf',
-      `pad=iw:${height}:0:(oh-ih)/2:color=0xE9E2D6`,
+      `pad=iw:${height}:0:(oh-ih)/2:color=${toFfmpegHexColor(color)}`,
       '-c:v',
       'libx264',
       '-crf',
@@ -240,13 +267,21 @@ function padVideoHeight({
   }
 }
 
+function toFfmpegHexColor(color: string) {
+  if (/^#[0-9a-f]{6}$/i.test(color)) {
+    return `0x${color.slice(1)}`;
+  }
+
+  return color;
+}
+
 function parseArgs(args: string[]): CliOptions {
   const options: CliOptions = {
     slug: 'southeast-asia-gdp-race',
     all: false,
     copyOnly: false,
-    musicId: DEFAULT_HISTORY_VIDEO_MUSIC_ID,
     padHeight: 2400,
+    renderLandscape: true,
     scale: '1',
   };
 
@@ -286,6 +321,17 @@ function parseArgs(args: string[]): CliOptions {
       continue;
     }
 
+    if (arg === '--theme' && next) {
+      options.themeId = next;
+      index += 1;
+      continue;
+    }
+
+    if (arg.startsWith('--theme=')) {
+      options.themeId = arg.slice('--theme='.length);
+      continue;
+    }
+
     if (arg === '--duration' && next) {
       options.durationSeconds = parseDuration(next);
       index += 1;
@@ -321,6 +367,11 @@ function parseArgs(args: string[]): CliOptions {
 
     if (arg === '--no-pad') {
       options.padHeight = null;
+      continue;
+    }
+
+    if (arg === '--no-landscape') {
+      options.renderLandscape = false;
       continue;
     }
 

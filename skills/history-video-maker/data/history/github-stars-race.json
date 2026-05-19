@@ -7,7 +7,7 @@
   "sourceLabel": "GitHub API / Star History / GH Archive",
   "sourceLabelEn": "GitHub API / Star History / GH Archive",
   "sourceUrl": "https://github.com",
-  "sourceNote": "数据基于 GitHub API 当前 Star 数及公开的历史里程碑记录。早期数据基于 archive 记录估算。",
+  "sourceNote": "数据基于 GitHub API 当前 Star 数及公开的历史里程碑记录。早期数据基于 archive 记录估算。 2026 年加入 OpenClaw，当前值按 GitHub API 2026-05-19 快照。",
   "sourceNoteEn": "Data based on GitHub API current star counts and public milestone records. Early data estimated from archival sources.",
   "sourcePages": [
     {
@@ -185,6 +185,13 @@
       "nameEn": "VS Code",
       "region": "开发者工具",
       "regionEn": "Developer Tools"
+    },
+    {
+      "code": "OPENCLAW",
+      "name": "OpenClaw",
+      "nameEn": "OpenClaw",
+      "region": "AI Agent",
+      "regionEn": "AI Agent"
     }
   ],
   "frames": [
@@ -200,7 +207,7 @@
           "regionEn": "Web Frameworks",
           "value": 10000,
           "rank": 1,
-          "share": 0.5882,
+          "share": 0.5882352941176471,
           "rankDelta": 0
         },
         {
@@ -211,7 +218,7 @@
           "regionEn": "Web Frameworks",
           "value": 3000,
           "rank": 2,
-          "share": 0.1765,
+          "share": 0.17647058823529413,
           "rankDelta": 0
         },
         {
@@ -222,7 +229,7 @@
           "regionEn": "Cloud Native",
           "value": 3000,
           "rank": 3,
-          "share": 0.1765,
+          "share": 0.17647058823529413,
           "rankDelta": 0
         },
         {
@@ -233,7 +240,7 @@
           "regionEn": "Web Frameworks",
           "value": 1000,
           "rank": 4,
-          "share": 0.0588,
+          "share": 0.058823529411764705,
           "rankDelta": 0
         }
       ]
@@ -250,7 +257,7 @@
           "regionEn": "Web Frameworks",
           "value": 35000,
           "rank": 1,
-          "share": 0.4167,
+          "share": 0.4166666666666667,
           "rankDelta": 0
         },
         {
@@ -261,7 +268,7 @@
           "regionEn": "Cloud Native",
           "value": 18000,
           "rank": 2,
-          "share": 0.2143,
+          "share": 0.21428571428571427,
           "rankDelta": 1
         },
         {
@@ -272,7 +279,7 @@
           "regionEn": "Web Frameworks",
           "value": 12000,
           "rank": 3,
-          "share": 0.1429,
+          "share": 0.14285714285714285,
           "rankDelta": -1
         },
         {
@@ -283,7 +290,7 @@
           "regionEn": "Web Frameworks",
           "value": 8000,
           "rank": 4,
-          "share": 0.0952,
+          "share": 0.09523809523809523,
           "rankDelta": 0
         },
         {
@@ -294,7 +301,7 @@
           "regionEn": "Developer Tools",
           "value": 8000,
           "rank": 5,
-          "share": 0.0952,
+          "share": 0.09523809523809523,
           "rankDelta": 0
         },
         {
@@ -305,7 +312,7 @@
           "regionEn": "AI Frameworks",
           "value": 3000,
           "rank": 6,
-          "share": 0.0357,
+          "share": 0.03571428571428571,
           "rankDelta": 0
         }
       ]
@@ -322,7 +329,7 @@
           "regionEn": "Web Frameworks",
           "value": 55000,
           "rank": 1,
-          "share": 0.2696,
+          "share": 0.2696078431372549,
           "rankDelta": 0
         },
         {
@@ -333,7 +340,7 @@
           "regionEn": "AI Frameworks",
           "value": 35000,
           "rank": 2,
-          "share": 0.1716,
+          "share": 0.1715686274509804,
           "rankDelta": 4
         },
         {
@@ -344,7 +351,7 @@
           "regionEn": "Cloud Native",
           "value": 32000,
           "rank": 3,
-          "share": 0.1569,
+          "share": 0.1568627450980392,
           "rankDelta": -1
         },
         {
@@ -355,7 +362,7 @@
           "regionEn": "Web Frameworks",
           "value": 28000,
           "rank": 4,
-          "share": 0.1373,
+          "share": 0.13725490196078433,
           "rankDelta": -1
         },
         {
@@ -366,7 +373,7 @@
           "regionEn": "Web Frameworks",
           "value": 25000,
           "rank": 5,
-          "share": 0.1225,
+          "share": 0.12254901960784313,
           "rankDelta": -1
         },
         {
@@ -377,7 +384,7 @@
           "regionEn": "Developer Tools",
           "value": 25000,
           "rank": 6,
-          "share": 0.1225,
+          "share": 0.12254901960784313,
           "rankDelta": -1
         },
         {
@@ -388,7 +395,7 @@
           "regionEn": "Web Frameworks",
           "value": 2000,
           "rank": 7,
-          "share": 0.0098,
+          "share": 0.00980392156862745,
           "rankDelta": 0
         },
         {
@@ -399,7 +406,7 @@
           "regionEn": "AI Frameworks",
           "value": 1500,
           "rank": 8,
-          "share": 0.0074,
+          "share": 0.007352941176470588,
           "rankDelta": 0
         },
         {
@@ -410,7 +417,7 @@
           "regionEn": "Web Frameworks",
           "value": 500,
           "rank": 9,
-          "share": 0.0025,
+          "share": 0.0024509803921568627,
           "rankDelta": 0
         }
       ]
@@ -427,7 +434,7 @@
           "regionEn": "Web Frameworks",
           "value": 80000,
           "rank": 1,
-          "share": 0.2159,
+          "share": 0.21592442645074225,
           "rankDelta": 0
         },
         {
@@ -438,7 +445,7 @@
           "regionEn": "AI Frameworks",
           "value": 75000,
           "rank": 2,
-          "share": 0.2024,
+          "share": 0.20242914979757085,
           "rankDelta": 0
         },
         {
@@ -449,7 +456,7 @@
           "regionEn": "Web Frameworks",
           "value": 55000,
           "rank": 3,
-          "share": 0.1484,
+          "share": 0.1484480431848853,
           "rankDelta": 2
         },
         {
@@ -460,7 +467,7 @@
           "regionEn": "Developer Tools",
           "value": 48000,
           "rank": 4,
-          "share": 0.1296,
+          "share": 0.12955465587044535,
           "rankDelta": 2
         },
         {
@@ -471,7 +478,7 @@
           "regionEn": "Cloud Native",
           "value": 43000,
           "rank": 5,
-          "share": 0.1161,
+          "share": 0.11605937921727395,
           "rankDelta": -2
         },
         {
@@ -482,7 +489,7 @@
           "regionEn": "Web Frameworks",
           "value": 42000,
           "rank": 6,
-          "share": 0.1134,
+          "share": 0.11336032388663968,
           "rankDelta": -2
         },
         {
@@ -493,7 +500,7 @@
           "regionEn": "Web Frameworks",
           "value": 12000,
           "rank": 7,
-          "share": 0.0324,
+          "share": 0.032388663967611336,
           "rankDelta": 0
         },
         {
@@ -504,7 +511,7 @@
           "regionEn": "AI Frameworks",
           "value": 10000,
           "rank": 8,
-          "share": 0.027,
+          "share": 0.02699055330634278,
           "rankDelta": 0
         },
         {
@@ -515,7 +522,7 @@
           "regionEn": "Web Frameworks",
           "value": 5000,
           "rank": 9,
-          "share": 0.0135,
+          "share": 0.01349527665317139,
           "rankDelta": 0
         },
         {
@@ -526,7 +533,7 @@
           "regionEn": "CSS Tools",
           "value": 500,
           "rank": 10,
-          "share": 0.0013,
+          "share": 0.001349527665317139,
           "rankDelta": 0
         }
       ]
@@ -543,7 +550,7 @@
           "regionEn": "AI Frameworks",
           "value": 105000,
           "rank": 1,
-          "share": 0.1895,
+          "share": 0.18953068592057762,
           "rankDelta": 1
         },
         {
@@ -554,7 +561,7 @@
           "regionEn": "Web Frameworks",
           "value": 100000,
           "rank": 2,
-          "share": 0.1805,
+          "share": 0.18050541516245489,
           "rankDelta": -1
         },
         {
@@ -565,7 +572,7 @@
           "regionEn": "Web Frameworks",
           "value": 95000,
           "rank": 3,
-          "share": 0.1715,
+          "share": 0.17148014440433212,
           "rankDelta": 0
         },
         {
@@ -576,7 +583,7 @@
           "regionEn": "Developer Tools",
           "value": 68000,
           "rank": 4,
-          "share": 0.1227,
+          "share": 0.12274368231046931,
           "rankDelta": 0
         },
         {
@@ -587,7 +594,7 @@
           "regionEn": "Cloud Native",
           "value": 53000,
           "rank": 5,
-          "share": 0.0957,
+          "share": 0.09566787003610108,
           "rankDelta": 0
         },
         {
@@ -598,7 +605,7 @@
           "regionEn": "Web Frameworks",
           "value": 52000,
           "rank": 6,
-          "share": 0.0939,
+          "share": 0.09386281588447654,
           "rankDelta": 0
         },
         {
@@ -609,7 +616,7 @@
           "regionEn": "Web Frameworks",
           "value": 28000,
           "rank": 7,
-          "share": 0.0505,
+          "share": 0.05054151624548736,
           "rankDelta": 0
         },
         {
@@ -620,7 +627,7 @@
           "regionEn": "AI Frameworks",
           "value": 22000,
           "rank": 8,
-          "share": 0.0397,
+          "share": 0.039711191335740074,
           "rankDelta": 0
         },
         {
@@ -631,7 +638,7 @@
           "regionEn": "Runtimes",
           "value": 15000,
           "rank": 9,
-          "share": 0.0271,
+          "share": 0.02707581227436823,
           "rankDelta": 0
         },
         {
@@ -642,7 +649,7 @@
           "regionEn": "Web Frameworks",
           "value": 12000,
           "rank": 10,
-          "share": 0.0217,
+          "share": 0.021660649819494584,
           "rankDelta": -1
         },
         {
@@ -653,7 +660,7 @@
           "regionEn": "CSS Tools",
           "value": 4000,
           "rank": 11,
-          "share": 0.0072,
+          "share": 0.007220216606498195,
           "rankDelta": -1
         }
       ]
@@ -670,7 +677,7 @@
           "regionEn": "Web Frameworks",
           "value": 135000,
           "rank": 1,
-          "share": 0.1786,
+          "share": 0.17857142857142858,
           "rankDelta": 2
         },
         {
@@ -681,7 +688,7 @@
           "regionEn": "Web Frameworks",
           "value": 130000,
           "rank": 2,
-          "share": 0.172,
+          "share": 0.17195767195767195,
           "rankDelta": 0
         },
         {
@@ -692,7 +699,7 @@
           "regionEn": "AI Frameworks",
           "value": 130000,
           "rank": 3,
-          "share": 0.172,
+          "share": 0.17195767195767195,
           "rankDelta": -2
         },
         {
@@ -703,7 +710,7 @@
           "regionEn": "Developer Tools",
           "value": 88000,
           "rank": 4,
-          "share": 0.1164,
+          "share": 0.1164021164021164,
           "rankDelta": 0
         },
         {
@@ -714,7 +721,7 @@
           "regionEn": "Web Frameworks",
           "value": 62000,
           "rank": 5,
-          "share": 0.082,
+          "share": 0.082010582010582,
           "rankDelta": 1
         },
         {
@@ -725,7 +732,7 @@
           "regionEn": "Cloud Native",
           "value": 62000,
           "rank": 6,
-          "share": 0.082,
+          "share": 0.082010582010582,
           "rankDelta": -1
         },
         {
@@ -736,7 +743,7 @@
           "regionEn": "Web Frameworks",
           "value": 48000,
           "rank": 7,
-          "share": 0.0635,
+          "share": 0.06349206349206349,
           "rankDelta": 0
         },
         {
@@ -747,7 +754,7 @@
           "regionEn": "AI Frameworks",
           "value": 33000,
           "rank": 8,
-          "share": 0.0437,
+          "share": 0.04365079365079365,
           "rankDelta": 0
         },
         {
@@ -758,7 +765,7 @@
           "regionEn": "Web Frameworks",
           "value": 28000,
           "rank": 9,
-          "share": 0.037,
+          "share": 0.037037037037037035,
           "rankDelta": 1
         },
         {
@@ -769,7 +776,7 @@
           "regionEn": "Runtimes",
           "value": 28000,
           "rank": 10,
-          "share": 0.037,
+          "share": 0.037037037037037035,
           "rankDelta": -1
         },
         {
@@ -780,7 +787,7 @@
           "regionEn": "CSS Tools",
           "value": 12000,
           "rank": 11,
-          "share": 0.0159,
+          "share": 0.015873015873015872,
           "rankDelta": 0
         }
       ]
@@ -797,7 +804,7 @@
           "regionEn": "Web Frameworks",
           "value": 165000,
           "rank": 1,
-          "share": 0.173,
+          "share": 0.17295597484276728,
           "rankDelta": 0
         },
         {
@@ -808,7 +815,7 @@
           "regionEn": "Web Frameworks",
           "value": 155000,
           "rank": 2,
-          "share": 0.1625,
+          "share": 0.16247379454926625,
           "rankDelta": 0
         },
         {
@@ -819,7 +826,7 @@
           "regionEn": "AI Frameworks",
           "value": 148000,
           "rank": 3,
-          "share": 0.1551,
+          "share": 0.15513626834381553,
           "rankDelta": 0
         },
         {
@@ -830,7 +837,7 @@
           "regionEn": "Developer Tools",
           "value": 105000,
           "rank": 4,
-          "share": 0.1101,
+          "share": 0.11006289308176101,
           "rankDelta": 0
         },
         {
@@ -841,7 +848,7 @@
           "regionEn": "Web Frameworks",
           "value": 72000,
           "rank": 5,
-          "share": 0.0755,
+          "share": 0.07547169811320754,
           "rankDelta": 0
         },
         {
@@ -852,7 +859,7 @@
           "regionEn": "Cloud Native",
           "value": 72000,
           "rank": 6,
-          "share": 0.0755,
+          "share": 0.07547169811320754,
           "rankDelta": 0
         },
         {
@@ -863,7 +870,7 @@
           "regionEn": "Web Frameworks",
           "value": 62000,
           "rank": 7,
-          "share": 0.065,
+          "share": 0.0649895178197065,
           "rankDelta": 0
         },
         {
@@ -874,7 +881,7 @@
           "regionEn": "Runtimes",
           "value": 55000,
           "rank": 8,
-          "share": 0.0577,
+          "share": 0.057651991614255764,
           "rankDelta": 2
         },
         {
@@ -885,7 +892,7 @@
           "regionEn": "Web Frameworks",
           "value": 42000,
           "rank": 9,
-          "share": 0.044,
+          "share": 0.0440251572327044,
           "rankDelta": 0
         },
         {
@@ -896,7 +903,7 @@
           "regionEn": "AI Frameworks",
           "value": 42000,
           "rank": 10,
-          "share": 0.044,
+          "share": 0.0440251572327044,
           "rankDelta": -2
         },
         {
@@ -907,7 +914,7 @@
           "regionEn": "CSS Tools",
           "value": 28000,
           "rank": 11,
-          "share": 0.0294,
+          "share": 0.029350104821802937,
           "rankDelta": 0
         },
         {
@@ -918,7 +925,7 @@
           "regionEn": "Build Tools",
           "value": 8000,
           "rank": 12,
-          "share": 0.0084,
+          "share": 0.008385744234800839,
           "rankDelta": 0
         }
       ]
@@ -935,7 +942,7 @@
           "regionEn": "Web Frameworks",
           "value": 185000,
           "rank": 1,
-          "share": 0.1627,
+          "share": 0.1627088830255057,
           "rankDelta": 0
         },
         {
@@ -946,7 +953,7 @@
           "regionEn": "Web Frameworks",
           "value": 180000,
           "rank": 2,
-          "share": 0.1583,
+          "share": 0.158311345646438,
           "rankDelta": 0
         },
         {
@@ -957,7 +964,7 @@
           "regionEn": "AI Frameworks",
           "value": 160000,
           "rank": 3,
-          "share": 0.1407,
+          "share": 0.14072119613016712,
           "rankDelta": 0
         },
         {
@@ -968,7 +975,7 @@
           "regionEn": "Developer Tools",
           "value": 120000,
           "rank": 4,
-          "share": 0.1055,
+          "share": 0.10554089709762533,
           "rankDelta": 0
         },
         {
@@ -979,7 +986,7 @@
           "regionEn": "Web Frameworks",
           "value": 82000,
           "rank": 5,
-          "share": 0.0721,
+          "share": 0.07211961301671065,
           "rankDelta": 2
         },
         {
@@ -990,7 +997,7 @@
           "regionEn": "Cloud Native",
           "value": 82000,
           "rank": 6,
-          "share": 0.0721,
+          "share": 0.07211961301671065,
           "rankDelta": 0
         },
         {
@@ -1001,7 +1008,7 @@
           "regionEn": "Web Frameworks",
           "value": 80000,
           "rank": 7,
-          "share": 0.0704,
+          "share": 0.07036059806508356,
           "rankDelta": -2
         },
         {
@@ -1012,7 +1019,7 @@
           "regionEn": "Runtimes",
           "value": 72000,
           "rank": 8,
-          "share": 0.0633,
+          "share": 0.0633245382585752,
           "rankDelta": 0
         },
         {
@@ -1023,7 +1030,7 @@
           "regionEn": "Web Frameworks",
           "value": 54000,
           "rank": 9,
-          "share": 0.0475,
+          "share": 0.047493403693931395,
           "rankDelta": 0
         },
         {
@@ -1034,7 +1041,7 @@
           "regionEn": "AI Frameworks",
           "value": 52000,
           "rank": 10,
-          "share": 0.0457,
+          "share": 0.04573438874230431,
           "rankDelta": 0
         },
         {
@@ -1045,7 +1052,7 @@
           "regionEn": "CSS Tools",
           "value": 48000,
           "rank": 11,
-          "share": 0.0422,
+          "share": 0.04221635883905013,
           "rankDelta": 0
         },
         {
@@ -1056,7 +1063,7 @@
           "regionEn": "Build Tools",
           "value": 22000,
           "rank": 12,
-          "share": 0.0193,
+          "share": 0.019349164467897976,
           "rankDelta": 0
         }
       ]
@@ -1073,7 +1080,7 @@
           "regionEn": "Web Frameworks",
           "value": 200000,
           "rank": 1,
-          "share": 0.152,
+          "share": 0.1519756838905775,
           "rankDelta": 1
         },
         {
@@ -1084,7 +1091,7 @@
           "regionEn": "Web Frameworks",
           "value": 195000,
           "rank": 2,
-          "share": 0.1482,
+          "share": 0.14817629179331307,
           "rankDelta": -1
         },
         {
@@ -1095,7 +1102,7 @@
           "regionEn": "AI Frameworks",
           "value": 170000,
           "rank": 3,
-          "share": 0.1292,
+          "share": 0.12917933130699089,
           "rankDelta": 0
         },
         {
@@ -1106,7 +1113,7 @@
           "regionEn": "Developer Tools",
           "value": 135000,
           "rank": 4,
-          "share": 0.1026,
+          "share": 0.10258358662613981,
           "rankDelta": 0
         },
         {
@@ -1117,7 +1124,7 @@
           "regionEn": "Web Frameworks",
           "value": 100000,
           "rank": 5,
-          "share": 0.076,
+          "share": 0.07598784194528875,
           "rankDelta": 0
         },
         {
@@ -1128,7 +1135,7 @@
           "regionEn": "Cloud Native",
           "value": 93000,
           "rank": 6,
-          "share": 0.0707,
+          "share": 0.07066869300911854,
           "rankDelta": 0
         },
         {
@@ -1139,7 +1146,7 @@
           "regionEn": "Web Frameworks",
           "value": 86000,
           "rank": 7,
-          "share": 0.0653,
+          "share": 0.06534954407294832,
           "rankDelta": 0
         },
         {
@@ -1150,7 +1157,7 @@
           "regionEn": "Runtimes",
           "value": 83000,
           "rank": 8,
-          "share": 0.0631,
+          "share": 0.06306990881458967,
           "rankDelta": 0
         },
         {
@@ -1161,7 +1168,7 @@
           "regionEn": "Web Frameworks",
           "value": 63000,
           "rank": 9,
-          "share": 0.0479,
+          "share": 0.047872340425531915,
           "rankDelta": 0
         },
         {
@@ -1172,7 +1179,7 @@
           "regionEn": "CSS Tools",
           "value": 62000,
           "rank": 10,
-          "share": 0.0471,
+          "share": 0.04711246200607903,
           "rankDelta": 1
         },
         {
@@ -1183,7 +1190,7 @@
           "regionEn": "AI Frameworks",
           "value": 62000,
           "rank": 11,
-          "share": 0.0471,
+          "share": 0.04711246200607903,
           "rankDelta": -1
         },
         {
@@ -1194,7 +1201,7 @@
           "regionEn": "Build Tools",
           "value": 38000,
           "rank": 12,
-          "share": 0.0289,
+          "share": 0.028875379939209727,
           "rankDelta": 0
         },
         {
@@ -1205,7 +1212,7 @@
           "regionEn": "Runtimes",
           "value": 25000,
           "rank": 13,
-          "share": 0.019,
+          "share": 0.018996960486322188,
           "rankDelta": 0
         },
         {
@@ -1216,7 +1223,7 @@
           "regionEn": "AI Frameworks",
           "value": 4000,
           "rank": 14,
-          "share": 0.003,
+          "share": 0.00303951367781155,
           "rankDelta": 0
         }
       ]
@@ -1233,7 +1240,7 @@
           "regionEn": "Web Frameworks",
           "value": 215000,
           "rank": 1,
-          "share": 0.1437,
+          "share": 0.14371657754010694,
           "rankDelta": 0
         },
         {
@@ -1244,7 +1251,7 @@
           "regionEn": "Web Frameworks",
           "value": 202000,
           "rank": 2,
-          "share": 0.135,
+          "share": 0.13502673796791445,
           "rankDelta": 0
         },
         {
@@ -1255,7 +1262,7 @@
           "regionEn": "AI Frameworks",
           "value": 178000,
           "rank": 3,
-          "share": 0.119,
+          "share": 0.11898395721925134,
           "rankDelta": 0
         },
         {
@@ -1266,7 +1273,7 @@
           "regionEn": "Developer Tools",
           "value": 148000,
           "rank": 4,
-          "share": 0.0989,
+          "share": 0.09893048128342247,
           "rankDelta": 0
         },
         {
@@ -1277,7 +1284,7 @@
           "regionEn": "Web Frameworks",
           "value": 115000,
           "rank": 5,
-          "share": 0.0769,
+          "share": 0.0768716577540107,
           "rankDelta": 0
         },
         {
@@ -1288,7 +1295,7 @@
           "regionEn": "Cloud Native",
           "value": 103000,
           "rank": 6,
-          "share": 0.0689,
+          "share": 0.06885026737967914,
           "rankDelta": 0
         },
         {
@@ -1299,7 +1306,7 @@
           "regionEn": "Web Frameworks",
           "value": 92000,
           "rank": 7,
-          "share": 0.0615,
+          "share": 0.06149732620320856,
           "rankDelta": 0
         },
         {
@@ -1310,7 +1317,7 @@
           "regionEn": "Runtimes",
           "value": 90000,
           "rank": 8,
-          "share": 0.0602,
+          "share": 0.06016042780748663,
           "rankDelta": 0
         },
         {
@@ -1321,7 +1328,7 @@
           "regionEn": "CSS Tools",
           "value": 73000,
           "rank": 9,
-          "share": 0.0488,
+          "share": 0.04879679144385027,
           "rankDelta": 1
         },
         {
@@ -1332,7 +1339,7 @@
           "regionEn": "AI Frameworks",
           "value": 73000,
           "rank": 10,
-          "share": 0.0488,
+          "share": 0.04879679144385027,
           "rankDelta": 1
         },
         {
@@ -1343,7 +1350,7 @@
           "regionEn": "Web Frameworks",
           "value": 72000,
           "rank": 11,
-          "share": 0.0481,
+          "share": 0.0481283422459893,
           "rankDelta": -2
         },
         {
@@ -1354,7 +1361,7 @@
           "regionEn": "Build Tools",
           "value": 55000,
           "rank": 12,
-          "share": 0.0368,
+          "share": 0.03676470588235294,
           "rankDelta": 0
         },
         {
@@ -1365,7 +1372,7 @@
           "regionEn": "Runtimes",
           "value": 45000,
           "rank": 13,
-          "share": 0.0301,
+          "share": 0.030080213903743314,
           "rankDelta": 0
         },
         {
@@ -1376,7 +1383,7 @@
           "regionEn": "AI Frameworks",
           "value": 35000,
           "rank": 14,
-          "share": 0.0234,
+          "share": 0.02339572192513369,
           "rankDelta": 0
         }
       ]
@@ -1393,7 +1400,7 @@
           "regionEn": "Web Frameworks",
           "value": 225000,
           "rank": 1,
-          "share": 0.1379,
+          "share": 0.13786764705882354,
           "rankDelta": 0
         },
         {
@@ -1404,7 +1411,7 @@
           "regionEn": "Web Frameworks",
           "value": 206000,
           "rank": 2,
-          "share": 0.1262,
+          "share": 0.12622549019607843,
           "rankDelta": 0
         },
         {
@@ -1415,7 +1422,7 @@
           "regionEn": "AI Frameworks",
           "value": 185000,
           "rank": 3,
-          "share": 0.1134,
+          "share": 0.1133578431372549,
           "rankDelta": 0
         },
         {
@@ -1426,7 +1433,7 @@
           "regionEn": "Developer Tools",
           "value": 160000,
           "rank": 4,
-          "share": 0.098,
+          "share": 0.09803921568627451,
           "rankDelta": 0
         },
         {
@@ -1437,7 +1444,7 @@
           "regionEn": "Web Frameworks",
           "value": 125000,
           "rank": 5,
-          "share": 0.0766,
+          "share": 0.07659313725490197,
           "rankDelta": 0
         },
         {
@@ -1448,7 +1455,7 @@
           "regionEn": "Cloud Native",
           "value": 110000,
           "rank": 6,
-          "share": 0.0674,
+          "share": 0.06740196078431372,
           "rankDelta": 0
         },
         {
@@ -1459,7 +1466,7 @@
           "regionEn": "Web Frameworks",
           "value": 96000,
           "rank": 7,
-          "share": 0.0588,
+          "share": 0.058823529411764705,
           "rankDelta": 0
         },
         {
@@ -1470,7 +1477,7 @@
           "regionEn": "Runtimes",
           "value": 96000,
           "rank": 8,
-          "share": 0.0588,
+          "share": 0.058823529411764705,
           "rankDelta": 0
         },
         {
@@ -1481,7 +1488,7 @@
           "regionEn": "AI Frameworks",
           "value": 82000,
           "rank": 9,
-          "share": 0.0502,
+          "share": 0.05024509803921569,
           "rankDelta": 1
         },
         {
@@ -1492,7 +1499,7 @@
           "regionEn": "CSS Tools",
           "value": 80000,
           "rank": 10,
-          "share": 0.049,
+          "share": 0.049019607843137254,
           "rankDelta": -1
         },
         {
@@ -1503,7 +1510,7 @@
           "regionEn": "Web Frameworks",
           "value": 77000,
           "rank": 11,
-          "share": 0.0472,
+          "share": 0.04718137254901961,
           "rankDelta": 0
         },
         {
@@ -1514,7 +1521,7 @@
           "regionEn": "Build Tools",
           "value": 65000,
           "rank": 12,
-          "share": 0.0398,
+          "share": 0.03982843137254902,
           "rankDelta": 0
         },
         {
@@ -1525,7 +1532,7 @@
           "regionEn": "AI Frameworks",
           "value": 65000,
           "rank": 13,
-          "share": 0.0398,
+          "share": 0.03982843137254902,
           "rankDelta": 1
         },
         {
@@ -1536,14 +1543,14 @@
           "regionEn": "Runtimes",
           "value": 60000,
           "rank": 14,
-          "share": 0.0368,
+          "share": 0.03676470588235294,
           "rankDelta": -1
         }
       ]
     },
     {
       "year": 2025,
-      "total": 1763000,
+      "total": 1772000,
       "items": [
         {
           "code": "REACT",
@@ -1553,7 +1560,7 @@
           "regionEn": "Web Frameworks",
           "value": 235000,
           "rank": 1,
-          "share": 0.1333,
+          "share": 0.13261851015801354,
           "rankDelta": 0
         },
         {
@@ -1564,7 +1571,7 @@
           "regionEn": "Web Frameworks",
           "value": 208000,
           "rank": 2,
-          "share": 0.118,
+          "share": 0.11738148984198646,
           "rankDelta": 0
         },
         {
@@ -1575,7 +1582,7 @@
           "regionEn": "AI Frameworks",
           "value": 190000,
           "rank": 3,
-          "share": 0.1078,
+          "share": 0.1072234762979684,
           "rankDelta": 0
         },
         {
@@ -1586,7 +1593,7 @@
           "regionEn": "Developer Tools",
           "value": 173000,
           "rank": 4,
-          "share": 0.0981,
+          "share": 0.09762979683972912,
           "rankDelta": 0
         },
         {
@@ -1597,7 +1604,7 @@
           "regionEn": "Web Frameworks",
           "value": 132000,
           "rank": 5,
-          "share": 0.0749,
+          "share": 0.0744920993227991,
           "rankDelta": 0
         },
         {
@@ -1608,7 +1615,7 @@
           "regionEn": "Cloud Native",
           "value": 116000,
           "rank": 6,
-          "share": 0.0658,
+          "share": 0.0654627539503386,
           "rankDelta": 0
         },
         {
@@ -1619,7 +1626,7 @@
           "regionEn": "Runtimes",
           "value": 102000,
           "rank": 7,
-          "share": 0.0579,
+          "share": 0.05756207674943566,
           "rankDelta": 1
         },
         {
@@ -1630,7 +1637,7 @@
           "regionEn": "AI Frameworks",
           "value": 100000,
           "rank": 8,
-          "share": 0.0567,
+          "share": 0.056433408577878104,
           "rankDelta": 5
         },
         {
@@ -1641,7 +1648,7 @@
           "regionEn": "Web Frameworks",
           "value": 98000,
           "rank": 9,
-          "share": 0.0556,
+          "share": 0.055304740406320545,
           "rankDelta": -2
         },
         {
@@ -1652,7 +1659,7 @@
           "regionEn": "AI Frameworks",
           "value": 92000,
           "rank": 10,
-          "share": 0.0522,
+          "share": 0.05191873589164785,
           "rankDelta": -1
         },
         {
@@ -1663,7 +1670,7 @@
           "regionEn": "CSS Tools",
           "value": 87000,
           "rank": 11,
-          "share": 0.0493,
+          "share": 0.04909706546275395,
           "rankDelta": -1
         },
         {
@@ -1674,7 +1681,7 @@
           "regionEn": "Web Frameworks",
           "value": 82000,
           "rank": 12,
-          "share": 0.0465,
+          "share": 0.046275395033860044,
           "rankDelta": -1
         },
         {
@@ -1685,7 +1692,7 @@
           "regionEn": "Runtimes",
           "value": 75000,
           "rank": 13,
-          "share": 0.0425,
+          "share": 0.04232505643340858,
           "rankDelta": 1
         },
         {
@@ -1696,15 +1703,37 @@
           "regionEn": "Build Tools",
           "value": 73000,
           "rank": 14,
-          "share": 0.0414,
+          "share": 0.041196388261851014,
           "rankDelta": -2
+        },
+        {
+          "code": "OPENCLAW",
+          "name": "OpenClaw",
+          "nameEn": "OpenClaw",
+          "region": "AI Agent",
+          "regionEn": "AI Agent",
+          "value": 9000,
+          "rank": 15,
+          "share": 0.005079006772009029,
+          "rankDelta": 0
         }
       ]
     },
     {
       "year": 2026,
-      "total": 1895025,
+      "total": 2267943,
       "items": [
+        {
+          "code": "OPENCLAW",
+          "name": "OpenClaw",
+          "nameEn": "OpenClaw",
+          "region": "AI Agent",
+          "regionEn": "AI Agent",
+          "value": 372918,
+          "rank": 1,
+          "share": 0.16443005842739433,
+          "rankDelta": 14
+        },
         {
           "code": "REACT",
           "name": "React",
@@ -1712,9 +1741,9 @@
           "region": "Web 框架",
           "regionEn": "Web Frameworks",
           "value": 245100,
-          "rank": 1,
-          "share": 0.1293,
-          "rankDelta": 0
+          "rank": 2,
+          "share": 0.1080714991514337,
+          "rankDelta": -1
         },
         {
           "code": "VUE",
@@ -1723,9 +1752,9 @@
           "region": "Web 框架",
           "regionEn": "Web Frameworks",
           "value": 209776,
-          "rank": 2,
-          "share": 0.1107,
-          "rankDelta": 0
+          "rank": 3,
+          "share": 0.09249615179922953,
+          "rankDelta": -1
         },
         {
           "code": "TENS",
@@ -1734,9 +1763,9 @@
           "region": "AI 框架",
           "regionEn": "AI Frameworks",
           "value": 195151,
-          "rank": 3,
-          "share": 0.103,
-          "rankDelta": 0
+          "rank": 4,
+          "share": 0.0860475770334616,
+          "rankDelta": -1
         },
         {
           "code": "VSCO",
@@ -1745,9 +1774,9 @@
           "region": "开发者工具",
           "regionEn": "Developer Tools",
           "value": 185057,
-          "rank": 4,
-          "share": 0.0977,
-          "rankDelta": 0
+          "rank": 5,
+          "share": 0.08159684789256168,
+          "rankDelta": -1
         },
         {
           "code": "NEXT",
@@ -1756,9 +1785,9 @@
           "region": "Web 框架",
           "regionEn": "Web Frameworks",
           "value": 139513,
-          "rank": 5,
-          "share": 0.0736,
-          "rankDelta": 0
+          "rank": 6,
+          "share": 0.06151521444762942,
+          "rankDelta": -1
         },
         {
           "code": "LANG",
@@ -1767,9 +1796,9 @@
           "region": "AI 框架",
           "regionEn": "AI Frameworks",
           "value": 137025,
-          "rank": 6,
-          "share": 0.0723,
-          "rankDelta": 2
+          "rank": 7,
+          "share": 0.060418185113117924,
+          "rankDelta": 1
         },
         {
           "code": "K8S",
@@ -1778,9 +1807,9 @@
           "region": "云原生",
           "regionEn": "Cloud Native",
           "value": 122334,
-          "rank": 7,
-          "share": 0.0646,
-          "rankDelta": -1
+          "rank": 8,
+          "share": 0.053940509086868586,
+          "rankDelta": -2
         },
         {
           "code": "DENO",
@@ -1789,9 +1818,9 @@
           "region": "Runtime",
           "regionEn": "Runtimes",
           "value": 106761,
-          "rank": 8,
-          "share": 0.0563,
-          "rankDelta": -1
+          "rank": 9,
+          "share": 0.04707393439782217,
+          "rankDelta": -2
         },
         {
           "code": "ANGL",
@@ -1800,9 +1829,9 @@
           "region": "Web 框架",
           "regionEn": "Web Frameworks",
           "value": 100110,
-          "rank": 9,
-          "share": 0.0528,
-          "rankDelta": 0
+          "rank": 10,
+          "share": 0.044141321012036015,
+          "rankDelta": -1
         },
         {
           "code": "PYTO",
@@ -1811,9 +1840,9 @@
           "region": "AI 框架",
           "regionEn": "AI Frameworks",
           "value": 99986,
-          "rank": 10,
-          "share": 0.0528,
-          "rankDelta": 0
+          "rank": 11,
+          "share": 0.044086645916586086,
+          "rankDelta": -1
         },
         {
           "code": "TAIL",
@@ -1822,9 +1851,9 @@
           "region": "CSS 工具",
           "regionEn": "CSS Tools",
           "value": 95048,
-          "rank": 11,
-          "share": 0.0502,
-          "rankDelta": 0
+          "rank": 12,
+          "share": 0.04190934251874937,
+          "rankDelta": -1
         },
         {
           "code": "BUN",
@@ -1833,9 +1862,9 @@
           "region": "Runtime",
           "regionEn": "Runtimes",
           "value": 91902,
-          "rank": 12,
-          "share": 0.0485,
-          "rankDelta": 1
+          "rank": 13,
+          "share": 0.04052218243580196,
+          "rankDelta": 0
         },
         {
           "code": "SVEL",
@@ -1844,9 +1873,9 @@
           "region": "Web 框架",
           "regionEn": "Web Frameworks",
           "value": 86581,
-          "rank": 13,
-          "share": 0.0457,
-          "rankDelta": -1
+          "rank": 14,
+          "share": 0.03817600354153521,
+          "rankDelta": -2
         },
         {
           "code": "VITE",
@@ -1855,9 +1884,9 @@
           "region": "构建工具",
           "regionEn": "Build Tools",
           "value": 80681,
-          "rank": 14,
-          "share": 0.0426,
-          "rankDelta": 0
+          "rank": 15,
+          "share": 0.03557452722577243,
+          "rankDelta": -1
         }
       ]
     }
@@ -2148,6 +2177,32 @@
       "entityName": "LangChain",
       "rank": 6,
       "value": 100000
+    },
+    {
+      "id": "openclaw-launch",
+      "year": 2025,
+      "entityCode": "OPENCLAW",
+      "kind": "milestone",
+      "title": "OpenClaw 亮相",
+      "titleEn": "OpenClaw 亮相",
+      "description": "OpenClaw 作为个人 AI Agent 项目进入开发者社区。",
+      "descriptionEn": "OpenClaw 作为个人 AI Agent 项目进入开发者社区。",
+      "entityName": "OpenClaw",
+      "rank": null,
+      "value": 9000
+    },
+    {
+      "id": "openclaw-surge",
+      "year": 2026,
+      "entityCode": "OPENCLAW",
+      "kind": "milestone",
+      "title": "OpenClaw 冲到第一",
+      "titleEn": "OpenClaw 冲到第一",
+      "description": "OpenClaw 以 37 万 Star 级别超过 React、Vue、TensorFlow 等传统热门项目。",
+      "descriptionEn": "OpenClaw 以 37 万 Star 级别超过 React、Vue、TensorFlow 等传统热门项目。",
+      "entityName": "OpenClaw",
+      "rank": 1,
+      "value": 372918
     }
   ]
 }
