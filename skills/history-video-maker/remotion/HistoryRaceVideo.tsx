@@ -47,6 +47,7 @@ const EVENT_DURATION_YEARS = 1.4;
 const RACE_AXIS_PADDING = 1.3;
 const COVER_END_SECONDS = 2.2;
 const RACE_START_SECONDS = 3.2;
+const RANK_TRANSITION_SECONDS = 0.78;
 const VIDEO_BAR_INSIDE_LABEL_MIN_WIDTH = 118;
 const CHART_TOP = 640;
 const CHART_LEFT = 46;
@@ -113,6 +114,7 @@ export function HistoryRaceVideo({data, copy: copyOverride, durationSeconds, mus
   const timing = getVideoTiming(resolvedDurationSeconds, {showInsightPanel, showSourcePanel});
   const raceProgress = getRaceProgress(seconds, timing, data);
   const raceYear = data.startYear + raceProgress * (data.endYear - data.startYear);
+  const rankProgress = getRankTransitionProgress(seconds, timing, data);
   const snapshot = buildRaceSnapshot({
     startYear: data.startYear,
     endYear: data.endYear,
@@ -124,6 +126,7 @@ export function HistoryRaceVideo({data, copy: copyOverride, durationSeconds, mus
     eventDurationYears: EVENT_DURATION_YEARS,
     axisPadding: RACE_AXIS_PADDING,
     axisRetreatThreshold: data.axisRetreatThreshold,
+    rankProgress,
     valueOf: (item) => item.value ?? item.gdp ?? 0,
     interpolateItem: ({source, lower, upper, progress}) => ({
       ...source,
@@ -218,6 +221,7 @@ export function HistoryRaceVideoLandscape({data, copy: copyOverride, durationSec
   const timing = getVideoTiming(resolvedDurationSeconds, {showInsightPanel, showSourcePanel});
   const raceProgress = getRaceProgress(seconds, timing, data);
   const raceYear = data.startYear + raceProgress * (data.endYear - data.startYear);
+  const rankProgress = getRankTransitionProgress(seconds, timing, data);
   const snapshot = buildRaceSnapshot({
     startYear: data.startYear,
     endYear: data.endYear,
@@ -229,6 +233,7 @@ export function HistoryRaceVideoLandscape({data, copy: copyOverride, durationSec
     eventDurationYears: EVENT_DURATION_YEARS,
     axisPadding: RACE_AXIS_PADDING,
     axisRetreatThreshold: data.axisRetreatThreshold,
+    rankProgress,
     valueOf: (item) => item.value ?? item.gdp ?? 0,
     interpolateItem: ({source, lower, upper, progress}) => ({
       ...source,
@@ -912,6 +917,54 @@ function getRaceProgress(seconds: number, timing: HistoryRaceVideoTiming, data: 
   const elapsed = seconds - timing.raceStart;
   const raceDuration = timing.raceEnd - timing.raceStart;
   return Math.min(1, Math.max(0, elapsed / Math.max(0.001, raceDuration)));
+}
+
+function getRankTransitionProgress(seconds: number, timing: HistoryRaceVideoTiming, data: HistoryRaceData) {
+  if (seconds <= timing.raceStart) {
+    return 0;
+  }
+
+  const raceProgress = getRaceProgress(seconds, timing, data);
+  const raceYear = data.startYear + raceProgress * (data.endYear - data.startYear);
+  const {lowerYear, upperYear, progress} = getRaceSegmentProgress(data, raceYear);
+
+  if (upperYear <= lowerYear) {
+    return 0;
+  }
+
+  const raceDuration = timing.raceEnd - timing.raceStart;
+  const timelineSpan = Math.max(0.001, data.endYear - data.startYear);
+  const segmentDuration = raceDuration * ((upperYear - lowerYear) / timelineSpan);
+  const transitionRatio = Math.min(1, RANK_TRANSITION_SECONDS / Math.max(0.001, segmentDuration));
+  const acceleratedProgress = Math.min(1, Math.max(0, progress / Math.max(0.001, transitionRatio)));
+
+  return Easing.out(Easing.cubic)(acceleratedProgress);
+}
+
+function getRaceSegmentProgress(data: HistoryRaceData, raceYear: number) {
+  let lowerFrame = data.frames[0];
+  let upperFrame = data.frames[data.frames.length - 1] ?? lowerFrame;
+
+  for (const frame of data.frames) {
+    if (frame.year <= raceYear) {
+      lowerFrame = frame;
+    }
+
+    if (frame.year > raceYear) {
+      upperFrame = frame;
+      break;
+    }
+  }
+
+  const lowerYear = lowerFrame?.year ?? data.startYear;
+  const upperYear = upperFrame?.year ?? lowerYear;
+  const progress = upperYear === lowerYear ? 0 : (raceYear - lowerYear) / (upperYear - lowerYear);
+
+  return {
+    lowerYear,
+    upperYear,
+    progress: Math.min(1, Math.max(0, progress)),
+  };
 }
 
 function getMusicVolume(frame: number, durationInFrames: number, fps: number) {

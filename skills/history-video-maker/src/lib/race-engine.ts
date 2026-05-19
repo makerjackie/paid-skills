@@ -38,6 +38,7 @@ export type BuildRaceSnapshotOptions<TItem extends RaceEngineItem, TEvent extend
   eventDurationYears: number;
   axisPadding?: number;
   axisRetreatThreshold?: number;
+  rankProgress?: number;
   valueOf: (item: TItem) => number;
   interpolateItem: (input: {
     source: TItem;
@@ -64,6 +65,7 @@ export function buildRaceSnapshot<TItem extends RaceEngineItem, TEvent extends R
   eventDurationYears,
   axisPadding = 1.08,
   axisRetreatThreshold = 0.2,
+  rankProgress,
   valueOf,
   interpolateItem,
 }: BuildRaceSnapshotOptions<TItem, TEvent>): RaceSnapshot<TItem, TEvent> {
@@ -72,6 +74,7 @@ export function buildRaceSnapshot<TItem extends RaceEngineItem, TEvent extends R
   const lowerYear = lowerFrame?.year ?? startYear;
   const upperYear = upperFrame?.year ?? lowerYear;
   const progress = upperYear === lowerYear ? 0 : (normalizedRaceYear - lowerYear) / (upperYear - lowerYear);
+  const displayProgress = normalizeProgress(rankProgress ?? progress);
   const lowerItems = new Map((lowerFrame?.items ?? []).map((item) => [item.code, item]));
   const upperItems = new Map((upperFrame?.items ?? []).map((item) => [item.code, item]));
   const codes = getRaceCodes(lowerItems, upperItems, progress);
@@ -107,7 +110,7 @@ export function buildRaceSnapshot<TItem extends RaceEngineItem, TEvent extends R
     .map((item, index) => ({...item, rank: index + 1}));
   const displayItems = rankedItems.map((item) => ({
     ...item,
-    displayRank: getInterpolatedDisplayRank(item.code, lowerItems, upperItems, offChartRank, progress),
+    displayRank: getInterpolatedDisplayRank(item.code, lowerItems, upperItems, offChartRank, displayProgress),
   }));
   const items = [...displayItems]
     .sort((left, right) => left.displayRank - right.displayRank)
@@ -147,6 +150,12 @@ function normalizeRaceYear(raceYear: number, startYear: number, endYear: number)
   const finiteRaceYear = Number.isFinite(raceYear) ? raceYear : startYear;
 
   return Math.min(endYear, Math.max(startYear, finiteRaceYear));
+}
+
+function normalizeProgress(progress: number) {
+  const finiteProgress = Number.isFinite(progress) ? progress : 0;
+
+  return Math.min(1, Math.max(0, finiteProgress));
 }
 
 function getInterpolatedDisplayRank<TItem extends RaceEngineItem>(
