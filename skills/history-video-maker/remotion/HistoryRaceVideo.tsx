@@ -49,9 +49,9 @@ const COVER_END_SECONDS = 2.2;
 const RACE_START_SECONDS = 3.2;
 const VIDEO_BAR_INSIDE_LABEL_MIN_WIDTH = 260;
 const CHART_TOP = 640;
-const CHART_LEFT = 72;
-const CHART_WIDTH = 880;
-const EVENT_RIGHT_INSET = 232;
+const CHART_LEFT = 46;
+const CHART_WIDTH = 906;
+const EVENT_RIGHT_INSET = 360;
 const AXIS_TOP = CHART_TOP - 16;
 const AXIS_BOTTOM = 560;
 const MIN_VISIBLE_BAR_WIDTH = 4;
@@ -192,7 +192,6 @@ export function HistoryRaceVideo({data, copy: copyOverride, durationSeconds, mus
       <ClosingCard copy={copy} seconds={seconds} timing={timing} theme={theme} />
 
       <div style={{...styles.footer, opacity: footerOpacity}}>
-        <span>shapeof.world/history/{data.slug}</span>
         <span>{copy.sourceLine}</span>
       </div>
     </AbsoluteFill>
@@ -275,7 +274,6 @@ export function HistoryRaceVideoLandscape({data, copy: copyOverride, durationSec
       <LandscapeClosingCard copy={copy} seconds={seconds} timing={timing} theme={theme} />
 
       <div style={{...styles.landscapeFooter, opacity: footerOpacity}}>
-        <span>shapeof.world/history/{data.slug}</span>
         <span>{copy.sourceLine}</span>
       </div>
     </AbsoluteFill>
@@ -799,7 +797,6 @@ function ClosingCard({
         <div style={styles.closingTitle}>{copy.closingTitle ?? '可游玩的知识宇宙'}</div>
         <div style={{...styles.closingBody, color: theme.accentDeep}}>{copy.closingBody ?? '像逛博物馆、翻地图、玩游戏一样，探索真实世界的数据与历史。'}</div>
         <div style={styles.closingNote}>{copy.sourceDisclosure ?? copy.sourceLine}</div>
-        <div style={styles.closingDomain}>shapeof.world</div>
       </div>
     </div>
   );
@@ -836,7 +833,6 @@ function LandscapeClosingCard({
         <div style={styles.landscapeClosingTitle}>{copy.closingTitle ?? '可游玩的知识宇宙'}</div>
         <div style={{...styles.landscapeClosingBody, color: theme.accentDeep}}>{copy.closingBody ?? '像逛博物馆、翻地图、玩游戏一样，探索真实世界的数据与历史。'}</div>
         <div style={styles.landscapeClosingNote}>{copy.sourceDisclosure ?? copy.sourceLine}</div>
-        <div style={styles.closingDomain}>shapeof.world</div>
       </div>
     </div>
   );
@@ -1296,7 +1292,7 @@ const styles: Record<string, CSSProperties> = {
     position: 'absolute',
     top: 280,
     left: 56,
-    right: 56,
+    right: 32,
     maxHeight: 326,
     overflow: 'hidden',
     transformOrigin: 'left top',
@@ -1308,7 +1304,7 @@ const styles: Record<string, CSSProperties> = {
   },
   title: {
     margin: '20px 0 0',
-    maxWidth: 900,
+    maxWidth: 992,
     maxHeight: 164,
     fontSize: 76,
     fontWeight: 900,
@@ -1320,7 +1316,7 @@ const styles: Record<string, CSSProperties> = {
   },
   lead: {
     margin: '24px 0 0',
-    maxWidth: 880,
+    maxWidth: 960,
     maxHeight: 84,
     color: '#50636b',
     display: '-webkit-box',
@@ -1614,10 +1610,10 @@ const styles: Record<string, CSSProperties> = {
   },
   year: {
     position: 'absolute',
-    right: EVENT_RIGHT_INSET,
-    bottom: 560,
-    color: 'rgba(21,19,15,0.095)',
-    fontSize: 190,
+    left: 470,
+    bottom: 570,
+    color: 'rgba(21,19,15,0.056)',
+    fontSize: 172,
     fontWeight: 900,
     lineHeight: 1,
   },
@@ -1777,21 +1773,13 @@ const styles: Record<string, CSSProperties> = {
     lineHeight: 1.34,
     whiteSpace: 'pre-line',
   },
-  closingDomain: {
-    marginTop: 34,
-    color: '#15130f',
-    fontSize: 35,
-    fontWeight: 900,
-    lineHeight: 1.1,
-    whiteSpace: 'nowrap',
-  },
   footer: {
     position: 'absolute',
     left: 56,
-    right: 56,
+    right: 250,
     bottom: 48,
     display: 'flex',
-    justifyContent: 'space-between',
+    justifyContent: 'flex-start',
     gap: 26,
     borderTop: '1px solid rgba(36,32,22,0.16)',
     paddingTop: 20,

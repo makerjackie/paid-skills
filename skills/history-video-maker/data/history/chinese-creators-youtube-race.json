@@ -1,1427 +1,1660 @@
 {
   "slug": "chinese-creators-youtube-race",
-  "title": "中文 YouTuber 订阅排名变化",
-  "titleEn": "Chinese YouTubers Subscriber Race",
-  "summary": "从 2015 年到 2026 年，看中文 YouTube 频道订阅排名的变化。老高与小茉一路领先，李永乐、钟文泽、阿滴争夺第二梯队。",
-  "summaryEn": "Track subscriber growth of Chinese YouTube channels from 2015 to 2026. Mr & Mrs Gao leads throughout; Li Yongle, Zhong Wenze, and Ray Du English compete for next spots.",
-  "sourceLabel": "YouTube 公开数据 / Social Blade 历史记录 / NoxInfluencer",
-  "sourceLabelEn": "YouTube public data / Social Blade records / NoxInfluencer",
-  "sourceUrl": "https://socialblade.com",
-  "sourceNote": "数据基于公开可查的 Social Blade 历史记录、维基百科里程碑报道、NoxInfluencer 记录及 YouTube 公开数据。部分年份为合理估计。",
-  "sourceNoteEn": "Data from Social Blade, Wikipedia, NoxInfluencer, and YouTube public data. Some years are estimated.",
+  "title": "华语自媒体 YouTube 订阅排名变化",
+  "titleEn": "Chinese Creator YouTube Subscriber Race",
+  "summary": "从 2017 年到 2026 年，看华语与华人自媒体 YouTube 频道订阅排名的变化。李子柒长期领跑，办公室小野、滇西小哥打开全球传播，2022 年后大量短视频账号快速追上。",
+  "summaryEn": "Track subscriber growth of Chinese-language and Chinese creator YouTube channels from 2017 to 2026. Li Ziqi leads for years, while short-form creator accounts surge after 2022.",
+  "sourceLabel": "YouTube 公开页 / YouTubers.me / Wikipedia 订阅榜",
+  "sourceLabelEn": "YouTube public pages / YouTubers.me / Wikipedia subscriber lists",
+  "sourceUrl": "https://us.youtubers.me/china/all/top-1000-most-subscribed-youtube-channels-in-china",
+  "sourcePages": [
+    {
+      "year": 2026,
+      "title": "YouTubers.me China top subscribed channels",
+      "url": "https://us.youtubers.me/china/all/top-1000-most-subscribed-youtube-channels-in-china"
+    },
+    {
+      "year": 2026,
+      "title": "中国大陆 YouTube 频道订阅人数排行榜",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E5%A4%A7%E9%99%B8YouTube%E9%A0%BB%E9%81%93%E8%A8%82%E9%96%B1%E4%BA%BA%E6%95%B8%E6%8E%92%E8%A1%8C%E6%A6%9C"
+    },
+    {
+      "year": 2026,
+      "title": "台灣 YouTube 頻道訂閱人數排行榜",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3YouTube%E9%A0%BB%E9%81%93%E8%A8%82%E9%96%B1%E4%BA%BA%E6%95%B8%E6%8E%92%E8%A1%8C%E6%A6%9C"
+    }
+  ],
+  "sourceNote": "2026 年截面基于 YouTube 公开页、YouTubers.me 与中文 Wikipedia 订阅榜等公开记录交叉整理。2017-2025 年年度序列用于视频可视化，结合公开里程碑、起号年份和第三方历史记录估算，不应视为逐年精确审计数据。排除官方影视、电视台、音乐厂牌、品牌和儿童频道，保留个人或团队自媒体账号。",
+  "sourceNoteEn": "2026 snapshot compiled from YouTube public pages, YouTubers.me, and Chinese Wikipedia subscriber lists. 2017-2025 annual values are visualization estimates based on public milestones, channel start dates, and third-party historical records. Official media, music labels, brand, and kids channels are excluded.",
   "unit": "订阅者",
   "unitShort": "subs",
   "valueKind": "count",
-  "startYear": 2015,
+  "showFlags": false,
+  "axisRetreatThreshold": 0.18,
+  "startYear": 2017,
   "endYear": 2026,
   "entities": [
+    {
+      "code": "LZQ",
+      "name": "李子柒",
+      "nameEn": "Li Ziqi",
+      "region": "中国大陆"
+    },
+    {
+      "code": "GUIGE",
+      "name": "鬼哥",
+      "nameEn": "Gui Ge",
+      "region": "中国大陆"
+    },
+    {
+      "code": "FSS",
+      "name": "胖松松和瘦二毛",
+      "nameEn": "FatSongsong and ThinErmao",
+      "region": "中国大陆"
+    },
+    {
+      "code": "QX",
+      "name": "奇軒Tricking",
+      "nameEn": "Qixuan Tricking",
+      "region": "台湾"
+    },
+    {
+      "code": "MSYEAH",
+      "name": "办公室小野",
+      "nameEn": "Ms Yeah",
+      "region": "中国大陆"
+    },
+    {
+      "code": "MANYU",
+      "name": "是曼玉不是鳗鱼",
+      "nameEn": "Mandy",
+      "region": "中国大陆"
+    },
+    {
+      "code": "DXXG",
+      "name": "滇西小哥",
+      "nameEn": "Dianxi Xiaoge",
+      "region": "中国大陆"
+    },
+    {
+      "code": "RS",
+      "name": "Roman & Sharon",
+      "nameEn": "Roman and Sharon",
+      "region": "中国大陆"
+    },
     {
       "code": "LAOG",
       "name": "老高与小茉",
       "nameEn": "Mr & Mrs Gao",
-      "region": "中文"
+      "region": "华语"
     },
     {
-      "code": "LIYL",
-      "name": "李永乐老师",
-      "nameEn": "Teacher Li Yongle",
-      "region": "中文"
+      "code": "ZXW",
+      "name": "钟薛蛙",
+      "nameEn": "Zhongxuewa",
+      "region": "中国大陆"
     },
     {
-      "code": "ZZWZ",
-      "name": "钟文泽",
-      "nameEn": "Zhong Wenze",
-      "region": "中文"
+      "code": "YE",
+      "name": "葉式特工",
+      "nameEn": "Yes Ranger",
+      "region": "台湾"
     },
     {
-      "code": "XNZ",
-      "name": "小宁子",
-      "nameEn": "Xiao Ningzi",
-      "region": "中文"
+      "code": "XKHC",
+      "name": "俠客紅塵",
+      "nameEn": "Xia Ke Hong Chen",
+      "region": "中国大陆"
     },
     {
-      "code": "HE",
-      "name": "老师好我叫何同学",
-      "nameEn": "Mr. He",
-      "region": "中文"
+      "code": "LUREN",
+      "name": "整個路人",
+      "nameEn": "A Whole Passerby",
+      "region": "中国大陆"
     },
     {
-      "code": "ZHQQ",
-      "name": "志祺七七",
-      "nameEn": "Zhiqi Qiqi",
-      "region": "Taiwan"
+      "code": "TGOP",
+      "name": "這群人TGOP",
+      "nameEn": "This Group of People",
+      "region": "台湾"
     },
     {
-      "code": "LKT",
-      "name": "理科太太",
-      "nameEn": "Li Ke Tai Tai",
-      "region": "Taiwan"
+      "code": "ASHEN",
+      "name": "阿神",
+      "nameEn": "A Shen",
+      "region": "台湾"
     },
     {
-      "code": "QIAN",
-      "name": "千森",
-      "nameEn": "Qiansen",
-      "region": "中文"
+      "code": "DSJ",
+      "name": "大树君",
+      "nameEn": "TreeMan",
+      "region": "中国大陆"
     },
     {
       "code": "ADI",
       "name": "阿滴英文",
       "nameEn": "Ray Du English",
-      "region": "Taiwan"
-    },
-    {
-      "code": "HOOK",
-      "name": "HOOK",
-      "nameEn": "HOOK",
-      "region": "Taiwan"
-    },
-    {
-      "code": "FANZ",
-      "name": "反正我很闲",
-      "nameEn": "Anyway I'm Free",
-      "region": "中文"
-    },
-    {
-      "code": "ACKY",
-      "name": "Acky",
-      "nameEn": "Acky",
-      "region": "Taiwan"
-    }
-  ],
-  "frames": [
-    {
-      "year": 2015,
-      "total": 130000,
-      "items": [
-        {
-          "code": "LAOG",
-          "name": "老高与小茉",
-          "nameEn": "Mr & Mrs Gao",
-          "region": "中文",
-          "value": 80000,
-          "rank": 1,
-          "share": 0.6154,
-          "rankDelta": 0
-        },
-        {
-          "code": "ADI",
-          "name": "阿滴英文",
-          "nameEn": "Ray Du English",
-          "region": "Taiwan",
-          "value": 50000,
-          "rank": 2,
-          "share": 0.3846,
-          "rankDelta": 0
-        }
-      ]
-    },
-    {
-      "year": 2016,
-      "total": 600000,
-      "items": [
-        {
-          "code": "LAOG",
-          "name": "老高与小茉",
-          "nameEn": "Mr & Mrs Gao",
-          "region": "中文",
-          "value": 400000,
-          "rank": 1,
-          "share": 0.6667,
-          "rankDelta": 0
-        },
-        {
-          "code": "ADI",
-          "name": "阿滴英文",
-          "nameEn": "Ray Du English",
-          "region": "Taiwan",
-          "value": 200000,
-          "rank": 2,
-          "share": 0.3333,
-          "rankDelta": 0
-        }
-      ]
-    },
-    {
-      "year": 2017,
-      "total": 2500000,
-      "items": [
-        {
-          "code": "LAOG",
-          "name": "老高与小茉",
-          "nameEn": "Mr & Mrs Gao",
-          "region": "中文",
-          "value": 1500000,
-          "rank": 1,
-          "share": 0.6,
-          "rankDelta": 0
-        },
-        {
-          "code": "ADI",
-          "name": "阿滴英文",
-          "nameEn": "Ray Du English",
-          "region": "Taiwan",
-          "value": 700000,
-          "rank": 2,
-          "share": 0.28,
-          "rankDelta": 0
-        },
-        {
-          "code": "LIYL",
-          "name": "李永乐老师",
-          "nameEn": "Teacher Li Yongle",
-          "region": "中文",
-          "value": 300000,
-          "rank": 3,
-          "share": 0.12,
-          "rankDelta": 0
-        }
-      ]
-    },
-    {
-      "year": 2018,
-      "total": 6640000,
-      "items": [
-        {
-          "code": "LAOG",
-          "name": "老高与小茉",
-          "nameEn": "Mr & Mrs Gao",
-          "region": "中文",
-          "value": 3500000,
-          "rank": 1,
-          "share": 0.5271,
-          "rankDelta": 0
-        },
-        {
-          "code": "ADI",
-          "name": "阿滴英文",
-          "nameEn": "Ray Du English",
-          "region": "Taiwan",
-          "value": 1300000,
-          "rank": 2,
-          "share": 0.1958,
-          "rankDelta": 0
-        },
-        {
-          "code": "LIYL",
-          "name": "李永乐老师",
-          "nameEn": "Teacher Li Yongle",
-          "region": "中文",
-          "value": 1200000,
-          "rank": 3,
-          "share": 0.1807,
-          "rankDelta": 0
-        },
-        {
-          "code": "LKT",
-          "name": "理科太太",
-          "nameEn": "Li Ke Tai Tai",
-          "region": "Taiwan",
-          "value": 350000,
-          "rank": 4,
-          "share": 0.0527,
-          "rankDelta": 0
-        },
-        {
-          "code": "ZHQQ",
-          "name": "志祺七七",
-          "nameEn": "Zhiqi Qiqi",
-          "region": "Taiwan",
-          "value": 150000,
-          "rank": 5,
-          "share": 0.0226,
-          "rankDelta": 0
-        },
-        {
-          "code": "HOOK",
-          "name": "HOOK",
-          "nameEn": "HOOK",
-          "region": "Taiwan",
-          "value": 80000,
-          "rank": 6,
-          "share": 0.012,
-          "rankDelta": 0
-        },
-        {
-          "code": "XNZ",
-          "name": "小宁子",
-          "nameEn": "Xiao Ningzi",
-          "region": "中文",
-          "value": 60000,
-          "rank": 7,
-          "share": 0.009,
-          "rankDelta": 0
-        }
-      ]
-    },
-    {
-      "year": 2019,
-      "total": 11380000,
-      "items": [
-        {
-          "code": "LAOG",
-          "name": "老高与小茉",
-          "nameEn": "Mr & Mrs Gao",
-          "region": "中文",
-          "value": 4800000,
-          "rank": 1,
-          "share": 0.4218,
-          "rankDelta": 0
-        },
-        {
-          "code": "LIYL",
-          "name": "李永乐老师",
-          "nameEn": "Teacher Li Yongle",
-          "region": "中文",
-          "value": 2200000,
-          "rank": 2,
-          "share": 0.1933,
-          "rankDelta": 1
-        },
-        {
-          "code": "ADI",
-          "name": "阿滴英文",
-          "nameEn": "Ray Du English",
-          "region": "Taiwan",
-          "value": 1800000,
-          "rank": 3,
-          "share": 0.1582,
-          "rankDelta": -1
-        },
-        {
-          "code": "LKT",
-          "name": "理科太太",
-          "nameEn": "Li Ke Tai Tai",
-          "region": "Taiwan",
-          "value": 780000,
-          "rank": 4,
-          "share": 0.0685,
-          "rankDelta": 0
-        },
-        {
-          "code": "ZHQQ",
-          "name": "志祺七七",
-          "nameEn": "Zhiqi Qiqi",
-          "region": "Taiwan",
-          "value": 500000,
-          "rank": 5,
-          "share": 0.0439,
-          "rankDelta": 0
-        },
-        {
-          "code": "ZZWZ",
-          "name": "钟文泽",
-          "nameEn": "Zhong Wenze",
-          "region": "中文",
-          "value": 400000,
-          "rank": 6,
-          "share": 0.0351,
-          "rankDelta": 0
-        },
-        {
-          "code": "XNZ",
-          "name": "小宁子",
-          "nameEn": "Xiao Ningzi",
-          "region": "中文",
-          "value": 350000,
-          "rank": 7,
-          "share": 0.0308,
-          "rankDelta": 0
-        },
-        {
-          "code": "HOOK",
-          "name": "HOOK",
-          "nameEn": "HOOK",
-          "region": "Taiwan",
-          "value": 300000,
-          "rank": 8,
-          "share": 0.0264,
-          "rankDelta": -2
-        },
-        {
-          "code": "FANZ",
-          "name": "反正我很闲",
-          "nameEn": "Anyway I'm Free",
-          "region": "中文",
-          "value": 150000,
-          "rank": 9,
-          "share": 0.0132,
-          "rankDelta": 0
-        },
-        {
-          "code": "ACKY",
-          "name": "Acky",
-          "nameEn": "Acky",
-          "region": "Taiwan",
-          "value": 100000,
-          "rank": 10,
-          "share": 0.0088,
-          "rankDelta": 0
-        }
-      ]
-    },
-    {
-      "year": 2020,
-      "total": 16200000,
-      "items": [
-        {
-          "code": "LAOG",
-          "name": "老高与小茉",
-          "nameEn": "Mr & Mrs Gao",
-          "region": "中文",
-          "value": 5400000,
-          "rank": 1,
-          "share": 0.3333,
-          "rankDelta": 0
-        },
-        {
-          "code": "LIYL",
-          "name": "李永乐老师",
-          "nameEn": "Teacher Li Yongle",
-          "region": "中文",
-          "value": 3200000,
-          "rank": 2,
-          "share": 0.1975,
-          "rankDelta": 0
-        },
-        {
-          "code": "ADI",
-          "name": "阿滴英文",
-          "nameEn": "Ray Du English",
-          "region": "Taiwan",
-          "value": 2200000,
-          "rank": 3,
-          "share": 0.1358,
-          "rankDelta": 0
-        },
-        {
-          "code": "ZZWZ",
-          "name": "钟文泽",
-          "nameEn": "Zhong Wenze",
-          "region": "中文",
-          "value": 1200000,
-          "rank": 4,
-          "share": 0.0741,
-          "rankDelta": 2
-        },
-        {
-          "code": "LKT",
-          "name": "理科太太",
-          "nameEn": "Li Ke Tai Tai",
-          "region": "Taiwan",
-          "value": 900000,
-          "rank": 5,
-          "share": 0.0556,
-          "rankDelta": -1
-        },
-        {
-          "code": "ZHQQ",
-          "name": "志祺七七",
-          "nameEn": "Zhiqi Qiqi",
-          "region": "Taiwan",
-          "value": 800000,
-          "rank": 6,
-          "share": 0.0494,
-          "rankDelta": -1
-        },
-        {
-          "code": "XNZ",
-          "name": "小宁子",
-          "nameEn": "Xiao Ningzi",
-          "region": "中文",
-          "value": 750000,
-          "rank": 7,
-          "share": 0.0463,
-          "rankDelta": 0
-        },
-        {
-          "code": "HOOK",
-          "name": "HOOK",
-          "nameEn": "HOOK",
-          "region": "Taiwan",
-          "value": 650000,
-          "rank": 8,
-          "share": 0.0401,
-          "rankDelta": 0
-        },
-        {
-          "code": "FANZ",
-          "name": "反正我很闲",
-          "nameEn": "Anyway I'm Free",
-          "region": "中文",
-          "value": 350000,
-          "rank": 9,
-          "share": 0.0216,
-          "rankDelta": 0
-        },
-        {
-          "code": "HE",
-          "name": "老师好我叫何同学",
-          "nameEn": "Mr. He",
-          "region": "中文",
-          "value": 300000,
-          "rank": 10,
-          "share": 0.0185,
-          "rankDelta": 0
-        },
-        {
-          "code": "ACKY",
-          "name": "Acky",
-          "nameEn": "Acky",
-          "region": "Taiwan",
-          "value": 300000,
-          "rank": 11,
-          "share": 0.0185,
-          "rankDelta": -1
-        },
-        {
-          "code": "QIAN",
-          "name": "千森",
-          "nameEn": "Qiansen",
-          "region": "中文",
-          "value": 150000,
-          "rank": 12,
-          "share": 0.0093,
-          "rankDelta": 0
-        }
-      ]
-    },
-    {
-      "year": 2021,
-      "total": 20390000,
-      "items": [
-        {
-          "code": "LAOG",
-          "name": "老高与小茉",
-          "nameEn": "Mr & Mrs Gao",
-          "region": "中文",
-          "value": 5800000,
-          "rank": 1,
-          "share": 0.2845,
-          "rankDelta": 0
-        },
-        {
-          "code": "LIYL",
-          "name": "李永乐老师",
-          "nameEn": "Teacher Li Yongle",
-          "region": "中文",
-          "value": 3900000,
-          "rank": 2,
-          "share": 0.1913,
-          "rankDelta": 0
-        },
-        {
-          "code": "ADI",
-          "name": "阿滴英文",
-          "nameEn": "Ray Du English",
-          "region": "Taiwan",
-          "value": 2450000,
-          "rank": 3,
-          "share": 0.1202,
-          "rankDelta": 0
-        },
-        {
-          "code": "ZZWZ",
-          "name": "钟文泽",
-          "nameEn": "Zhong Wenze",
-          "region": "中文",
-          "value": 2000000,
-          "rank": 4,
-          "share": 0.0981,
-          "rankDelta": 0
-        },
-        {
-          "code": "XNZ",
-          "name": "小宁子",
-          "nameEn": "Xiao Ningzi",
-          "region": "中文",
-          "value": 1150000,
-          "rank": 5,
-          "share": 0.0564,
-          "rankDelta": 2
-        },
-        {
-          "code": "ZHQQ",
-          "name": "志祺七七",
-          "nameEn": "Zhiqi Qiqi",
-          "region": "Taiwan",
-          "value": 1050000,
-          "rank": 6,
-          "share": 0.0515,
-          "rankDelta": 0
-        },
-        {
-          "code": "HOOK",
-          "name": "HOOK",
-          "nameEn": "HOOK",
-          "region": "Taiwan",
-          "value": 950000,
-          "rank": 7,
-          "share": 0.0466,
-          "rankDelta": 1
-        },
-        {
-          "code": "LKT",
-          "name": "理科太太",
-          "nameEn": "Li Ke Tai Tai",
-          "region": "Taiwan",
-          "value": 940000,
-          "rank": 8,
-          "share": 0.0461,
-          "rankDelta": -3
-        },
-        {
-          "code": "HE",
-          "name": "老师好我叫何同学",
-          "nameEn": "Mr. He",
-          "region": "中文",
-          "value": 700000,
-          "rank": 9,
-          "share": 0.0343,
-          "rankDelta": 1
-        },
-        {
-          "code": "FANZ",
-          "name": "反正我很闲",
-          "nameEn": "Anyway I'm Free",
-          "region": "中文",
-          "value": 550000,
-          "rank": 10,
-          "share": 0.027,
-          "rankDelta": -1
-        },
-        {
-          "code": "ACKY",
-          "name": "Acky",
-          "nameEn": "Acky",
-          "region": "Taiwan",
-          "value": 500000,
-          "rank": 11,
-          "share": 0.0245,
-          "rankDelta": 0
-        },
-        {
-          "code": "QIAN",
-          "name": "千森",
-          "nameEn": "Qiansen",
-          "region": "中文",
-          "value": 400000,
-          "rank": 12,
-          "share": 0.0196,
-          "rankDelta": 0
-        }
-      ]
-    },
-    {
-      "year": 2022,
-      "total": 23720000,
-      "items": [
-        {
-          "code": "LAOG",
-          "name": "老高与小茉",
-          "nameEn": "Mr & Mrs Gao",
-          "region": "中文",
-          "value": 6100000,
-          "rank": 1,
-          "share": 0.2572,
-          "rankDelta": 0
-        },
-        {
-          "code": "LIYL",
-          "name": "李永乐老师",
-          "nameEn": "Teacher Li Yongle",
-          "region": "中文",
-          "value": 4300000,
-          "rank": 2,
-          "share": 0.1813,
-          "rankDelta": 0
-        },
-        {
-          "code": "ZZWZ",
-          "name": "钟文泽",
-          "nameEn": "Zhong Wenze",
-          "region": "中文",
-          "value": 2800000,
-          "rank": 3,
-          "share": 0.118,
-          "rankDelta": 1
-        },
-        {
-          "code": "ADI",
-          "name": "阿滴英文",
-          "nameEn": "Ray Du English",
-          "region": "Taiwan",
-          "value": 2580000,
-          "rank": 4,
-          "share": 0.1088,
-          "rankDelta": -1
-        },
-        {
-          "code": "XNZ",
-          "name": "小宁子",
-          "nameEn": "Xiao Ningzi",
-          "region": "中文",
-          "value": 1450000,
-          "rank": 5,
-          "share": 0.0611,
-          "rankDelta": 0
-        },
-        {
-          "code": "ZHQQ",
-          "name": "志祺七七",
-          "nameEn": "Zhiqi Qiqi",
-          "region": "Taiwan",
-          "value": 1250000,
-          "rank": 6,
-          "share": 0.0527,
-          "rankDelta": 0
-        },
-        {
-          "code": "HOOK",
-          "name": "HOOK",
-          "nameEn": "HOOK",
-          "region": "Taiwan",
-          "value": 1150000,
-          "rank": 7,
-          "share": 0.0485,
-          "rankDelta": 0
-        },
-        {
-          "code": "HE",
-          "name": "老师好我叫何同学",
-          "nameEn": "Mr. He",
-          "region": "中文",
-          "value": 1100000,
-          "rank": 8,
-          "share": 0.0464,
-          "rankDelta": 1
-        },
-        {
-          "code": "LKT",
-          "name": "理科太太",
-          "nameEn": "Li Ke Tai Tai",
-          "region": "Taiwan",
-          "value": 970000,
-          "rank": 9,
-          "share": 0.0409,
-          "rankDelta": -1
-        },
-        {
-          "code": "FANZ",
-          "name": "反正我很闲",
-          "nameEn": "Anyway I'm Free",
-          "region": "中文",
-          "value": 720000,
-          "rank": 10,
-          "share": 0.0304,
-          "rankDelta": 0
-        },
-        {
-          "code": "ACKY",
-          "name": "Acky",
-          "nameEn": "Acky",
-          "region": "Taiwan",
-          "value": 700000,
-          "rank": 11,
-          "share": 0.0295,
-          "rankDelta": 0
-        },
-        {
-          "code": "QIAN",
-          "name": "千森",
-          "nameEn": "Qiansen",
-          "region": "中文",
-          "value": 600000,
-          "rank": 12,
-          "share": 0.0253,
-          "rankDelta": 0
-        }
-      ]
-    },
-    {
-      "year": 2023,
-      "total": 26400000,
-      "items": [
-        {
-          "code": "LAOG",
-          "name": "老高与小茉",
-          "nameEn": "Mr & Mrs Gao",
-          "region": "中文",
-          "value": 6300000,
-          "rank": 1,
-          "share": 0.2386,
-          "rankDelta": 0
-        },
-        {
-          "code": "LIYL",
-          "name": "李永乐老师",
-          "nameEn": "Teacher Li Yongle",
-          "region": "中文",
-          "value": 4600000,
-          "rank": 2,
-          "share": 0.1742,
-          "rankDelta": 0
-        },
-        {
-          "code": "ZZWZ",
-          "name": "钟文泽",
-          "nameEn": "Zhong Wenze",
-          "region": "中文",
-          "value": 3500000,
-          "rank": 3,
-          "share": 0.1326,
-          "rankDelta": 0
-        },
-        {
-          "code": "ADI",
-          "name": "阿滴英文",
-          "nameEn": "Ray Du English",
-          "region": "Taiwan",
-          "value": 2660000,
-          "rank": 4,
-          "share": 0.1008,
-          "rankDelta": 0
-        },
-        {
-          "code": "XNZ",
-          "name": "小宁子",
-          "nameEn": "Xiao Ningzi",
-          "region": "中文",
-          "value": 1680000,
-          "rank": 5,
-          "share": 0.0636,
-          "rankDelta": 0
-        },
-        {
-          "code": "HE",
-          "name": "老师好我叫何同学",
-          "nameEn": "Mr. He",
-          "region": "中文",
-          "value": 1500000,
-          "rank": 6,
-          "share": 0.0568,
-          "rankDelta": 2
-        },
-        {
-          "code": "ZHQQ",
-          "name": "志祺七七",
-          "nameEn": "Zhiqi Qiqi",
-          "region": "Taiwan",
-          "value": 1380000,
-          "rank": 7,
-          "share": 0.0523,
-          "rankDelta": -1
-        },
-        {
-          "code": "HOOK",
-          "name": "HOOK",
-          "nameEn": "HOOK",
-          "region": "Taiwan",
-          "value": 1300000,
-          "rank": 8,
-          "share": 0.0492,
-          "rankDelta": -1
-        },
-        {
-          "code": "LKT",
-          "name": "理科太太",
-          "nameEn": "Li Ke Tai Tai",
-          "region": "Taiwan",
-          "value": 990000,
-          "rank": 9,
-          "share": 0.0375,
-          "rankDelta": 0
-        },
-        {
-          "code": "FANZ",
-          "name": "反正我很闲",
-          "nameEn": "Anyway I'm Free",
-          "region": "中文",
-          "value": 860000,
-          "rank": 10,
-          "share": 0.0326,
-          "rankDelta": 0
-        },
-        {
-          "code": "ACKY",
-          "name": "Acky",
-          "nameEn": "Acky",
-          "region": "Taiwan",
-          "value": 850000,
-          "rank": 11,
-          "share": 0.0322,
-          "rankDelta": 0
-        },
-        {
-          "code": "QIAN",
-          "name": "千森",
-          "nameEn": "Qiansen",
-          "region": "中文",
-          "value": 780000,
-          "rank": 12,
-          "share": 0.0295,
-          "rankDelta": 0
-        }
-      ]
-    },
-    {
-      "year": 2024,
-      "total": 28420000,
-      "items": [
-        {
-          "code": "LAOG",
-          "name": "老高与小茉",
-          "nameEn": "Mr & Mrs Gao",
-          "region": "中文",
-          "value": 6450000,
-          "rank": 1,
-          "share": 0.227,
-          "rankDelta": 0
-        },
-        {
-          "code": "LIYL",
-          "name": "李永乐老师",
-          "nameEn": "Teacher Li Yongle",
-          "region": "中文",
-          "value": 4850000,
-          "rank": 2,
-          "share": 0.1707,
-          "rankDelta": 0
-        },
-        {
-          "code": "ZZWZ",
-          "name": "钟文泽",
-          "nameEn": "Zhong Wenze",
-          "region": "中文",
-          "value": 4000000,
-          "rank": 3,
-          "share": 0.1407,
-          "rankDelta": 0
-        },
-        {
-          "code": "ADI",
-          "name": "阿滴英文",
-          "nameEn": "Ray Du English",
-          "region": "Taiwan",
-          "value": 2720000,
-          "rank": 4,
-          "share": 0.0957,
-          "rankDelta": 0
-        },
-        {
-          "code": "XNZ",
-          "name": "小宁子",
-          "nameEn": "Xiao Ningzi",
-          "region": "中文",
-          "value": 1850000,
-          "rank": 5,
-          "share": 0.0651,
-          "rankDelta": 0
-        },
-        {
-          "code": "HE",
-          "name": "老师好我叫何同学",
-          "nameEn": "Mr. He",
-          "region": "中文",
-          "value": 1800000,
-          "rank": 6,
-          "share": 0.0633,
-          "rankDelta": 0
-        },
-        {
-          "code": "ZHQQ",
-          "name": "志祺七七",
-          "nameEn": "Zhiqi Qiqi",
-          "region": "Taiwan",
-          "value": 1450000,
-          "rank": 7,
-          "share": 0.051,
-          "rankDelta": 0
-        },
-        {
-          "code": "HOOK",
-          "name": "HOOK",
-          "nameEn": "HOOK",
-          "region": "Taiwan",
-          "value": 1420000,
-          "rank": 8,
-          "share": 0.05,
-          "rankDelta": 0
-        },
-        {
-          "code": "LKT",
-          "name": "理科太太",
-          "nameEn": "Li Ke Tai Tai",
-          "region": "Taiwan",
-          "value": 1000000,
-          "rank": 9,
-          "share": 0.0352,
-          "rankDelta": 0
-        },
-        {
-          "code": "FANZ",
-          "name": "反正我很闲",
-          "nameEn": "Anyway I'm Free",
-          "region": "中文",
-          "value": 980000,
-          "rank": 10,
-          "share": 0.0345,
-          "rankDelta": 0
-        },
-        {
-          "code": "ACKY",
-          "name": "Acky",
-          "nameEn": "Acky",
-          "region": "Taiwan",
-          "value": 980000,
-          "rank": 11,
-          "share": 0.0345,
-          "rankDelta": 0
-        },
-        {
-          "code": "QIAN",
-          "name": "千森",
-          "nameEn": "Qiansen",
-          "region": "中文",
-          "value": 920000,
-          "rank": 12,
-          "share": 0.0324,
-          "rankDelta": 0
-        }
-      ]
-    },
-    {
-      "year": 2025,
-      "total": 29860000,
-      "items": [
-        {
-          "code": "LAOG",
-          "name": "老高与小茉",
-          "nameEn": "Mr & Mrs Gao",
-          "region": "中文",
-          "value": 6550000,
-          "rank": 1,
-          "share": 0.2194,
-          "rankDelta": 0
-        },
-        {
-          "code": "LIYL",
-          "name": "李永乐老师",
-          "nameEn": "Teacher Li Yongle",
-          "region": "中文",
-          "value": 5000000,
-          "rank": 2,
-          "share": 0.1674,
-          "rankDelta": 0
-        },
-        {
-          "code": "ZZWZ",
-          "name": "钟文泽",
-          "nameEn": "Zhong Wenze",
-          "region": "中文",
-          "value": 4300000,
-          "rank": 3,
-          "share": 0.144,
-          "rankDelta": 0
-        },
-        {
-          "code": "ADI",
-          "name": "阿滴英文",
-          "nameEn": "Ray Du English",
-          "region": "Taiwan",
-          "value": 2760000,
-          "rank": 4,
-          "share": 0.0924,
-          "rankDelta": 0
-        },
-        {
-          "code": "HE",
-          "name": "老师好我叫何同学",
-          "nameEn": "Mr. He",
-          "region": "中文",
-          "value": 2000000,
-          "rank": 5,
-          "share": 0.067,
-          "rankDelta": 1
-        },
-        {
-          "code": "XNZ",
-          "name": "小宁子",
-          "nameEn": "Xiao Ningzi",
-          "region": "中文",
-          "value": 1980000,
-          "rank": 6,
-          "share": 0.0663,
-          "rankDelta": -1
-        },
-        {
-          "code": "HOOK",
-          "name": "HOOK",
-          "nameEn": "HOOK",
-          "region": "Taiwan",
-          "value": 1520000,
-          "rank": 7,
-          "share": 0.0509,
-          "rankDelta": 1
-        },
-        {
-          "code": "ZHQQ",
-          "name": "志祺七七",
-          "nameEn": "Zhiqi Qiqi",
-          "region": "Taiwan",
-          "value": 1500000,
-          "rank": 8,
-          "share": 0.0502,
-          "rankDelta": -1
-        },
-        {
-          "code": "ACKY",
-          "name": "Acky",
-          "nameEn": "Acky",
-          "region": "Taiwan",
-          "value": 1100000,
-          "rank": 9,
-          "share": 0.0368,
-          "rankDelta": 2
-        },
-        {
-          "code": "FANZ",
-          "name": "反正我很闲",
-          "nameEn": "Anyway I'm Free",
-          "region": "中文",
-          "value": 1080000,
-          "rank": 10,
-          "share": 0.0362,
-          "rankDelta": 0
-        },
-        {
-          "code": "QIAN",
-          "name": "千森",
-          "nameEn": "Qiansen",
-          "region": "中文",
-          "value": 1050000,
-          "rank": 11,
-          "share": 0.0352,
-          "rankDelta": 1
-        },
-        {
-          "code": "LKT",
-          "name": "理科太太",
-          "nameEn": "Li Ke Tai Tai",
-          "region": "Taiwan",
-          "value": 1020000,
-          "rank": 12,
-          "share": 0.0342,
-          "rankDelta": -3
-        }
-      ]
-    },
-    {
-      "year": 2026,
-      "total": 30930000,
-      "items": [
-        {
-          "code": "LAOG",
-          "name": "老高与小茉",
-          "nameEn": "Mr & Mrs Gao",
-          "region": "中文",
-          "value": 6620000,
-          "rank": 1,
-          "share": 0.214,
-          "rankDelta": 0
-        },
-        {
-          "code": "LIYL",
-          "name": "李永乐老师",
-          "nameEn": "Teacher Li Yongle",
-          "region": "中文",
-          "value": 5100000,
-          "rank": 2,
-          "share": 0.1649,
-          "rankDelta": 0
-        },
-        {
-          "code": "ZZWZ",
-          "name": "钟文泽",
-          "nameEn": "Zhong Wenze",
-          "region": "中文",
-          "value": 4500000,
-          "rank": 3,
-          "share": 0.1455,
-          "rankDelta": 0
-        },
-        {
-          "code": "ADI",
-          "name": "阿滴英文",
-          "nameEn": "Ray Du English",
-          "region": "Taiwan",
-          "value": 2800000,
-          "rank": 4,
-          "share": 0.0905,
-          "rankDelta": 0
-        },
-        {
-          "code": "HE",
-          "name": "老师好我叫何同学",
-          "nameEn": "Mr. He",
-          "region": "中文",
-          "value": 2150000,
-          "rank": 5,
-          "share": 0.0695,
-          "rankDelta": 0
-        },
-        {
-          "code": "XNZ",
-          "name": "小宁子",
-          "nameEn": "Xiao Ningzi",
-          "region": "中文",
-          "value": 2080000,
-          "rank": 6,
-          "share": 0.0672,
-          "rankDelta": 0
-        },
-        {
-          "code": "HOOK",
-          "name": "HOOK",
-          "nameEn": "HOOK",
-          "region": "Taiwan",
-          "value": 1600000,
-          "rank": 7,
-          "share": 0.0517,
-          "rankDelta": 0
-        },
-        {
-          "code": "ZHQQ",
-          "name": "志祺七七",
-          "nameEn": "Zhiqi Qiqi",
-          "region": "Taiwan",
-          "value": 1550000,
-          "rank": 8,
-          "share": 0.0501,
-          "rankDelta": 0
-        },
-        {
-          "code": "ACKY",
-          "name": "Acky",
-          "nameEn": "Acky",
-          "region": "Taiwan",
-          "value": 1200000,
-          "rank": 9,
-          "share": 0.0388,
-          "rankDelta": 0
-        },
-        {
-          "code": "QIAN",
-          "name": "千森",
-          "nameEn": "Qiansen",
-          "region": "中文",
-          "value": 1150000,
-          "rank": 10,
-          "share": 0.0372,
-          "rankDelta": 1
-        },
-        {
-          "code": "FANZ",
-          "name": "反正我很闲",
-          "nameEn": "Anyway I'm Free",
-          "region": "中文",
-          "value": 1150000,
-          "rank": 11,
-          "share": 0.0372,
-          "rankDelta": -1
-        },
-        {
-          "code": "LKT",
-          "name": "理科太太",
-          "nameEn": "Li Ke Tai Tai",
-          "region": "Taiwan",
-          "value": 1030000,
-          "rank": 12,
-          "share": 0.0333,
-          "rankDelta": 0
-        }
-      ]
+      "region": "台湾"
     }
   ],
   "events": [
     {
       "id": "e01",
       "year": 2017,
-      "entityCode": "LAOG",
+      "entityCode": "LZQ",
       "kind": "milestone",
-      "title": "老高与小茉突破150万",
-      "titleEn": "Mr & Mrs Gao Reaches 1.5M",
-      "description": "老高与小茉凭借深夜故事讲述风格迅速崛起",
-      "descriptionEn": "Mr & Mrs Gao rapidly rises with storytelling format",
-      "entityName": "老高与小茉",
-      "rank": 1
+      "title": "李子柒进入 YouTube 全球视野",
+      "titleEn": "Li Ziqi Gains Global Attention",
+      "description": "传统生活方式影像开始在海外平台快速传播",
+      "descriptionEn": "Traditional lifestyle videos started spreading globally",
+      "entityName": "李子柒",
+      "rank": 3
     },
     {
       "id": "e02",
       "year": 2018,
-      "entityCode": "LAOG",
+      "entityCode": "MSYEAH",
       "kind": "milestone",
-      "title": "老高与小茉突破350万",
-      "titleEn": "Mr & Mrs Gao Surges Past 3.5M",
-      "description": "老高与小茉稳居中文 YouTube 第一",
-      "descriptionEn": "Mr & Mrs Gao solidifies #1 spot in Chinese YouTube",
-      "entityName": "老高与小茉",
+      "title": "办公室小野打开海外爆款路线",
+      "titleEn": "Ms Yeah Breaks Out",
+      "description": "办公室料理创意短视频成为中国创作者出海代表",
+      "descriptionEn": "Office cooking videos became a China creator export case",
+      "entityName": "办公室小野",
       "rank": 1
     },
     {
       "id": "e03",
-      "year": 2018,
-      "entityCode": "LKT",
+      "year": 2019,
+      "entityCode": "DXXG",
       "kind": "milestone",
-      "title": "理科太太异军突起",
-      "titleEn": "Li Ke Tai Tai's Rapid Rise",
-      "description": "理科太太以科普心理学内容迅速积累35万订阅",
-      "descriptionEn": "Li Ke Tai Tai gains 350K subs rapidly with science content",
-      "entityName": "理科太太",
+      "title": "滇西小哥冲进千万级梯队",
+      "titleEn": "Dianxi Xiaoge Rises",
+      "description": "乡村生活、美食和地方风物成为海外观众熟悉的中国内容类型",
+      "descriptionEn": "Rural lifestyle and food videos found global audiences",
+      "entityName": "滇西小哥",
       "rank": 4
     },
     {
       "id": "e04",
-      "year": 2019,
-      "entityCode": "LIYL",
+      "year": 2021,
+      "entityCode": "LZQ",
       "kind": "milestone",
-      "title": "李永乐老师突破200万",
-      "titleEn": "Li Yongle Reaches 2M",
-      "description": "李永乐老师的科普数学物理内容广受欢迎",
-      "descriptionEn": "Li Yongle's science education content gains wide popularity",
-      "entityName": "李永乐老师",
-      "rank": 2
+      "title": "李子柒继续扩大领先优势",
+      "titleEn": "Li Ziqi Extends Her Lead",
+      "description": "公开订阅里程碑显示，李子柒已成为最具全球影响力的中文创作者之一",
+      "descriptionEn": "Public milestones show Li Ziqi among the most influential Chinese creators",
+      "entityName": "李子柒",
+      "rank": 1
     },
     {
       "id": "e05",
-      "year": 2020,
-      "entityCode": "LIYL",
-      "kind": "milestone",
-      "title": "李永乐老师突破300万",
-      "titleEn": "Li Yongle Surpasses 3M",
-      "description": "疫情期间知识类内容迎来爆发增长",
-      "descriptionEn": "Educational content booms during the pandemic",
-      "entityName": "李永乐老师",
-      "rank": 2
+      "year": 2023,
+      "entityCode": "RS",
+      "kind": "trend",
+      "title": "短视频账号开始挤进前排",
+      "titleEn": "Short-form Accounts Surge",
+      "description": "Roman and Sharon、FatSongsong and ThinErmao 等账号快速追上长视频创作者",
+      "descriptionEn": "Short-form creator accounts started catching up with long-form channels",
+      "entityName": "Roman and Sharon",
+      "rank": 6
     },
     {
       "id": "e06",
-      "year": 2020,
-      "entityCode": null,
-      "kind": "trend",
-      "title": "知识型内容黄金期",
-      "titleEn": "Golden Age of Educational Content",
-      "description": "疫情带动知识/教育类频道普遍增长",
-      "descriptionEn": "Pandemic drives growth across educational channels",
-      "entityName": null,
-      "rank": null
-    },
-    {
-      "id": "e07",
-      "year": 2021,
-      "entityCode": "ZZWZ",
+      "year": 2024,
+      "entityCode": "QX",
       "kind": "milestone",
-      "title": "钟文泽突破200万",
-      "titleEn": "Zhong Wenze Reaches 2M",
-      "description": "钟文泽以数码产品评测快速积累人气",
-      "descriptionEn": "Zhong Wenze gains popularity with tech reviews",
-      "entityName": "钟文泽",
-      "rank": 4
-    },
-    {
-      "id": "e08",
-      "year": 2022,
-      "entityCode": "ADI",
-      "kind": "milestone",
-      "title": "阿滴英文增长放缓",
-      "titleEn": "Ray Du English Growth Plateaus",
-      "description": "阿滴英文增长放缓，被钟文泽等后起之秀超越",
-      "descriptionEn": "Ray Du English growth slows, overtaken by newer channels",
-      "entityName": "阿滴英文",
+      "title": "奇軒Tricking突破千万",
+      "titleEn": "Qixuan Tricking Reaches 10M",
+      "description": "动作类短视频说明语言门槛更低的内容也能进入全球流量池",
+      "descriptionEn": "Action shorts show how low-language-barrier content can scale globally",
+      "entityName": "奇軒Tricking",
       "rank": 5
     },
     {
-      "id": "e09",
-      "year": 2023,
-      "entityCode": "ZZWZ",
-      "kind": "milestone",
-      "title": "钟文泽突破350万",
-      "titleEn": "Zhong Wenze Surpasses 3.5M",
-      "description": "钟文泽超越阿滴英文，跃居第四",
-      "descriptionEn": "Zhong Wenze overtakes Ray Du English for 4th place",
-      "entityName": "钟文泽",
-      "rank": 4
-    },
-    {
-      "id": "e10",
-      "year": 2020,
-      "entityCode": "HE",
-      "kind": "milestone",
-      "title": "何同学登陆 YouTube",
-      "titleEn": "Mr. He Joins YouTube",
-      "description": "B站顶流何同学开始在 YouTube 发布内容",
-      "descriptionEn": "Top Bilibili creator Mr. He starts posting on YouTube",
-      "entityName": "老师好我叫何同学",
-      "rank": 9
-    },
-    {
-      "id": "e11",
+      "id": "e07",
       "year": 2025,
-      "entityCode": "LAOG",
-      "kind": "milestone",
-      "title": "老高与小茉稳居榜首",
-      "titleEn": "Mr & Mrs Gao Remain Unchallenged",
-      "description": "老高与小茉以655万订阅继续领跑中文 YouTube",
-      "descriptionEn": "Mr & Mrs Gao leads Chinese YouTube with 6.55M subs",
-      "entityName": "老高与小茉",
-      "rank": 1
-    },
-    {
-      "id": "e12",
-      "year": 2024,
-      "entityCode": "ZZWZ",
-      "kind": "milestone",
-      "title": "钟文泽突破400万",
-      "titleEn": "Zhong Wenze Reaches 4M",
-      "description": "钟文泽成为中文科技评测第一频道",
-      "descriptionEn": "Zhong Wenze becomes #1 Chinese tech review channel",
-      "entityName": "钟文泽",
-      "rank": 3
-    },
-    {
-      "id": "e13",
-      "year": 2018,
-      "entityCode": "ADI",
-      "kind": "milestone",
-      "title": "阿滴英文突破100万",
-      "titleEn": "Ray Du English Reaches 1M",
-      "description": "阿滴英文成为台湾首个破百万的教育类频道",
-      "descriptionEn": "Ray Du English becomes Taiwan's first education channel with 1M subs",
-      "entityName": "阿滴英文",
-      "rank": 3
-    },
-    {
-      "id": "e14",
-      "year": 2015,
-      "entityCode": null,
+      "entityCode": "MANYU",
       "kind": "trend",
-      "title": "老高与小茉、阿滴英文起步",
-      "titleEn": "Founding Year for Key Channels",
-      "description": "老高与小茉和阿滴英文在 2015 年先后开始发布内容",
-      "descriptionEn": "Mr & Mrs Gao and Ray Du English begin posting in 2015",
-      "entityName": null,
-      "rank": null
+      "title": "新短视频账号继续上冲",
+      "titleEn": "New Short-form Accounts Keep Climbing",
+      "description": "是曼玉不是鳗鱼、钟薛蛙等账号把榜单推向短视频时代",
+      "descriptionEn": "New creator accounts pushed the ranking toward short-form video",
+      "entityName": "是曼玉不是鳗鱼",
+      "rank": 7
     },
     {
-      "id": "e15",
+      "id": "e08",
       "year": 2026,
-      "entityCode": "LAOG",
+      "entityCode": "LZQ",
       "kind": "milestone",
-      "title": "老高与小茉突破660万",
-      "titleEn": "Mr & Mrs Gao Surpasses 6.6M",
-      "description": "老高与小茉继续领跑，钟文泽跃居第三",
-      "descriptionEn": "Mr & Mrs Gao continues to lead; Zhong Wenze rises to #3",
-      "entityName": "老高与小茉",
+      "title": "李子柒仍是华语创作者天花板",
+      "titleEn": "Li Ziqi Still Leads",
+      "description": "2026 年截面中，李子柒仍以约 3100 万订阅领跑",
+      "descriptionEn": "In the 2026 snapshot, Li Ziqi still leads at roughly 31M subscribers",
+      "entityName": "李子柒",
       "rank": 1
+    }
+  ],
+  "frames": [
+    {
+      "year": 2017,
+      "total": 10000000,
+      "items": [
+        {
+          "code": "TGOP",
+          "name": "這群人TGOP",
+          "nameEn": "This Group of People",
+          "region": "台湾",
+          "value": 2200000,
+          "rank": 1,
+          "share": 0.22,
+          "rankDelta": 0
+        },
+        {
+          "code": "LAOG",
+          "name": "老高与小茉",
+          "nameEn": "Mr & Mrs Gao",
+          "region": "华语",
+          "value": 1500000,
+          "rank": 2,
+          "share": 0.15,
+          "rankDelta": 0
+        },
+        {
+          "code": "ASHEN",
+          "name": "阿神",
+          "nameEn": "A Shen",
+          "region": "台湾",
+          "value": 1400000,
+          "rank": 3,
+          "share": 0.14,
+          "rankDelta": 0
+        },
+        {
+          "code": "MSYEAH",
+          "name": "办公室小野",
+          "nameEn": "Ms Yeah",
+          "region": "中国大陆",
+          "value": 1200000,
+          "rank": 4,
+          "share": 0.12,
+          "rankDelta": 0
+        },
+        {
+          "code": "QX",
+          "name": "奇軒Tricking",
+          "nameEn": "Qixuan Tricking",
+          "region": "台湾",
+          "value": 1000000,
+          "rank": 5,
+          "share": 0.1,
+          "rankDelta": 0
+        },
+        {
+          "code": "YE",
+          "name": "葉式特工",
+          "nameEn": "Yes Ranger",
+          "region": "台湾",
+          "value": 1000000,
+          "rank": 6,
+          "share": 0.1,
+          "rankDelta": 0
+        },
+        {
+          "code": "LZQ",
+          "name": "李子柒",
+          "nameEn": "Li Ziqi",
+          "region": "中国大陆",
+          "value": 800000,
+          "rank": 7,
+          "share": 0.08,
+          "rankDelta": 0
+        },
+        {
+          "code": "ADI",
+          "name": "阿滴英文",
+          "nameEn": "Ray Du English",
+          "region": "台湾",
+          "value": 700000,
+          "rank": 8,
+          "share": 0.07,
+          "rankDelta": 0
+        },
+        {
+          "code": "DXXG",
+          "name": "滇西小哥",
+          "nameEn": "Dianxi Xiaoge",
+          "region": "中国大陆",
+          "value": 200000,
+          "rank": 9,
+          "share": 0.02,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "total": 23600000,
+      "items": [
+        {
+          "code": "MSYEAH",
+          "name": "办公室小野",
+          "nameEn": "Ms Yeah",
+          "region": "中国大陆",
+          "value": 5000000,
+          "rank": 1,
+          "share": 0.2119,
+          "rankDelta": 3
+        },
+        {
+          "code": "LZQ",
+          "name": "李子柒",
+          "nameEn": "Li Ziqi",
+          "region": "中国大陆",
+          "value": 4000000,
+          "rank": 2,
+          "share": 0.1695,
+          "rankDelta": 5
+        },
+        {
+          "code": "LAOG",
+          "name": "老高与小茉",
+          "nameEn": "Mr & Mrs Gao",
+          "region": "华语",
+          "value": 3500000,
+          "rank": 3,
+          "share": 0.1483,
+          "rankDelta": -1
+        },
+        {
+          "code": "TGOP",
+          "name": "這群人TGOP",
+          "nameEn": "This Group of People",
+          "region": "台湾",
+          "value": 2600000,
+          "rank": 4,
+          "share": 0.1102,
+          "rankDelta": -3
+        },
+        {
+          "code": "ASHEN",
+          "name": "阿神",
+          "nameEn": "A Shen",
+          "region": "台湾",
+          "value": 1900000,
+          "rank": 5,
+          "share": 0.0805,
+          "rankDelta": -2
+        },
+        {
+          "code": "QX",
+          "name": "奇軒Tricking",
+          "nameEn": "Qixuan Tricking",
+          "region": "台湾",
+          "value": 1800000,
+          "rank": 6,
+          "share": 0.0763,
+          "rankDelta": -1
+        },
+        {
+          "code": "YE",
+          "name": "葉式特工",
+          "nameEn": "Yes Ranger",
+          "region": "台湾",
+          "value": 1800000,
+          "rank": 7,
+          "share": 0.0763,
+          "rankDelta": -1
+        },
+        {
+          "code": "ADI",
+          "name": "阿滴英文",
+          "nameEn": "Ray Du English",
+          "region": "台湾",
+          "value": 1300000,
+          "rank": 8,
+          "share": 0.0551,
+          "rankDelta": 0
+        },
+        {
+          "code": "DXXG",
+          "name": "滇西小哥",
+          "nameEn": "Dianxi Xiaoge",
+          "region": "中国大陆",
+          "value": 1200000,
+          "rank": 9,
+          "share": 0.0508,
+          "rankDelta": 0
+        },
+        {
+          "code": "DSJ",
+          "name": "大树君",
+          "nameEn": "TreeMan",
+          "region": "中国大陆",
+          "value": 500000,
+          "rank": 10,
+          "share": 0.0212,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "total": 38400000,
+      "items": [
+        {
+          "code": "LZQ",
+          "name": "李子柒",
+          "nameEn": "Li Ziqi",
+          "region": "中国大陆",
+          "value": 8500000,
+          "rank": 1,
+          "share": 0.2214,
+          "rankDelta": 1
+        },
+        {
+          "code": "MSYEAH",
+          "name": "办公室小野",
+          "nameEn": "Ms Yeah",
+          "region": "中国大陆",
+          "value": 8000000,
+          "rank": 2,
+          "share": 0.2083,
+          "rankDelta": -1
+        },
+        {
+          "code": "LAOG",
+          "name": "老高与小茉",
+          "nameEn": "Mr & Mrs Gao",
+          "region": "华语",
+          "value": 4500000,
+          "rank": 3,
+          "share": 0.1172,
+          "rankDelta": 0
+        },
+        {
+          "code": "DXXG",
+          "name": "滇西小哥",
+          "nameEn": "Dianxi Xiaoge",
+          "region": "中国大陆",
+          "value": 4000000,
+          "rank": 4,
+          "share": 0.1042,
+          "rankDelta": 5
+        },
+        {
+          "code": "TGOP",
+          "name": "這群人TGOP",
+          "nameEn": "This Group of People",
+          "region": "台湾",
+          "value": 2900000,
+          "rank": 5,
+          "share": 0.0755,
+          "rankDelta": -1
+        },
+        {
+          "code": "QX",
+          "name": "奇軒Tricking",
+          "nameEn": "Qixuan Tricking",
+          "region": "台湾",
+          "value": 2800000,
+          "rank": 6,
+          "share": 0.0729,
+          "rankDelta": 0
+        },
+        {
+          "code": "YE",
+          "name": "葉式特工",
+          "nameEn": "Yes Ranger",
+          "region": "台湾",
+          "value": 2500000,
+          "rank": 7,
+          "share": 0.0651,
+          "rankDelta": 0
+        },
+        {
+          "code": "ASHEN",
+          "name": "阿神",
+          "nameEn": "A Shen",
+          "region": "台湾",
+          "value": 2300000,
+          "rank": 8,
+          "share": 0.0599,
+          "rankDelta": -3
+        },
+        {
+          "code": "ADI",
+          "name": "阿滴英文",
+          "nameEn": "Ray Du English",
+          "region": "台湾",
+          "value": 1700000,
+          "rank": 9,
+          "share": 0.0443,
+          "rankDelta": -1
+        },
+        {
+          "code": "DSJ",
+          "name": "大树君",
+          "nameEn": "TreeMan",
+          "region": "中国大陆",
+          "value": 1200000,
+          "rank": 10,
+          "share": 0.0313,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "total": 50200000,
+      "items": [
+        {
+          "code": "LZQ",
+          "name": "李子柒",
+          "nameEn": "Li Ziqi",
+          "region": "中国大陆",
+          "value": 12000000,
+          "rank": 1,
+          "share": 0.239,
+          "rankDelta": 0
+        },
+        {
+          "code": "MSYEAH",
+          "name": "办公室小野",
+          "nameEn": "Ms Yeah",
+          "region": "中国大陆",
+          "value": 9600000,
+          "rank": 2,
+          "share": 0.1912,
+          "rankDelta": 0
+        },
+        {
+          "code": "DXXG",
+          "name": "滇西小哥",
+          "nameEn": "Dianxi Xiaoge",
+          "region": "中国大陆",
+          "value": 6500000,
+          "rank": 3,
+          "share": 0.1295,
+          "rankDelta": 1
+        },
+        {
+          "code": "LAOG",
+          "name": "老高与小茉",
+          "nameEn": "Mr & Mrs Gao",
+          "region": "华语",
+          "value": 5000000,
+          "rank": 4,
+          "share": 0.0996,
+          "rankDelta": -1
+        },
+        {
+          "code": "QX",
+          "name": "奇軒Tricking",
+          "nameEn": "Qixuan Tricking",
+          "region": "台湾",
+          "value": 4000000,
+          "rank": 5,
+          "share": 0.0797,
+          "rankDelta": 1
+        },
+        {
+          "code": "YE",
+          "name": "葉式特工",
+          "nameEn": "Yes Ranger",
+          "region": "台湾",
+          "value": 3200000,
+          "rank": 6,
+          "share": 0.0637,
+          "rankDelta": 1
+        },
+        {
+          "code": "TGOP",
+          "name": "這群人TGOP",
+          "nameEn": "This Group of People",
+          "region": "台湾",
+          "value": 3100000,
+          "rank": 7,
+          "share": 0.0618,
+          "rankDelta": -2
+        },
+        {
+          "code": "ASHEN",
+          "name": "阿神",
+          "nameEn": "A Shen",
+          "region": "台湾",
+          "value": 2600000,
+          "rank": 8,
+          "share": 0.0518,
+          "rankDelta": 0
+        },
+        {
+          "code": "ADI",
+          "name": "阿滴英文",
+          "nameEn": "Ray Du English",
+          "region": "台湾",
+          "value": 2200000,
+          "rank": 9,
+          "share": 0.0438,
+          "rankDelta": 0
+        },
+        {
+          "code": "DSJ",
+          "name": "大树君",
+          "nameEn": "TreeMan",
+          "region": "中国大陆",
+          "value": 1800000,
+          "rank": 10,
+          "share": 0.0359,
+          "rankDelta": 0
+        },
+        {
+          "code": "GUIGE",
+          "name": "鬼哥",
+          "nameEn": "Gui Ge",
+          "region": "中国大陆",
+          "value": 100000,
+          "rank": 11,
+          "share": 0.002,
+          "rankDelta": 0
+        },
+        {
+          "code": "XKHC",
+          "name": "俠客紅塵",
+          "nameEn": "Xia Ke Hong Chen",
+          "region": "中国大陆",
+          "value": 100000,
+          "rank": 12,
+          "share": 0.002,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "total": 63600000,
+      "items": [
+        {
+          "code": "LZQ",
+          "name": "李子柒",
+          "nameEn": "Li Ziqi",
+          "region": "中国大陆",
+          "value": 16700000,
+          "rank": 1,
+          "share": 0.2626,
+          "rankDelta": 0
+        },
+        {
+          "code": "MSYEAH",
+          "name": "办公室小野",
+          "nameEn": "Ms Yeah",
+          "region": "中国大陆",
+          "value": 10500000,
+          "rank": 2,
+          "share": 0.1651,
+          "rankDelta": 0
+        },
+        {
+          "code": "DXXG",
+          "name": "滇西小哥",
+          "nameEn": "Dianxi Xiaoge",
+          "region": "中国大陆",
+          "value": 8000000,
+          "rank": 3,
+          "share": 0.1258,
+          "rankDelta": 0
+        },
+        {
+          "code": "QX",
+          "name": "奇軒Tricking",
+          "nameEn": "Qixuan Tricking",
+          "region": "台湾",
+          "value": 5800000,
+          "rank": 4,
+          "share": 0.0912,
+          "rankDelta": 1
+        },
+        {
+          "code": "LAOG",
+          "name": "老高与小茉",
+          "nameEn": "Mr & Mrs Gao",
+          "region": "华语",
+          "value": 5600000,
+          "rank": 5,
+          "share": 0.0881,
+          "rankDelta": -1
+        },
+        {
+          "code": "YE",
+          "name": "葉式特工",
+          "nameEn": "Yes Ranger",
+          "region": "台湾",
+          "value": 4000000,
+          "rank": 6,
+          "share": 0.0629,
+          "rankDelta": 0
+        },
+        {
+          "code": "TGOP",
+          "name": "這群人TGOP",
+          "nameEn": "This Group of People",
+          "region": "台湾",
+          "value": 3250000,
+          "rank": 7,
+          "share": 0.0511,
+          "rankDelta": 0
+        },
+        {
+          "code": "ASHEN",
+          "name": "阿神",
+          "nameEn": "A Shen",
+          "region": "台湾",
+          "value": 2850000,
+          "rank": 8,
+          "share": 0.0448,
+          "rankDelta": 0
+        },
+        {
+          "code": "ADI",
+          "name": "阿滴英文",
+          "nameEn": "Ray Du English",
+          "region": "台湾",
+          "value": 2500000,
+          "rank": 9,
+          "share": 0.0393,
+          "rankDelta": 0
+        },
+        {
+          "code": "DSJ",
+          "name": "大树君",
+          "nameEn": "TreeMan",
+          "region": "中国大陆",
+          "value": 2200000,
+          "rank": 10,
+          "share": 0.0346,
+          "rankDelta": 0
+        },
+        {
+          "code": "XKHC",
+          "name": "俠客紅塵",
+          "nameEn": "Xia Ke Hong Chen",
+          "region": "中国大陆",
+          "value": 1200000,
+          "rank": 11,
+          "share": 0.0189,
+          "rankDelta": 1
+        },
+        {
+          "code": "GUIGE",
+          "name": "鬼哥",
+          "nameEn": "Gui Ge",
+          "region": "中国大陆",
+          "value": 1000000,
+          "rank": 12,
+          "share": 0.0157,
+          "rankDelta": -1
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "total": 77150000,
+      "items": [
+        {
+          "code": "LZQ",
+          "name": "李子柒",
+          "nameEn": "Li Ziqi",
+          "region": "中国大陆",
+          "value": 17700000,
+          "rank": 1,
+          "share": 0.2294,
+          "rankDelta": 0
+        },
+        {
+          "code": "MSYEAH",
+          "name": "办公室小野",
+          "nameEn": "Ms Yeah",
+          "region": "中国大陆",
+          "value": 11300000,
+          "rank": 2,
+          "share": 0.1465,
+          "rankDelta": 0
+        },
+        {
+          "code": "DXXG",
+          "name": "滇西小哥",
+          "nameEn": "Dianxi Xiaoge",
+          "region": "中国大陆",
+          "value": 9500000,
+          "rank": 3,
+          "share": 0.1231,
+          "rankDelta": 0
+        },
+        {
+          "code": "QX",
+          "name": "奇軒Tricking",
+          "nameEn": "Qixuan Tricking",
+          "region": "台湾",
+          "value": 7500000,
+          "rank": 4,
+          "share": 0.0972,
+          "rankDelta": 0
+        },
+        {
+          "code": "LAOG",
+          "name": "老高与小茉",
+          "nameEn": "Mr & Mrs Gao",
+          "region": "华语",
+          "value": 6000000,
+          "rank": 5,
+          "share": 0.0778,
+          "rankDelta": 0
+        },
+        {
+          "code": "YE",
+          "name": "葉式特工",
+          "nameEn": "Yes Ranger",
+          "region": "台湾",
+          "value": 4800000,
+          "rank": 6,
+          "share": 0.0622,
+          "rankDelta": 0
+        },
+        {
+          "code": "GUIGE",
+          "name": "鬼哥",
+          "nameEn": "Gui Ge",
+          "region": "中国大陆",
+          "value": 3800000,
+          "rank": 7,
+          "share": 0.0493,
+          "rankDelta": 5
+        },
+        {
+          "code": "TGOP",
+          "name": "這群人TGOP",
+          "nameEn": "This Group of People",
+          "region": "台湾",
+          "value": 3350000,
+          "rank": 8,
+          "share": 0.0434,
+          "rankDelta": -1
+        },
+        {
+          "code": "ASHEN",
+          "name": "阿神",
+          "nameEn": "A Shen",
+          "region": "台湾",
+          "value": 3000000,
+          "rank": 9,
+          "share": 0.0389,
+          "rankDelta": -1
+        },
+        {
+          "code": "XKHC",
+          "name": "俠客紅塵",
+          "nameEn": "Xia Ke Hong Chen",
+          "region": "中国大陆",
+          "value": 2800000,
+          "rank": 10,
+          "share": 0.0363,
+          "rankDelta": 1
+        },
+        {
+          "code": "ADI",
+          "name": "阿滴英文",
+          "nameEn": "Ray Du English",
+          "region": "台湾",
+          "value": 2700000,
+          "rank": 11,
+          "share": 0.035,
+          "rankDelta": -2
+        },
+        {
+          "code": "DSJ",
+          "name": "大树君",
+          "nameEn": "TreeMan",
+          "region": "中国大陆",
+          "value": 2500000,
+          "rank": 12,
+          "share": 0.0324,
+          "rankDelta": -2
+        },
+        {
+          "code": "RS",
+          "name": "Roman & Sharon",
+          "nameEn": "Roman and Sharon",
+          "region": "中国大陆",
+          "value": 1500000,
+          "rank": 13,
+          "share": 0.0194,
+          "rankDelta": 0
+        },
+        {
+          "code": "FSS",
+          "name": "胖松松和瘦二毛",
+          "nameEn": "FatSongsong and ThinErmao",
+          "region": "中国大陆",
+          "value": 500000,
+          "rank": 14,
+          "share": 0.0065,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZXW",
+          "name": "钟薛蛙",
+          "nameEn": "Zhongxuewa",
+          "region": "中国大陆",
+          "value": 200000,
+          "rank": 15,
+          "share": 0.0026,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "total": 102000000,
+      "items": [
+        {
+          "code": "LZQ",
+          "name": "李子柒",
+          "nameEn": "Li Ziqi",
+          "region": "中国大陆",
+          "value": 18200000,
+          "rank": 1,
+          "share": 0.1784,
+          "rankDelta": 0
+        },
+        {
+          "code": "MSYEAH",
+          "name": "办公室小野",
+          "nameEn": "Ms Yeah",
+          "region": "中国大陆",
+          "value": 12200000,
+          "rank": 2,
+          "share": 0.1196,
+          "rankDelta": 0
+        },
+        {
+          "code": "DXXG",
+          "name": "滇西小哥",
+          "nameEn": "Dianxi Xiaoge",
+          "region": "中国大陆",
+          "value": 10700000,
+          "rank": 3,
+          "share": 0.1049,
+          "rankDelta": 0
+        },
+        {
+          "code": "QX",
+          "name": "奇軒Tricking",
+          "nameEn": "Qixuan Tricking",
+          "region": "台湾",
+          "value": 9500000,
+          "rank": 4,
+          "share": 0.0931,
+          "rankDelta": 0
+        },
+        {
+          "code": "GUIGE",
+          "name": "鬼哥",
+          "nameEn": "Gui Ge",
+          "region": "中国大陆",
+          "value": 8500000,
+          "rank": 5,
+          "share": 0.0833,
+          "rankDelta": 2
+        },
+        {
+          "code": "RS",
+          "name": "Roman & Sharon",
+          "nameEn": "Roman and Sharon",
+          "region": "中国大陆",
+          "value": 7100000,
+          "rank": 6,
+          "share": 0.0696,
+          "rankDelta": 7
+        },
+        {
+          "code": "LAOG",
+          "name": "老高与小茉",
+          "nameEn": "Mr & Mrs Gao",
+          "region": "华语",
+          "value": 6300000,
+          "rank": 7,
+          "share": 0.0618,
+          "rankDelta": -2
+        },
+        {
+          "code": "YE",
+          "name": "葉式特工",
+          "nameEn": "Yes Ranger",
+          "region": "台湾",
+          "value": 5400000,
+          "rank": 8,
+          "share": 0.0529,
+          "rankDelta": -2
+        },
+        {
+          "code": "FSS",
+          "name": "胖松松和瘦二毛",
+          "nameEn": "FatSongsong and ThinErmao",
+          "region": "中国大陆",
+          "value": 5000000,
+          "rank": 9,
+          "share": 0.049,
+          "rankDelta": 5
+        },
+        {
+          "code": "XKHC",
+          "name": "俠客紅塵",
+          "nameEn": "Xia Ke Hong Chen",
+          "region": "中国大陆",
+          "value": 4200000,
+          "rank": 10,
+          "share": 0.0412,
+          "rankDelta": 0
+        },
+        {
+          "code": "TGOP",
+          "name": "這群人TGOP",
+          "nameEn": "This Group of People",
+          "region": "台湾",
+          "value": 3400000,
+          "rank": 11,
+          "share": 0.0333,
+          "rankDelta": -3
+        },
+        {
+          "code": "ASHEN",
+          "name": "阿神",
+          "nameEn": "A Shen",
+          "region": "台湾",
+          "value": 3100000,
+          "rank": 12,
+          "share": 0.0304,
+          "rankDelta": -3
+        },
+        {
+          "code": "DSJ",
+          "name": "大树君",
+          "nameEn": "TreeMan",
+          "region": "中国大陆",
+          "value": 2800000,
+          "rank": 13,
+          "share": 0.0275,
+          "rankDelta": -1
+        },
+        {
+          "code": "ADI",
+          "name": "阿滴英文",
+          "nameEn": "Ray Du English",
+          "region": "台湾",
+          "value": 2800000,
+          "rank": 14,
+          "share": 0.0275,
+          "rankDelta": -3
+        },
+        {
+          "code": "ZXW",
+          "name": "钟薛蛙",
+          "nameEn": "Zhongxuewa",
+          "region": "中国大陆",
+          "value": 2200000,
+          "rank": 15,
+          "share": 0.0216,
+          "rankDelta": 0
+        },
+        {
+          "code": "MANYU",
+          "name": "是曼玉不是鳗鱼",
+          "nameEn": "Mandy",
+          "region": "中国大陆",
+          "value": 500000,
+          "rank": 16,
+          "share": 0.0049,
+          "rankDelta": 0
+        },
+        {
+          "code": "LUREN",
+          "name": "整個路人",
+          "nameEn": "A Whole Passerby",
+          "region": "中国大陆",
+          "value": 100000,
+          "rank": 17,
+          "share": 0.001,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "total": 131370000,
+      "items": [
+        {
+          "code": "LZQ",
+          "name": "李子柒",
+          "nameEn": "Li Ziqi",
+          "region": "中国大陆",
+          "value": 20000000,
+          "rank": 1,
+          "share": 0.1522,
+          "rankDelta": 0
+        },
+        {
+          "code": "GUIGE",
+          "name": "鬼哥",
+          "nameEn": "Gui Ge",
+          "region": "中国大陆",
+          "value": 13500000,
+          "rank": 2,
+          "share": 0.1028,
+          "rankDelta": 3
+        },
+        {
+          "code": "MSYEAH",
+          "name": "办公室小野",
+          "nameEn": "Ms Yeah",
+          "region": "中国大陆",
+          "value": 13000000,
+          "rank": 3,
+          "share": 0.099,
+          "rankDelta": -1
+        },
+        {
+          "code": "FSS",
+          "name": "胖松松和瘦二毛",
+          "nameEn": "FatSongsong and ThinErmao",
+          "region": "中国大陆",
+          "value": 12000000,
+          "rank": 4,
+          "share": 0.0913,
+          "rankDelta": 5
+        },
+        {
+          "code": "QX",
+          "name": "奇軒Tricking",
+          "nameEn": "Qixuan Tricking",
+          "region": "台湾",
+          "value": 11500000,
+          "rank": 5,
+          "share": 0.0875,
+          "rankDelta": -1
+        },
+        {
+          "code": "DXXG",
+          "name": "滇西小哥",
+          "nameEn": "Dianxi Xiaoge",
+          "region": "中国大陆",
+          "value": 11200000,
+          "rank": 6,
+          "share": 0.0853,
+          "rankDelta": -3
+        },
+        {
+          "code": "RS",
+          "name": "Roman & Sharon",
+          "nameEn": "Roman and Sharon",
+          "region": "中国大陆",
+          "value": 7500000,
+          "rank": 7,
+          "share": 0.0571,
+          "rankDelta": -1
+        },
+        {
+          "code": "LAOG",
+          "name": "老高与小茉",
+          "nameEn": "Mr & Mrs Gao",
+          "region": "华语",
+          "value": 6500000,
+          "rank": 8,
+          "share": 0.0495,
+          "rankDelta": -1
+        },
+        {
+          "code": "MANYU",
+          "name": "是曼玉不是鳗鱼",
+          "nameEn": "Mandy",
+          "region": "中国大陆",
+          "value": 6000000,
+          "rank": 9,
+          "share": 0.0457,
+          "rankDelta": 7
+        },
+        {
+          "code": "YE",
+          "name": "葉式特工",
+          "nameEn": "Yes Ranger",
+          "region": "台湾",
+          "value": 5900000,
+          "rank": 10,
+          "share": 0.0449,
+          "rankDelta": -2
+        },
+        {
+          "code": "XKHC",
+          "name": "俠客紅塵",
+          "nameEn": "Xia Ke Hong Chen",
+          "region": "中国大陆",
+          "value": 5100000,
+          "rank": 11,
+          "share": 0.0388,
+          "rankDelta": -1
+        },
+        {
+          "code": "ZXW",
+          "name": "钟薛蛙",
+          "nameEn": "Zhongxuewa",
+          "region": "中国大陆",
+          "value": 4500000,
+          "rank": 12,
+          "share": 0.0343,
+          "rankDelta": 3
+        },
+        {
+          "code": "TGOP",
+          "name": "這群人TGOP",
+          "nameEn": "This Group of People",
+          "region": "台湾",
+          "value": 3430000,
+          "rank": 13,
+          "share": 0.0261,
+          "rankDelta": -2
+        },
+        {
+          "code": "ASHEN",
+          "name": "阿神",
+          "nameEn": "A Shen",
+          "region": "台湾",
+          "value": 3180000,
+          "rank": 14,
+          "share": 0.0242,
+          "rankDelta": -2
+        },
+        {
+          "code": "DSJ",
+          "name": "大树君",
+          "nameEn": "TreeMan",
+          "region": "中国大陆",
+          "value": 3000000,
+          "rank": 15,
+          "share": 0.0228,
+          "rankDelta": -2
+        },
+        {
+          "code": "ADI",
+          "name": "阿滴英文",
+          "nameEn": "Ray Du English",
+          "region": "台湾",
+          "value": 2860000,
+          "rank": 16,
+          "share": 0.0218,
+          "rankDelta": -2
+        },
+        {
+          "code": "LUREN",
+          "name": "整個路人",
+          "nameEn": "A Whole Passerby",
+          "region": "中国大陆",
+          "value": 2200000,
+          "rank": 17,
+          "share": 0.0167,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "total": 157960000,
+      "items": [
+        {
+          "code": "LZQ",
+          "name": "李子柒",
+          "nameEn": "Li Ziqi",
+          "region": "中国大陆",
+          "value": 24000000,
+          "rank": 1,
+          "share": 0.1519,
+          "rankDelta": 0
+        },
+        {
+          "code": "GUIGE",
+          "name": "鬼哥",
+          "nameEn": "Gui Ge",
+          "region": "中国大陆",
+          "value": 17500000,
+          "rank": 2,
+          "share": 0.1108,
+          "rankDelta": 0
+        },
+        {
+          "code": "FSS",
+          "name": "胖松松和瘦二毛",
+          "nameEn": "FatSongsong and ThinErmao",
+          "region": "中国大陆",
+          "value": 17500000,
+          "rank": 3,
+          "share": 0.1108,
+          "rankDelta": 1
+        },
+        {
+          "code": "QX",
+          "name": "奇軒Tricking",
+          "nameEn": "Qixuan Tricking",
+          "region": "台湾",
+          "value": 14000000,
+          "rank": 4,
+          "share": 0.0886,
+          "rankDelta": 1
+        },
+        {
+          "code": "MSYEAH",
+          "name": "办公室小野",
+          "nameEn": "Ms Yeah",
+          "region": "中国大陆",
+          "value": 13800000,
+          "rank": 5,
+          "share": 0.0874,
+          "rankDelta": -2
+        },
+        {
+          "code": "DXXG",
+          "name": "滇西小哥",
+          "nameEn": "Dianxi Xiaoge",
+          "region": "中国大陆",
+          "value": 11800000,
+          "rank": 6,
+          "share": 0.0747,
+          "rankDelta": 0
+        },
+        {
+          "code": "MANYU",
+          "name": "是曼玉不是鳗鱼",
+          "nameEn": "Mandy",
+          "region": "中国大陆",
+          "value": 10500000,
+          "rank": 7,
+          "share": 0.0665,
+          "rankDelta": 2
+        },
+        {
+          "code": "RS",
+          "name": "Roman & Sharon",
+          "nameEn": "Roman and Sharon",
+          "region": "中国大陆",
+          "value": 7700000,
+          "rank": 8,
+          "share": 0.0487,
+          "rankDelta": -1
+        },
+        {
+          "code": "LAOG",
+          "name": "老高与小茉",
+          "nameEn": "Mr & Mrs Gao",
+          "region": "华语",
+          "value": 6600000,
+          "rank": 9,
+          "share": 0.0418,
+          "rankDelta": -1
+        },
+        {
+          "code": "YE",
+          "name": "葉式特工",
+          "nameEn": "Yes Ranger",
+          "region": "台湾",
+          "value": 6200000,
+          "rank": 10,
+          "share": 0.0393,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZXW",
+          "name": "钟薛蛙",
+          "nameEn": "Zhongxuewa",
+          "region": "中国大陆",
+          "value": 6000000,
+          "rank": 11,
+          "share": 0.038,
+          "rankDelta": 1
+        },
+        {
+          "code": "XKHC",
+          "name": "俠客紅塵",
+          "nameEn": "Xia Ke Hong Chen",
+          "region": "中国大陆",
+          "value": 5600000,
+          "rank": 12,
+          "share": 0.0355,
+          "rankDelta": -1
+        },
+        {
+          "code": "LUREN",
+          "name": "整個路人",
+          "nameEn": "A Whole Passerby",
+          "region": "中国大陆",
+          "value": 4100000,
+          "rank": 13,
+          "share": 0.026,
+          "rankDelta": 4
+        },
+        {
+          "code": "TGOP",
+          "name": "這群人TGOP",
+          "nameEn": "This Group of People",
+          "region": "台湾",
+          "value": 3440000,
+          "rank": 14,
+          "share": 0.0218,
+          "rankDelta": -1
+        },
+        {
+          "code": "ASHEN",
+          "name": "阿神",
+          "nameEn": "A Shen",
+          "region": "台湾",
+          "value": 3230000,
+          "rank": 15,
+          "share": 0.0204,
+          "rankDelta": -1
+        },
+        {
+          "code": "DSJ",
+          "name": "大树君",
+          "nameEn": "TreeMan",
+          "region": "中国大陆",
+          "value": 3100000,
+          "rank": 16,
+          "share": 0.0196,
+          "rankDelta": -1
+        },
+        {
+          "code": "ADI",
+          "name": "阿滴英文",
+          "nameEn": "Ray Du English",
+          "region": "台湾",
+          "value": 2890000,
+          "rank": 17,
+          "share": 0.0183,
+          "rankDelta": -1
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "total": 178820000,
+      "items": [
+        {
+          "code": "LZQ",
+          "name": "李子柒",
+          "nameEn": "Li Ziqi",
+          "region": "中国大陆",
+          "value": 31000000,
+          "rank": 1,
+          "share": 0.1734,
+          "rankDelta": 0
+        },
+        {
+          "code": "GUIGE",
+          "name": "鬼哥",
+          "nameEn": "Gui Ge",
+          "region": "中国大陆",
+          "value": 20900000,
+          "rank": 2,
+          "share": 0.1169,
+          "rankDelta": 0
+        },
+        {
+          "code": "FSS",
+          "name": "胖松松和瘦二毛",
+          "nameEn": "FatSongsong and ThinErmao",
+          "region": "中国大陆",
+          "value": 20100000,
+          "rank": 3,
+          "share": 0.1124,
+          "rankDelta": 0
+        },
+        {
+          "code": "QX",
+          "name": "奇軒Tricking",
+          "nameEn": "Qixuan Tricking",
+          "region": "台湾",
+          "value": 15700000,
+          "rank": 4,
+          "share": 0.0878,
+          "rankDelta": 0
+        },
+        {
+          "code": "MSYEAH",
+          "name": "办公室小野",
+          "nameEn": "Ms Yeah",
+          "region": "中国大陆",
+          "value": 14100000,
+          "rank": 5,
+          "share": 0.0789,
+          "rankDelta": 0
+        },
+        {
+          "code": "MANYU",
+          "name": "是曼玉不是鳗鱼",
+          "nameEn": "Mandy",
+          "region": "中国大陆",
+          "value": 13400000,
+          "rank": 6,
+          "share": 0.0749,
+          "rankDelta": 1
+        },
+        {
+          "code": "DXXG",
+          "name": "滇西小哥",
+          "nameEn": "Dianxi Xiaoge",
+          "region": "中国大陆",
+          "value": 12300000,
+          "rank": 7,
+          "share": 0.0688,
+          "rankDelta": -1
+        },
+        {
+          "code": "RS",
+          "name": "Roman & Sharon",
+          "nameEn": "Roman and Sharon",
+          "region": "中国大陆",
+          "value": 7810000,
+          "rank": 8,
+          "share": 0.0437,
+          "rankDelta": 0
+        },
+        {
+          "code": "LAOG",
+          "name": "老高与小茉",
+          "nameEn": "Mr & Mrs Gao",
+          "region": "华语",
+          "value": 6730000,
+          "rank": 9,
+          "share": 0.0376,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZXW",
+          "name": "钟薛蛙",
+          "nameEn": "Zhongxuewa",
+          "region": "中国大陆",
+          "value": 6590000,
+          "rank": 10,
+          "share": 0.0369,
+          "rankDelta": 1
+        },
+        {
+          "code": "YE",
+          "name": "葉式特工",
+          "nameEn": "Yes Ranger",
+          "region": "台湾",
+          "value": 6510000,
+          "rank": 11,
+          "share": 0.0364,
+          "rankDelta": -1
+        },
+        {
+          "code": "XKHC",
+          "name": "俠客紅塵",
+          "nameEn": "Xia Ke Hong Chen",
+          "region": "中国大陆",
+          "value": 5890000,
+          "rank": 12,
+          "share": 0.0329,
+          "rankDelta": 0
+        },
+        {
+          "code": "LUREN",
+          "name": "整個路人",
+          "nameEn": "A Whole Passerby",
+          "region": "中国大陆",
+          "value": 4980000,
+          "rank": 13,
+          "share": 0.0278,
+          "rankDelta": 0
+        },
+        {
+          "code": "TGOP",
+          "name": "這群人TGOP",
+          "nameEn": "This Group of People",
+          "region": "台湾",
+          "value": 3450000,
+          "rank": 14,
+          "share": 0.0193,
+          "rankDelta": 0
+        },
+        {
+          "code": "ASHEN",
+          "name": "阿神",
+          "nameEn": "A Shen",
+          "region": "台湾",
+          "value": 3290000,
+          "rank": 15,
+          "share": 0.0184,
+          "rankDelta": 0
+        },
+        {
+          "code": "DSJ",
+          "name": "大树君",
+          "nameEn": "TreeMan",
+          "region": "中国大陆",
+          "value": 3170000,
+          "rank": 16,
+          "share": 0.0177,
+          "rankDelta": 0
+        },
+        {
+          "code": "ADI",
+          "name": "阿滴英文",
+          "nameEn": "Ray Du English",
+          "region": "台湾",
+          "value": 2900000,
+          "rank": 17,
+          "share": 0.0162,
+          "rankDelta": 0
+        }
+      ]
     }
   ]
 }

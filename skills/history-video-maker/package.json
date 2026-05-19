@@ -14,14 +14,15 @@
   },
   "dependencies": {
     "@remotion/cli": "^4.0.460",
-    "remotion": "^4.0.460",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "remotion": "^4.0.460"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
+    "dotenv": "^17.4.2",
     "tsx": "^4.19.3",
     "typescript": "^5.8.0"
   }

@@ -148,28 +148,34 @@ https://www.customs.gov.cn/
 
 ## chinese-creators-youtube-race
 
-发布标题：中文 YouTuber 订阅排名：老高称霸，谁在挑战？
+发布标题：华语自媒体 YouTube 订阅排名：十年王座更替，短视频账号追上来了
 
 封面文案：
-2015 → 2026 · 中文 YouTuber 订阅排名
-中文 YouTuber / 谁在领跑？
-老高与小茉、李永乐、钟文泽、阿滴的订阅争夺战
-2015-2026 · 12 年订阅排名
+2017 → 2026 · 华语自媒体 YouTube 订阅排名
+华语创作者 / 十年王座更替
+李子柒、办公室小野、滇西小哥之后，短视频账号追上来了
+10 年订阅排名
 
-视频内标题：中文 YouTube 订阅排名，12 年里谁增长最快？
+视频内标题：华语创作者十年王座更替
 
 短视频描述：
-从 2015 到 2026，看老高与小茉、李永乐老师、钟文泽、阿滴英文等 12 个中文 YouTube 频道订阅排名的演变。
-故事型、知识型、科技型、教育型内容在中文 YouTube 上各自找到了自己的观众群。
+从李子柒到短视频新账号，海外订阅榜一路改写。
+早期是美食、乡村生活和知识故事占据前排；2022 年后，语言门槛更低、节奏更快的短视频账号开始大规模追上来。
+数据说明：数据：公开频道页与订阅榜；历史序列为可视化估算
 
 站点介绍：
 「世界的形状 Shape of World」把动态排名、时间轴和事件节点，做成可以探索的真实世界历史。
-去 shapeof.world 看更完整的互动数据。
+看华语创作者的海外订阅榜如何改写。
 
 数据互动地址：https://shapeof.world/history/chinese-creators-youtube-race
 
-原始数据来源：YouTube 公开数据 / Social Blade 历史记录 / NoxInfluencer
-https://socialblade.com
+原始数据来源：YouTube 公开页 / YouTubers.me / Wikipedia 订阅榜
+https://us.youtubers.me/china/all/top-1000-most-subscribed-youtube-channels-in-china
+
+参考页面：
+- YouTubers.me China top subscribed channels: https://us.youtubers.me/china/all/top-1000-most-subscribed-youtube-channels-in-china
+- 中国大陆 YouTube 频道订阅人数排行榜: https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E5%A4%A7%E9%99%B8YouTube%E9%A0%BB%E9%81%93%E8%A8%82%E9%96%B1%E4%BA%BA%E6%95%B8%E6%8E%92%E8%A1%8C%E6%A6%9C
+- 台灣 YouTube 頻道訂閱人數排行榜: https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3YouTube%E9%A0%BB%E9%81%93%E8%A8%82%E9%96%B1%E4%BA%BA%E6%95%B8%E6%8E%92%E8%A1%8C%E6%A6%9C
 
 ## github-stars-race
 
