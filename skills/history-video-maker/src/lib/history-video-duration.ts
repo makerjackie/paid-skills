@@ -8,8 +8,8 @@ export type HistoryVideoPanelFlags = {
 export const HISTORY_RACE_VIDEO_FALLBACK_SECONDS = 120;
 export const HISTORY_RACE_VIDEO_MIN_SECONDS = 30;
 export const HISTORY_RACE_VIDEO_MAX_SECONDS = 240;
-export const HISTORY_RACE_VIDEO_SECONDS_PER_TIMELINE_STEP = 4.2;
-export const EVENT_BONUS_SECONDS = 1.1;
+export const HISTORY_RACE_VIDEO_SECONDS_PER_TIMELINE_STEP = 1.65;
+export const EVENT_BONUS_SECONDS = 0;
 export const HISTORY_RACE_CLOSING_SECONDS = 7;
 
 const RACE_START_SECONDS = 3.2;
@@ -43,9 +43,7 @@ export function resolveHistoryRaceVideoDuration({
 
 export function estimateHistoryRaceVideoDuration(data: HistoryRaceData, panels: HistoryVideoPanelFlags) {
   const timelineSteps = Math.max(1, data.frames.length - 1);
-  const uniqueEventYears = new Set(data.events?.map((e) => e.year) ?? []).size;
-  const eventBonus = Math.min(uniqueEventYears, timelineSteps) * EVENT_BONUS_SECONDS;
-  const pacedRaceSeconds = timelineSteps * HISTORY_RACE_VIDEO_SECONDS_PER_TIMELINE_STEP + eventBonus;
+  const pacedRaceSeconds = timelineSteps * HISTORY_RACE_VIDEO_SECONDS_PER_TIMELINE_STEP;
   const raceSeconds = clampRaceSecondsByTimelineLength(pacedRaceSeconds, timelineSteps);
   const postRaceSeconds =
     panels.showInsightPanel || panels.showSourcePanel
@@ -60,14 +58,14 @@ export function estimateHistoryRaceVideoDuration(data: HistoryRaceData, panels: 
 
 function clampRaceSecondsByTimelineLength(raceSeconds: number, timelineSteps: number) {
   if (timelineSteps <= 7) {
-    return Math.min(42, Math.max(32, raceSeconds));
+    return Math.min(36, Math.max(24, raceSeconds));
   }
 
   if (timelineSteps <= 18) {
-    return Math.min(58, Math.max(48, raceSeconds));
+    return Math.min(52, Math.max(30, raceSeconds));
   }
 
-  return Math.min(78, Math.max(64, raceSeconds));
+  return Math.min(72, Math.max(42, raceSeconds));
 }
 
 export function clampHistoryRaceVideoDuration(durationSeconds: number) {

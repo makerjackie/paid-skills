@@ -55,7 +55,8 @@ const EVENT_RIGHT_INSET = 110;
 const AXIS_TOP = CHART_TOP - 16;
 const AXIS_BOTTOM = 560;
 const MIN_VISIBLE_BAR_WIDTH = 4;
-const INLINE_EVENT_MAX_CHARS = 9;
+const ENTITY_EVENT_MAX_CHARS = 14;
+const GLOBAL_EVENT_MAX_CHARS = 18;
 const TITLE_MAX_CHARS = 30;
 const INTRO_MAX_CHARS = 58;
 const COLOR_TONES = [
@@ -130,6 +131,7 @@ export function HistoryRaceVideo({data, copy: copyOverride, durationSeconds, mus
       share: interpolateNumber(lower?.share ?? 0, upper?.share ?? 0, progress),
     }),
   });
+  const activeGlobalEvent = getActiveGlobalEvent(data, raceYear);
   const track = resolveHistoryVideoMusicTrack(data, musicId ?? data.musicId);
   const theme = resolveHistoryVideoTheme(data, themeId ?? data.themeId);
   const audioPath = toRemotionStaticFilePath(musicSrc ?? track.src);
@@ -187,7 +189,7 @@ export function HistoryRaceVideo({data, copy: copyOverride, durationSeconds, mus
         <p style={{...styles.lead, color: theme.muted, opacity: leadOpacity}}>{introText}</p>
       </div>
 
-      <EventCallout data={data} event={snapshot.event} seconds={seconds} timing={timing} theme={theme} />
+      <EventCallout data={data} event={activeGlobalEvent} seconds={seconds} timing={timing} theme={theme} />
       <RaceChart data={data} snapshot={snapshot} seconds={seconds} timing={timing} />
       <YearStamp yearLabel={formatRaceTimeValue(snapshot.year, data)} seconds={seconds} timing={timing} />
       <ClosingCard copy={copy} seconds={seconds} timing={timing} theme={theme} />
@@ -234,6 +236,7 @@ export function HistoryRaceVideoLandscape({data, copy: copyOverride, durationSec
       share: interpolateNumber(lower?.share ?? 0, upper?.share ?? 0, progress),
     }),
   });
+  const activeGlobalEvent = getActiveGlobalEvent(data, raceYear);
   const track = resolveHistoryVideoMusicTrack(data, musicId ?? data.musicId);
   const theme = resolveHistoryVideoTheme(data, themeId ?? data.themeId);
   const audioPath = toRemotionStaticFilePath(musicSrc ?? track.src);
@@ -267,7 +270,7 @@ export function HistoryRaceVideoLandscape({data, copy: copyOverride, durationSec
         <div style={{...styles.eyebrow, color: theme.accentDeep}}>ALL HISTORY · {formatRaceTimeValue(data.startYear, data)}-{formatRaceTimeValue(data.endYear, data)}</div>
         <h1 style={styles.landscapeTitle}>{truncateDisplayText(copy.hook, 38)}</h1>
         <p style={{...styles.landscapeLead, color: theme.muted}}>{truncateDisplayText(copy.intro, 74)}</p>
-        <LandscapeEventCallout data={data} event={snapshot.event} seconds={seconds} timing={timing} theme={theme} />
+        <LandscapeEventCallout data={data} event={activeGlobalEvent} seconds={seconds} timing={timing} theme={theme} />
       </div>
 
       <LandscapeRaceChart data={data} snapshot={snapshot} seconds={seconds} timing={timing} theme={theme} />
@@ -477,7 +480,8 @@ function RaceChart({
         const y = chartTop + item.displayRank * rowStep;
         const color = getEntityColor(data, item.code);
         const formattedValue = formatRaceValue(value, data);
-        const inlineEventText = snapshot.event?.entityCode === item.code ? getInlineEventText(snapshot.event, item) : null;
+        const entityEvent = getActiveEntityEvent(data, snapshot.year, item.code);
+        const entityEventText = entityEvent ? getEntityEventText(entityEvent, item) : null;
         const labelInside = width >= getCompactInsideLabelMinWidth(item.name);
         const barStyle = labelInside ? styles.bar : styles.compactBar;
         const labelPaddingLeft = width < 160 ? 14 : 22;
@@ -516,10 +520,12 @@ function RaceChart({
                 <div style={styles.outsideMeta}>{item.region}</div>
               </div>
             ) : null}
-            <div style={styles.outsideValue}>{formattedValue}</div>
-            {inlineEventText ? (
-              <div style={{...styles.inlineEvent, ...getInlineEventStyle(color)}}>{inlineEventText}</div>
-            ) : null}
+            <div style={styles.outsideValueBlock}>
+              <div style={styles.outsideValue}>{formattedValue}</div>
+              {entityEventText ? (
+                <div style={{...styles.entityEvent, ...getEntityEventStyle(color)}}>{entityEventText}</div>
+              ) : null}
+            </div>
           </div>
         );
       })}
@@ -566,7 +572,8 @@ function LandscapeRaceChart({
         const y = chartTop + item.displayRank * rowStep;
         const color = getEntityColor(data, item.code);
         const formattedValue = formatRaceValue(value, data);
-        const inlineEventText = snapshot.event?.entityCode === item.code ? getInlineEventText(snapshot.event, item) : null;
+        const entityEvent = getActiveEntityEvent(data, snapshot.year, item.code);
+        const entityEventText = entityEvent ? getEntityEventText(entityEvent, item) : null;
         const labelInside = width >= Math.max(92, getCompactInsideLabelMinWidth(item.name) - 10);
         const barStyle = labelInside ? styles.landscapeBar : styles.landscapeCompactBar;
         const labelPaddingLeft = width < 150 ? 14 : 18;
@@ -600,10 +607,12 @@ function LandscapeRaceChart({
                 <div style={{...styles.landscapeOutsideMeta, color: theme.muted}}>{item.region}</div>
               </div>
             ) : null}
-            <div style={styles.landscapeOutsideValue}>{formattedValue}</div>
-            {inlineEventText ? (
-              <div style={{...styles.landscapeInlineEvent, ...getInlineEventStyle(color)}}>{inlineEventText}</div>
-            ) : null}
+            <div style={styles.landscapeOutsideValueBlock}>
+              <div style={styles.landscapeOutsideValue}>{formattedValue}</div>
+              {entityEventText ? (
+                <div style={{...styles.landscapeEntityEvent, ...getEntityEventStyle(color)}}>{entityEventText}</div>
+              ) : null}
+            </div>
           </div>
         );
       })}
@@ -664,7 +673,7 @@ function EventCallout({
   timing: HistoryRaceVideoTiming;
   theme: HistoryVideoTheme;
 }) {
-  if (!event || event.entityCode || seconds < RACE_START_SECONDS || seconds > timing.raceEnd + 2) {
+  if (!event || seconds < RACE_START_SECONDS || seconds > timing.raceEnd + 2) {
     return null;
   }
 
@@ -676,8 +685,8 @@ function EventCallout({
   return (
     <div style={{...styles.eventCallout, opacity}}>
       <div style={{...styles.eventYear, color: theme.accentDeep}}>{formatRaceTimeValue(event.year, data)}</div>
-      <div style={styles.eventTitle}>{event.title}</div>
-      <div style={{...styles.eventDescription, color: theme.muted}}>{event.description}</div>
+      <div style={styles.eventTitle}>{truncateDisplayText(event.title, GLOBAL_EVENT_MAX_CHARS)}</div>
+      <div style={{...styles.eventDescription, color: theme.muted}}>{truncateDisplayText(event.description, 30)}</div>
     </div>
   );
 }
@@ -695,7 +704,7 @@ function LandscapeEventCallout({
   timing: HistoryRaceVideoTiming;
   theme: HistoryVideoTheme;
 }) {
-  if (!event || event.entityCode || seconds < RACE_START_SECONDS || seconds > timing.raceEnd + 2) {
+  if (!event || seconds < RACE_START_SECONDS || seconds > timing.raceEnd + 2) {
     return null;
   }
 
@@ -707,8 +716,8 @@ function LandscapeEventCallout({
   return (
     <div style={{...styles.landscapeEventCallout, opacity}}>
       <div style={{...styles.eventYear, color: theme.accentDeep}}>{formatRaceTimeValue(event.year, data)}</div>
-      <div style={styles.landscapeEventTitle}>{event.title}</div>
-      <div style={{...styles.landscapeEventDescription, color: theme.muted}}>{event.description}</div>
+      <div style={styles.landscapeEventTitle}>{truncateDisplayText(event.title, GLOBAL_EVENT_MAX_CHARS)}</div>
+      <div style={{...styles.landscapeEventDescription, color: theme.muted}}>{truncateDisplayText(event.description, 34)}</div>
     </div>
   );
 }
@@ -900,38 +909,9 @@ function getRaceProgress(seconds: number, timing: HistoryRaceVideoTiming, data: 
     return 0;
   }
 
-  if (seconds >= timing.raceEnd) {
-    return 1;
-  }
-
   const elapsed = seconds - timing.raceStart;
   const raceDuration = timing.raceEnd - timing.raceStart;
-  const totalYears = data.endYear - data.startYear;
-  const eventYears = new Set(data.events?.map((e) => e.year) ?? []);
-  const baseStep = HISTORY_RACE_VIDEO_SECONDS_PER_TIMELINE_STEP;
-  const extraPerEvent = timing.eventBonusSeconds;
-
-  // Build weighted time map: each year gets base time, event years get extra
-  let totalWeight = 0;
-  for (let y = data.startYear; y < data.endYear; y++) {
-    totalWeight += baseStep + (eventYears.has(y) ? extraPerEvent : 0);
-  }
-
-  // Elapsed as fraction of total weight
-  const targetWeight = (elapsed / raceDuration) * totalWeight;
-
-  // Map weight back to years with non-linear lingering at events
-  let accumulatedWeight = 0;
-  for (let y = data.startYear; y < data.endYear; y++) {
-    const yearWeight = baseStep + (eventYears.has(y) ? extraPerEvent : 0);
-    if (accumulatedWeight + yearWeight >= targetWeight) {
-      const yearProgress = (targetWeight - accumulatedWeight) / yearWeight;
-      return (y - data.startYear + yearProgress) / totalYears;
-    }
-    accumulatedWeight += yearWeight;
-  }
-
-  return 1;
+  return Math.min(1, Math.max(0, elapsed / Math.max(0.001, raceDuration)));
 }
 
 function getMusicVolume(frame: number, durationInFrames: number, fps: number) {
@@ -1037,7 +1017,39 @@ function getAdaptiveInlineFontSize(text: string, availableWidth: number, maxSize
   return Math.max(minSize, Math.floor(maxSize * (availableWidth / Math.max(1, estimatedWidth))));
 }
 
-function getInlineEventText(event: HistoryRaceEvent, item: HistoryRaceItem) {
+function getActiveGlobalEvent(data: HistoryRaceData, raceYear: number) {
+  return getActiveEvents(data, raceYear)
+    .filter((event) => !event.entityCode)
+    .sort(sortEventsForDisplay)[0] ?? null;
+}
+
+function getActiveEntityEvent(data: HistoryRaceData, raceYear: number, entityCode: string) {
+  return getActiveEvents(data, raceYear)
+    .filter((event) => event.entityCode === entityCode)
+    .sort(sortEventsForDisplay)[0] ?? null;
+}
+
+function getActiveEvents(data: HistoryRaceData, raceYear: number) {
+  return (data.events ?? []).filter((event) => raceYear >= event.year && raceYear < event.year + EVENT_DURATION_YEARS);
+}
+
+function sortEventsForDisplay(left: HistoryRaceEvent, right: HistoryRaceEvent) {
+  return right.year - left.year || eventKindPriority(right.kind) - eventKindPriority(left.kind);
+}
+
+function eventKindPriority(kind: string) {
+  if (kind === 'crisis' || kind === 'geopolitical') {
+    return 3;
+  }
+
+  if (kind === 'trend') {
+    return 2;
+  }
+
+  return 1;
+}
+
+function getEntityEventText(event: HistoryRaceEvent, item: HistoryRaceItem) {
   const entityNames = [event.entityName, item.name].filter((name): name is string => Boolean(name));
   let text = event.title;
 
@@ -1047,14 +1059,14 @@ function getInlineEventText(event: HistoryRaceEvent, item: HistoryRaceItem) {
 
   text = text.replace(/^[\s,，:：·\-]+/, '').trim();
 
-  return truncateDisplayText(text || event.title, INLINE_EVENT_MAX_CHARS);
+  return truncateDisplayText(text || event.title, ENTITY_EVENT_MAX_CHARS);
 }
 
-function getInlineEventStyle(color: string): CSSProperties {
+function getEntityEventStyle(color: string): CSSProperties {
   return {
     color,
-    borderColor: hexToRgba(color, 0.32),
-    backgroundColor: hexToRgba(color, 0.1),
+    borderColor: hexToRgba(color, 0.24),
+    backgroundColor: hexToRgba(color, 0.08),
   };
 }
 
@@ -1603,32 +1615,35 @@ const styles: Record<string, CSSProperties> = {
     textOverflow: 'ellipsis',
     whiteSpace: 'nowrap',
   },
-  landscapeOutsideValue: {
+  landscapeOutsideValueBlock: {
     marginLeft: 12,
-    minWidth: 102,
+    minWidth: 132,
+    maxWidth: 250,
+    flexShrink: 0,
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'flex-start',
+    justifyContent: 'center',
+  },
+  landscapeOutsideValue: {
     color: 'rgba(21,19,15,0.66)',
     fontSize: 18,
     fontWeight: 900,
     lineHeight: 1,
     whiteSpace: 'nowrap',
-    flexShrink: 0,
   },
-  landscapeInlineEvent: {
-    marginLeft: 8,
-    maxWidth: 132,
-    minWidth: 0,
-    border: '1px solid rgba(63,111,159,0.32)',
-    borderRadius: 999,
-    padding: '5px 9px 4px',
+  landscapeEntityEvent: {
+    marginTop: 5,
+    maxWidth: 250,
+    borderLeft: '3px solid rgba(63,111,159,0.24)',
+    paddingLeft: 7,
     color: '#3f6f9f',
-    backgroundColor: 'rgba(63,111,159,0.1)',
-    fontSize: 14,
+    fontSize: 15,
     fontWeight: 900,
-    lineHeight: 1,
+    lineHeight: 1.08,
     whiteSpace: 'nowrap',
     overflow: 'hidden',
     textOverflow: 'ellipsis',
-    flexShrink: 1,
   },
   outsideName: {
     color: '#15130f',
@@ -1648,32 +1663,35 @@ const styles: Record<string, CSSProperties> = {
     textOverflow: 'ellipsis',
     whiteSpace: 'nowrap',
   },
-  outsideValue: {
+  outsideValueBlock: {
     marginLeft: 12,
-    minWidth: 104,
+    minWidth: 148,
+    maxWidth: 290,
+    flexShrink: 0,
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'flex-start',
+    justifyContent: 'center',
+  },
+  outsideValue: {
     color: 'rgba(21,19,15,0.66)',
     fontSize: 20,
     fontWeight: 900,
     lineHeight: 1,
     whiteSpace: 'nowrap',
-    flexShrink: 0,
   },
-  inlineEvent: {
-    marginLeft: 8,
-    maxWidth: 126,
-    minWidth: 0,
-    border: '1px solid rgba(63,111,159,0.32)',
-    borderRadius: 999,
-    padding: '6px 10px 5px',
+  entityEvent: {
+    marginTop: 6,
+    maxWidth: 290,
+    borderLeft: '3px solid rgba(63,111,159,0.24)',
+    paddingLeft: 8,
     color: '#3f6f9f',
-    backgroundColor: 'rgba(63,111,159,0.1)',
-    fontSize: 15,
+    fontSize: 17,
     fontWeight: 900,
-    lineHeight: 1,
+    lineHeight: 1.08,
     whiteSpace: 'nowrap',
     overflow: 'hidden',
     textOverflow: 'ellipsis',
-    flexShrink: 1,
   },
   value: {
     color: '#29251b',
@@ -1689,6 +1707,15 @@ const styles: Record<string, CSSProperties> = {
     maxWidth: 560,
     padding: 0,
     textAlign: 'right',
+  },
+  year: {
+    position: 'absolute',
+    right: EVENT_RIGHT_INSET,
+    bottom: 570,
+    color: 'rgba(21,19,15,0.056)',
+    fontSize: 172,
+    fontWeight: 900,
+    lineHeight: 1,
   },
   landscapeEventCallout: {
     position: 'absolute',
@@ -1735,15 +1762,6 @@ const styles: Record<string, CSSProperties> = {
     fontSize: 23,
     fontWeight: 800,
     lineHeight: 1.38,
-  },
-  year: {
-    position: 'absolute',
-    right: EVENT_RIGHT_INSET,
-    bottom: 570,
-    color: 'rgba(21,19,15,0.056)',
-    fontSize: 172,
-    fontWeight: 900,
-    lineHeight: 1,
   },
   landscapeYear: {
     position: 'absolute',

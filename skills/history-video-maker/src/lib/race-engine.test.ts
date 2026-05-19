@@ -7,7 +7,7 @@ type TestItem = RaceEngineItem & {
   value: number;
 };
 
-test('display rank follows the interpolated value during long timeline gaps', () => {
+test('display rank interpolates between frame ranks at a constant pace', () => {
   const frames = [
     {
       year: 0,
@@ -43,7 +43,10 @@ test('display rank follows the interpolated value during long timeline gaps', ()
     }),
   });
 
-  assert.equal(snapshot.items[0]?.code, 'c');
-  assert.equal(snapshot.items[0]?.rank, 1);
-  assert.ok(snapshot.items[0]!.displayRank < snapshot.items[1]!.displayRank);
+  const itemA = snapshot.items.find((item) => item.code === 'a');
+  const itemC = snapshot.items.find((item) => item.code === 'c');
+
+  assert.equal(itemA?.displayRank, 0.5);
+  assert.equal(itemC?.displayRank, 1.5);
+  assert.equal(snapshot.items[0]?.code, 'a');
 });

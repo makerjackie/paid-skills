@@ -189,14 +189,14 @@
     {
       "id": "e05",
       "year": 2023,
-      "entityCode": "RS",
+      "entityCode": null,
       "kind": "trend",
       "title": "短视频账号开始挤进前排",
       "titleEn": "Short-form Accounts Surge",
       "description": "Roman and Sharon、FatSongsong and ThinErmao 等账号快速追上长视频创作者",
       "descriptionEn": "Short-form creator accounts started catching up with long-form channels",
-      "entityName": "Roman and Sharon",
-      "rank": 6
+      "entityName": null,
+      "rank": null
     },
     {
       "id": "e06",
@@ -213,14 +213,14 @@
     {
       "id": "e07",
       "year": 2025,
-      "entityCode": "MANYU",
+      "entityCode": null,
       "kind": "trend",
       "title": "新短视频账号继续上冲",
       "titleEn": "New Short-form Accounts Keep Climbing",
       "description": "是曼玉不是鳗鱼、钟薛蛙等账号把榜单推向短视频时代",
       "descriptionEn": "New creator accounts pushed the ranking toward short-form video",
-      "entityName": "是曼玉不是鳗鱼",
-      "rank": 7
+      "entityName": null,
+      "rank": null
     },
     {
       "id": "e08",

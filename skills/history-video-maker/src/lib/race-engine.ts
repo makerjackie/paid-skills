@@ -107,7 +107,7 @@ export function buildRaceSnapshot<TItem extends RaceEngineItem, TEvent extends R
     .map((item, index) => ({...item, rank: index + 1}));
   const displayItems = rankedItems.map((item) => ({
     ...item,
-    displayRank: getValueAwareDisplayRank(item, rankedItems, valueOf),
+    displayRank: getInterpolatedDisplayRank(item.code, lowerItems, upperItems, offChartRank, progress),
   }));
   const items = [...displayItems]
     .sort((left, right) => left.displayRank - right.displayRank)
@@ -149,41 +149,17 @@ function normalizeRaceYear(raceYear: number, startYear: number, endYear: number)
   return Math.min(endYear, Math.max(startYear, finiteRaceYear));
 }
 
-function getValueAwareDisplayRank<TItem extends RaceEngineItem>(
-  item: TItem,
-  items: TItem[],
-  valueOf: (item: TItem) => number,
+function getInterpolatedDisplayRank<TItem extends RaceEngineItem>(
+  code: string,
+  lowerItems: Map<string, TItem>,
+  upperItems: Map<string, TItem>,
+  offChartRank: number,
+  progress: number,
 ) {
-  const itemValue = getFiniteRaceValue(valueOf(item));
-  let displayRank = 0;
+  const lowerRank = lowerItems.get(code)?.rank ?? offChartRank;
+  const upperRank = upperItems.get(code)?.rank ?? offChartRank;
 
-  for (const other of items) {
-    if (other.code === item.code) {
-      continue;
-    }
-
-    const otherValue = getFiniteRaceValue(valueOf(other));
-    const delta = otherValue - itemValue;
-
-    if (Math.abs(delta) < Number.EPSILON) {
-      displayRank += other.rank < item.rank ? 1 : 0;
-      continue;
-    }
-
-    const scale = Math.max(Math.abs(itemValue), Math.abs(otherValue), 1) * 0.035;
-    const normalizedDelta = clampNumber(delta / scale, -12, 12);
-    displayRank += 1 / (1 + Math.exp(-normalizedDelta));
-  }
-
-  return displayRank;
-}
-
-function getFiniteRaceValue(value: number) {
-  return Number.isFinite(value) ? value : 0;
-}
-
-function clampNumber(value: number, min: number, max: number) {
-  return Math.min(max, Math.max(min, value));
+  return interpolateNumber(lowerRank - 1, upperRank - 1, progress);
 }
 
 function getBoundingFrames<TItem extends RaceEngineItem>(
