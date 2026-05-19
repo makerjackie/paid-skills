@@ -33,7 +33,7 @@ const entities = [
     code: "QX",
     name: "奇軒Tricking",
     nameEn: "Qixuan Tricking",
-    region: "台湾",
+    region: "中国台湾",
     values: [1000000, 1800000, 2800000, 4000000, 5800000, 7500000, 9500000, 11500000, 14000000, 15700000],
   },
   {
@@ -82,7 +82,7 @@ const entities = [
     code: "YE",
     name: "葉式特工",
     nameEn: "Yes Ranger",
-    region: "台湾",
+    region: "中国台湾",
     values: [1000000, 1800000, 2500000, 3200000, 4000000, 4800000, 5400000, 5900000, 6200000, 6510000],
   },
   {
@@ -103,14 +103,14 @@ const entities = [
     code: "TGOP",
     name: "這群人TGOP",
     nameEn: "This Group of People",
-    region: "台湾",
+    region: "中国台湾",
     values: [2200000, 2600000, 2900000, 3100000, 3250000, 3350000, 3400000, 3430000, 3440000, 3450000],
   },
   {
     code: "ASHEN",
     name: "阿神",
     nameEn: "A Shen",
-    region: "台湾",
+    region: "中国台湾",
     values: [1400000, 1900000, 2300000, 2600000, 2850000, 3000000, 3100000, 3180000, 3230000, 3290000],
   },
   {
@@ -124,7 +124,7 @@ const entities = [
     code: "ADI",
     name: "阿滴英文",
     nameEn: "Ray Du English",
-    region: "台湾",
+    region: "中国台湾",
     values: [700000, 1300000, 1700000, 2200000, 2500000, 2700000, 2800000, 2860000, 2890000, 2900000],
   },
 ];

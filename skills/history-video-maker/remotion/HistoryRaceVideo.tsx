@@ -47,14 +47,15 @@ const EVENT_DURATION_YEARS = 1.4;
 const RACE_AXIS_PADDING = 1.3;
 const COVER_END_SECONDS = 2.2;
 const RACE_START_SECONDS = 3.2;
-const VIDEO_BAR_INSIDE_LABEL_MIN_WIDTH = 260;
+const VIDEO_BAR_INSIDE_LABEL_MIN_WIDTH = 118;
 const CHART_TOP = 640;
 const CHART_LEFT = 46;
 const CHART_WIDTH = 906;
-const EVENT_RIGHT_INSET = 360;
+const EVENT_RIGHT_INSET = 110;
 const AXIS_TOP = CHART_TOP - 16;
 const AXIS_BOTTOM = 560;
 const MIN_VISIBLE_BAR_WIDTH = 4;
+const INLINE_EVENT_MAX_CHARS = 9;
 const TITLE_MAX_CHARS = 30;
 const INTRO_MAX_CHARS = 58;
 const COLOR_TONES = [
@@ -469,15 +470,21 @@ function RaceChart({
       }}
     >
       <AxisLabels data={data} axisMax={snapshot.axisMax} />
-      {snapshot.items.map((item, index) => {
+      {snapshot.items.map((item) => {
         const value = item.value ?? item.gdp ?? 0;
         const rawWidth = snapshot.axisMax > 0 ? (value / snapshot.axisMax) * chartWidth : 0;
         const width = value > 0 ? Math.max(MIN_VISIBLE_BAR_WIDTH, rawWidth) : 0;
-        const y = chartTop + index * rowStep;
+        const y = chartTop + item.displayRank * rowStep;
         const color = getEntityColor(data, item.code);
         const formattedValue = formatRaceValue(value, data);
-        const labelInside = width >= getInsideLabelMinWidth(item.name, formattedValue);
+        const inlineEventText = snapshot.event?.entityCode === item.code ? getInlineEventText(snapshot.event, item) : null;
+        const labelInside = width >= getCompactInsideLabelMinWidth(item.name);
         const barStyle = labelInside ? styles.bar : styles.compactBar;
+        const labelPaddingLeft = width < 160 ? 14 : 22;
+        const labelPaddingRight = 12;
+        const labelWidth = Math.max(0, width - labelPaddingLeft - labelPaddingRight);
+        const barNameFontSize = getAdaptiveInlineFontSize(item.name, labelWidth, 26, 18);
+        const barMetaFontSize = width < 150 ? 13 : 16;
         const rankOpacity = interpolate(seconds, [RACE_START_SECONDS - 0.45, RACE_START_SECONDS + 0.1], [0, 1], {
           extrapolateLeft: 'clamp',
           extrapolateRight: 'clamp',
@@ -495,22 +502,23 @@ function RaceChart({
             }}
           >
             <div style={styles.rank}>{item.rank}</div>
-            <div style={{...barStyle, width, backgroundColor: color, position: 'relative'}}>
+            <div style={{...barStyle, width, backgroundColor: color, position: 'relative', paddingLeft: labelInside ? labelPaddingLeft : undefined, paddingRight: labelInside ? labelPaddingRight : undefined}}>
               {labelInside ? (
                 <>
-                  <div style={styles.barName}>{item.name}</div>
-                  <div style={styles.barMeta}>{item.region}</div>
+                  <div style={{...styles.barName, fontSize: barNameFontSize}}>{item.name}</div>
+                  <div style={{...styles.barMeta, fontSize: barMetaFontSize}}>{item.region}</div>
                 </>
-              ) : null}
-              {labelInside ? (
-                <div style={styles.barValue}>{formattedValue}</div>
               ) : null}
             </div>
             {!labelInside ? (
               <div style={styles.outsideLabel}>
                 <div style={styles.outsideName}>{item.name}</div>
-                <div style={styles.outsideMeta}>{item.region} · {formattedValue}</div>
+                <div style={styles.outsideMeta}>{item.region}</div>
               </div>
+            ) : null}
+            <div style={styles.outsideValue}>{formattedValue}</div>
+            {inlineEventText ? (
+              <div style={{...styles.inlineEvent, ...getInlineEventStyle(color)}}>{inlineEventText}</div>
             ) : null}
           </div>
         );
@@ -551,15 +559,21 @@ function LandscapeRaceChart({
   return (
     <div style={{...styles.landscapeChart, opacity, transform: `translateY(${lift}px)`}}>
       <LandscapeAxisLabels data={data} axisMax={snapshot.axisMax} chartLeft={chartLeft} chartWidth={chartWidth} />
-      {snapshot.items.map((item, index) => {
+      {snapshot.items.map((item) => {
         const value = item.value ?? item.gdp ?? 0;
         const rawWidth = snapshot.axisMax > 0 ? (value / snapshot.axisMax) * chartWidth : 0;
         const width = value > 0 ? Math.max(MIN_VISIBLE_BAR_WIDTH, rawWidth) : 0;
-        const y = chartTop + index * rowStep;
+        const y = chartTop + item.displayRank * rowStep;
         const color = getEntityColor(data, item.code);
         const formattedValue = formatRaceValue(value, data);
-        const labelInside = width >= Math.max(260, getInsideLabelMinWidth(item.name, formattedValue) - 60);
+        const inlineEventText = snapshot.event?.entityCode === item.code ? getInlineEventText(snapshot.event, item) : null;
+        const labelInside = width >= Math.max(92, getCompactInsideLabelMinWidth(item.name) - 10);
         const barStyle = labelInside ? styles.landscapeBar : styles.landscapeCompactBar;
+        const labelPaddingLeft = width < 150 ? 14 : 18;
+        const labelPaddingRight = 12;
+        const labelWidth = Math.max(0, width - labelPaddingLeft - labelPaddingRight);
+        const barNameFontSize = getAdaptiveInlineFontSize(item.name, labelWidth, 23, 17);
+        const barMetaFontSize = width < 140 ? 12 : 14;
 
         return (
           <div
@@ -572,20 +586,23 @@ function LandscapeRaceChart({
             }}
           >
             <div style={styles.landscapeRank}>{item.rank}</div>
-            <div style={{...barStyle, width, backgroundColor: color, position: 'relative'}}>
+            <div style={{...barStyle, width, backgroundColor: color, position: 'relative', paddingLeft: labelInside ? labelPaddingLeft : undefined, paddingRight: labelInside ? labelPaddingRight : undefined}}>
               {labelInside ? (
                 <>
-                  <div style={styles.landscapeBarName}>{item.name}</div>
-                  <div style={styles.landscapeBarMeta}>{item.region}</div>
-                  <div style={styles.landscapeBarValue}>{formattedValue}</div>
+                  <div style={{...styles.landscapeBarName, fontSize: barNameFontSize}}>{item.name}</div>
+                  <div style={{...styles.landscapeBarMeta, fontSize: barMetaFontSize}}>{item.region}</div>
                 </>
               ) : null}
             </div>
             {!labelInside ? (
               <div style={styles.landscapeOutsideLabel}>
                 <div style={styles.landscapeOutsideName}>{item.name}</div>
-                <div style={{...styles.landscapeOutsideMeta, color: theme.muted}}>{item.region} · {formattedValue}</div>
+                <div style={{...styles.landscapeOutsideMeta, color: theme.muted}}>{item.region}</div>
               </div>
+            ) : null}
+            <div style={styles.landscapeOutsideValue}>{formattedValue}</div>
+            {inlineEventText ? (
+              <div style={{...styles.landscapeInlineEvent, ...getInlineEventStyle(color)}}>{inlineEventText}</div>
             ) : null}
           </div>
         );
@@ -647,7 +664,7 @@ function EventCallout({
   timing: HistoryRaceVideoTiming;
   theme: HistoryVideoTheme;
 }) {
-  if (!event || seconds < RACE_START_SECONDS || seconds > timing.raceEnd + 2) {
+  if (!event || event.entityCode || seconds < RACE_START_SECONDS || seconds > timing.raceEnd + 2) {
     return null;
   }
 
@@ -678,7 +695,7 @@ function LandscapeEventCallout({
   timing: HistoryRaceVideoTiming;
   theme: HistoryVideoTheme;
 }) {
-  if (!event || seconds < RACE_START_SECONDS || seconds > timing.raceEnd + 2) {
+  if (!event || event.entityCode || seconds < RACE_START_SECONDS || seconds > timing.raceEnd + 2) {
     return null;
   }
 
@@ -797,6 +814,7 @@ function ClosingCard({
         <div style={styles.closingTitle}>{copy.closingTitle ?? '可游玩的知识宇宙'}</div>
         <div style={{...styles.closingBody, color: theme.accentDeep}}>{copy.closingBody ?? '像逛博物馆、翻地图、玩游戏一样，探索真实世界的数据与历史。'}</div>
         <div style={styles.closingNote}>{copy.sourceDisclosure ?? copy.sourceLine}</div>
+        <div style={styles.closingDomain}>ShapeOf.World</div>
       </div>
     </div>
   );
@@ -833,6 +851,7 @@ function LandscapeClosingCard({
         <div style={styles.landscapeClosingTitle}>{copy.closingTitle ?? '可游玩的知识宇宙'}</div>
         <div style={{...styles.landscapeClosingBody, color: theme.accentDeep}}>{copy.closingBody ?? '像逛博物馆、翻地图、玩游戏一样，探索真实世界的数据与历史。'}</div>
         <div style={styles.landscapeClosingNote}>{copy.sourceDisclosure ?? copy.sourceLine}</div>
+        <div style={styles.closingDomain}>ShapeOf.World</div>
       </div>
     </div>
   );
@@ -994,11 +1013,63 @@ function truncateDisplayText(text: string, maxChars: number) {
   return `${normalized.slice(0, Math.max(0, maxChars - 1)).trimEnd()}…`;
 }
 
-function getInsideLabelMinWidth(name: string, value: string) {
+function getInsideLabelMinWidth(name: string) {
   return Math.max(
     VIDEO_BAR_INSIDE_LABEL_MIN_WIDTH,
-    estimateInlineTextWidth(name, 26) + estimateInlineTextWidth(value, 21) + 94,
+    estimateInlineTextWidth(name, 26) + 52,
   );
+}
+
+function getCompactInsideLabelMinWidth(name: string) {
+  return Math.max(
+    70,
+    Math.min(getInsideLabelMinWidth(name), estimateInlineTextWidth(name, 18) + 28),
+  );
+}
+
+function getAdaptiveInlineFontSize(text: string, availableWidth: number, maxSize: number, minSize: number) {
+  const estimatedWidth = estimateInlineTextWidth(text, maxSize);
+
+  if (estimatedWidth <= availableWidth) {
+    return maxSize;
+  }
+
+  return Math.max(minSize, Math.floor(maxSize * (availableWidth / Math.max(1, estimatedWidth))));
+}
+
+function getInlineEventText(event: HistoryRaceEvent, item: HistoryRaceItem) {
+  const entityNames = [event.entityName, item.name].filter((name): name is string => Boolean(name));
+  let text = event.title;
+
+  for (const name of entityNames) {
+    text = text.split(name).join('');
+  }
+
+  text = text.replace(/^[\s,，:：·\-]+/, '').trim();
+
+  return truncateDisplayText(text || event.title, INLINE_EVENT_MAX_CHARS);
+}
+
+function getInlineEventStyle(color: string): CSSProperties {
+  return {
+    color,
+    borderColor: hexToRgba(color, 0.32),
+    backgroundColor: hexToRgba(color, 0.1),
+  };
+}
+
+function hexToRgba(hex: string, alpha: number) {
+  const normalized = hex.replace('#', '');
+
+  if (normalized.length !== 6) {
+    return `rgba(63,111,159,${alpha})`;
+  }
+
+  const red = Number.parseInt(normalized.slice(0, 2), 16);
+  const green = Number.parseInt(normalized.slice(2, 4), 16);
+  const blue = Number.parseInt(normalized.slice(4, 6), 16);
+
+  return `rgba(${red},${green},${blue},${alpha})`;
 }
 
 function estimateInlineTextWidth(text: string, fontSize: number) {
@@ -1416,7 +1487,7 @@ const styles: Record<string, CSSProperties> = {
     flexDirection: 'column',
     justifyContent: 'center',
     paddingLeft: 22,
-    paddingRight: 132,
+    paddingRight: 84,
     overflow: 'hidden',
   },
   landscapeBar: {
@@ -1532,6 +1603,33 @@ const styles: Record<string, CSSProperties> = {
     textOverflow: 'ellipsis',
     whiteSpace: 'nowrap',
   },
+  landscapeOutsideValue: {
+    marginLeft: 12,
+    minWidth: 102,
+    color: 'rgba(21,19,15,0.66)',
+    fontSize: 18,
+    fontWeight: 900,
+    lineHeight: 1,
+    whiteSpace: 'nowrap',
+    flexShrink: 0,
+  },
+  landscapeInlineEvent: {
+    marginLeft: 8,
+    maxWidth: 132,
+    minWidth: 0,
+    border: '1px solid rgba(63,111,159,0.32)',
+    borderRadius: 999,
+    padding: '5px 9px 4px',
+    color: '#3f6f9f',
+    backgroundColor: 'rgba(63,111,159,0.1)',
+    fontSize: 14,
+    fontWeight: 900,
+    lineHeight: 1,
+    whiteSpace: 'nowrap',
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+    flexShrink: 1,
+  },
   outsideName: {
     color: '#15130f',
     fontSize: 23,
@@ -1550,6 +1648,33 @@ const styles: Record<string, CSSProperties> = {
     textOverflow: 'ellipsis',
     whiteSpace: 'nowrap',
   },
+  outsideValue: {
+    marginLeft: 12,
+    minWidth: 104,
+    color: 'rgba(21,19,15,0.66)',
+    fontSize: 20,
+    fontWeight: 900,
+    lineHeight: 1,
+    whiteSpace: 'nowrap',
+    flexShrink: 0,
+  },
+  inlineEvent: {
+    marginLeft: 8,
+    maxWidth: 126,
+    minWidth: 0,
+    border: '1px solid rgba(63,111,159,0.32)',
+    borderRadius: 999,
+    padding: '6px 10px 5px',
+    color: '#3f6f9f',
+    backgroundColor: 'rgba(63,111,159,0.1)',
+    fontSize: 15,
+    fontWeight: 900,
+    lineHeight: 1,
+    whiteSpace: 'nowrap',
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+    flexShrink: 1,
+  },
   value: {
     color: '#29251b',
     fontSize: 24,
@@ -1561,7 +1686,7 @@ const styles: Record<string, CSSProperties> = {
     position: 'absolute',
     right: EVENT_RIGHT_INSET,
     bottom: 620,
-    maxWidth: 400,
+    maxWidth: 560,
     padding: 0,
     textAlign: 'right',
   },
@@ -1583,9 +1708,12 @@ const styles: Record<string, CSSProperties> = {
   eventTitle: {
     marginTop: 6,
     color: 'rgba(21,19,15,0.58)',
-    fontSize: 40,
+    fontSize: 38,
     fontWeight: 900,
     lineHeight: 1.08,
+    whiteSpace: 'nowrap',
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
   },
   landscapeEventTitle: {
     marginTop: 8,
@@ -1610,7 +1738,7 @@ const styles: Record<string, CSSProperties> = {
   },
   year: {
     position: 'absolute',
-    left: 470,
+    right: EVENT_RIGHT_INSET,
     bottom: 570,
     color: 'rgba(21,19,15,0.056)',
     fontSize: 172,
@@ -1772,6 +1900,14 @@ const styles: Record<string, CSSProperties> = {
     fontWeight: 800,
     lineHeight: 1.34,
     whiteSpace: 'pre-line',
+  },
+  closingDomain: {
+    marginTop: 28,
+    color: '#15130f',
+    fontSize: 34,
+    fontWeight: 900,
+    lineHeight: 1.1,
+    whiteSpace: 'nowrap',
   },
   footer: {
     position: 'absolute',

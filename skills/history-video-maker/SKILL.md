@@ -31,7 +31,7 @@ Use this skill to generate vertical data ranking videos. The skill folder is sel
 20. Events should feel like background context, not cards. Prefer right-middle or lower-right placement with low-contrast text, pulled inward from platform UI edges; keep one event per year unless the renderer supports prioritization.
 21. Add dataset events when the story feels sparse. Use neutral, scoped wording and values/ranks from the matching frame where available.
 22. Do not show separate insight/source cards before closing. Put data notes and source disclosure on the final closing page.
-23. Closing should stay simple: larger `世界的形状` logo, `可游玩的知识宇宙`, short positioning copy, source note, and `shapeof.world`.
+23. Closing should stay simple: larger `世界的形状` logo, `可游玩的知识宇宙`, short positioning copy, source note, and `ShapeOf.World`.
 24. Batch renders should run sequentially to avoid Remotion cache and CPU contention.
 
 ## Copywriting Examples
