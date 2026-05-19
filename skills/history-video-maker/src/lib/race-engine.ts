@@ -38,7 +38,7 @@ export type BuildRaceSnapshotOptions<TItem extends RaceEngineItem, TEvent extend
   eventDurationYears: number;
   axisPadding?: number;
   axisRetreatThreshold?: number;
-  rankProgress?: number;
+  rankTransitionProgress?: number;
   valueOf: (item: TItem) => number;
   interpolateItem: (input: {
     source: TItem;
@@ -65,7 +65,7 @@ export function buildRaceSnapshot<TItem extends RaceEngineItem, TEvent extends R
   eventDurationYears,
   axisPadding = 1.08,
   axisRetreatThreshold = 0.2,
-  rankProgress,
+  rankTransitionProgress,
   valueOf,
   interpolateItem,
 }: BuildRaceSnapshotOptions<TItem, TEvent>): RaceSnapshot<TItem, TEvent> {
@@ -74,10 +74,10 @@ export function buildRaceSnapshot<TItem extends RaceEngineItem, TEvent extends R
   const lowerYear = lowerFrame?.year ?? startYear;
   const upperYear = upperFrame?.year ?? lowerYear;
   const progress = upperYear === lowerYear ? 0 : (normalizedRaceYear - lowerYear) / (upperYear - lowerYear);
-  const displayProgress = normalizeProgress(rankProgress ?? progress);
   const lowerItems = new Map((lowerFrame?.items ?? []).map((item) => [item.code, item]));
   const upperItems = new Map((upperFrame?.items ?? []).map((item) => [item.code, item]));
   const codes = getRaceCodes(lowerItems, upperItems, progress);
+  const rankChangeBoundaries = getRankChangeBoundaries(codes, lowerItems, upperItems, valueOf);
   const total = interpolateNumber(
     lowerFrame?.total ?? 0,
     upperFrame?.total ?? lowerFrame?.total ?? 0,
@@ -110,7 +110,17 @@ export function buildRaceSnapshot<TItem extends RaceEngineItem, TEvent extends R
     .map((item, index) => ({...item, rank: index + 1}));
   const displayItems = rankedItems.map((item) => ({
     ...item,
-    displayRank: getInterpolatedDisplayRank(item.code, lowerItems, upperItems, offChartRank, displayProgress),
+    displayRank: getCrossingAwareDisplayRank({
+      code: item.code,
+      codes,
+      lowerItems,
+      upperItems,
+      offChartRank,
+      progress,
+      transitionProgress: rankTransitionProgress ?? 0.2,
+      rankChangeBoundaries,
+      valueOf,
+    }),
   }));
   const items = [...displayItems]
     .sort((left, right) => left.displayRank - right.displayRank)
@@ -158,17 +168,206 @@ function normalizeProgress(progress: number) {
   return Math.min(1, Math.max(0, finiteProgress));
 }
 
-function getInterpolatedDisplayRank<TItem extends RaceEngineItem>(
+function getCrossingAwareDisplayRank<TItem extends RaceEngineItem>({
+  code,
+  codes,
+  lowerItems,
+  upperItems,
+  offChartRank,
+  progress,
+  transitionProgress,
+  rankChangeBoundaries,
+  valueOf,
+}: {
+  code: string;
+  codes: Set<string>;
+  lowerItems: Map<string, TItem>;
+  upperItems: Map<string, TItem>;
+  offChartRank: number;
+  progress: number;
+  transitionProgress: number;
+  rankChangeBoundaries: number[];
+  valueOf: (item: TItem) => number;
+}) {
+  const normalizedProgress = normalizeProgress(progress);
+  const segmentStart = getRankChangeStartForCode({
+    code,
+    codes,
+    lowerItems,
+    upperItems,
+    offChartRank,
+    progress: normalizedProgress,
+    rankChangeBoundaries,
+    valueOf,
+  });
+  const targetRank = getValueRankAtProgress(code, codes, lowerItems, upperItems, offChartRank, normalizedProgress, valueOf);
+
+  if (segmentStart <= 0) {
+    return targetRank - 1;
+  }
+
+  const rankBefore = getValueRankAtProgress(
+    code,
+    codes,
+    lowerItems,
+    upperItems,
+    offChartRank,
+    Math.max(0, segmentStart - 0.00001),
+    valueOf,
+  );
+  const rankAfter = getValueRankAtProgress(
+    code,
+    codes,
+    lowerItems,
+    upperItems,
+    offChartRank,
+    Math.min(1, segmentStart + 0.00001),
+    valueOf,
+  );
+
+  if (rankBefore === rankAfter) {
+    return targetRank - 1;
+  }
+
+  const localProgress = normalizeProgress((normalizedProgress - segmentStart) / Math.max(0.001, transitionProgress));
+
+  return interpolateNumber(rankBefore - 1, rankAfter - 1, easeOutCubic(localProgress));
+}
+
+function getRankChangeStartForCode<TItem extends RaceEngineItem>({
+  code,
+  codes,
+  lowerItems,
+  upperItems,
+  offChartRank,
+  progress,
+  rankChangeBoundaries,
+  valueOf,
+}: {
+  code: string;
+  codes: Set<string>;
+  lowerItems: Map<string, TItem>;
+  upperItems: Map<string, TItem>;
+  offChartRank: number;
+  progress: number;
+  rankChangeBoundaries: number[];
+  valueOf: (item: TItem) => number;
+}) {
+  let rankChangeStart = 0;
+
+  for (const boundary of rankChangeBoundaries) {
+    if (boundary > progress) {
+      break;
+    }
+
+    const rankBefore = getValueRankAtProgress(
+      code,
+      codes,
+      lowerItems,
+      upperItems,
+      offChartRank,
+      Math.max(0, boundary - 0.00001),
+      valueOf,
+    );
+    const rankAfter = getValueRankAtProgress(
+      code,
+      codes,
+      lowerItems,
+      upperItems,
+      offChartRank,
+      Math.min(1, boundary + 0.00001),
+      valueOf,
+    );
+
+    if (rankBefore !== rankAfter) {
+      rankChangeStart = boundary;
+    }
+  }
+
+  return rankChangeStart;
+}
+
+function getRankChangeBoundaries<TItem extends RaceEngineItem>(
+  codes: Set<string>,
+  lowerItems: Map<string, TItem>,
+  upperItems: Map<string, TItem>,
+  valueOf: (item: TItem) => number,
+) {
+  const codeList = [...codes];
+  const boundaries: number[] = [];
+
+  for (let leftIndex = 0; leftIndex < codeList.length; leftIndex += 1) {
+    for (let rightIndex = leftIndex + 1; rightIndex < codeList.length; rightIndex += 1) {
+      const leftCode = codeList[leftIndex];
+      const rightCode = codeList[rightIndex];
+      const leftStart = getRaceValueAtProgress(leftCode, lowerItems, upperItems, 0, valueOf);
+      const leftEnd = getRaceValueAtProgress(leftCode, lowerItems, upperItems, 1, valueOf);
+      const rightStart = getRaceValueAtProgress(rightCode, lowerItems, upperItems, 0, valueOf);
+      const rightEnd = getRaceValueAtProgress(rightCode, lowerItems, upperItems, 1, valueOf);
+      const startDelta = leftStart - rightStart;
+      const endDelta = leftEnd - rightEnd;
+
+      if (startDelta === 0 || endDelta === 0 || Math.sign(startDelta) === Math.sign(endDelta)) {
+        continue;
+      }
+
+      const denominator = startDelta - endDelta;
+      const boundary = denominator === 0 ? null : startDelta / denominator;
+
+      if (boundary !== null && boundary > 0 && boundary < 1) {
+        boundaries.push(boundary);
+      }
+    }
+  }
+
+  return [...new Set(boundaries.map((boundary) => Number(boundary.toFixed(5))))].sort((left, right) => left - right);
+}
+
+function getValueRankAtProgress<TItem extends RaceEngineItem>(
   code: string,
+  codes: Set<string>,
   lowerItems: Map<string, TItem>,
   upperItems: Map<string, TItem>,
   offChartRank: number,
   progress: number,
+  valueOf: (item: TItem) => number,
 ) {
-  const lowerRank = lowerItems.get(code)?.rank ?? offChartRank;
-  const upperRank = upperItems.get(code)?.rank ?? offChartRank;
+  const rankedCodes = [...codes].sort((leftCode, rightCode) => {
+    const valueDelta =
+      getRaceValueAtProgress(rightCode, lowerItems, upperItems, progress, valueOf) -
+      getRaceValueAtProgress(leftCode, lowerItems, upperItems, progress, valueOf);
 
-  return interpolateNumber(lowerRank - 1, upperRank - 1, progress);
+    if (Math.abs(valueDelta) > Number.EPSILON) {
+      return valueDelta;
+    }
+
+    return (lowerItems.get(leftCode)?.rank ?? offChartRank) - (lowerItems.get(rightCode)?.rank ?? offChartRank);
+  });
+
+  const index = rankedCodes.indexOf(code);
+
+  return index >= 0 ? index + 1 : offChartRank;
+}
+
+function getRaceValueAtProgress<TItem extends RaceEngineItem>(
+  code: string,
+  lowerItems: Map<string, TItem>,
+  upperItems: Map<string, TItem>,
+  progress: number,
+  valueOf: (item: TItem) => number,
+) {
+  const lower = lowerItems.get(code);
+  const upper = upperItems.get(code);
+  const lowerValue = lower ? valueOf(lower) : 0;
+  const upperValue = upper ? valueOf(upper) : 0;
+
+  return interpolateNumber(lowerValue, upperValue, progress);
+}
+
+function easeOutCubic(progress: number) {
+  const inverted = 1 - normalizeProgress(progress);
+
+  return 1 - inverted * inverted * inverted;
 }
 
 function getBoundingFrames<TItem extends RaceEngineItem>(

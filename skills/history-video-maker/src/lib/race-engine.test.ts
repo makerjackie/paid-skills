@@ -7,35 +7,34 @@ type TestItem = RaceEngineItem & {
   value: number;
 };
 
-test('display rank interpolates between frame ranks at a constant pace', () => {
+test('display rank waits until interpolated values cross', () => {
   const frames = [
     {
       year: 0,
       items: [
         {code: 'a', rank: 1, value: 100},
-        {code: 'b', rank: 2, value: 90},
-        {code: 'c', rank: 3, value: 80},
+        {code: 'b', rank: 2, value: 0},
       ],
     },
     {
-      year: 1000,
+      year: 10,
       items: [
-        {code: 'c', rank: 1, value: 1000},
-        {code: 'b', rank: 2, value: 400},
-        {code: 'a', rank: 3, value: 300},
+        {code: 'b', rank: 1, value: 200},
+        {code: 'a', rank: 2, value: 100},
       ],
     },
   ];
 
   const snapshot = buildRaceSnapshot<TestItem, {year: number}>({
     startYear: 0,
-    endYear: 1000,
+    endYear: 10,
     frames,
     frameMap: createRaceFrameMap(frames),
     events: [],
-    raceYear: 250,
-    topCount: 3,
+    raceYear: 4,
+    topCount: 2,
     eventDurationYears: 1,
+    rankTransitionProgress: 0.2,
     valueOf: (item) => item.value,
     interpolateItem: ({source, lower, upper, progress}) => ({
       ...source,
@@ -44,43 +43,41 @@ test('display rank interpolates between frame ranks at a constant pace', () => {
   });
 
   const itemA = snapshot.items.find((item) => item.code === 'a');
-  const itemC = snapshot.items.find((item) => item.code === 'c');
+  const itemB = snapshot.items.find((item) => item.code === 'b');
 
-  assert.equal(itemA?.displayRank, 0.5);
-  assert.equal(itemC?.displayRank, 1.5);
+  assert.equal(itemA?.displayRank, 0);
+  assert.equal(itemB?.displayRank, 1);
   assert.equal(snapshot.items[0]?.code, 'a');
 });
 
-test('display rank can use a faster rank progress than value interpolation', () => {
+test('display rank animates quickly after the value crossing point', () => {
   const frames = [
     {
       year: 0,
       items: [
         {code: 'a', rank: 1, value: 100},
-        {code: 'b', rank: 2, value: 90},
-        {code: 'c', rank: 3, value: 80},
+        {code: 'b', rank: 2, value: 0},
       ],
     },
     {
-      year: 1000,
+      year: 10,
       items: [
-        {code: 'c', rank: 1, value: 1000},
-        {code: 'b', rank: 2, value: 400},
-        {code: 'a', rank: 3, value: 300},
+        {code: 'b', rank: 1, value: 200},
+        {code: 'a', rank: 2, value: 100},
       ],
     },
   ];
 
   const snapshot = buildRaceSnapshot<TestItem, {year: number}>({
     startYear: 0,
-    endYear: 1000,
+    endYear: 10,
     frames,
     frameMap: createRaceFrameMap(frames),
     events: [],
-    raceYear: 250,
-    topCount: 3,
+    raceYear: 6,
+    topCount: 2,
     eventDurationYears: 1,
-    rankProgress: 1,
+    rankTransitionProgress: 0.2,
     valueOf: (item) => item.value,
     interpolateItem: ({source, lower, upper, progress}) => ({
       ...source,
@@ -89,9 +86,9 @@ test('display rank can use a faster rank progress than value interpolation', () 
   });
 
   const itemA = snapshot.items.find((item) => item.code === 'a');
-  const itemC = snapshot.items.find((item) => item.code === 'c');
+  const itemB = snapshot.items.find((item) => item.code === 'b');
 
-  assert.equal(itemA?.displayRank, 2);
-  assert.equal(itemC?.displayRank, 0);
-  assert.equal(snapshot.items[0]?.code, 'c');
+  assert.ok(itemA && Math.abs(itemA.displayRank - 0.875) < 0.001);
+  assert.ok(itemB && Math.abs(itemB.displayRank - 0.125) < 0.001);
+  assert.equal(snapshot.items[0]?.code, 'b');
 });

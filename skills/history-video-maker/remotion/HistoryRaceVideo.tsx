@@ -114,7 +114,7 @@ export function HistoryRaceVideo({data, copy: copyOverride, durationSeconds, mus
   const timing = getVideoTiming(resolvedDurationSeconds, {showInsightPanel, showSourcePanel});
   const raceProgress = getRaceProgress(seconds, timing, data);
   const raceYear = data.startYear + raceProgress * (data.endYear - data.startYear);
-  const rankProgress = getRankTransitionProgress(seconds, timing, data);
+  const rankTransitionProgress = getRankTransitionProgress(seconds, timing, data);
   const snapshot = buildRaceSnapshot({
     startYear: data.startYear,
     endYear: data.endYear,
@@ -126,7 +126,7 @@ export function HistoryRaceVideo({data, copy: copyOverride, durationSeconds, mus
     eventDurationYears: EVENT_DURATION_YEARS,
     axisPadding: RACE_AXIS_PADDING,
     axisRetreatThreshold: data.axisRetreatThreshold,
-    rankProgress,
+    rankTransitionProgress,
     valueOf: (item) => item.value ?? item.gdp ?? 0,
     interpolateItem: ({source, lower, upper, progress}) => ({
       ...source,
@@ -221,7 +221,7 @@ export function HistoryRaceVideoLandscape({data, copy: copyOverride, durationSec
   const timing = getVideoTiming(resolvedDurationSeconds, {showInsightPanel, showSourcePanel});
   const raceProgress = getRaceProgress(seconds, timing, data);
   const raceYear = data.startYear + raceProgress * (data.endYear - data.startYear);
-  const rankProgress = getRankTransitionProgress(seconds, timing, data);
+  const rankTransitionProgress = getRankTransitionProgress(seconds, timing, data);
   const snapshot = buildRaceSnapshot({
     startYear: data.startYear,
     endYear: data.endYear,
@@ -233,7 +233,7 @@ export function HistoryRaceVideoLandscape({data, copy: copyOverride, durationSec
     eventDurationYears: EVENT_DURATION_YEARS,
     axisPadding: RACE_AXIS_PADDING,
     axisRetreatThreshold: data.axisRetreatThreshold,
-    rankProgress,
+    rankTransitionProgress,
     valueOf: (item) => item.value ?? item.gdp ?? 0,
     interpolateItem: ({source, lower, upper, progress}) => ({
       ...source,
@@ -921,24 +921,21 @@ function getRaceProgress(seconds: number, timing: HistoryRaceVideoTiming, data: 
 
 function getRankTransitionProgress(seconds: number, timing: HistoryRaceVideoTiming, data: HistoryRaceData) {
   if (seconds <= timing.raceStart) {
-    return 0;
+    return 1;
   }
 
   const raceProgress = getRaceProgress(seconds, timing, data);
   const raceYear = data.startYear + raceProgress * (data.endYear - data.startYear);
-  const {lowerYear, upperYear, progress} = getRaceSegmentProgress(data, raceYear);
+  const {lowerYear, upperYear} = getRaceSegmentProgress(data, raceYear);
 
   if (upperYear <= lowerYear) {
-    return 0;
+    return 1;
   }
 
   const raceDuration = timing.raceEnd - timing.raceStart;
   const timelineSpan = Math.max(0.001, data.endYear - data.startYear);
   const segmentDuration = raceDuration * ((upperYear - lowerYear) / timelineSpan);
-  const transitionRatio = Math.min(1, RANK_TRANSITION_SECONDS / Math.max(0.001, segmentDuration));
-  const acceleratedProgress = Math.min(1, Math.max(0, progress / Math.max(0.001, transitionRatio)));
-
-  return Easing.out(Easing.cubic)(acceleratedProgress);
+  return Math.min(1, RANK_TRANSITION_SECONDS / Math.max(0.001, segmentDuration));
 }
 
 function getRaceSegmentProgress(data: HistoryRaceData, raceYear: number) {
