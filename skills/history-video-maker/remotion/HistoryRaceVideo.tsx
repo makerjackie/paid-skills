@@ -57,10 +57,13 @@ const EVENT_RIGHT_INSET = 110;
 const AXIS_TOP = CHART_TOP - 16;
 const AXIS_BOTTOM = 560;
 const MIN_VISIBLE_BAR_WIDTH = 4;
-const ENTITY_EVENT_MAX_CHARS = 14;
+const ENTITY_EVENT_MAX_CHARS = 18;
 const GLOBAL_EVENT_MAX_CHARS = 18;
+const GLOBAL_EVENT_DESCRIPTION_MAX_CHARS = 48;
+const LANDSCAPE_GLOBAL_EVENT_DESCRIPTION_MAX_CHARS = 54;
 const ENTITY_EVENT_INSIDE_MIN_WIDTH = 420;
 const LANDSCAPE_ENTITY_EVENT_INSIDE_MIN_WIDTH = 370;
+const ENTITY_EVENT_INSIDE_MAX_WIDTH = 430;
 const TITLE_MAX_CHARS = 24;
 const LANDSCAPE_TITLE_MAX_CHARS = 30;
 const COVER_HEADLINE_LINE_MAX_CHARS = 11;
@@ -496,7 +499,7 @@ function RaceChart({
         const labelInside = width >= getCompactInsideLabelMinWidth(item.name);
         const barStyle = labelInside ? styles.bar : styles.compactBar;
         const labelPaddingLeft = width < 160 ? 14 : 22;
-        const eventInsideWidth = entityEventText ? getEntityEventInsideWidth(entityEventText, 22, 360) : 0;
+        const eventInsideWidth = entityEventText ? getEntityEventInsideWidth(entityEventText, 22, ENTITY_EVENT_INSIDE_MAX_WIDTH) : 0;
         const eventInsideBar = Boolean(
           entityEventText &&
             labelInside &&
@@ -617,7 +620,7 @@ function LandscapeRaceChart({
         const labelInside = width >= Math.max(92, getCompactInsideLabelMinWidth(item.name) - 10);
         const barStyle = labelInside ? styles.landscapeBar : styles.landscapeCompactBar;
         const labelPaddingLeft = width < 150 ? 14 : 18;
-        const eventInsideWidth = entityEventText ? getEntityEventInsideWidth(entityEventText, 22, 360) : 0;
+        const eventInsideWidth = entityEventText ? getEntityEventInsideWidth(entityEventText, 22, ENTITY_EVENT_INSIDE_MAX_WIDTH) : 0;
         const eventInsideBar = Boolean(
           entityEventText &&
             labelInside &&
@@ -755,7 +758,7 @@ function EventCallout({
     <div style={{...styles.eventCallout, opacity}}>
       <div style={{...styles.eventYear, color: theme.accentDeep}}>{formatRaceTimeValue(event.year, data)}</div>
       <div style={styles.eventTitle}>{truncateDisplayText(event.title, GLOBAL_EVENT_MAX_CHARS)}</div>
-      <div style={{...styles.eventDescription, color: theme.muted}}>{truncateDisplayText(event.description, 30)}</div>
+      <div style={{...styles.eventDescription, color: theme.muted}}>{truncateDisplayText(event.description, GLOBAL_EVENT_DESCRIPTION_MAX_CHARS)}</div>
     </div>
   );
 }
@@ -786,7 +789,9 @@ function LandscapeEventCallout({
     <div style={{...styles.landscapeEventCallout, opacity}}>
       <div style={{...styles.eventYear, color: theme.accentDeep}}>{formatRaceTimeValue(event.year, data)}</div>
       <div style={styles.landscapeEventTitle}>{truncateDisplayText(event.title, GLOBAL_EVENT_MAX_CHARS)}</div>
-      <div style={{...styles.landscapeEventDescription, color: theme.muted}}>{truncateDisplayText(event.description, 34)}</div>
+      <div style={{...styles.landscapeEventDescription, color: theme.muted}}>
+        {truncateDisplayText(event.description, LANDSCAPE_GLOBAL_EVENT_DESCRIPTION_MAX_CHARS)}
+      </div>
     </div>
   );
 }
@@ -1824,7 +1829,7 @@ const styles: Record<string, CSSProperties> = {
   landscapeOutsideValueBlock: {
     marginLeft: 12,
     minWidth: 132,
-    maxWidth: 380,
+    maxWidth: 480,
     flexShrink: 0,
     display: 'flex',
     flexDirection: 'column',
@@ -1842,7 +1847,7 @@ const styles: Record<string, CSSProperties> = {
   },
   landscapeOutsideValueRow: {
     minWidth: 0,
-    maxWidth: 380,
+    maxWidth: 480,
     display: 'grid',
     gridTemplateColumns: '104px 14px minmax(0, 1fr)',
     alignItems: 'center',
@@ -1857,7 +1862,7 @@ const styles: Record<string, CSSProperties> = {
   },
   landscapeEntityEventInline: {
     minWidth: 0,
-    maxWidth: 230,
+    maxWidth: 360,
     fontSize: 22,
     fontWeight: 900,
     lineHeight: 1,
@@ -1902,7 +1907,7 @@ const styles: Record<string, CSSProperties> = {
   outsideValueBlock: {
     marginLeft: 12,
     minWidth: 148,
-    maxWidth: 420,
+    maxWidth: 540,
     flexShrink: 0,
     display: 'flex',
     flexDirection: 'column',
@@ -1926,7 +1931,7 @@ const styles: Record<string, CSSProperties> = {
   },
   outsideValueRow: {
     minWidth: 0,
-    maxWidth: 420,
+    maxWidth: 540,
     display: 'grid',
     gridTemplateColumns: '112px 18px minmax(0, 1fr)',
     alignItems: 'center',
@@ -1941,7 +1946,7 @@ const styles: Record<string, CSSProperties> = {
   },
   entityEventInline: {
     minWidth: 0,
-    maxWidth: 250,
+    maxWidth: 400,
     fontSize: 22,
     fontWeight: 900,
     lineHeight: 1,
