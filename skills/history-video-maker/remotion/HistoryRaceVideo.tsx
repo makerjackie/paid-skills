@@ -43,7 +43,8 @@ export const DEFAULT_HISTORY_RACE_VIDEO_PROPS: HistoryRaceVideoProps = {
 };
 
 const TOP_COUNT = 12;
-const EVENT_DURATION_YEARS = 1.4;
+const EVENT_BASE_DURATION_YEARS = 1.4;
+const EVENT_EXTENDED_DURATION_YEARS = 4.5;
 const RACE_AXIS_PADDING = 1.3;
 const COVER_END_SECONDS = 2.2;
 const RACE_START_SECONDS = 3.2;
@@ -60,7 +61,10 @@ const ENTITY_EVENT_MAX_CHARS = 14;
 const GLOBAL_EVENT_MAX_CHARS = 18;
 const ENTITY_EVENT_INSIDE_MIN_WIDTH = 420;
 const LANDSCAPE_ENTITY_EVENT_INSIDE_MIN_WIDTH = 370;
-const TITLE_MAX_CHARS = 30;
+const TITLE_MAX_CHARS = 24;
+const LANDSCAPE_TITLE_MAX_CHARS = 30;
+const COVER_HEADLINE_LINE_MAX_CHARS = 11;
+const COVER_HEADLINE_MAX_LINES = 2;
 const INTRO_MAX_CHARS = 58;
 const COLOR_TONES = [
   '#3f6f9f',
@@ -125,7 +129,7 @@ export function HistoryRaceVideo({data, copy: copyOverride, durationSeconds, mus
     events: data.events,
     raceYear,
     topCount: TOP_COUNT,
-    eventDurationYears: EVENT_DURATION_YEARS,
+    eventDurationYears: EVENT_BASE_DURATION_YEARS,
     axisPadding: RACE_AXIS_PADDING,
     axisRetreatThreshold: data.axisRetreatThreshold,
     rankTransitionProgress,
@@ -232,7 +236,7 @@ export function HistoryRaceVideoLandscape({data, copy: copyOverride, durationSec
     events: data.events,
     raceYear,
     topCount: TOP_COUNT,
-    eventDurationYears: EVENT_DURATION_YEARS,
+    eventDurationYears: EVENT_BASE_DURATION_YEARS,
     axisPadding: RACE_AXIS_PADDING,
     axisRetreatThreshold: data.axisRetreatThreshold,
     rankTransitionProgress,
@@ -275,7 +279,7 @@ export function HistoryRaceVideoLandscape({data, copy: copyOverride, durationSec
 
       <div style={{...styles.landscapeInfoPanel, opacity: contentOpacity}}>
         <div style={{...styles.eyebrow, color: theme.accentDeep}}>ALL HISTORY · {formatRaceTimeValue(data.startYear, data)}-{formatRaceTimeValue(data.endYear, data)}</div>
-        <h1 style={styles.landscapeTitle}>{truncateDisplayText(copy.hook, 38)}</h1>
+        <h1 style={styles.landscapeTitle}>{truncateDisplayText(copy.hook, LANDSCAPE_TITLE_MAX_CHARS)}</h1>
         <p style={{...styles.landscapeLead, color: theme.muted}}>{truncateDisplayText(copy.intro, 74)}</p>
         <LandscapeEventCallout data={data} event={activeGlobalEvent} seconds={seconds} timing={timing} theme={theme} />
       </div>
@@ -322,7 +326,7 @@ function CoverFrame({
   const lastComparison = lastFrame?.items[compareRank - 1] ?? lastFrame?.items[0] ?? null;
   const startLabel = compareRank === 1 ? '起点' : `第 ${compareRank} 名`;
   const endLabel = compareRank === 1 ? '现在' : `第 ${compareRank} 名`;
-  const headlineLines = copy.coverHeadline.split('\n');
+  const headlineLines = getCoverHeadlineLines(copy.coverHeadline);
   const longestHeadlineLine = Math.max(...headlineLines.map((line) => line.length));
   const headlineFontSize = headlineLines.length >= 3 || longestHeadlineLine >= 11 ? 88 : longestHeadlineLine >= 9 ? 96 : 108;
   const opacity = interpolate(seconds, [0, COVER_END_SECONDS + 0.15, RACE_START_SECONDS], [1, 1, 0], {
@@ -408,7 +412,7 @@ function LandscapeCoverFrame({
   const compareRank = Math.max(1, copy.coverCompareRank ?? 1);
   const firstComparison = firstFrame?.items[compareRank - 1] ?? firstFrame?.items[0] ?? null;
   const lastComparison = lastFrame?.items[compareRank - 1] ?? lastFrame?.items[0] ?? null;
-  const headlineLines = copy.coverHeadline.split('\n');
+  const headlineLines = getCoverHeadlineLines(copy.coverHeadline);
   const opacity = interpolate(seconds, [0, COVER_END_SECONDS + 0.15, RACE_START_SECONDS], [1, 1, 0], {
     extrapolateLeft: 'clamp',
     extrapolateRight: 'clamp',
@@ -492,7 +496,7 @@ function RaceChart({
         const labelInside = width >= getCompactInsideLabelMinWidth(item.name);
         const barStyle = labelInside ? styles.bar : styles.compactBar;
         const labelPaddingLeft = width < 160 ? 14 : 22;
-        const eventInsideWidth = entityEventText ? getEntityEventInsideWidth(entityEventText, 20, 330) : 0;
+        const eventInsideWidth = entityEventText ? getEntityEventInsideWidth(entityEventText, 22, 360) : 0;
         const eventInsideBar = Boolean(
           entityEventText &&
             labelInside &&
@@ -553,7 +557,7 @@ function RaceChart({
             ) : null}
             <div style={styles.outsideValueBlock}>
               <div style={styles.outsideValueRow}>
-                <span style={styles.outsideValue}>{formattedValue}</span>
+                <span style={styles.outsideValue}>{formattedValue}{data.valueKind === 'eggs-per-hour' ? <span style={styles.eggIcon}>🥚</span> : null}</span>
                 {entityEventText && !eventInsideBar ? (
                   <>
                     <span style={styles.entityEventSeparator}>|</span>
@@ -613,7 +617,7 @@ function LandscapeRaceChart({
         const labelInside = width >= Math.max(92, getCompactInsideLabelMinWidth(item.name) - 10);
         const barStyle = labelInside ? styles.landscapeBar : styles.landscapeCompactBar;
         const labelPaddingLeft = width < 150 ? 14 : 18;
-        const eventInsideWidth = entityEventText ? getEntityEventInsideWidth(entityEventText, 17, 290) : 0;
+        const eventInsideWidth = entityEventText ? getEntityEventInsideWidth(entityEventText, 22, 360) : 0;
         const eventInsideBar = Boolean(
           entityEventText &&
             labelInside &&
@@ -669,7 +673,7 @@ function LandscapeRaceChart({
             ) : null}
             <div style={styles.landscapeOutsideValueBlock}>
               <div style={styles.landscapeOutsideValueRow}>
-                <span style={styles.landscapeOutsideValue}>{formattedValue}</span>
+                <span style={styles.landscapeOutsideValue}>{formattedValue}{data.valueKind === 'eggs-per-hour' ? <span style={styles.eggIcon}>🥚</span> : null}</span>
                 {entityEventText && !eventInsideBar ? (
                   <>
                     <span style={styles.landscapeEntityEventSeparator}>|</span>
@@ -1072,6 +1076,13 @@ function formatRaceValue(value: number, data: HistoryRaceData) {
   if (kind === 'oil-mbbl-d') return `${formatCompact(value)} 百万桶/日`;
   if (kind === 'steel-mt') return `${formatCompact(value)} 百万吨`;
   if (kind === 'hours-per-day') return `${formatCompact(value)} 小时/天`;
+  if (kind === 'eggs-per-hour') return `${formatCompact(value)}`;
+  if (kind === 'currency-cny') {
+    if (value >= 1e12) return `${formatCompact(value / 1e12)}万亿`;
+    if (value >= 1e8) return `${formatCompact(value / 1e8)}亿`;
+    return `${Math.round(value).toLocaleString('zh-CN')}元`;
+  }
+
   if (kind === 'per-capita-usd') return `$${Math.round(value).toLocaleString('zh-CN')}`;
   if (kind === 'count') return Math.round(value).toLocaleString('zh-CN');
 
@@ -1103,6 +1114,40 @@ function truncateDisplayText(text: string, maxChars: number) {
   return `${normalized.slice(0, Math.max(0, maxChars - 1)).trimEnd()}…`;
 }
 
+function getCoverHeadlineLines(text: string) {
+  const lines = text
+    .split(/\n+/)
+    .map((line) => line.replace(/\s+/g, ' ').trim())
+    .filter(Boolean);
+  const headlineLines = lines.length > 1 ? lines : splitCoverHeadlineLine(lines[0] ?? '');
+
+  return headlineLines
+    .slice(0, COVER_HEADLINE_MAX_LINES)
+    .map((line) => truncateDisplayText(line, COVER_HEADLINE_LINE_MAX_CHARS));
+}
+
+function splitCoverHeadlineLine(text: string) {
+  const normalized = text.replace(/\s+/g, ' ').trim();
+
+  if (normalized.length <= COVER_HEADLINE_LINE_MAX_CHARS) {
+    return [normalized];
+  }
+
+  const parts = normalized
+    .split(/[，,。；;：:？?！!]/)
+    .map((line) => line.trim())
+    .filter(Boolean);
+
+  if (parts.length >= 2) {
+    return parts;
+  }
+
+  return [
+    normalized.slice(0, COVER_HEADLINE_LINE_MAX_CHARS),
+    normalized.slice(COVER_HEADLINE_LINE_MAX_CHARS),
+  ];
+}
+
 function getInsideLabelMinWidth(name: string) {
   return Math.max(
     VIDEO_BAR_INSIDE_LABEL_MIN_WIDTH,
@@ -1128,19 +1173,34 @@ function getAdaptiveInlineFontSize(text: string, availableWidth: number, maxSize
 }
 
 function getActiveGlobalEvent(data: HistoryRaceData, raceYear: number) {
-  return getActiveEvents(data, raceYear)
-    .filter(isGlobalEvent)
+  return getActiveEvents(data, raceYear, isGlobalEvent)
     .sort(sortEventsForDisplay)[0] ?? null;
 }
 
 function getActiveEntityEvent(data: HistoryRaceData, raceYear: number, entityCode: string) {
-  return getActiveEvents(data, raceYear)
-    .filter((event) => isEntityEvent(event, entityCode))
+  return getActiveEvents(data, raceYear, (event) => isEntityEvent(event, entityCode))
     .sort(sortEventsForDisplay)[0] ?? null;
 }
 
-function getActiveEvents(data: HistoryRaceData, raceYear: number) {
-  return (data.events ?? []).filter((event) => raceYear >= event.year && raceYear < event.year + EVENT_DURATION_YEARS);
+function getActiveEvents(
+  data: HistoryRaceData,
+  raceYear: number,
+  matchesEventLane: (event: HistoryRaceEvent) => boolean,
+) {
+  const laneEvents = (data.events ?? [])
+    .filter(matchesEventLane)
+    .sort((left, right) => left.year - right.year || eventKindPriority(right.kind) - eventKindPriority(left.kind));
+
+  return laneEvents.filter((event, index) => {
+    const nextEvent = laneEvents.slice(index + 1).find((candidate) => candidate.year > event.year);
+    const nextEventYear = nextEvent?.year ?? Number.POSITIVE_INFINITY;
+    const displayEndYear = Math.min(
+      event.year + EVENT_EXTENDED_DURATION_YEARS,
+      Math.max(event.year + EVENT_BASE_DURATION_YEARS, nextEventYear),
+    );
+
+    return raceYear >= event.year && raceYear < displayEndYear;
+  });
 }
 
 function sortEventsForDisplay(left: HistoryRaceEvent, right: HistoryRaceEvent) {
@@ -1730,13 +1790,15 @@ const styles: Record<string, CSSProperties> = {
     whiteSpace: 'nowrap',
   },
   outsideLabel: {
-    minWidth: 110,
+    minWidth: 0,
+    width: 'fit-content',
     maxWidth: 280,
     marginLeft: 14,
     overflow: 'hidden',
   },
   landscapeOutsideLabel: {
-    minWidth: 120,
+    minWidth: 0,
+    width: 'fit-content',
     maxWidth: 300,
     marginLeft: 14,
     overflow: 'hidden',
@@ -1775,25 +1837,28 @@ const styles: Record<string, CSSProperties> = {
     fontWeight: 900,
     lineHeight: 1,
     whiteSpace: 'nowrap',
+    fontVariantNumeric: 'tabular-nums',
+    fontFeatureSettings: '"tnum"',
   },
   landscapeOutsideValueRow: {
     minWidth: 0,
     maxWidth: 380,
-    display: 'flex',
+    display: 'grid',
+    gridTemplateColumns: '104px 14px minmax(0, 1fr)',
     alignItems: 'center',
     overflow: 'hidden',
   },
   landscapeEntityEventSeparator: {
-    margin: '0 8px',
     color: 'rgba(36,32,22,0.32)',
-    fontSize: 15,
+    fontSize: 17,
     fontWeight: 900,
     lineHeight: 1,
+    textAlign: 'center',
   },
   landscapeEntityEventInline: {
     minWidth: 0,
     maxWidth: 230,
-    fontSize: 15,
+    fontSize: 22,
     fontWeight: 900,
     lineHeight: 1,
     whiteSpace: 'nowrap',
@@ -1806,9 +1871,9 @@ const styles: Record<string, CSSProperties> = {
     top: '50%',
     transform: 'translateY(-50%)',
     borderRadius: 3,
-    padding: '7px 10px 6px',
+    padding: '9px 13px 8px',
     boxSizing: 'border-box',
-    fontSize: 17,
+    fontSize: 22,
     fontWeight: 900,
     lineHeight: 1,
     textAlign: 'center',
@@ -1850,25 +1915,34 @@ const styles: Record<string, CSSProperties> = {
     fontWeight: 900,
     lineHeight: 1,
     whiteSpace: 'nowrap',
+    fontVariantNumeric: 'tabular-nums',
+    fontFeatureSettings: '"tnum"',
+  },
+  eggIcon: {
+    fontSize: 26,
+    marginLeft: 4,
+    filter: 'drop-shadow(0 1px 2px rgba(0,0,0,0.3))',
+    lineHeight: 1,
   },
   outsideValueRow: {
     minWidth: 0,
     maxWidth: 420,
-    display: 'flex',
+    display: 'grid',
+    gridTemplateColumns: '112px 18px minmax(0, 1fr)',
     alignItems: 'center',
     overflow: 'hidden',
   },
   entityEventSeparator: {
-    margin: '0 10px',
     color: 'rgba(36,32,22,0.32)',
-    fontSize: 17,
+    fontSize: 19,
     fontWeight: 900,
     lineHeight: 1,
+    textAlign: 'center',
   },
   entityEventInline: {
     minWidth: 0,
     maxWidth: 250,
-    fontSize: 17,
+    fontSize: 22,
     fontWeight: 900,
     lineHeight: 1,
     whiteSpace: 'nowrap',
@@ -1881,9 +1955,9 @@ const styles: Record<string, CSSProperties> = {
     top: '50%',
     transform: 'translateY(-50%)',
     borderRadius: 3,
-    padding: '8px 12px 7px',
+    padding: '9px 13px 8px',
     boxSizing: 'border-box',
-    fontSize: 20,
+    fontSize: 22,
     fontWeight: 900,
     lineHeight: 1,
     textAlign: 'center',

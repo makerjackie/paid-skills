@@ -12,7 +12,7 @@ AI Agent 开源 / OpenClaw 冲顶
 AutoGPT、LangChain、Dify 之后，榜单被重新改写
 Agent 项目 Star 战
 
-视频内标题：AI Agent 开源项目，为什么最后被 OpenClaw 打穿？
+视频内标题：AI Agent 开源项目
 
 短视频描述：
 从 2019 到 2026，看 AI Agent、RAG、LLM 应用框架如何在 GitHub 上轮流爆发。
@@ -43,7 +43,7 @@ AI 产品月活 / 谁在领跑？
 ChatGPT、Gemini、Claude 的 AI 用户争夺战
 AI 时代月活排名
 
-视频内标题：ChatGPT 两个月达到 1 亿月活，这个纪录至今无人能破。
+视频内标题：ChatGPT 两个月达到 1 亿月活
 
 短视频描述：
 从 2022 到 2026，AI 产品月活用户排名发生了哪些剧变？ChatGPT 一骑绝尘，Gemini 和 Grok 奋力追赶。
@@ -68,7 +68,7 @@ AI 内容频道 / 谁吃到红利？
 论文讲解、工具测评、模型新闻一起爆发
 生成式 AI 订阅战
 
-视频内标题：AI 内容 YouTuber，ChatGPT 之后谁增长最快？
+视频内标题：AI 内容 YouTuber
 
 短视频描述：
 从 2018 到 2026，看 AI 内容创作者如何从论文讲解，转向工具测评、模型新闻和开发者科普。
@@ -99,7 +99,7 @@ B站一哥 / 怎么换人了？
 老番茄、罗翔、何同学背后的内容品类迁移
 10 年粉丝王座
 
-视频内标题：B站头部 UP 主粉丝排名，为什么从游戏转向知识和科技？
+视频内标题：B站头部 UP 主粉丝排名
 
 短视频描述：
 从 2016 到 2026，看 B站头部 UP 主粉丝量如何从游戏、动画，转向知识、科技、影视和泛娱乐混战。
@@ -129,7 +129,7 @@ https://zh.wikipedia.org/wiki/%E7%B2%89%E4%B8%9D%E6%95%B0%E6%9C%80%E5%A4%9A%E7%9
 从日本称霸到美国登顶，越南韩国俄罗斯改写排名
 改革开放 47 年浓缩
 
-视频内标题：中国最大贸易伙伴，40 年里从日本变成美国，越韩俄一路追赶
+视频内标题：中国最大贸易伙伴
 
 短视频描述：
 从 1978 年改革开放到 2025 年，看中国与主要贸易伙伴的进出口排名更替。
@@ -177,17 +177,57 @@ https://us.youtubers.me/china/all/top-1000-most-subscribed-youtube-channels-in-c
 - 中国大陆 YouTube 频道订阅人数排行榜: https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E5%A4%A7%E9%99%B8YouTube%E9%A0%BB%E9%81%93%E8%A8%82%E9%96%B1%E4%BA%BA%E6%95%B8%E6%8E%92%E8%A1%8C%E6%A6%9C
 - 台灣 YouTube 頻道訂閱人數排行榜: https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3YouTube%E9%A0%BB%E9%81%93%E8%A8%82%E9%96%B1%E4%BA%BA%E6%95%B8%E6%8E%92%E8%A1%8C%E6%A6%9C
 
+## eggs-per-hour-race
+
+发布标题：工作1小时各国能买几个鸡蛋？75年购买力排名变化 — AI 估算
+
+封面文案：
+1950 → 2024 · 工作1小时能买几个蛋？
+工作1小时 / 各国能买几个鸡蛋？
+德国最短工时换最多鸡蛋，中国从1个涨到30个
+AI 估算 · 75 年购买力变迁
+
+视频内标题：工作1小时，各国能买几个蛋？
+
+短视频描述：
+以鸡蛋为标尺，看各国工作1小时的购买力如何随着经济发展而变化。
+德国人用最短的工作时间（1335小时/年）换来了最高的鸡蛋购买力。中国的鸡蛋从1950年的1个/小时涨到2024年的30个/小时。韩国的变化最戏剧性：从1950年的1个到2024年的89个。
+数据说明：⚠️ 数据为 AI 估算，仅供娱乐参考，不构成经济分析。
+
+方法：基于Maddison Project人均GDP（购买力平价）、OWID年均工作小时数计算。
+
+工资调整：按各国劳动报酬占GDP比例将人均GDP折算为估算工资（发达经济体≈52%、中国≈48%、印度≈40%），使数字更贴近实际收入。
+
+鸡蛋价格：统一使用$0.15/个。鸡蛋是全球性基础商品，2011年各国购买力平价价格差异极小（美国$0.15 vs 中国$0.14）。
+
+参考数据源：Maddison Project Database 2020、World Bank WDI、OWID / Penn World Table、OECD/ILO labor share estimates。
+
+站点介绍：
+「世界的形状 Shape of World」把动态排名、时间轴和事件节点，做成可以探索的真实世界历史。
+去 shapeof.world 用鸡蛋标尺探索各国的实际购买力。
+
+数据互动地址：https://shapeof.world/history/eggs-per-hour-race
+
+原始数据来源：AI估算 · 基于Maddison Project + World Bank + OWID
+
+
+参考页面：
+- Maddison Project Database 2020: https://www.rug.nl/ggdc/historicaldevelopment/maddison/
+- World Bank WDI - GDP per capita PPP: https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD
+- World Bank - PPP conversion factor: https://data.worldbank.org/indicator/PA.NUS.PRVT.PP
+- OWID - Annual working hours per worker: https://ourworldindata.org/working-hours
+
 ## github-stars-race
 
 发布标题：GitHub Star 排名：OpenClaw 怎么突然冲到第一？
 
 封面文案：
 2014 → 2026 · GitHub Stars
-GitHub Stars / OpenClaw 冲顶
+GitHub Sta… / OpenClaw 冲顶
 React、Vue、TensorFlow 之后，AI Agent 改写榜单
 2014-2026 · 13 年 Star 排名
 
-视频内标题：13 年里，GitHub Star 榜从前端框架，变成了 AI Agent 战场。
+视频内标题：13 年里，GitHub Star 榜从前…
 
 短视频描述：
 从 2014 到 2026，React、Vue、TensorFlow、VS Code 到 OpenClaw，GitHub Star 排名经历了多次反转。
@@ -249,7 +289,7 @@ YouTube 王座 / 又换人了
 PewDiePie、T-Series、MrBeast 的平台权力迁移
 14 年订阅王座
 
-视频内标题：全球 YouTube 第一，怎么从 PewDiePie 变成 T-Series，又变成 MrBeast？
+视频内标题：全球 YouTube 第一
 
 短视频描述：
 从 2012 到 2026，看 YouTube 订阅榜如何从个人创作者，转向机构媒体，再被 MrBeast 改写。
@@ -297,6 +337,72 @@ https://en.wikipedia.org/wiki/List_of_most-subscribed_YouTube_channels
 原始数据来源：World Bank WDI (NY.GDP.PCAP.CD) · 中国国家统计局 · AI估算补全
 https://data.worldbank.org/indicator/NY.GDP.PCAP.CD
 
+## guangdong-city-gdp-race
+
+发布标题：广东经济版图 40 年：珠三角赢家通吃，非珠三角城市掉队
+
+封面文案：
+1978 → 2025 · 广东城市 GDP
+广东经济版图 / 珠三角赢家通吃
+广深佛莞珠领跑，非珠三角差距拉大
+47 年经济洗牌
+
+视频内标题：广东城市排位战，珠三角如何赢家通吃
+
+短视频描述：
+从 1978 年到 2025 年，看广东城市经济版图如何被产业革命和区域政策改写。
+1978 年广州一城就占了广东近一半的 GDP。1980 年深圳 GDP 只有 3 亿，排第 9。2017 年，深圳反超广州登顶。到 2025 年，深圳 GDP 接近 4 万亿，是广州的 1.2 倍。佛山稳居第三，东莞守在第四——珠三角四城撑起广东的脊梁。曾经的珠西重镇江门从第 2 滑到第 7，非珠三角城市的增长差距持续拉大。
+
+站点介绍：
+「世界的形状 Shape of World」把动态排名、时间轴和事件节点，做成可以探索的真实世界历史。
+去 shapeof.world 打开互动数据，拖动时间线继续探索。
+
+数据互动地址：https://shapeof.world/history/guangdong-city-gdp-race
+
+原始数据来源：广东省统计局 / 国家统计局等 · 1978-2025
+https://stats.gd.gov.cn/fsjdgnsczz/
+
+参考页面：
+- 国家统计局：中国城市统计年鉴 2007 · 珠江三角洲经济区地区生产总值: https://www.stats.gov.cn/zt_18555/ztsj/sjzsj/sjz2007/202303/t20230303_1924956.html
+- 广东省统计局：广东经济特区成立40周年发展成就: https://stats.gd.gov.cn/tjkx185/content/post_3073235.html
+- 1981年广东各市GDP排行榜公开整理页: https://gj.aizhan.com/gdp/city_gdp_2_1981.html
+- 广州本地宝：广州历年GDP一览（用于补充1981-1984广州锚点）: https://gz.bendibao.com/life/2012516/97849.shtml
+- 1982年广东各市GDP排行榜公开整理页: https://gj.aizhan.com/gdp/city_gdp_2_1982.html
+- 1983年广东各市GDP排行榜公开整理页: https://gj.aizhan.com/gdp/city_gdp_2_1983.html
+- 1984年广东各市GDP排行榜公开整理页: https://gj.aizhan.com/gdp/city_gdp_2_1984.html
+- 1985年广东各市GDP排行榜公开整理页: https://gj.aizhan.com/gdp/city_gdp_2_1985.html
+
+## jiangsu-gdp-race
+
+发布标题：江苏13市GDP排位赛：苏州如何超越南京无锡，46年稳坐第一？
+
+封面文案：
+1978 → 2024 · 江苏城市 GDP
+江苏城市GDP / 苏州一骑绝尘
+苏州称霸46年，镇江滑落，5城跻身万亿
+改革开放 46 年浓缩
+
+视频内标题：江苏13市GDP排名
+
+短视频描述：
+从1978年改革开放到2024年，看江苏13市经济排位如何被产业变迁和区域政策改写。
+苏州从乡镇工业起步，中新合作工业园让它稳坐江苏第一；南京无锡紧随其后，南通和常州在2020年代相继突破万亿。曾经位居中游的镇江不断滑落，盐城和扬州反复争夺第八。经济版图背后，是苏南模式、沿江开发和长三角一体化的时代印记。
+
+站点介绍：
+「世界的形状 Shape of World」把动态排名、时间轴和事件节点，做成可以探索的真实世界历史。
+去 shapeof.world 打开互动数据，拖动时间线继续探索。
+
+数据互动地址：https://shapeof.world/history/jiangsu-gdp-race
+
+原始数据来源：江苏省各市历年统计公报及国民经济核算，单位：当年价格
+https://tj.jiangsu.gov.cn/
+
+参考页面：
+- 苏州2024年GDP: https://www.suzhou.gov.cn/
+- 南京2024年GDP: https://www.nanjing.gov.cn/
+- 无锡2024年GDP: https://www.wuxi.gov.cn/
+- 常州2024年GDP: https://www.changzhou.gov.cn/
+
 ## programming-youtubers-race
 
 发布标题：YouTube 编程类频道订阅排名：AI 时代谁在爆发？
@@ -307,7 +413,7 @@ https://data.worldbank.org/indicator/NY.GDP.PCAP.CD
 Tom Scott 到 Fireship，编程知识消费方式的演变
 12 年订阅排名
 
-视频内标题：编程类 YouTuber，12 年里谁增长最快？
+视频内标题：编程类 YouTuber
 
 短视频描述：
 从 2014 到 2026，编程创作者如何在 YouTube 上重新洗牌？
@@ -332,7 +438,7 @@ https://socialblade.com
 从德国、荷兰到中国、印度，一场地缘剧变
 25 年贸易版图重写
 
-视频内标题：俄罗斯最大贸易伙伴，25 年里从德国变成了中国
+视频内标题：俄罗斯最大贸易伙伴
 
 短视频描述：
 从 2000 年到 2025 年，看俄罗斯主要贸易伙伴如何被地缘政治改写。

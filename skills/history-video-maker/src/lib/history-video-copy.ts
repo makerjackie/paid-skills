@@ -34,6 +34,9 @@ const SITE_LINE =
 
 const SITE_CTA =
   '像逛博物馆、翻地图、玩游戏一样，打开一个主题，看看世界原来是怎么动的。';
+const COVER_HEADLINE_MAX_LINES = 2;
+const COVER_HEADLINE_LINE_MAX_CHARS = 11;
+const RACE_HOOK_MAX_CHARS = 22;
 
 const COPY_OVERRIDES: Record<string, Partial<HistoryVideoCopy>> = {
   'southeast-asia-gdp-race': {
@@ -171,6 +174,18 @@ const COPY_OVERRIDES: Record<string, Partial<HistoryVideoCopy>> = {
     sourceLine: '数据：公开统计 + AI 估算，仅供娱乐参考',
     closingTitle: '祝大家人生美满，幸福开心',
     closingBody: '数据参考 BLS ATUS、CDC、Pew、Common Sense；逐岁细分由 AI 估算，仅供娱乐参考。祝大家玩得开心。',
+  },
+  'jiangsu-gdp-race': {
+    platformTitle: '江苏13市GDP排位赛：苏州如何超越南京无锡，46年稳坐第一？',
+    coverKicker: '1978 → 2024 · 江苏城市 GDP',
+    coverHeadline: '江苏城市GDP\n苏州一骑绝尘',
+    coverSubline: '苏州称霸46年，镇江滑落，5城跻身万亿',
+    coverBadge: '改革开放 46 年浓缩',
+    coverCompareRank: 2,
+    hook: '江苏13市GDP排名，46年里从三强争霸变成苏州一骑绝尘',
+    intro: '从1978年改革开放到2024年，看江苏13市经济排位如何被产业变迁和区域政策改写。',
+    insight:
+      '苏州从乡镇工业起步，中新合作工业园让它稳坐江苏第一；南京无锡紧随其后，南通和常州在2020年代相继突破万亿。曾经位居中游的镇江不断滑落，盐城和扬州反复争夺第八。经济版图背后，是苏南模式、沿江开发和长三角一体化的时代印记。',
   },
   'russia-trade-race': {
     platformTitle: '俄罗斯贸易版图重写：从欧洲全面转向中国和印度',
@@ -323,6 +338,35 @@ const COPY_OVERRIDES: Record<string, Partial<HistoryVideoCopy>> = {
     sourceDisclosure: '当前 Star 来自 GitHub API/公开仓库页；历史节点按 Star History、GH Archive 趋势和项目报道估算。Star 是开发者注意力指标，不等同于真实用户或安装量。',
     cta: '去 shapeof.world 看更完整的互动数据。',
   },
+  'guangdong-city-gdp-race': {
+    platformTitle: '广东经济版图 40 年：珠三角赢家通吃，非珠三角城市掉队',
+    coverKicker: '1978 → 2025 · 广东城市 GDP',
+    coverHeadline: '广东经济版图\n珠三角赢家通吃',
+    coverSubline: '广深佛莞珠领跑，非珠三角差距拉大',
+    coverBadge: '47 年经济洗牌',
+    coverCompareRank: 2,
+    hook: '广东城市排位战，珠三角如何赢家通吃',
+    intro: '从 1978 年到 2025 年，看广东城市经济版图如何被产业革命和区域政策改写。',
+    insight:
+      '1978 年广州一城就占了广东近一半的 GDP。1980 年深圳 GDP 只有 3 亿，排第 9。2017 年，深圳反超广州登顶。到 2025 年，深圳 GDP 接近 4 万亿，是广州的 1.2 倍。佛山稳居第三，东莞守在第四——珠三角四城撑起广东的脊梁。曾经的珠西重镇江门从第 2 滑到第 7，非珠三角城市的增长差距持续拉大。',
+  },
+  'eggs-per-hour-race': {
+    platformTitle: '工作1小时各国能买几个鸡蛋？75年购买力排名变化 — AI 估算',
+    coverKicker: '1950 → 2024 · 工作1小时能买几个蛋？',
+    coverHeadline: '工作1小时\n各国能买几个鸡蛋？',
+    coverSubline: '德国最短工时换最多鸡蛋，中国从1个涨到30个',
+    coverBadge: 'AI 估算 · 75 年购买力变迁',
+    hook: '工作1小时，各国能买几个蛋？',
+    intro: '以鸡蛋为标尺，看各国工作1小时的购买力如何随着经济发展而变化。',
+    insight:
+      '德国人用最短的工作时间（1335小时/年）换来了最高的鸡蛋购买力。中国的鸡蛋从1950年的1个/小时涨到2024年的30个/小时。韩国的变化最戏剧性：从1950年的1个到2024年的89个。',
+    sourceDisclosure:
+      '⚠️ 数据为 AI 估算，仅供娱乐参考，不构成经济分析。\n\n方法：基于Maddison Project人均GDP（购买力平价）、OWID年均工作小时数计算。\n\n工资调整：按各国劳动报酬占GDP比例将人均GDP折算为估算工资（发达经济体≈52%、中国≈48%、印度≈40%），使数字更贴近实际收入。\n\n鸡蛋价格：统一使用$0.15/个。鸡蛋是全球性基础商品，2011年各国购买力平价价格差异极小（美国$0.15 vs 中国$0.14）。\n\n参考数据源：Maddison Project Database 2020、World Bank WDI、OWID / Penn World Table、OECD/ILO labor share estimates。',
+    showInsightPanel: true,
+    showSourcePanel: true,
+    cta: '去 shapeof.world 用鸡蛋标尺探索各国的实际购买力。',
+    sourceLine: 'AI估算 · 基于Maddison + World Bank + OWID数据，仅供娱乐参考',
+  },
 };
 
 export function getHistoryVideoCopy(data: HistoryRaceData): HistoryVideoCopy {
@@ -333,11 +377,11 @@ export function getHistoryVideoCopy(data: HistoryRaceData): HistoryVideoCopy {
   return {
     platformTitle: override.platformTitle ?? defaultCover.platformTitle,
     coverKicker: override.coverKicker ?? defaultCover.coverKicker,
-    coverHeadline: override.coverHeadline ?? defaultCover.coverHeadline,
+    coverHeadline: limitCoverHeadline(override.coverHeadline ?? defaultCover.coverHeadline),
     coverSubline: override.coverSubline ?? defaultCover.coverSubline,
     coverBadge: override.coverBadge ?? defaultCover.coverBadge,
     coverCompareRank: override.coverCompareRank,
-    hook: override.hook ?? buildDefaultHook(data),
+    hook: limitRaceHook(override.hook ?? buildDefaultHook(data)),
     intro: override.intro ?? buildDefaultIntro(data),
     insight: override.insight ?? buildDefaultInsight(data),
     sourceDisclosure: override.sourceDisclosure,
@@ -378,7 +422,7 @@ function buildDefaultIntro(data: HistoryRaceData) {
 }
 
 function buildDefaultHook(data: HistoryRaceData) {
-  return `${formatYear(data.startYear)} 到 ${formatYear(data.endYear)}，谁在上升，谁被时间改写？`;
+  return normalizeRaceTitle(data.title);
 }
 
 function buildDefaultInsight(data: HistoryRaceData) {
@@ -462,4 +506,77 @@ function compactSentence(text: string, maxLength: number) {
   }
 
   return `${normalized.slice(0, Math.max(0, maxLength - 1))}…`;
+}
+
+function limitCoverHeadline(text: string) {
+  const lines = text
+    .split(/\n+/)
+    .map((line) => normalizeTitleText(line))
+    .filter(Boolean);
+  const headlineLines = lines.length > 1 ? lines : splitHeadlineLine(lines[0] ?? '');
+
+  return headlineLines
+    .slice(0, COVER_HEADLINE_MAX_LINES)
+    .map((line) => compactTitleLine(line, COVER_HEADLINE_LINE_MAX_CHARS))
+    .join('\n');
+}
+
+function splitHeadlineLine(text: string) {
+  const normalized = normalizeTitleText(text);
+
+  if (normalized.length <= COVER_HEADLINE_LINE_MAX_CHARS) {
+    return [normalized];
+  }
+
+  const punctuated = normalized
+    .split(/[，,。；;：:？?！!]/)
+    .map((line) => line.trim())
+    .filter(Boolean);
+
+  if (punctuated.length >= 2) {
+    return punctuated;
+  }
+
+  return [
+    normalized.slice(0, COVER_HEADLINE_LINE_MAX_CHARS),
+    normalized.slice(COVER_HEADLINE_LINE_MAX_CHARS),
+  ];
+}
+
+function limitRaceHook(text: string) {
+  const normalized = normalizeTitleText(text);
+
+  if (normalized.length <= RACE_HOOK_MAX_CHARS) {
+    return normalized;
+  }
+
+  const firstClause = normalized.split(/[，,。；;：:？?！!]/)[0]?.trim();
+
+  if (firstClause && firstClause.length >= 6) {
+    return compactTitleLine(firstClause, RACE_HOOK_MAX_CHARS);
+  }
+
+  return compactTitleLine(normalized, RACE_HOOK_MAX_CHARS);
+}
+
+function normalizeRaceTitle(title: string) {
+  return normalizeTitleText(title)
+    .replace(/排位赛/g, '排名')
+    .replace(/动态排名/g, '排名')
+    .replace(/\s+Race$/i, '')
+    .trim();
+}
+
+function compactTitleLine(text: string, maxLength: number) {
+  const normalized = normalizeTitleText(text);
+
+  if (normalized.length <= maxLength) {
+    return normalized;
+  }
+
+  return `${normalized.slice(0, Math.max(0, maxLength - 1)).trimEnd()}…`;
+}
+
+function normalizeTitleText(text: string) {
+  return text.replace(/\s+/g, ' ').trim();
 }

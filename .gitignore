@@ -46,3 +46,4 @@ pnpm-debug.log*
 
 # Docs
 docs/history-video-copy.md
+*.mp4

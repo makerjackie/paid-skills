@@ -1,0 +1,7063 @@
+{
+  "slug": "guangdong-city-gdp-race",
+  "title": "广东城市 GDP 排位赛",
+  "titleEn": "Guangdong City GDP Race",
+  "summary": "对比广东 21 个地级市在不同年份的地区生产总值变化。",
+  "summaryEn": "Compare GDP changes across Guangdong’s 21 prefecture-level cities over time.",
+  "showFlags": false,
+  "sourceLabel": "广东省统计局 / 国家统计局等 · 1978-2025",
+  "sourceLabelEn": "Guangdong Statistics Bureau / NBS China and others · 1978-2025",
+  "sourceUrl": "https://stats.gd.gov.cn/fsjdgnsczz/",
+  "sourcePages": [
+    {
+      "year": 1978,
+      "title": "国家统计局：中国城市统计年鉴 2007 · 珠江三角洲经济区地区生产总值",
+      "url": "https://www.stats.gov.cn/zt_18555/ztsj/sjzsj/sjz2007/202303/t20230303_1924956.html"
+    },
+    {
+      "year": 1980,
+      "title": "广东省统计局：广东经济特区成立40周年发展成就",
+      "url": "https://stats.gd.gov.cn/tjkx185/content/post_3073235.html"
+    },
+    {
+      "year": 1981,
+      "title": "1981年广东各市GDP排行榜公开整理页",
+      "url": "https://gj.aizhan.com/gdp/city_gdp_2_1981.html"
+    },
+    {
+      "year": 1981,
+      "title": "广州本地宝：广州历年GDP一览（用于补充1981-1984广州锚点）",
+      "url": "https://gz.bendibao.com/life/2012516/97849.shtml"
+    },
+    {
+      "year": 1982,
+      "title": "1982年广东各市GDP排行榜公开整理页",
+      "url": "https://gj.aizhan.com/gdp/city_gdp_2_1982.html"
+    },
+    {
+      "year": 1983,
+      "title": "1983年广东各市GDP排行榜公开整理页",
+      "url": "https://gj.aizhan.com/gdp/city_gdp_2_1983.html"
+    },
+    {
+      "year": 1984,
+      "title": "1984年广东各市GDP排行榜公开整理页",
+      "url": "https://gj.aizhan.com/gdp/city_gdp_2_1984.html"
+    },
+    {
+      "year": 1985,
+      "title": "1985年广东各市GDP排行榜公开整理页",
+      "url": "https://gj.aizhan.com/gdp/city_gdp_2_1985.html"
+    },
+    {
+      "year": 1986,
+      "title": "1986年广东各市GDP排行榜公开整理页",
+      "url": "https://gj.aizhan.com/gdp/city_gdp_2_1986.html"
+    },
+    {
+      "year": 1987,
+      "title": "1987年广东各市GDP排行榜公开整理页",
+      "url": "https://gj.aizhan.com/gdp/city_gdp_2_1987.html"
+    },
+    {
+      "year": 1988,
+      "title": "1988年广东各市GDP排行榜公开整理页",
+      "url": "https://gj.aizhan.com/gdp/city_gdp_2_1988.html"
+    },
+    {
+      "year": 1988,
+      "title": "东莞市情库：东莞市由县级市升格为地级市",
+      "url": "https://gdxk.southcn.com/dg/dsj/content/post_374831.html"
+    },
+    {
+      "year": 1989,
+      "title": "1989年广东各市GDP排行榜公开整理页",
+      "url": "https://gj.aizhan.com/gdp/city_gdp_2_1989.html"
+    },
+    {
+      "year": 1990,
+      "title": "深圳证券交易所：深交所简介",
+      "url": "https://www.szse.cn/aboutus/sse/introduction/index.html"
+    },
+    {
+      "year": 1990,
+      "title": "香港大学泛珠三角研究项目：汕头市主要年份国民经济主要指标统计（1980-2004）",
+      "url": "https://dupad.hku.hk/panprd/chinese_gb/GB.General.statistics.Shantou.htm"
+    },
+    {
+      "year": 1991,
+      "title": "1991年广东各市GDP排行榜公开整理页",
+      "url": "https://gj.aizhan.com/gdp/city_gdp_2_1991.html"
+    },
+    {
+      "year": 1992,
+      "title": "1992年广东各市GDP排行榜公开整理页",
+      "url": "https://gj.aizhan.com/gdp/city_gdp_2_1992.html"
+    },
+    {
+      "year": 1993,
+      "title": "1993年广东各市GDP排行榜公开整理页",
+      "url": "https://gj.aizhan.com/gdp/city_gdp_2_1993.html"
+    },
+    {
+      "year": 1994,
+      "title": "1994年广东各市GDP排行榜公开整理页",
+      "url": "https://gj.aizhan.com/gdp/city_gdp_2_1994.html"
+    },
+    {
+      "year": 1995,
+      "title": "1995年广东各市GDP排行榜公开整理页",
+      "url": "https://gj.aizhan.com/gdp/city_gdp_2_1995.html"
+    },
+    {
+      "year": 1996,
+      "title": "1996年广东各市GDP排行榜公开整理页",
+      "url": "https://gj.aizhan.com/gdp/city_gdp_2_1996.html"
+    },
+    {
+      "year": 1997,
+      "title": "1997年广东各市GDP排行榜公开整理页",
+      "url": "https://gj.aizhan.com/gdp/city_gdp_2_1997.html"
+    },
+    {
+      "year": 1998,
+      "title": "1998年广东各市GDP排行榜公开整理页",
+      "url": "https://gj.aizhan.com/gdp/city_gdp_2_1998.html"
+    },
+    {
+      "year": 1999,
+      "title": "1999年广东各市GDP排行榜公开整理页",
+      "url": "https://gj.aizhan.com/gdp/city_gdp_2_1999.html"
+    },
+    {
+      "year": 2000,
+      "title": "中国新闻网：中央工作组撤离汕头，中国第一税案涉案323亿元",
+      "url": "https://www.chinanews.com.cn/2001-12-13/26/146244.html"
+    },
+    {
+      "year": 2001,
+      "title": "WTO：Ministerial Conference approves China accession",
+      "url": "https://www.wto.org/english/news_e/pres01_e/pr252_e.htm"
+    },
+    {
+      "year": 2002,
+      "title": "国务院公报：关于同意广东省调整佛山市行政区划的批复",
+      "url": "https://big5.www.gov.cn/gate/big5/www.gov.cn/gongbao/content/2003/content_62539.htm"
+    },
+    {
+      "year": 2005,
+      "title": "汕头市统计局：2005年国民经济和社会发展统计公报",
+      "url": "https://www.shantou.gov.cn/tjj/tjzl/tjgb/content/post_853506.html"
+    },
+    {
+      "year": 2006,
+      "title": "壳牌中国：壳牌化工介绍（中海壳牌惠州大亚湾投产）",
+      "url": "https://www.shell.com.cn/business-customers/shell-chemicals/about-shell-chemicals.html"
+    },
+    {
+      "year": 2009,
+      "title": "珠海市情库：国务院正式批复《横琴总体发展规划》",
+      "url": "https://gdxk.southcn.com/zh/dsj/content/post_353341.html"
+    },
+    {
+      "year": 2010,
+      "title": "2010年1-4季度各市生产总值",
+      "url": "https://stats.gd.gov.cn/fsjdgnsczz/content/post_1421180.html"
+    },
+    {
+      "year": 2011,
+      "title": "2011年1-4季度各市生产总值",
+      "url": "https://stats.gd.gov.cn/fsjdgnsczz/content/post_1421184.html"
+    },
+    {
+      "year": 2012,
+      "title": "2012年1-4季度各市地区生产总值",
+      "url": "https://stats.gd.gov.cn/fsjdgnsczz/content/post_1421173.html"
+    },
+    {
+      "year": 2012,
+      "title": "国家发展改革委：关于印发广州南沙新区发展规划的通知",
+      "url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/201211/t20121109_964481.html"
+    },
+    {
+      "year": 2013,
+      "title": "2013年1-4季度各市地区生产总值",
+      "url": "https://stats.gd.gov.cn/fsjdgnsczz/content/post_1421188.html"
+    },
+    {
+      "year": 2014,
+      "title": "2014年1-4季度各市地区生产总值",
+      "url": "https://stats.gd.gov.cn/fsjdgnsczz/content/post_1421192.html"
+    },
+    {
+      "year": 2015,
+      "title": "2015年4季度各市地区生产总值",
+      "url": "https://stats.gd.gov.cn/fsjdgnsczz/content/post_1421196.html"
+    },
+    {
+      "year": 2015,
+      "title": "中国政府网：国务院关于印发中国（广东）自由贸易试验区总体方案的通知",
+      "url": "https://www.gov.cn/zhengce/zhengceku/2015-04/20/content_9623.htm"
+    },
+    {
+      "year": 2016,
+      "title": "2016年4季度各市地区生产总值",
+      "url": "https://stats.gd.gov.cn/fsjdgnsczz/content/post_1421200.html"
+    },
+    {
+      "year": 2017,
+      "title": "2017年4季度各市地区生产总值",
+      "url": "https://stats.gd.gov.cn/fsjdgnsczz/content/post_1421204.html"
+    },
+    {
+      "year": 2018,
+      "title": "2018年1-4季度各市地区生产总值",
+      "url": "https://stats.gd.gov.cn/fsjdgnsczz/content/post_2484627.html"
+    },
+    {
+      "year": 2019,
+      "title": "2019年1-4季度各市生产总值",
+      "url": "https://stats.gd.gov.cn/fsjdgnsczz/content/post_2883389.html"
+    },
+    {
+      "year": 2019,
+      "title": "中国政府网：中共中央、国务院印发《粤港澳大湾区发展规划纲要》",
+      "url": "https://www.gov.cn/zhengce/2019-02/18/content_5366593.htm"
+    },
+    {
+      "year": 2021,
+      "title": "2021年全年各市生产总值",
+      "url": "https://stats.gd.gov.cn/fsjdgnsczz/content/post_3813633.html"
+    },
+    {
+      "year": 2022,
+      "title": "2022年全年各市生产总值",
+      "url": "https://stats.gd.gov.cn/fsjdgnsczz/content/post_4090056.html"
+    },
+    {
+      "year": 2023,
+      "title": "2023年全年各市生产总值",
+      "url": "https://stats.gd.gov.cn/fsjdgnsczz/content/post_4357421.html"
+    },
+    {
+      "year": 2024,
+      "title": "2024年全年各市地区生产总值",
+      "url": "https://stats.gd.gov.cn/fsjdgnsczz/content/post_4666332.html"
+    },
+    {
+      "year": 2025,
+      "title": "2025年各市地区生产总值初步核算结果",
+      "url": "https://stats.gd.gov.cn/fsjdgnsczz/content/post_4854894.html"
+    }
+  ],
+  "unit": "人民币",
+  "unitShort": "CNY",
+  "valueKind": "currency-cny",
+  "startYear": 1978,
+  "endYear": 2025,
+  "entities": [
+    {
+      "code": "DG",
+      "iso2": "CN",
+      "name": "东莞",
+      "nameEn": "Dongguan",
+      "region": "珠三角"
+    },
+    {
+      "code": "ZS",
+      "iso2": "CN",
+      "name": "中山",
+      "nameEn": "Zhongshan",
+      "region": "珠三角"
+    },
+    {
+      "code": "YF",
+      "iso2": "CN",
+      "name": "云浮",
+      "nameEn": "Yunfu",
+      "region": "粤西"
+    },
+    {
+      "code": "FS",
+      "iso2": "CN",
+      "name": "佛山",
+      "nameEn": "Foshan",
+      "region": "珠三角"
+    },
+    {
+      "code": "GZ",
+      "iso2": "CN",
+      "name": "广州",
+      "nameEn": "Guangzhou",
+      "region": "珠三角"
+    },
+    {
+      "code": "HZ",
+      "iso2": "CN",
+      "name": "惠州",
+      "nameEn": "Huizhou",
+      "region": "珠三角"
+    },
+    {
+      "code": "JY",
+      "iso2": "CN",
+      "name": "揭阳",
+      "nameEn": "Jieyang",
+      "region": "粤东"
+    },
+    {
+      "code": "MZ",
+      "iso2": "CN",
+      "name": "梅州",
+      "nameEn": "Meizhou",
+      "region": "粤东"
+    },
+    {
+      "code": "ST",
+      "iso2": "CN",
+      "name": "汕头",
+      "nameEn": "Shantou",
+      "region": "粤东"
+    },
+    {
+      "code": "SW",
+      "iso2": "CN",
+      "name": "汕尾",
+      "nameEn": "Shanwei",
+      "region": "粤东"
+    },
+    {
+      "code": "JM",
+      "iso2": "CN",
+      "name": "江门",
+      "nameEn": "Jiangmen",
+      "region": "珠三角"
+    },
+    {
+      "code": "HY",
+      "iso2": "CN",
+      "name": "河源",
+      "nameEn": "Heyuan",
+      "region": "粤北"
+    },
+    {
+      "code": "SZ",
+      "iso2": "CN",
+      "name": "深圳",
+      "nameEn": "Shenzhen",
+      "region": "珠三角"
+    },
+    {
+      "code": "QY",
+      "iso2": "CN",
+      "name": "清远",
+      "nameEn": "Qingyuan",
+      "region": "粤北"
+    },
+    {
+      "code": "ZJ",
+      "iso2": "CN",
+      "name": "湛江",
+      "nameEn": "Zhanjiang",
+      "region": "粤西"
+    },
+    {
+      "code": "CZ",
+      "iso2": "CN",
+      "name": "潮州",
+      "nameEn": "Chaozhou",
+      "region": "粤东"
+    },
+    {
+      "code": "ZH",
+      "iso2": "CN",
+      "name": "珠海",
+      "nameEn": "Zhuhai",
+      "region": "珠三角"
+    },
+    {
+      "code": "ZQ",
+      "iso2": "CN",
+      "name": "肇庆",
+      "nameEn": "Zhaoqing",
+      "region": "珠三角"
+    },
+    {
+      "code": "MM",
+      "iso2": "CN",
+      "name": "茂名",
+      "nameEn": "Maoming",
+      "region": "粤西"
+    },
+    {
+      "code": "YJ",
+      "iso2": "CN",
+      "name": "阳江",
+      "nameEn": "Yangjiang",
+      "region": "粤西"
+    },
+    {
+      "code": "SG",
+      "iso2": "CN",
+      "name": "韶关",
+      "nameEn": "Shaoguan",
+      "region": "粤北"
+    }
+  ],
+  "frames": [
+    {
+      "year": 1978,
+      "total": 9200000000,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 4300000000,
+          "rank": 1,
+          "share": 0.4673913043478261,
+          "rankDelta": 0
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 1400000000,
+          "rank": 2,
+          "share": 0.15217391304347827,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 1300000000,
+          "rank": 3,
+          "share": 0.14130434782608695,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 600000000,
+          "rank": 4,
+          "share": 0.06521739130434782,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 600000000,
+          "rank": 5,
+          "share": 0.06521739130434782,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 600000000,
+          "rank": 6,
+          "share": 0.06521739130434782,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 400000000,
+          "rank": 7,
+          "share": 0.043478260869565216,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1980,
+      "total": 13679000000,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 5800000000,
+          "rank": 1,
+          "share": 0.4240076028949485,
+          "rankDelta": 0
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 1900000000,
+          "rank": 2,
+          "share": 0.13889904232765554,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 1700000000,
+          "rank": 3,
+          "share": 0.12427809050369179,
+          "rankDelta": 0
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 1079000000,
+          "rank": 4,
+          "share": 0.07888003509028438,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 700000000,
+          "rank": 5,
+          "share": 0.05117333138387309,
+          "rankDelta": -1
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 700000000,
+          "rank": 6,
+          "share": 0.05117333138387309,
+          "rankDelta": -1
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 700000000,
+          "rank": 7,
+          "share": 0.05117333138387309,
+          "rankDelta": -1
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 500000000,
+          "rank": 8,
+          "share": 0.03655237955990935,
+          "rankDelta": -1
+        },
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 300000000,
+          "rank": 9,
+          "share": 0.02193142773594561,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 300000000,
+          "rank": 10,
+          "share": 0.02193142773594561,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1981,
+      "total": 16017322868,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 6300000000,
+          "rank": 1,
+          "share": 0.3933241560976693,
+          "rankDelta": 0
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 2148000000,
+          "rank": 2,
+          "share": 0.1341048075075863,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 2094479365,
+          "rank": 3,
+          "share": 0.13076338550835037,
+          "rankDelta": 0,
+          "sourceKind": "interpolated",
+          "sourceNote": "因逐年公开值缺失，使用 1980 与 1990 锚点做几何插值。",
+          "sourceNoteEn": "Geometrically interpolated between the 1980 and 1990 anchor values because annual public values were unavailable."
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 1262000000,
+          "rank": 4,
+          "share": 0.07878969603099344,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 975000000,
+          "rank": 5,
+          "share": 0.06087159558654406,
+          "rankDelta": 1
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 911000000,
+          "rank": 6,
+          "share": 0.05687592161983757,
+          "rankDelta": -1
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 909000000,
+          "rank": 7,
+          "share": 0.056751056808378,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 603843503,
+          "rank": 8,
+          "share": 0.037699402576592926,
+          "rankDelta": 0,
+          "sourceKind": "interpolated",
+          "sourceNote": "因逐年公开值缺失，使用 1980 与 1990 锚点做几何插值。",
+          "sourceNoteEn": "Geometrically interpolated between the 1980 and 1990 anchor values because annual public values were unavailable."
+        },
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 496000000,
+          "rank": 9,
+          "share": 0.030966473241975233,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 318000000,
+          "rank": 10,
+          "share": 0.01985350502207283,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1982,
+      "total": 18990750310,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 7200000000,
+          "rank": 1,
+          "share": 0.3791319396268762,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 2580496358,
+          "rank": 2,
+          "share": 0.13588174852897636,
+          "rankDelta": 1,
+          "sourceKind": "interpolated",
+          "sourceNote": "因逐年公开值缺失，使用 1980 与 1990 锚点做几何插值。",
+          "sourceNoteEn": "Geometrically interpolated between the 1980 and 1990 anchor values because annual public values were unavailable."
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 2574000000,
+          "rank": 3,
+          "share": 0.13553966841660822,
+          "rankDelta": -1
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 1416000000,
+          "rank": 4,
+          "share": 0.07456261479328564,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 1143000000,
+          "rank": 5,
+          "share": 0.060187195415766594,
+          "rankDelta": 1
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 1134000000,
+          "rank": 6,
+          "share": 0.059713280491233,
+          "rankDelta": -1
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 1035000000,
+          "rank": 7,
+          "share": 0.05450021632136345,
+          "rankDelta": 0
+        },
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 826000000,
+          "rank": 8,
+          "share": 0.04349485862941663,
+          "rankDelta": 1
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 729253952,
+          "rank": 9,
+          "share": 0.038400481291989565,
+          "rankDelta": -1,
+          "sourceKind": "interpolated",
+          "sourceNote": "因逐年公开值缺失，使用 1980 与 1990 锚点做几何插值。",
+          "sourceNoteEn": "Geometrically interpolated between the 1980 and 1990 anchor values because annual public values were unavailable."
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 353000000,
+          "rank": 10,
+          "share": 0.018587996484484347,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1983,
+      "total": 21349002506,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 7900000000,
+          "rank": 1,
+          "share": 0.3700407078869261,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 3179291984,
+          "rank": 2,
+          "share": 0.14891993118209998,
+          "rankDelta": 0,
+          "sourceKind": "interpolated",
+          "sourceNote": "因逐年公开值缺失，使用 1980 与 1990 锚点做几何插值。",
+          "sourceNoteEn": "Geometrically interpolated between the 1980 and 1990 anchor values because annual public values were unavailable."
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 2859000000,
+          "rank": 3,
+          "share": 0.13391726377831922,
+          "rankDelta": 0
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 1340000000,
+          "rank": 4,
+          "share": 0.06276639855297228,
+          "rankDelta": 0
+        },
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 1312000000,
+          "rank": 5,
+          "share": 0.06145486186679077,
+          "rankDelta": 3
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 1303000000,
+          "rank": 6,
+          "share": 0.06103329650337529,
+          "rankDelta": -1
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 1148000000,
+          "rank": 7,
+          "share": 0.05377300413344192,
+          "rankDelta": -1
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 1021000000,
+          "rank": 8,
+          "share": 0.04782424844969008,
+          "rankDelta": -1
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 880710522,
+          "rank": 9,
+          "share": 0.041253005696752436,
+          "rankDelta": 0,
+          "sourceKind": "interpolated",
+          "sourceNote": "因逐年公开值缺失，使用 1980 与 1990 锚点做几何插值。",
+          "sourceNoteEn": "Geometrically interpolated between the 1980 and 1990 anchor values because annual public values were unavailable."
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 406000000,
+          "rank": 10,
+          "share": 0.0190172819496319,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1984,
+      "total": 27028658805,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 9700000000,
+          "rank": 1,
+          "share": 0.3588783324389595,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 3917036151,
+          "rank": 2,
+          "share": 0.14492158783237116,
+          "rankDelta": 0,
+          "sourceKind": "interpolated",
+          "sourceNote": "因逐年公开值缺失，使用 1980 与 1990 锚点做几何插值。",
+          "sourceNoteEn": "Geometrically interpolated between the 1980 and 1990 anchor values because annual public values were unavailable."
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 3344000000,
+          "rank": 3,
+          "share": 0.12372053027586398,
+          "rankDelta": 0
+        },
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 2342000000,
+          "rank": 4,
+          "share": 0.08664876851258177,
+          "rankDelta": 1
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 1740000000,
+          "rank": 5,
+          "share": 0.06437611324162779,
+          "rankDelta": -1
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 1596000000,
+          "rank": 6,
+          "share": 0.05904843490438963,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 1469000000,
+          "rank": 7,
+          "share": 0.05434971859307541,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 1179000000,
+          "rank": 8,
+          "share": 0.04362036638613745,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 1063622654,
+          "rank": 9,
+          "share": 0.03935166231049695,
+          "rankDelta": 0,
+          "sourceKind": "interpolated",
+          "sourceNote": "因逐年公开值缺失，使用 1980 与 1990 锚点做几何插值。",
+          "sourceNoteEn": "Geometrically interpolated between the 1980 and 1990 anchor values because annual public values were unavailable."
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 678000000,
+          "rank": 10,
+          "share": 0.025084485504496344,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1985,
+      "total": 35296494663,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 12436000000,
+          "rank": 1,
+          "share": 0.35232960436256,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 4825971405,
+          "rank": 2,
+          "share": 0.13672664810137325,
+          "rankDelta": 0,
+          "sourceKind": "interpolated",
+          "sourceNote": "因逐年公开值缺失，使用 1980 与 1990 锚点做几何插值。",
+          "sourceNoteEn": "Geometrically interpolated between the 1980 and 1990 anchor values because annual public values were unavailable."
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 3910000000,
+          "rank": 3,
+          "share": 0.1107758727128988,
+          "rankDelta": 0
+        },
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 3902000000,
+          "rank": 4,
+          "share": 0.11054922131092867,
+          "rankDelta": 0
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 2406000000,
+          "rank": 5,
+          "share": 0.06816540914251522,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 2260000000,
+          "rank": 6,
+          "share": 0.06402902105656043,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 1916000000,
+          "rank": 7,
+          "share": 0.05428301077184504,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 1375000000,
+          "rank": 8,
+          "share": 0.03895570971361531,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 1284523258,
+          "rank": 9,
+          "share": 0.036392374661116646,
+          "rankDelta": 0,
+          "sourceKind": "interpolated",
+          "sourceNote": "因逐年公开值缺失，使用 1980 与 1990 锚点做几何插值。",
+          "sourceNoteEn": "Geometrically interpolated between the 1980 and 1990 anchor values because annual public values were unavailable."
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 981000000,
+          "rank": 10,
+          "share": 0.02779312816658663,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1986,
+      "total": 41268124119,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 13955000000,
+          "rank": 1,
+          "share": 0.3381544545073001,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 5945822072,
+          "rank": 2,
+          "share": 0.1440778372880419,
+          "rankDelta": 0,
+          "sourceKind": "interpolated",
+          "sourceNote": "因逐年公开值缺失，使用 1980 与 1990 锚点做几何插值。",
+          "sourceNoteEn": "Geometrically interpolated between the 1980 and 1990 anchor values because annual public values were unavailable."
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 4717000000,
+          "rank": 3,
+          "share": 0.11430129429673483,
+          "rankDelta": 0
+        },
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 4165000000,
+          "rank": 4,
+          "share": 0.10092535313671838,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 3002000000,
+          "rank": 5,
+          "share": 0.07274379594632138,
+          "rankDelta": 1
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 2836000000,
+          "rank": 6,
+          "share": 0.06872132088733093,
+          "rankDelta": -1
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 2323000000,
+          "rank": 7,
+          "share": 0.05629041904840259,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 1663000000,
+          "rank": 8,
+          "share": 0.040297445922295956,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 1551302047,
+          "rank": 9,
+          "share": 0.0375908059820382,
+          "rankDelta": 0,
+          "sourceKind": "interpolated",
+          "sourceNote": "因逐年公开值缺失，使用 1980 与 1990 锚点做几何插值。",
+          "sourceNoteEn": "Geometrically interpolated between the 1980 and 1990 anchor values because annual public values were unavailable."
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 1110000000,
+          "rank": 10,
+          "share": 0.0268972729848157,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1987,
+      "total": 52543017699,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 17321000000,
+          "rank": 1,
+          "share": 0.3296536963146229,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 7325530374,
+          "rank": 2,
+          "share": 0.13941967353236773,
+          "rankDelta": 0,
+          "sourceKind": "interpolated",
+          "sourceNote": "因逐年公开值缺失，使用 1980 与 1990 锚点做几何插值。",
+          "sourceNoteEn": "Geometrically interpolated between the 1980 and 1990 anchor values because annual public values were unavailable."
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 6045000000,
+          "rank": 3,
+          "share": 0.11504858808509297,
+          "rankDelta": 0
+        },
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 5590000000,
+          "rank": 4,
+          "share": 0.10638901693890317,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 3929000000,
+          "rank": 5,
+          "share": 0.07477682424918615,
+          "rankDelta": 0
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 3865000000,
+          "rank": 6,
+          "share": 0.07355877468137044,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 2758000000,
+          "rank": 7,
+          "share": 0.052490323563058126,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 2241000000,
+          "rank": 8,
+          "share": 0.04265076689804687,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 1873487325,
+          "rank": 9,
+          "share": 0.035656256664444615,
+          "rankDelta": 0,
+          "sourceKind": "interpolated",
+          "sourceNote": "因逐年公开值缺失，使用 1980 与 1990 锚点做几何插值。",
+          "sourceNoteEn": "Geometrically interpolated between the 1980 and 1990 anchor values because annual public values were unavailable."
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 1595000000,
+          "rank": 10,
+          "share": 0.030356079072907077,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1988,
+      "total": 72234981712,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 24008000000,
+          "rank": 1,
+          "share": 0.33235974358960324,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 9025395414,
+          "rank": 2,
+          "share": 0.12494493941985259,
+          "rankDelta": 0,
+          "sourceKind": "interpolated",
+          "sourceNote": "因逐年公开值缺失，使用 1980 与 1990 锚点做几何插值。",
+          "sourceNoteEn": "Geometrically interpolated between the 1980 and 1990 anchor values because annual public values were unavailable."
+        },
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 8698000000,
+          "rank": 3,
+          "share": 0.12041257288163816,
+          "rankDelta": 1
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 7593000000,
+          "rank": 4,
+          "share": 0.10511527545300972,
+          "rankDelta": -1
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 5714000000,
+          "rank": 5,
+          "share": 0.07910294797030128,
+          "rankDelta": 1
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 5546000000,
+          "rank": 6,
+          "share": 0.07677720501282655,
+          "rankDelta": -1
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 3771000000,
+          "rank": 7,
+          "share": 0.05220462317045959,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 3234000000,
+          "rank": 8,
+          "share": 0.044770551931388576,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 2383000000,
+          "rank": 9,
+          "share": 0.03298955635513264,
+          "rankDelta": 1
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 2262586298,
+          "rank": 10,
+          "share": 0.03132258421578764,
+          "rankDelta": -1,
+          "sourceKind": "interpolated",
+          "sourceNote": "因逐年公开值缺失，使用 1980 与 1990 锚点做几何插值。",
+          "sourceNoteEn": "Geometrically interpolated between the 1980 and 1990 anchor values because annual public values were unavailable."
+        }
+      ]
+    },
+    {
+      "year": 1989,
+      "total": 87115204574,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 28787000000,
+          "rank": 1,
+          "share": 0.3304474820528819,
+          "rankDelta": 0
+        },
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 11566000000,
+          "rank": 2,
+          "share": 0.13276672030512496,
+          "rankDelta": 1
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 11119708502,
+          "rank": 3,
+          "share": 0.1276437168043882,
+          "rankDelta": -1,
+          "sourceKind": "interpolated",
+          "sourceNote": "因逐年公开值缺失，使用 1980 与 1990 锚点做几何插值。",
+          "sourceNoteEn": "Geometrically interpolated between the 1980 and 1990 anchor values because annual public values were unavailable."
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 8761000000,
+          "rank": 4,
+          "share": 0.10056797826328892,
+          "rankDelta": 0
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 6547000000,
+          "rank": 5,
+          "share": 0.07515335620246007,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 6092000000,
+          "rank": 6,
+          "share": 0.06993038735075403,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 4521000000,
+          "rank": 7,
+          "share": 0.0518967959968416,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 3908000000,
+          "rank": 8,
+          "share": 0.04486013686256513,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 3081000000,
+          "rank": 9,
+          "share": 0.035366960510123634,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 2732496072,
+          "rank": 10,
+          "share": 0.03136646565157155,
+          "rankDelta": 0,
+          "sourceKind": "interpolated",
+          "sourceNote": "因逐年公开值缺失，使用 1980 与 1990 锚点做几何插值。",
+          "sourceNoteEn": "Geometrically interpolated between the 1980 and 1990 anchor values because annual public values were unavailable."
+        }
+      ]
+    },
+    {
+      "year": 1990,
+      "total": 105345000000,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 32000000000,
+          "rank": 1,
+          "share": 0.3037638236271299,
+          "rankDelta": 0
+        },
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 17200000000,
+          "rank": 2,
+          "share": 0.16327305519958232,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 13700000000,
+          "rank": 3,
+          "share": 0.130048886990365,
+          "rankDelta": 0
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 10100000000,
+          "rank": 4,
+          "share": 0.09587545683231288,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 8000000000,
+          "rank": 5,
+          "share": 0.07594095590678247,
+          "rankDelta": 1
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 7245000000,
+          "rank": 6,
+          "share": 0.06877402819307989,
+          "rankDelta": -1
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 5100000000,
+          "rank": 7,
+          "share": 0.04841235939057383,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 4600000000,
+          "rank": 8,
+          "share": 0.043666049646399925,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 4100000000,
+          "rank": 9,
+          "share": 0.03891973990222602,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 3300000000,
+          "rank": 10,
+          "share": 0.03132564431154777,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1991,
+      "total": 134670000000,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 38667000000,
+          "rank": 1,
+          "share": 0.2871240810871018,
+          "rankDelta": 0
+        },
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 23666000000,
+          "rank": 2,
+          "share": 0.17573327392886315,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 16664000000,
+          "rank": 3,
+          "share": 0.12373951139823272,
+          "rankDelta": 0
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 11880000000,
+          "rank": 4,
+          "share": 0.08821563822677657,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 9591000000,
+          "rank": 5,
+          "share": 0.07121853419469815,
+          "rankDelta": 0
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 8958000000,
+          "rank": 6,
+          "share": 0.06651815549120071,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 6494000000,
+          "rank": 7,
+          "share": 0.0482215786737952,
+          "rankDelta": 3
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 6370000000,
+          "rank": 8,
+          "share": 0.04730080938590629,
+          "rankDelta": -1
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 6237000000,
+          "rank": 9,
+          "share": 0.0463132100690577,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 6143000000,
+          "rank": 10,
+          "share": 0.045615207544367715,
+          "rankDelta": -2
+        }
+      ]
+    },
+    {
+      "year": 1992,
+      "total": 179169000000,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 51070000000,
+          "rank": 1,
+          "share": 0.2850381483403937,
+          "rankDelta": 0
+        },
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 31732000000,
+          "rank": 2,
+          "share": 0.17710653070564664,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 23931000000,
+          "rank": 3,
+          "share": 0.13356663262059842,
+          "rankDelta": 0
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 15687000000,
+          "rank": 4,
+          "share": 0.08755420859635317,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 11089000000,
+          "rank": 5,
+          "share": 0.061891286997192596,
+          "rankDelta": 0
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 10910000000,
+          "rank": 6,
+          "share": 0.06089223024072245,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 10317000000,
+          "rank": 7,
+          "share": 0.05758250590224871,
+          "rankDelta": 2
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 8413000000,
+          "rank": 8,
+          "share": 0.04695566755409697,
+          "rankDelta": 2
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 8158000000,
+          "rank": 9,
+          "share": 0.04553243027532665,
+          "rankDelta": -1
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 7862000000,
+          "rank": 10,
+          "share": 0.043880358767420705,
+          "rankDelta": -3
+        }
+      ]
+    },
+    {
+      "year": 1993,
+      "total": 254950000000,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 74435000000,
+          "rank": 1,
+          "share": 0.29195920768778194,
+          "rankDelta": 0
+        },
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 45314000000,
+          "rank": 2,
+          "share": 0.1777368111394391,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 34706000000,
+          "rank": 3,
+          "share": 0.13612865267699548,
+          "rankDelta": 0
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 21804000000,
+          "rank": 4,
+          "share": 0.08552265150029417,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 15705000000,
+          "rank": 5,
+          "share": 0.06160031378701706,
+          "rankDelta": 0
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 14721000000,
+          "rank": 6,
+          "share": 0.05774073347715238,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 13328000000,
+          "rank": 7,
+          "share": 0.052276917042557366,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 13248000000,
+          "rank": 8,
+          "share": 0.05196313002549519,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 11270000000,
+          "rank": 9,
+          "share": 0.044204746028633064,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 10419000000,
+          "rank": 10,
+          "share": 0.040866836634634245,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1994,
+      "total": 337901000000,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 98531000000,
+          "rank": 1,
+          "share": 0.29159724297945255,
+          "rankDelta": 0
+        },
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 63467000000,
+          "rank": 2,
+          "share": 0.1878272038259727,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 43637000000,
+          "rank": 3,
+          "share": 0.12914137572839382,
+          "rankDelta": 0
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 29539000000,
+          "rank": 4,
+          "share": 0.08741909612578833,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 21703000000,
+          "rank": 5,
+          "share": 0.06422887177013385,
+          "rankDelta": 0
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 19525000000,
+          "rank": 6,
+          "share": 0.05778319685351627,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 17939000000,
+          "rank": 7,
+          "share": 0.0530895143843907,
+          "rankDelta": 1
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 15540000000,
+          "rank": 8,
+          "share": 0.04598980174666544,
+          "rankDelta": -1
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 14731000000,
+          "rank": 9,
+          "share": 0.043595609364873146,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 13289000000,
+          "rank": 10,
+          "share": 0.0393280872208132,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1995,
+      "total": 431919000000,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 126031000000,
+          "rank": 1,
+          "share": 0.2917931371391395,
+          "rankDelta": 0
+        },
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 84279000000,
+          "rank": 2,
+          "share": 0.19512686406478993,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 54589000000,
+          "rank": 3,
+          "share": 0.12638712351158435,
+          "rankDelta": 0
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 36273000000,
+          "rank": 4,
+          "share": 0.083981024219819,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 29645000000,
+          "rank": 5,
+          "share": 0.06863555435162612,
+          "rankDelta": 0
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 25928000000,
+          "rank": 6,
+          "share": 0.06002977410116249,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 22957000000,
+          "rank": 7,
+          "share": 0.053151169547993954,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 18269000000,
+          "rank": 8,
+          "share": 0.04229728259233791,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 17582000000,
+          "rank": 9,
+          "share": 0.040706706581558116,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 16366000000,
+          "rank": 10,
+          "share": 0.03789136388998863,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1996,
+      "total": 510037000000,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 147066000000,
+          "rank": 1,
+          "share": 0.2883437868233089,
+          "rankDelta": 0
+        },
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 105051000000,
+          "rank": 2,
+          "share": 0.20596741020749476,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 63744000000,
+          "rank": 3,
+          "share": 0.12497916817799493,
+          "rankDelta": 0
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 40340000000,
+          "rank": 4,
+          "share": 0.07909230114677955,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 36199000000,
+          "rank": 5,
+          "share": 0.07097328233049759,
+          "rankDelta": 0
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 30884000000,
+          "rank": 6,
+          "share": 0.060552469722784816,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 27137000000,
+          "rank": 7,
+          "share": 0.05320594388250264,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 20619000000,
+          "rank": 8,
+          "share": 0.04042647886329815,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 20096000000,
+          "rank": 9,
+          "share": 0.039401063060130935,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 18901000000,
+          "rank": 10,
+          "share": 0.03705809578520774,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1997,
+      "total": 594886000000,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 168287000000,
+          "rank": 1,
+          "share": 0.2828894947939605,
+          "rankDelta": 0
+        },
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 130230000000,
+          "rank": 2,
+          "share": 0.21891589312910373,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 72457000000,
+          "rank": 3,
+          "share": 0.12179980702184956,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 44892000000,
+          "rank": 4,
+          "share": 0.07546319799087556,
+          "rankDelta": 1
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 42458000000,
+          "rank": 5,
+          "share": 0.07137165776299997,
+          "rankDelta": -1
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 36611000000,
+          "rank": 6,
+          "share": 0.06154288384665297,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 31890000000,
+          "rank": 7,
+          "share": 0.05360690955914242,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 23472000000,
+          "rank": 8,
+          "share": 0.039456299190096925,
+          "rankDelta": 1
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 23404000000,
+          "rank": 9,
+          "share": 0.03934199157485636,
+          "rankDelta": -1
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 21185000000,
+          "rank": 10,
+          "share": 0.035611865130461974,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1998,
+      "total": 675262000000,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 190041000000,
+          "rank": 1,
+          "share": 0.2814329845304489,
+          "rankDelta": 0
+        },
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 154495000000,
+          "rank": 2,
+          "share": 0.22879267602797138,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 78256000000,
+          "rank": 3,
+          "share": 0.11588983239098305,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 55845000000,
+          "rank": 4,
+          "share": 0.0827012330028937,
+          "rankDelta": 0
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 44052000000,
+          "rank": 5,
+          "share": 0.06523690064004786,
+          "rankDelta": 0
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 41267000000,
+          "rank": 6,
+          "share": 0.061112575563262855,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 35742000000,
+          "rank": 7,
+          "share": 0.052930566209856325,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 26812000000,
+          "rank": 8,
+          "share": 0.03970606964407889,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 26281000000,
+          "rank": 9,
+          "share": 0.03891970820214968,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 22471000000,
+          "rank": 10,
+          "share": 0.033277453788307355,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 1999,
+      "total": 759640000000,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 214925000000,
+          "rank": 1,
+          "share": 0.2829300721394345,
+          "rankDelta": 0
+        },
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 182469000000,
+          "rank": 2,
+          "share": 0.2402045705860671,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 83379000000,
+          "rank": 3,
+          "share": 0.10976120267495129,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 66786000000,
+          "rank": 4,
+          "share": 0.08791796113948712,
+          "rankDelta": 0
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 46439000000,
+          "rank": 5,
+          "share": 0.06113290506029172,
+          "rankDelta": 0
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 43983000000,
+          "rank": 6,
+          "share": 0.05789979463956611,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 39420000000,
+          "rank": 7,
+          "share": 0.051893001948291294,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 29715000000,
+          "rank": 8,
+          "share": 0.03911721341688168,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 28644000000,
+          "rank": 9,
+          "share": 0.03770733505344637,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 23880000000,
+          "rank": 10,
+          "share": 0.03143594334158285,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2000,
+      "total": 879198000000,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 249300000000,
+          "rank": 1,
+          "share": 0.2835538752362949,
+          "rankDelta": 0
+        },
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 218700000000,
+          "rank": 2,
+          "share": 0.24874942845638867,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 105000000000,
+          "rank": 3,
+          "share": 0.11942702326438413,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 82000000000,
+          "rank": 4,
+          "share": 0.09326681816837618,
+          "rankDelta": 0
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 50500000000,
+          "rank": 5,
+          "share": 0.05743871118906094,
+          "rankDelta": 0
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 47698000000,
+          "rank": 6,
+          "share": 0.05425171576823423,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 42000000000,
+          "rank": 7,
+          "share": 0.047770809305753656,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 34500000000,
+          "rank": 8,
+          "share": 0.03924030764401193,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 33100000000,
+          "rank": 9,
+          "share": 0.03764794733382014,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 16400000000,
+          "rank": 10,
+          "share": 0.018653363633675236,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2005,
+      "total": 1871183000000,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 515400000000,
+          "rank": 1,
+          "share": 0.27544072386292523,
+          "rankDelta": 0
+        },
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 495100000000,
+          "rank": 2,
+          "share": 0.26459197203052826,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 238300000000,
+          "rank": 3,
+          "share": 0.12735258924434437,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 218200000000,
+          "rank": 4,
+          "share": 0.1166107216664538,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 88000000000,
+          "rank": 5,
+          "share": 0.04702907198280446,
+          "rankDelta": 3
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 80500000000,
+          "rank": 6,
+          "share": 0.043020912438815444,
+          "rankDelta": -1
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 77100000000,
+          "rank": 7,
+          "share": 0.04120388011220709,
+          "rankDelta": 0
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 65083000000.00001,
+          "rank": 8,
+          "share": 0.034781739680191624,
+          "rankDelta": -2
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 63500000000,
+          "rank": 9,
+          "share": 0.03393575080577367,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 30000000000,
+          "rank": 10,
+          "share": 0.016032638175956068,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "total": 4744393840000,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 1060447520000,
+          "rank": 1,
+          "share": 0.22351591283576913,
+          "rankDelta": 0
+        },
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 951090870000,
+          "rank": 2,
+          "share": 0.2004662559801317,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 565151530000,
+          "rank": 3,
+          "share": 0.1191198599988065,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 424624730000,
+          "rank": 4,
+          "share": 0.08950031222534426,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 182632030000,
+          "rank": 5,
+          "share": 0.038494281073427915,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 172989500000,
+          "rank": 6,
+          "share": 0.036461876023344636,
+          "rankDelta": 1
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 155037170000,
+          "rank": 7,
+          "share": 0.03267797219802478,
+          "rankDelta": -1
+        },
+        {
+          "code": "MM",
+          "iso2": "CN",
+          "name": "茂名",
+          "nameEn": "Maoming",
+          "region": "粤西",
+          "value": 149208570000,
+          "rank": 8,
+          "share": 0.03144944855589813,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZJ",
+          "iso2": "CN",
+          "name": "湛江",
+          "nameEn": "Zhanjiang",
+          "region": "粤西",
+          "value": 140277210000,
+          "rank": 9,
+          "share": 0.02956694042078092,
+          "rankDelta": 0
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 120325120000,
+          "rank": 10,
+          "share": 0.025361537017761577,
+          "rankDelta": -2
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 120257800000,
+          "rank": 11,
+          "share": 0.02534734763925079,
+          "rankDelta": -2
+        },
+        {
+          "code": "QY",
+          "iso2": "CN",
+          "name": "清远",
+          "nameEn": "Qingyuan",
+          "region": "粤北",
+          "value": 111253290000,
+          "rank": 12,
+          "share": 0.023449421306895552,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 106589940000,
+          "rank": 13,
+          "share": 0.022466503328905763,
+          "rankDelta": -3
+        },
+        {
+          "code": "JY",
+          "iso2": "CN",
+          "name": "揭阳",
+          "nameEn": "Jieyang",
+          "region": "粤东",
+          "value": 100899210000,
+          "rank": 14,
+          "share": 0.0212670392473151,
+          "rankDelta": 0
+        },
+        {
+          "code": "SG",
+          "iso2": "CN",
+          "name": "韶关",
+          "nameEn": "Shaoguan",
+          "region": "粤北",
+          "value": 68310420000,
+          "rank": 15,
+          "share": 0.014398134367361037,
+          "rankDelta": 0
+        },
+        {
+          "code": "YJ",
+          "iso2": "CN",
+          "name": "阳江",
+          "nameEn": "Yangjiang",
+          "region": "粤西",
+          "value": 63998730000,
+          "rank": 16,
+          "share": 0.013489337554657983,
+          "rankDelta": 0
+        },
+        {
+          "code": "MZ",
+          "iso2": "CN",
+          "name": "梅州",
+          "nameEn": "Meizhou",
+          "region": "粤东",
+          "value": 61236380000,
+          "rank": 17,
+          "share": 0.012907103007283224,
+          "rankDelta": 0
+        },
+        {
+          "code": "CZ",
+          "iso2": "CN",
+          "name": "潮州",
+          "nameEn": "Chaozhou",
+          "region": "粤东",
+          "value": 55919640000,
+          "rank": 18,
+          "share": 0.011786466698557218,
+          "rankDelta": 0
+        },
+        {
+          "code": "HY",
+          "iso2": "CN",
+          "name": "河源",
+          "nameEn": "Heyuan",
+          "region": "粤北",
+          "value": 47718770000,
+          "rank": 19,
+          "share": 0.010057927652987594,
+          "rankDelta": 0
+        },
+        {
+          "code": "SW",
+          "iso2": "CN",
+          "name": "汕尾",
+          "nameEn": "Shanwei",
+          "region": "粤东",
+          "value": 46998660000,
+          "rank": 20,
+          "share": 0.009906146408789705,
+          "rankDelta": 0
+        },
+        {
+          "code": "YF",
+          "iso2": "CN",
+          "name": "云浮",
+          "nameEn": "Yunfu",
+          "region": "粤西",
+          "value": 39426750000,
+          "rank": 21,
+          "share": 0.008310176458706473,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2011,
+      "total": 5595447250000,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 1230312160000,
+          "rank": 1,
+          "share": 0.21987735832913088,
+          "rankDelta": 0
+        },
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 1150205930000,
+          "rank": 2,
+          "share": 0.2055610353578081,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 658028230000,
+          "rank": 3,
+          "share": 0.11760064934934379,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 473539490000,
+          "rank": 4,
+          "share": 0.08462942618215193,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 219081630000,
+          "rank": 5,
+          "share": 0.03915355113034083,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 209732800000,
+          "rank": 6,
+          "share": 0.0374827588625735,
+          "rankDelta": 0
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 183063730000,
+          "rank": 7,
+          "share": 0.0327165500487919,
+          "rankDelta": 0
+        },
+        {
+          "code": "MM",
+          "iso2": "CN",
+          "name": "茂名",
+          "nameEn": "Maoming",
+          "region": "粤西",
+          "value": 178031290000,
+          "rank": 8,
+          "share": 0.031817168859915534,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZJ",
+          "iso2": "CN",
+          "name": "湛江",
+          "nameEn": "Zhanjiang",
+          "region": "粤西",
+          "value": 170822490000,
+          "rank": 9,
+          "share": 0.030528835742308177,
+          "rankDelta": 0
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 140343770000,
+          "rank": 10,
+          "share": 0.025081778762189207,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 140323640000,
+          "rank": 11,
+          "share": 0.025078181194541686,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 132330470000,
+          "rank": 12,
+          "share": 0.023649668040387657,
+          "rankDelta": 1
+        },
+        {
+          "code": "QY",
+          "iso2": "CN",
+          "name": "清远",
+          "nameEn": "Qingyuan",
+          "region": "粤北",
+          "value": 128617950000,
+          "rank": 13,
+          "share": 0.022986178629420553,
+          "rankDelta": -1
+        },
+        {
+          "code": "JY",
+          "iso2": "CN",
+          "name": "揭阳",
+          "nameEn": "Jieyang",
+          "region": "粤东",
+          "value": 122818260000,
+          "rank": 14,
+          "share": 0.021949677034306773,
+          "rankDelta": 0
+        },
+        {
+          "code": "SG",
+          "iso2": "CN",
+          "name": "韶关",
+          "nameEn": "Shaoguan",
+          "region": "粤北",
+          "value": 81395030000,
+          "rank": 15,
+          "share": 0.01454665308479139,
+          "rankDelta": 0
+        },
+        {
+          "code": "YJ",
+          "iso2": "CN",
+          "name": "阳江",
+          "nameEn": "Yangjiang",
+          "region": "粤西",
+          "value": 77353080000,
+          "rank": 16,
+          "share": 0.01382428902354499,
+          "rankDelta": 0
+        },
+        {
+          "code": "MZ",
+          "iso2": "CN",
+          "name": "梅州",
+          "nameEn": "Meizhou",
+          "region": "粤东",
+          "value": 73318570000,
+          "rank": 17,
+          "share": 0.01310325461472271,
+          "rankDelta": 0
+        },
+        {
+          "code": "CZ",
+          "iso2": "CN",
+          "name": "潮州",
+          "nameEn": "Chaozhou",
+          "region": "粤东",
+          "value": 64709870000,
+          "rank": 18,
+          "share": 0.0115647359556468,
+          "rankDelta": 0
+        },
+        {
+          "code": "HY",
+          "iso2": "CN",
+          "name": "河源",
+          "nameEn": "Heyuan",
+          "region": "粤北",
+          "value": 57193670000,
+          "rank": 19,
+          "share": 0.010221465317182644,
+          "rankDelta": 0
+        },
+        {
+          "code": "SW",
+          "iso2": "CN",
+          "name": "汕尾",
+          "nameEn": "Shanwei",
+          "region": "粤东",
+          "value": 55016190000,
+          "rank": 20,
+          "share": 0.009832313225721144,
+          "rankDelta": 0
+        },
+        {
+          "code": "YF",
+          "iso2": "CN",
+          "name": "云浮",
+          "nameEn": "Yunfu",
+          "region": "粤西",
+          "value": 49209000000,
+          "rank": 21,
+          "share": 0.008794471255179825,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2012,
+      "total": 6052686620000,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 1355120720000,
+          "rank": 1,
+          "share": 0.22388747428658384,
+          "rankDelta": 0
+        },
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 1295007750000,
+          "rank": 2,
+          "share": 0.21395585651516846,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 670902230000,
+          "rank": 3,
+          "share": 0.11084370827710224,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 501013770000,
+          "rank": 4,
+          "share": 0.08277543534874106,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 244104320000,
+          "rank": 5,
+          "share": 0.04032991220682098,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 236803390000,
+          "rank": 6,
+          "share": 0.039123682567263,
+          "rankDelta": 0
+        },
+        {
+          "code": "MM",
+          "iso2": "CN",
+          "name": "茂名",
+          "nameEn": "Maoming",
+          "region": "粤西",
+          "value": 195117850000,
+          "rank": 7,
+          "share": 0.03223656902296389,
+          "rankDelta": 1
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 191007890000,
+          "rank": 8,
+          "share": 0.03155753832832667,
+          "rankDelta": -1
+        },
+        {
+          "code": "ZJ",
+          "iso2": "CN",
+          "name": "湛江",
+          "nameEn": "Zhanjiang",
+          "region": "粤西",
+          "value": 187019420000,
+          "rank": 9,
+          "share": 0.03089857971202877,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 150381110000,
+          "rank": 10,
+          "share": 0.02484534875853196,
+          "rankDelta": 1
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 145383780000,
+          "rank": 11,
+          "share": 0.024019710440584482,
+          "rankDelta": 1
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 141501030000,
+          "rank": 12,
+          "share": 0.02337821844805836,
+          "rankDelta": -2
+        },
+        {
+          "code": "JY",
+          "iso2": "CN",
+          "name": "揭阳",
+          "nameEn": "Jieyang",
+          "region": "粤东",
+          "value": 138015180000,
+          "rank": 13,
+          "share": 0.022802300641826388,
+          "rankDelta": 1
+        },
+        {
+          "code": "QY",
+          "iso2": "CN",
+          "name": "清远",
+          "nameEn": "Qingyuan",
+          "region": "粤北",
+          "value": 102901980000,
+          "rank": 14,
+          "share": 0.017001042092610438,
+          "rankDelta": -1
+        },
+        {
+          "code": "SG",
+          "iso2": "CN",
+          "name": "韶关",
+          "nameEn": "Shaoguan",
+          "region": "粤北",
+          "value": 88848280000,
+          "rank": 15,
+          "share": 0.014679147555139738,
+          "rankDelta": 0
+        },
+        {
+          "code": "YJ",
+          "iso2": "CN",
+          "name": "阳江",
+          "nameEn": "Yangjiang",
+          "region": "粤西",
+          "value": 87700920000,
+          "rank": 16,
+          "share": 0.014489585452881088,
+          "rankDelta": 0
+        },
+        {
+          "code": "MZ",
+          "iso2": "CN",
+          "name": "梅州",
+          "nameEn": "Meizhou",
+          "region": "粤东",
+          "value": 74598130000,
+          "rank": 17,
+          "share": 0.01232479635629971,
+          "rankDelta": 0
+        },
+        {
+          "code": "CZ",
+          "iso2": "CN",
+          "name": "潮州",
+          "nameEn": "Chaozhou",
+          "region": "粤东",
+          "value": 70646640000,
+          "rank": 18,
+          "share": 0.011671947423572377,
+          "rankDelta": 0
+        },
+        {
+          "code": "HY",
+          "iso2": "CN",
+          "name": "河源",
+          "nameEn": "Heyuan",
+          "region": "粤北",
+          "value": 61525960000,
+          "rank": 19,
+          "share": 0.010165066170235656,
+          "rankDelta": 0
+        },
+        {
+          "code": "SW",
+          "iso2": "CN",
+          "name": "汕尾",
+          "nameEn": "Shanwei",
+          "region": "粤东",
+          "value": 61041330000,
+          "rank": 20,
+          "share": 0.010084997594010575,
+          "rankDelta": 0
+        },
+        {
+          "code": "YF",
+          "iso2": "CN",
+          "name": "云浮",
+          "nameEn": "Yunfu",
+          "region": "粤西",
+          "value": 54044940000,
+          "rank": 21,
+          "share": 0.008929082801250331,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "total": 6712960070000,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 1542014340000,
+          "rank": 1,
+          "share": 0.22970706274437888,
+          "rankDelta": 0
+        },
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 1450023020000,
+          "rank": 2,
+          "share": 0.21600352227329725,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 701017250000,
+          "rank": 3,
+          "share": 0.1044274422445656,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 549002070000,
+          "rank": 4,
+          "share": 0.08178241256840964,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 267835410000,
+          "rank": 5,
+          "share": 0.039898257580429794,
+          "rankDelta": 1
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 263893290000,
+          "rank": 6,
+          "share": 0.03931101738253003,
+          "rankDelta": -1
+        },
+        {
+          "code": "MM",
+          "iso2": "CN",
+          "name": "茂名",
+          "nameEn": "Maoming",
+          "region": "粤西",
+          "value": 216016860000,
+          "rank": 7,
+          "share": 0.0321790771503874,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZJ",
+          "iso2": "CN",
+          "name": "湛江",
+          "nameEn": "Zhanjiang",
+          "region": "粤西",
+          "value": 206000690000,
+          "rank": 8,
+          "share": 0.030687012562552008,
+          "rankDelta": 1
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 200017640000,
+          "rank": 9,
+          "share": 0.029795744040527265,
+          "rankDelta": -1
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 166237570000,
+          "rank": 10,
+          "share": 0.024763676271948986,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 166007200000,
+          "rank": 11,
+          "share": 0.02472935907095303,
+          "rankDelta": 0
+        },
+        {
+          "code": "JY",
+          "iso2": "CN",
+          "name": "揭阳",
+          "nameEn": "Jieyang",
+          "region": "粤东",
+          "value": 160535170000,
+          "rank": 12,
+          "share": 0.02391421494035492,
+          "rankDelta": 1
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 156590490000,
+          "rank": 13,
+          "share": 0.023326593390566676,
+          "rankDelta": -1
+        },
+        {
+          "code": "QY",
+          "iso2": "CN",
+          "name": "清远",
+          "nameEn": "Qingyuan",
+          "region": "粤北",
+          "value": 109304030000,
+          "rank": 14,
+          "share": 0.01628253838250523,
+          "rankDelta": 0
+        },
+        {
+          "code": "YJ",
+          "iso2": "CN",
+          "name": "阳江",
+          "nameEn": "Yangjiang",
+          "region": "粤西",
+          "value": 103983620000,
+          "rank": 15,
+          "share": 0.015489980413364801,
+          "rankDelta": 1
+        },
+        {
+          "code": "SG",
+          "iso2": "CN",
+          "name": "韶关",
+          "nameEn": "Shaoguan",
+          "region": "粤北",
+          "value": 101007370000,
+          "rank": 16,
+          "share": 0.015046621601608901,
+          "rankDelta": -1
+        },
+        {
+          "code": "MZ",
+          "iso2": "CN",
+          "name": "梅州",
+          "nameEn": "Meizhou",
+          "region": "粤东",
+          "value": 80001480000,
+          "rank": 17,
+          "share": 0.011917466984128806,
+          "rankDelta": 0
+        },
+        {
+          "code": "CZ",
+          "iso2": "CN",
+          "name": "潮州",
+          "nameEn": "Chaozhou",
+          "region": "粤东",
+          "value": 78034230000,
+          "rank": 18,
+          "share": 0.011624414444044205,
+          "rankDelta": 0
+        },
+        {
+          "code": "HY",
+          "iso2": "CN",
+          "name": "河源",
+          "nameEn": "Heyuan",
+          "region": "粤北",
+          "value": 68032960000,
+          "rank": 19,
+          "share": 0.010134569443372245,
+          "rankDelta": 0
+        },
+        {
+          "code": "SW",
+          "iso2": "CN",
+          "name": "汕尾",
+          "nameEn": "Shanwei",
+          "region": "粤东",
+          "value": 67175480000,
+          "rank": 20,
+          "share": 0.010006834436600484,
+          "rankDelta": 0
+        },
+        {
+          "code": "YF",
+          "iso2": "CN",
+          "name": "云浮",
+          "nameEn": "Yunfu",
+          "region": "粤西",
+          "value": 60229900000,
+          "rank": 21,
+          "share": 0.008972182073473885,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "total": 7325023430000,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 1670687190000,
+          "rank": 1,
+          "share": 0.2280794329145238,
+          "rankDelta": 0
+        },
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 1600198110000,
+          "rank": 2,
+          "share": 0.21845638110129567,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 760328280000,
+          "rank": 3,
+          "share": 0.10379875057955958,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 588118010000,
+          "rank": 4,
+          "share": 0.08028889130802412,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 300073420000,
+          "rank": 5,
+          "share": 0.040965523573758725,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 282300690000,
+          "rank": 6,
+          "share": 0.03853922007181894,
+          "rankDelta": 0
+        },
+        {
+          "code": "MM",
+          "iso2": "CN",
+          "name": "茂名",
+          "nameEn": "Maoming",
+          "region": "粤西",
+          "value": 234903130000,
+          "rank": 7,
+          "share": 0.032068584113730265,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZJ",
+          "iso2": "CN",
+          "name": "湛江",
+          "nameEn": "Zhanjiang",
+          "region": "粤西",
+          "value": 225872300000,
+          "rank": 8,
+          "share": 0.030835710241543895,
+          "rankDelta": 0
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 208276360000,
+          "rank": 9,
+          "share": 0.02843354181598843,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 185732250000,
+          "rank": 10,
+          "share": 0.025355857462424525,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 184506470000,
+          "rank": 11,
+          "share": 0.02518851601816651,
+          "rankDelta": 0
+        },
+        {
+          "code": "JY",
+          "iso2": "CN",
+          "name": "揭阳",
+          "nameEn": "Jieyang",
+          "region": "粤东",
+          "value": 178044060000,
+          "rank": 12,
+          "share": 0.024306278567084394,
+          "rankDelta": 0
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 171600480000,
+          "rank": 13,
+          "share": 0.023426611756243897,
+          "rankDelta": 0
+        },
+        {
+          "code": "QY",
+          "iso2": "CN",
+          "name": "清远",
+          "nameEn": "Qingyuan",
+          "region": "粤北",
+          "value": 118774080000,
+          "rank": 14,
+          "share": 0.016214839602226364,
+          "rankDelta": 0
+        },
+        {
+          "code": "YJ",
+          "iso2": "CN",
+          "name": "阳江",
+          "nameEn": "Yangjiang",
+          "region": "粤西",
+          "value": 116855080000,
+          "rank": 15,
+          "share": 0.015952860918016204,
+          "rankDelta": 0
+        },
+        {
+          "code": "SG",
+          "iso2": "CN",
+          "name": "韶关",
+          "nameEn": "Shaoguan",
+          "region": "粤北",
+          "value": 111154040000,
+          "rank": 16,
+          "share": 0.015174564431393225,
+          "rankDelta": 0
+        },
+        {
+          "code": "MZ",
+          "iso2": "CN",
+          "name": "梅州",
+          "nameEn": "Meizhou",
+          "region": "粤东",
+          "value": 88583250000,
+          "rank": 17,
+          "share": 0.012093237768660624,
+          "rankDelta": 0
+        },
+        {
+          "code": "CZ",
+          "iso2": "CN",
+          "name": "潮州",
+          "nameEn": "Chaozhou",
+          "region": "粤东",
+          "value": 85021810000,
+          "rank": 18,
+          "share": 0.01160703591087353,
+          "rankDelta": 0
+        },
+        {
+          "code": "HY",
+          "iso2": "CN",
+          "name": "河源",
+          "nameEn": "Heyuan",
+          "region": "粤北",
+          "value": 75895110000,
+          "rank": 19,
+          "share": 0.010361074025943422,
+          "rankDelta": 0
+        },
+        {
+          "code": "SW",
+          "iso2": "CN",
+          "name": "汕尾",
+          "nameEn": "Shanwei",
+          "region": "粤东",
+          "value": 71699310000,
+          "rank": 20,
+          "share": 0.009788270397382197,
+          "rankDelta": 0
+        },
+        {
+          "code": "YF",
+          "iso2": "CN",
+          "name": "云浮",
+          "nameEn": "Yunfu",
+          "region": "粤西",
+          "value": 66400000000,
+          "rank": 21,
+          "share": 0.009064817421341681,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "total": 7866354700000,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 1810041360000,
+          "rank": 1,
+          "share": 0.2300991283802649,
+          "rankDelta": 0
+        },
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 1750299160000,
+          "rank": 2,
+          "share": 0.22250447974333015,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 800392380000,
+          "rank": 3,
+          "share": 0.10174882909869294,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 627506320000,
+          "rank": 4,
+          "share": 0.07977091600001206,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 314003060000,
+          "rank": 5,
+          "share": 0.039917226208983435,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 301003260000,
+          "rank": 6,
+          "share": 0.0382646437237314,
+          "rankDelta": 0
+        },
+        {
+          "code": "MM",
+          "iso2": "CN",
+          "name": "茂名",
+          "nameEn": "Maoming",
+          "region": "粤西",
+          "value": 244563130000,
+          "rank": 7,
+          "share": 0.031089766394591895,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZJ",
+          "iso2": "CN",
+          "name": "湛江",
+          "nameEn": "Zhanjiang",
+          "region": "粤西",
+          "value": 238002380000,
+          "rank": 8,
+          "share": 0.030255739675710276,
+          "rankDelta": 0
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 224002430000,
+          "rank": 9,
+          "share": 0.02847601443652166,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 202497970000,
+          "rank": 10,
+          "share": 0.02574228822913363,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 197001160000,
+          "rank": 11,
+          "share": 0.025043513484079228,
+          "rankDelta": 0
+        },
+        {
+          "code": "JY",
+          "iso2": "CN",
+          "name": "揭阳",
+          "nameEn": "Jieyang",
+          "region": "粤东",
+          "value": 189001440000,
+          "rank": 12,
+          "share": 0.024026559595640914,
+          "rankDelta": 0
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 185001480000,
+          "rank": 13,
+          "share": 0.02351806993905322,
+          "rankDelta": 0
+        },
+        {
+          "code": "QY",
+          "iso2": "CN",
+          "name": "清远",
+          "nameEn": "Qingyuan",
+          "region": "粤北",
+          "value": 128499450000,
+          "rank": 14,
+          "share": 0.016335323653788456,
+          "rankDelta": 0
+        },
+        {
+          "code": "YJ",
+          "iso2": "CN",
+          "name": "阳江",
+          "nameEn": "Yangjiang",
+          "region": "粤西",
+          "value": 125001360000,
+          "rank": 15,
+          "share": 0.01589063356118432,
+          "rankDelta": 0
+        },
+        {
+          "code": "SG",
+          "iso2": "CN",
+          "name": "韶关",
+          "nameEn": "Shaoguan",
+          "region": "粤北",
+          "value": 114998420000,
+          "rank": 16,
+          "share": 0.014619022963711514,
+          "rankDelta": 0
+        },
+        {
+          "code": "MZ",
+          "iso2": "CN",
+          "name": "梅州",
+          "nameEn": "Meizhou",
+          "region": "粤东",
+          "value": 95509260000,
+          "rank": 17,
+          "share": 0.012141489119477412,
+          "rankDelta": 0
+        },
+        {
+          "code": "CZ",
+          "iso2": "CN",
+          "name": "潮州",
+          "nameEn": "Chaozhou",
+          "region": "粤东",
+          "value": 91009210000,
+          "rank": 18,
+          "share": 0.011569426179066143,
+          "rankDelta": 0
+        },
+        {
+          "code": "HY",
+          "iso2": "CN",
+          "name": "河源",
+          "nameEn": "Heyuan",
+          "region": "粤北",
+          "value": 81007930000,
+          "rank": 19,
+          "share": 0.010298026606911077,
+          "rankDelta": 0
+        },
+        {
+          "code": "SW",
+          "iso2": "CN",
+          "name": "汕尾",
+          "nameEn": "Shanwei",
+          "region": "粤东",
+          "value": 76006060000,
+          "rank": 20,
+          "share": 0.009662170458700521,
+          "rankDelta": 0
+        },
+        {
+          "code": "YF",
+          "iso2": "CN",
+          "name": "云浮",
+          "nameEn": "Yunfu",
+          "region": "粤西",
+          "value": 71007480000,
+          "rank": 21,
+          "share": 0.009026732547414878,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "total": 8569369990000,
+      "items": [
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 1961094200000,
+          "rank": 1,
+          "share": 0.22884928557040865,
+          "rankDelta": 0
+        },
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 1949260160000,
+          "rank": 2,
+          "share": 0.22746831590591643,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 863000020000,
+          "rank": 3,
+          "share": 0.10070752237411562,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 682767210000,
+          "rank": 4,
+          "share": 0.07967530994656002,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 341216710000,
+          "rank": 5,
+          "share": 0.03981817921249541,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 320277800000,
+          "rank": 6,
+          "share": 0.037374719538746395,
+          "rankDelta": 0
+        },
+        {
+          "code": "MM",
+          "iso2": "CN",
+          "name": "茂名",
+          "nameEn": "Maoming",
+          "region": "粤西",
+          "value": 263673900000,
+          "rank": 7,
+          "share": 0.030769344806875352,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZJ",
+          "iso2": "CN",
+          "name": "湛江",
+          "nameEn": "Zhanjiang",
+          "region": "粤西",
+          "value": 258478260000,
+          "rank": 8,
+          "share": 0.030163041192249888,
+          "rankDelta": 0
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 241878060000,
+          "rank": 9,
+          "share": 0.028225885949872496,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 222637080000,
+          "rank": 10,
+          "share": 0.025980565696172023,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 208401900000,
+          "rank": 11,
+          "share": 0.024319395736582032,
+          "rankDelta": 0
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 208054250000,
+          "rank": 12,
+          "share": 0.024278826826568147,
+          "rankDelta": 1
+        },
+        {
+          "code": "JY",
+          "iso2": "CN",
+          "name": "揭阳",
+          "nameEn": "Jieyang",
+          "region": "粤东",
+          "value": 203261180000,
+          "rank": 13,
+          "share": 0.02371950099449493,
+          "rankDelta": -1
+        },
+        {
+          "code": "QY",
+          "iso2": "CN",
+          "name": "清远",
+          "nameEn": "Qingyuan",
+          "region": "粤北",
+          "value": 138809800000,
+          "rank": 14,
+          "share": 0.016198366993371002,
+          "rankDelta": 0
+        },
+        {
+          "code": "YJ",
+          "iso2": "CN",
+          "name": "阳江",
+          "nameEn": "Yangjiang",
+          "region": "粤西",
+          "value": 131932500000,
+          "rank": 15,
+          "share": 0.015395822581351748,
+          "rankDelta": 0
+        },
+        {
+          "code": "SG",
+          "iso2": "CN",
+          "name": "韶关",
+          "nameEn": "Shaoguan",
+          "region": "粤北",
+          "value": 121839200000,
+          "rank": 16,
+          "share": 0.01421798803671447,
+          "rankDelta": 0
+        },
+        {
+          "code": "MZ",
+          "iso2": "CN",
+          "name": "梅州",
+          "nameEn": "Meizhou",
+          "region": "粤东",
+          "value": 104556100000,
+          "rank": 17,
+          "share": 0.012201141988502237,
+          "rankDelta": 0
+        },
+        {
+          "code": "CZ",
+          "iso2": "CN",
+          "name": "潮州",
+          "nameEn": "Chaozhou",
+          "region": "粤东",
+          "value": 97683100000,
+          "rank": 18,
+          "share": 0.011399099363662788,
+          "rankDelta": 0
+        },
+        {
+          "code": "HY",
+          "iso2": "CN",
+          "name": "河源",
+          "nameEn": "Heyuan",
+          "region": "粤北",
+          "value": 89871620000,
+          "rank": 19,
+          "share": 0.010487541103357121,
+          "rankDelta": 0
+        },
+        {
+          "code": "SW",
+          "iso2": "CN",
+          "name": "汕尾",
+          "nameEn": "Shanwei",
+          "region": "粤东",
+          "value": 82848820000,
+          "rank": 20,
+          "share": 0.009668017613509532,
+          "rankDelta": 0
+        },
+        {
+          "code": "YF",
+          "iso2": "CN",
+          "name": "云浮",
+          "nameEn": "Yunfu",
+          "region": "粤西",
+          "value": 77828120000,
+          "rank": 21,
+          "share": 0.009082128568473678,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "total": 9515511000000,
+      "items": [
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 2243839000000,
+          "rank": 1,
+          "share": 0.23580856561460545,
+          "rankDelta": 1
+        },
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 2150315000000.0002,
+          "rank": 2,
+          "share": 0.22597998152700366,
+          "rankDelta": -1
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 954960000000,
+          "rank": 3,
+          "share": 0.10035824665643285,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 758212000000,
+          "rank": 4,
+          "share": 0.07968169024238425,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 383058000000,
+          "rank": 5,
+          "share": 0.04025616700984319,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 345031000000,
+          "rank": 6,
+          "share": 0.03625984983885784,
+          "rankDelta": 0
+        },
+        {
+          "code": "MM",
+          "iso2": "CN",
+          "name": "茂名",
+          "nameEn": "Maoming",
+          "region": "粤西",
+          "value": 292421000000,
+          "rank": 7,
+          "share": 0.03073098228776153,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZJ",
+          "iso2": "CN",
+          "name": "湛江",
+          "nameEn": "Zhanjiang",
+          "region": "粤西",
+          "value": 282403000000,
+          "rank": 8,
+          "share": 0.0296781749293338,
+          "rankDelta": 0
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 269025000000,
+          "rank": 9,
+          "share": 0.028272259892295853,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 256473000000,
+          "rank": 10,
+          "share": 0.02695315049291625,
+          "rankDelta": 0
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 235076000000.00003,
+          "rank": 11,
+          "share": 0.024704506147909453,
+          "rankDelta": 1
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 220061000000,
+          "rank": 12,
+          "share": 0.023126556209120037,
+          "rankDelta": -1
+        },
+        {
+          "code": "JY",
+          "iso2": "CN",
+          "name": "揭阳",
+          "nameEn": "Jieyang",
+          "region": "粤东",
+          "value": 215142999999.99997,
+          "rank": 13,
+          "share": 0.02260971586286853,
+          "rankDelta": 0
+        },
+        {
+          "code": "QY",
+          "iso2": "CN",
+          "name": "清远",
+          "nameEn": "Qingyuan",
+          "region": "粤北",
+          "value": 150090000000,
+          "rank": 14,
+          "share": 0.01577319389363325,
+          "rankDelta": 0
+        },
+        {
+          "code": "YJ",
+          "iso2": "CN",
+          "name": "阳江",
+          "nameEn": "Yangjiang",
+          "region": "粤西",
+          "value": 140863000000,
+          "rank": 15,
+          "share": 0.01480351396787834,
+          "rankDelta": 0
+        },
+        {
+          "code": "SG",
+          "iso2": "CN",
+          "name": "韶关",
+          "nameEn": "Shaoguan",
+          "region": "粤北",
+          "value": 133800000000,
+          "rank": 16,
+          "share": 0.014061252201799778,
+          "rankDelta": 0
+        },
+        {
+          "code": "MZ",
+          "iso2": "CN",
+          "name": "梅州",
+          "nameEn": "Meizhou",
+          "region": "粤东",
+          "value": 112582000000,
+          "rank": 17,
+          "share": 0.011831419248004653,
+          "rankDelta": 0
+        },
+        {
+          "code": "CZ",
+          "iso2": "CN",
+          "name": "潮州",
+          "nameEn": "Chaozhou",
+          "region": "粤东",
+          "value": 107407000000,
+          "rank": 18,
+          "share": 0.011287570368002308,
+          "rankDelta": 0
+        },
+        {
+          "code": "HY",
+          "iso2": "CN",
+          "name": "河源",
+          "nameEn": "Heyuan",
+          "region": "粤北",
+          "value": 95212000000,
+          "rank": 19,
+          "share": 0.010005978659475041,
+          "rankDelta": 0
+        },
+        {
+          "code": "SW",
+          "iso2": "CN",
+          "name": "汕尾",
+          "nameEn": "Shanwei",
+          "region": "粤东",
+          "value": 85537000000,
+          "rank": 20,
+          "share": 0.008989217709905437,
+          "rankDelta": 0
+        },
+        {
+          "code": "YF",
+          "iso2": "CN",
+          "name": "云浮",
+          "nameEn": "Yunfu",
+          "region": "粤西",
+          "value": 84003000000,
+          "rank": 21,
+          "share": 0.008828007239968511,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "total": 10102594930000,
+      "items": [
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 2422197710000,
+          "rank": 1,
+          "share": 0.23975995541573197,
+          "rankDelta": 0
+        },
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 2285934710000,
+          "rank": 2,
+          "share": 0.22627203464446932,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 993588450000,
+          "rank": 3,
+          "share": 0.09834982565217033,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 827859200000,
+          "rank": 4,
+          "share": 0.08194520375568498,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 410305320000,
+          "rank": 5,
+          "share": 0.04061385444462238,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 363270130000,
+          "rank": 6,
+          "share": 0.03595810111333445,
+          "rankDelta": 0
+        },
+        {
+          "code": "MM",
+          "iso2": "CN",
+          "name": "茂名",
+          "nameEn": "Maoming",
+          "region": "粤西",
+          "value": 309217680000,
+          "rank": 7,
+          "share": 0.03060774802340808,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZJ",
+          "iso2": "CN",
+          "name": "湛江",
+          "nameEn": "Zhanjiang",
+          "region": "粤西",
+          "value": 300839280000,
+          "rank": 8,
+          "share": 0.029778416543916605,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 291473500000,
+          "rank": 9,
+          "share": 0.028851349778902795,
+          "rankDelta": 1
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 290040730000,
+          "rank": 10,
+          "share": 0.02870952780049749,
+          "rankDelta": -1
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 251205040000,
+          "rank": 11,
+          "share": 0.024865397627102524,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 220180120000,
+          "rank": 12,
+          "share": 0.021794412378760987,
+          "rankDelta": 0
+        },
+        {
+          "code": "JY",
+          "iso2": "CN",
+          "name": "揭阳",
+          "nameEn": "Jieyang",
+          "region": "粤东",
+          "value": 215246810000,
+          "rank": 13,
+          "share": 0.02130609130539494,
+          "rankDelta": 0
+        },
+        {
+          "code": "QY",
+          "iso2": "CN",
+          "name": "清远",
+          "nameEn": "Qingyuan",
+          "region": "粤北",
+          "value": 156519490000,
+          "rank": 14,
+          "share": 0.015492998688407277,
+          "rankDelta": 0
+        },
+        {
+          "code": "YJ",
+          "iso2": "CN",
+          "name": "阳江",
+          "nameEn": "Yangjiang",
+          "region": "粤西",
+          "value": 135031490000,
+          "rank": 15,
+          "share": 0.01336602040719453,
+          "rankDelta": 0
+        },
+        {
+          "code": "SG",
+          "iso2": "CN",
+          "name": "韶关",
+          "nameEn": "Shaoguan",
+          "region": "粤北",
+          "value": 134391100000,
+          "rank": 16,
+          "share": 0.01330263174275364,
+          "rankDelta": 0
+        },
+        {
+          "code": "MZ",
+          "iso2": "CN",
+          "name": "梅州",
+          "nameEn": "Meizhou",
+          "region": "粤东",
+          "value": 111021330000,
+          "rank": 17,
+          "share": 0.010989387456317622,
+          "rankDelta": 0
+        },
+        {
+          "code": "CZ",
+          "iso2": "CN",
+          "name": "潮州",
+          "nameEn": "Chaozhou",
+          "region": "粤东",
+          "value": 106727900000,
+          "rank": 18,
+          "share": 0.010564404565313002,
+          "rankDelta": 0
+        },
+        {
+          "code": "HY",
+          "iso2": "CN",
+          "name": "河源",
+          "nameEn": "Heyuan",
+          "region": "粤北",
+          "value": 100600270000,
+          "rank": 19,
+          "share": 0.009957864360300547,
+          "rankDelta": 0
+        },
+        {
+          "code": "SW",
+          "iso2": "CN",
+          "name": "汕尾",
+          "nameEn": "Shanwei",
+          "region": "粤东",
+          "value": 92031830000,
+          "rank": 20,
+          "share": 0.009109721872220013,
+          "rankDelta": 0
+        },
+        {
+          "code": "YF",
+          "iso2": "CN",
+          "name": "云浮",
+          "nameEn": "Yunfu",
+          "region": "粤西",
+          "value": 84912840000,
+          "rank": 21,
+          "share": 0.008405052423496505,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "total": 10767106000000,
+      "items": [
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 2692709000000,
+          "rank": 1,
+          "share": 0.2500866063731517,
+          "rankDelta": 0
+        },
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 2362860000000,
+          "rank": 2,
+          "share": 0.21945172639704671,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 1075102000000,
+          "rank": 3,
+          "share": 0.09985060052348328,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 948250000000,
+          "rank": 4,
+          "share": 0.08806916175990094,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 417741000000,
+          "rank": 5,
+          "share": 0.03879789053808888,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 343589000000,
+          "rank": 6,
+          "share": 0.03191098889525189,
+          "rankDelta": 3
+        },
+        {
+          "code": "MM",
+          "iso2": "CN",
+          "name": "茂名",
+          "nameEn": "Maoming",
+          "region": "粤西",
+          "value": 325234000000,
+          "rank": 7,
+          "share": 0.030206259695037832,
+          "rankDelta": 0
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 314664000000,
+          "rank": 8,
+          "share": 0.029224566006873155,
+          "rankDelta": 2
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 310110000000,
+          "rank": 9,
+          "share": 0.028801611129304384,
+          "rankDelta": -3
+        },
+        {
+          "code": "ZJ",
+          "iso2": "CN",
+          "name": "湛江",
+          "nameEn": "Zhanjiang",
+          "region": "粤西",
+          "value": 306472000000,
+          "rank": 10,
+          "share": 0.028463730179678737,
+          "rankDelta": -2
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 269408000000,
+          "rank": 11,
+          "share": 0.025021393863866485,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 224880000000.00003,
+          "rank": 12,
+          "share": 0.02088583506097182,
+          "rankDelta": 0
+        },
+        {
+          "code": "JY",
+          "iso2": "CN",
+          "name": "揭阳",
+          "nameEn": "Jieyang",
+          "region": "粤东",
+          "value": 210177000000,
+          "rank": 13,
+          "share": 0.01952028706692402,
+          "rankDelta": 0
+        },
+        {
+          "code": "QY",
+          "iso2": "CN",
+          "name": "清远",
+          "nameEn": "Qingyuan",
+          "region": "粤北",
+          "value": 169822000000,
+          "rank": 14,
+          "share": 0.015772297588599944,
+          "rankDelta": 0
+        },
+        {
+          "code": "SG",
+          "iso2": "CN",
+          "name": "韶关",
+          "nameEn": "Shaoguan",
+          "region": "粤北",
+          "value": 131841000000.00002,
+          "rank": 15,
+          "share": 0.01224479446937738,
+          "rankDelta": 1
+        },
+        {
+          "code": "YJ",
+          "iso2": "CN",
+          "name": "阳江",
+          "nameEn": "Yangjiang",
+          "region": "粤西",
+          "value": 129218000000,
+          "rank": 16,
+          "share": 0.012001182118946354,
+          "rankDelta": -1
+        },
+        {
+          "code": "MZ",
+          "iso2": "CN",
+          "name": "梅州",
+          "nameEn": "Meizhou",
+          "region": "粤东",
+          "value": 118706000000,
+          "rank": 17,
+          "share": 0.011024875207878515,
+          "rankDelta": 0
+        },
+        {
+          "code": "CZ",
+          "iso2": "CN",
+          "name": "潮州",
+          "nameEn": "Chaozhou",
+          "region": "粤东",
+          "value": 108094000000,
+          "rank": 18,
+          "share": 0.010039280750091993,
+          "rankDelta": 0
+        },
+        {
+          "code": "SW",
+          "iso2": "CN",
+          "name": "汕尾",
+          "nameEn": "Shanwei",
+          "region": "粤东",
+          "value": 108030000000,
+          "rank": 19,
+          "share": 0.010033336720192037,
+          "rankDelta": 1
+        },
+        {
+          "code": "HY",
+          "iso2": "CN",
+          "name": "河源",
+          "nameEn": "Heyuan",
+          "region": "粤北",
+          "value": 108003000000,
+          "rank": 20,
+          "share": 0.010030829082577993,
+          "rankDelta": -1
+        },
+        {
+          "code": "YF",
+          "iso2": "CN",
+          "name": "云浮",
+          "nameEn": "Yunfu",
+          "region": "粤西",
+          "value": 92196000000,
+          "rank": 21,
+          "share": 0.008562746572755948,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "total": 12436967150000,
+      "items": [
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 3066485380000,
+          "rank": 1,
+          "share": 0.24656215160944603,
+          "rankDelta": 0
+        },
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 2823196820000,
+          "rank": 2,
+          "share": 0.2270004242955647,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 1215653840000,
+          "rank": 3,
+          "share": 0.09774519988178951,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 1085534510000,
+          "rank": 4,
+          "share": 0.08728289597516546,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 497736010000,
+          "rank": 5,
+          "share": 0.04002069025325037,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 388175120000,
+          "rank": 6,
+          "share": 0.031211397064757864,
+          "rankDelta": 0
+        },
+        {
+          "code": "MM",
+          "iso2": "CN",
+          "name": "茂名",
+          "nameEn": "Maoming",
+          "region": "粤西",
+          "value": 369810220000,
+          "rank": 7,
+          "share": 0.029734758927943295,
+          "rankDelta": 0
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 360128040000,
+          "rank": 8,
+          "share": 0.02895625884160995,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 356616700000,
+          "rank": 9,
+          "share": 0.02867392795196054,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZJ",
+          "iso2": "CN",
+          "name": "湛江",
+          "nameEn": "Zhanjiang",
+          "region": "粤西",
+          "value": 355993330000,
+          "rank": 10,
+          "share": 0.028623805603603288,
+          "rankDelta": 0
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 292986570000,
+          "rank": 11,
+          "share": 0.023557718410472765,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 264998640000,
+          "rank": 12,
+          "share": 0.021307336169976133,
+          "rankDelta": 0
+        },
+        {
+          "code": "JY",
+          "iso2": "CN",
+          "name": "揭阳",
+          "nameEn": "Jieyang",
+          "region": "粤东",
+          "value": 226543100000,
+          "rank": 13,
+          "share": 0.018215300986784387,
+          "rankDelta": 0
+        },
+        {
+          "code": "QY",
+          "iso2": "CN",
+          "name": "清远",
+          "nameEn": "Qingyuan",
+          "region": "粤北",
+          "value": 200744670000,
+          "rank": 14,
+          "share": 0.016140966489567355,
+          "rankDelta": 0
+        },
+        {
+          "code": "SG",
+          "iso2": "CN",
+          "name": "韶关",
+          "nameEn": "Shaoguan",
+          "region": "粤北",
+          "value": 155392860000,
+          "rank": 15,
+          "share": 0.012494433580617763,
+          "rankDelta": 0
+        },
+        {
+          "code": "YJ",
+          "iso2": "CN",
+          "name": "阳江",
+          "nameEn": "Yangjiang",
+          "region": "粤西",
+          "value": 151585710000,
+          "rank": 16,
+          "share": 0.012188317953384641,
+          "rankDelta": 0
+        },
+        {
+          "code": "MZ",
+          "iso2": "CN",
+          "name": "梅州",
+          "nameEn": "Meizhou",
+          "region": "粤东",
+          "value": 130800690000,
+          "rank": 17,
+          "share": 0.010517088967305023,
+          "rankDelta": 0
+        },
+        {
+          "code": "SW",
+          "iso2": "CN",
+          "name": "汕尾",
+          "nameEn": "Shanwei",
+          "region": "粤东",
+          "value": 128804460000,
+          "rank": 18,
+          "share": 0.01035658118627418,
+          "rankDelta": 1
+        },
+        {
+          "code": "HY",
+          "iso2": "CN",
+          "name": "河源",
+          "nameEn": "Heyuan",
+          "region": "粤北",
+          "value": 127398510000,
+          "rank": 19,
+          "share": 0.010243535137101332,
+          "rankDelta": 1
+        },
+        {
+          "code": "CZ",
+          "iso2": "CN",
+          "name": "潮州",
+          "nameEn": "Chaozhou",
+          "region": "粤东",
+          "value": 124485440000,
+          "rank": 20,
+          "share": 0.01000930841889375,
+          "rankDelta": -2
+        },
+        {
+          "code": "YF",
+          "iso2": "CN",
+          "name": "云浮",
+          "nameEn": "Yunfu",
+          "region": "粤西",
+          "value": 113896530000,
+          "rank": 21,
+          "share": 0.009157902294531669,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "total": 12911858240000,
+      "items": [
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 3238768190000,
+          "rank": 1,
+          "share": 0.2508367215469057,
+          "rankDelta": 0
+        },
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 2883899740000,
+          "rank": 2,
+          "share": 0.22335280378666858,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 1269839360000,
+          "rank": 3,
+          "share": 0.09834675508333338,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 1120031540000,
+          "rank": 4,
+          "share": 0.0867444111592105,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 540123580000,
+          "rank": 5,
+          "share": 0.04183159154634585,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 404545370000,
+          "rank": 6,
+          "share": 0.03133130510577849,
+          "rankDelta": 0
+        },
+        {
+          "code": "MM",
+          "iso2": "CN",
+          "name": "茂名",
+          "nameEn": "Maoming",
+          "region": "粤西",
+          "value": 390462900000,
+          "rank": 7,
+          "share": 0.03024064334832722,
+          "rankDelta": 0
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 377340530000,
+          "rank": 8,
+          "share": 0.029224339594360355,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZJ",
+          "iso2": "CN",
+          "name": "湛江",
+          "nameEn": "Zhanjiang",
+          "region": "粤西",
+          "value": 371255700000,
+          "rank": 9,
+          "share": 0.028753080548071446,
+          "rankDelta": 1
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 363127770000,
+          "rank": 10,
+          "share": 0.02812358711274079,
+          "rankDelta": -1
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 301744150000,
+          "rank": 11,
+          "share": 0.023369537086863183,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 270504590000,
+          "rank": 12,
+          "share": 0.02095008982998252,
+          "rankDelta": 0
+        },
+        {
+          "code": "JY",
+          "iso2": "CN",
+          "name": "揭阳",
+          "nameEn": "Jieyang",
+          "region": "粤东",
+          "value": 226097920000,
+          "rank": 13,
+          "share": 0.01751087378728842,
+          "rankDelta": 0
+        },
+        {
+          "code": "QY",
+          "iso2": "CN",
+          "name": "清远",
+          "nameEn": "Qingyuan",
+          "region": "粤北",
+          "value": 203202130000,
+          "rank": 14,
+          "share": 0.015737636382228436,
+          "rankDelta": 0
+        },
+        {
+          "code": "SG",
+          "iso2": "CN",
+          "name": "韶关",
+          "nameEn": "Shaoguan",
+          "region": "粤北",
+          "value": 156392610000,
+          "rank": 15,
+          "share": 0.012112323965539448,
+          "rankDelta": 0
+        },
+        {
+          "code": "YJ",
+          "iso2": "CN",
+          "name": "阳江",
+          "nameEn": "Yangjiang",
+          "region": "粤西",
+          "value": 153501520000,
+          "rank": 16,
+          "share": 0.01188841428915812,
+          "rankDelta": 0
+        },
+        {
+          "code": "SW",
+          "iso2": "CN",
+          "name": "汕尾",
+          "nameEn": "Shanwei",
+          "region": "粤东",
+          "value": 132201870000,
+          "rank": 17,
+          "share": 0.010238795031876063,
+          "rankDelta": 1
+        },
+        {
+          "code": "MZ",
+          "iso2": "CN",
+          "name": "梅州",
+          "nameEn": "Meizhou",
+          "region": "粤东",
+          "value": 131820850000,
+          "rank": 18,
+          "share": 0.010209285724004355,
+          "rankDelta": -1
+        },
+        {
+          "code": "CZ",
+          "iso2": "CN",
+          "name": "潮州",
+          "nameEn": "Chaozhou",
+          "region": "粤东",
+          "value": 131298360000,
+          "rank": 19,
+          "share": 0.010168819821243638,
+          "rankDelta": 1
+        },
+        {
+          "code": "HY",
+          "iso2": "CN",
+          "name": "河源",
+          "nameEn": "Heyuan",
+          "region": "粤北",
+          "value": 129456780000,
+          "rank": 20,
+          "share": 0.010026192790666822,
+          "rankDelta": -1
+        },
+        {
+          "code": "YF",
+          "iso2": "CN",
+          "name": "云浮",
+          "nameEn": "Yunfu",
+          "region": "粤西",
+          "value": 116242780000,
+          "rank": 21,
+          "share": 0.00900279245940668,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "total": 13567316420000,
+      "items": [
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 3460640280000,
+          "rank": 1,
+          "share": 0.2550718338741303,
+          "rankDelta": 0
+        },
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 3035572630000,
+          "rank": 2,
+          "share": 0.22374156657282412,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 1327613550000,
+          "rank": 3,
+          "share": 0.09785380608083437,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 1143813350000,
+          "rank": 4,
+          "share": 0.08430652861562729,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 563968320000,
+          "rank": 5,
+          "share": 0.04156815559845253,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 423322020000,
+          "rank": 6,
+          "share": 0.031201602947504632,
+          "rankDelta": 0
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 402224530000,
+          "rank": 7,
+          "share": 0.029646579879796155,
+          "rankDelta": 1
+        },
+        {
+          "code": "MM",
+          "iso2": "CN",
+          "name": "茂名",
+          "nameEn": "Maoming",
+          "region": "粤西",
+          "value": 398722250000,
+          "rank": 8,
+          "share": 0.029388438926082037,
+          "rankDelta": -1
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 385064670000,
+          "rank": 9,
+          "share": 0.028381785909582256,
+          "rankDelta": 1
+        },
+        {
+          "code": "ZJ",
+          "iso2": "CN",
+          "name": "湛江",
+          "nameEn": "Zhanjiang",
+          "region": "粤西",
+          "value": 379358670000,
+          "rank": 10,
+          "share": 0.02796121637148343,
+          "rankDelta": -1
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 315831930000,
+          "rank": 11,
+          "share": 0.023278879936375806,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 279251000000,
+          "rank": 12,
+          "share": 0.02058262602236854,
+          "rankDelta": 0
+        },
+        {
+          "code": "JY",
+          "iso2": "CN",
+          "name": "揭阳",
+          "nameEn": "Jieyang",
+          "region": "粤东",
+          "value": 244502810000,
+          "rank": 13,
+          "share": 0.018021457039180636,
+          "rankDelta": 0
+        },
+        {
+          "code": "QY",
+          "iso2": "CN",
+          "name": "清远",
+          "nameEn": "Qingyuan",
+          "region": "粤北",
+          "value": 212018910000,
+          "rank": 14,
+          "share": 0.015627181045726652,
+          "rankDelta": 0
+        },
+        {
+          "code": "SG",
+          "iso2": "CN",
+          "name": "韶关",
+          "nameEn": "Shaoguan",
+          "region": "粤北",
+          "value": 162083260000,
+          "rank": 15,
+          "share": 0.011946596879031145,
+          "rankDelta": 0
+        },
+        {
+          "code": "YJ",
+          "iso2": "CN",
+          "name": "阳江",
+          "nameEn": "Yangjiang",
+          "region": "粤西",
+          "value": 158178630000,
+          "rank": 16,
+          "share": 0.011658800097477199,
+          "rankDelta": 0
+        },
+        {
+          "code": "SW",
+          "iso2": "CN",
+          "name": "汕尾",
+          "nameEn": "Shanwei",
+          "region": "粤东",
+          "value": 143084270000,
+          "rank": 17,
+          "share": 0.010546246993183933,
+          "rankDelta": 0
+        },
+        {
+          "code": "MZ",
+          "iso2": "CN",
+          "name": "梅州",
+          "nameEn": "Meizhou",
+          "region": "粤东",
+          "value": 140842720000,
+          "rank": 18,
+          "share": 0.010381030090252734,
+          "rankDelta": 0
+        },
+        {
+          "code": "CZ",
+          "iso2": "CN",
+          "name": "潮州",
+          "nameEn": "Chaozhou",
+          "region": "粤东",
+          "value": 135659160000,
+          "rank": 19,
+          "share": 0.009998967798821338,
+          "rankDelta": 0
+        },
+        {
+          "code": "HY",
+          "iso2": "CN",
+          "name": "河源",
+          "nameEn": "Heyuan",
+          "region": "粤北",
+          "value": 134821660000,
+          "rank": 20,
+          "share": 0.009937238568509777,
+          "rankDelta": 0
+        },
+        {
+          "code": "YF",
+          "iso2": "CN",
+          "name": "云浮",
+          "nameEn": "Yunfu",
+          "region": "粤西",
+          "value": 120741800000,
+          "rank": 21,
+          "share": 0.008899460752755113,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "total": 14163381000000,
+      "items": [
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 3680187000000.0005,
+          "rank": 1,
+          "share": 0.25983816999627424,
+          "rankDelta": 0
+        },
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 3103250000000,
+          "rank": 2,
+          "share": 0.21910375778212843,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 1336190000000,
+          "rank": 3,
+          "share": 0.09434117461077973,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 1228215000000,
+          "rank": 4,
+          "share": 0.08671764178341315,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 613639000000,
+          "rank": 5,
+          "share": 0.043325742631649886,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 447906000000.00006,
+          "rank": 6,
+          "share": 0.03162422870640845,
+          "rankDelta": 0
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 421018000000,
+          "rank": 7,
+          "share": 0.02972581193713563,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 414325000000,
+          "rank": 8,
+          "share": 0.029253255278524244,
+          "rankDelta": 1
+        },
+        {
+          "code": "MM",
+          "iso2": "CN",
+          "name": "茂名",
+          "nameEn": "Maoming",
+          "region": "粤西",
+          "value": 407204000000,
+          "rank": 9,
+          "share": 0.028750479846584655,
+          "rankDelta": -1
+        },
+        {
+          "code": "ZJ",
+          "iso2": "CN",
+          "name": "湛江",
+          "nameEn": "Zhanjiang",
+          "region": "粤西",
+          "value": 383993000000,
+          "rank": 10,
+          "share": 0.027111676230414192,
+          "rankDelta": 0
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 316797000000,
+          "rank": 11,
+          "share": 0.022367328817886067,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 291785000000,
+          "rank": 12,
+          "share": 0.020601366298061176,
+          "rankDelta": 0
+        },
+        {
+          "code": "JY",
+          "iso2": "CN",
+          "name": "揭阳",
+          "nameEn": "Jieyang",
+          "region": "粤东",
+          "value": 252969999999.99997,
+          "rank": 13,
+          "share": 0.017860848338401684,
+          "rankDelta": 0
+        },
+        {
+          "code": "QY",
+          "iso2": "CN",
+          "name": "清远",
+          "nameEn": "Qingyuan",
+          "region": "粤北",
+          "value": 225307000000.00003,
+          "rank": 14,
+          "share": 0.015907712995929434,
+          "rankDelta": 0
+        },
+        {
+          "code": "SG",
+          "iso2": "CN",
+          "name": "韶关",
+          "nameEn": "Shaoguan",
+          "region": "粤北",
+          "value": 164756000000,
+          "rank": 15,
+          "share": 0.01163253322070486,
+          "rankDelta": 0
+        },
+        {
+          "code": "YJ",
+          "iso2": "CN",
+          "name": "阳江",
+          "nameEn": "Yangjiang",
+          "region": "粤西",
+          "value": 162958000000,
+          "rank": 16,
+          "share": 0.011505586130882168,
+          "rankDelta": 0
+        },
+        {
+          "code": "MZ",
+          "iso2": "CN",
+          "name": "梅州",
+          "nameEn": "Meizhou",
+          "region": "粤东",
+          "value": 150818000000,
+          "rank": 17,
+          "share": 0.01064844615844197,
+          "rankDelta": 1
+        },
+        {
+          "code": "SW",
+          "iso2": "CN",
+          "name": "汕尾",
+          "nameEn": "Shanwei",
+          "region": "粤东",
+          "value": 150089000000,
+          "rank": 18,
+          "share": 0.010596975397329211,
+          "rankDelta": -1
+        },
+        {
+          "code": "HY",
+          "iso2": "CN",
+          "name": "河源",
+          "nameEn": "Heyuan",
+          "region": "粤北",
+          "value": 140772000000,
+          "rank": 19,
+          "share": 0.009939152240556122,
+          "rankDelta": 1
+        },
+        {
+          "code": "CZ",
+          "iso2": "CN",
+          "name": "潮州",
+          "nameEn": "Chaozhou",
+          "region": "粤东",
+          "value": 140283000000,
+          "rank": 20,
+          "share": 0.009904626585982542,
+          "rankDelta": -1
+        },
+        {
+          "code": "YF",
+          "iso2": "CN",
+          "name": "云浮",
+          "nameEn": "Yunfu",
+          "region": "粤西",
+          "value": 130919000000,
+          "rank": 21,
+          "share": 0.009243485012512195,
+          "rankDelta": 0
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "total": 14584673000000,
+      "items": [
+        {
+          "code": "SZ",
+          "iso2": "CN",
+          "name": "深圳",
+          "nameEn": "Shenzhen",
+          "region": "珠三角",
+          "value": 3873180000000.0005,
+          "rank": 1,
+          "share": 0.2655650901463475,
+          "rankDelta": 0
+        },
+        {
+          "code": "GZ",
+          "iso2": "CN",
+          "name": "广州",
+          "nameEn": "Guangzhou",
+          "region": "珠三角",
+          "value": 3203946000000,
+          "rank": 2,
+          "share": 0.21967897394751326,
+          "rankDelta": 0
+        },
+        {
+          "code": "FS",
+          "iso2": "CN",
+          "name": "佛山",
+          "nameEn": "Foshan",
+          "region": "珠三角",
+          "value": 1315735000000,
+          "rank": 3,
+          "share": 0.09021354129777198,
+          "rankDelta": 0
+        },
+        {
+          "code": "DG",
+          "iso2": "CN",
+          "name": "东莞",
+          "nameEn": "Dongguan",
+          "region": "珠三角",
+          "value": 1276020000000,
+          "rank": 4,
+          "share": 0.08749047716050953,
+          "rankDelta": 0
+        },
+        {
+          "code": "HZ",
+          "iso2": "CN",
+          "name": "惠州",
+          "nameEn": "Huizhou",
+          "region": "珠三角",
+          "value": 636366000000,
+          "rank": 5,
+          "share": 0.043632517506563225,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZH",
+          "iso2": "CN",
+          "name": "珠海",
+          "nameEn": "Zhuhai",
+          "region": "珠三角",
+          "value": 457310000000.00006,
+          "rank": 6,
+          "share": 0.03135551959238305,
+          "rankDelta": 0
+        },
+        {
+          "code": "JM",
+          "iso2": "CN",
+          "name": "江门",
+          "nameEn": "Jiangmen",
+          "region": "珠三角",
+          "value": 429391000000,
+          "rank": 7,
+          "share": 0.029441249728396377,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZS",
+          "iso2": "CN",
+          "name": "中山",
+          "nameEn": "Zhongshan",
+          "region": "珠三角",
+          "value": 426056000000.00006,
+          "rank": 8,
+          "share": 0.02921258501990412,
+          "rankDelta": 0
+        },
+        {
+          "code": "MM",
+          "iso2": "CN",
+          "name": "茂名",
+          "nameEn": "Maoming",
+          "region": "粤西",
+          "value": 410639999999.99994,
+          "rank": 9,
+          "share": 0.028155584976090994,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZJ",
+          "iso2": "CN",
+          "name": "湛江",
+          "nameEn": "Zhanjiang",
+          "region": "粤西",
+          "value": 395294000000,
+          "rank": 10,
+          "share": 0.027103384491376666,
+          "rankDelta": 0
+        },
+        {
+          "code": "ST",
+          "iso2": "CN",
+          "name": "汕头",
+          "nameEn": "Shantou",
+          "region": "粤东",
+          "value": 302383000000,
+          "rank": 11,
+          "share": 0.020732929699555144,
+          "rankDelta": 0
+        },
+        {
+          "code": "ZQ",
+          "iso2": "CN",
+          "name": "肇庆",
+          "nameEn": "Zhaoqing",
+          "region": "珠三角",
+          "value": 297484000000,
+          "rank": 12,
+          "share": 0.020397029127769955,
+          "rankDelta": 0
+        },
+        {
+          "code": "JY",
+          "iso2": "CN",
+          "name": "揭阳",
+          "nameEn": "Jieyang",
+          "region": "粤东",
+          "value": 255375000000,
+          "rank": 13,
+          "share": 0.017509820069328944,
+          "rankDelta": 0
+        },
+        {
+          "code": "QY",
+          "iso2": "CN",
+          "name": "清远",
+          "nameEn": "Qingyuan",
+          "region": "粤北",
+          "value": 231746999999.99997,
+          "rank": 14,
+          "share": 0.015889763178097992,
+          "rankDelta": 0
+        },
+        {
+          "code": "SG",
+          "iso2": "CN",
+          "name": "韶关",
+          "nameEn": "Shaoguan",
+          "region": "粤北",
+          "value": 170510000000,
+          "rank": 15,
+          "share": 0.011691040313348128,
+          "rankDelta": 0
+        },
+        {
+          "code": "YJ",
+          "iso2": "CN",
+          "name": "阳江",
+          "nameEn": "Yangjiang",
+          "region": "粤西",
+          "value": 167122000000,
+          "rank": 16,
+          "share": 0.011458741652966783,
+          "rankDelta": 0
+        },
+        {
+          "code": "MZ",
+          "iso2": "CN",
+          "name": "梅州",
+          "nameEn": "Meizhou",
+          "region": "粤东",
+          "value": 158323000000,
+          "rank": 17,
+          "share": 0.010855437074249111,
+          "rankDelta": 0
+        },
+        {
+          "code": "SW",
+          "iso2": "CN",
+          "name": "汕尾",
+          "nameEn": "Shanwei",
+          "region": "粤东",
+          "value": 154630000000,
+          "rank": 18,
+          "share": 0.010602226049223043,
+          "rankDelta": 0
+        },
+        {
+          "code": "CZ",
+          "iso2": "CN",
+          "name": "潮州",
+          "nameEn": "Chaozhou",
+          "region": "粤东",
+          "value": 145217000000,
+          "rank": 19,
+          "share": 0.009956822480696003,
+          "rankDelta": 1
+        },
+        {
+          "code": "HY",
+          "iso2": "CN",
+          "name": "河源",
+          "nameEn": "Heyuan",
+          "region": "粤北",
+          "value": 143457000000,
+          "rank": 20,
+          "share": 0.00983614785192647,
+          "rankDelta": -1
+        },
+        {
+          "code": "YF",
+          "iso2": "CN",
+          "name": "云浮",
+          "nameEn": "Yunfu",
+          "region": "粤西",
+          "value": 134486999999.99998,
+          "rank": 21,
+          "share": 0.009221118635981759,
+          "rankDelta": 0
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "reform-opening-start",
+      "year": 1978,
+      "entityCode": null,
+      "scope": "global",
+      "kind": "policy",
+      "title": "改革开放拉开序幕",
+      "titleEn": "Reform and opening begins",
+      "description": "广东随后成为对外开放最重要的试验场之一，珠三角城市的增长曲线开始改变。",
+      "descriptionEn": "Guangdong soon became one of the main testing grounds for opening up, changing the growth path of Pearl River Delta cities.",
+      "entityName": null,
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "guangdong-special-zones",
+      "year": 1980,
+      "entityCode": null,
+      "scope": "global",
+      "kind": "policy",
+      "title": "深圳、珠海、汕头设立经济特区",
+      "titleEn": "Shenzhen, Zhuhai, and Shantou become SEZs",
+      "description": "广东三大经济特区成为改革开放前沿，早期增长先从这些沿海节点展开。",
+      "descriptionEn": "Guangdong’s three special economic zones became the front line of reform, with early growth starting from these coastal nodes.",
+      "entityName": null,
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "shantou-sez-start",
+      "year": 1980,
+      "entityCode": "ST",
+      "scope": "local",
+      "kind": "policy",
+      "title": "汕头经济特区起步",
+      "titleEn": "Shantou SEZ starts",
+      "description": "汕头依托侨乡和港口基础进入特区序列，是广东早期开窗口城市之一。",
+      "descriptionEn": "Shantou entered the SEZ group on the strength of its overseas-Chinese networks and port base.",
+      "entityName": "汕头",
+      "rank": 5,
+      "value": 1079000000
+    },
+    {
+      "id": "shenzhen-sez-start",
+      "year": 1980,
+      "entityCode": "SZ",
+      "scope": "local",
+      "kind": "policy",
+      "title": "深圳经济特区起步",
+      "titleEn": "Shenzhen SEZ starts",
+      "description": "深圳从边陲县城进入特区时代，之后成为广东城市排位变化的最大变量。",
+      "descriptionEn": "Shenzhen entered the special-zone era from a border county town and later became the biggest variable in Guangdong’s city ranking.",
+      "entityName": "深圳",
+      "rank": 9,
+      "value": 300000000
+    },
+    {
+      "id": "zhuhai-sez-start",
+      "year": 1980,
+      "entityCode": "ZH",
+      "scope": "local",
+      "kind": "policy",
+      "title": "珠海经济特区起步",
+      "titleEn": "Zhuhai SEZ starts",
+      "description": "珠海借毗邻澳门的区位进入开放窗口，经济规模从很小的基数开始抬升。",
+      "descriptionEn": "Zhuhai used its location next to Macao as an opening-up window, growing from a very small economic base.",
+      "entityName": "珠海",
+      "rank": 9,
+      "value": 300000000
+    },
+    {
+      "id": "dongguan-prefecture-city",
+      "year": 1988,
+      "entityCode": "DG",
+      "scope": "local",
+      "kind": "governance",
+      "title": "东莞升格为地级市",
+      "titleEn": "Dongguan becomes a prefecture-level city",
+      "description": "东莞从县级市升格，城市治理和招商承载能力增强，后来承接外向型制造的空间更完整。",
+      "descriptionEn": "Dongguan was upgraded from a county-level city, giving it stronger governance and investment capacity for export manufacturing.",
+      "entityName": "东莞",
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "shenzhen-stock-exchange",
+      "year": 1990,
+      "entityCode": "SZ",
+      "scope": "local",
+      "kind": "market",
+      "title": "深交所开始营业",
+      "titleEn": "Shenzhen Stock Exchange opens",
+      "description": "资本市场在深圳落地，让这座城市不只是制造和口岸，也开始形成金融和创新企业融资能力。",
+      "descriptionEn": "The stock exchange gave Shenzhen a capital-market role beyond manufacturing and border trade, strengthening finance and innovation funding.",
+      "entityName": "深圳",
+      "rank": 2,
+      "value": 17200000000
+    },
+    {
+      "id": "southern-tour-prd-acceleration",
+      "year": 1992,
+      "entityCode": null,
+      "scope": "global",
+      "kind": "policy",
+      "title": "南方谈话后珠三角加速",
+      "titleEn": "Pearl River Delta accelerates after the Southern Tour",
+      "description": "市场化和外向型制造继续加速，广州、深圳、佛山、东莞的差距开始被重新拉开。",
+      "descriptionEn": "Market reform and export manufacturing accelerated, reshaping the gaps among Guangzhou, Shenzhen, Foshan, and Dongguan.",
+      "entityName": null,
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "shantou-tax-case-shock",
+      "year": 2000,
+      "entityCode": "ST",
+      "scope": "local",
+      "kind": "shock",
+      "title": "汕头遭遇骗税案冲击",
+      "titleEn": "Shantou is hit by the tax-fraud crackdown",
+      "description": "出口骗税整治改变了当地外贸信用和营商环境，汕头后来的增长斜率明显弱于深圳、珠海。",
+      "descriptionEn": "The export tax-fraud crackdown affected local trade credibility and the business environment; Shantou’s later growth slope lagged Shenzhen and Zhuhai.",
+      "entityName": "汕头",
+      "rank": 7,
+      "value": 47698000000
+    },
+    {
+      "id": "china-wto-entry",
+      "year": 2001,
+      "entityCode": null,
+      "scope": "global",
+      "kind": "trade",
+      "title": "中国加入 WTO",
+      "titleEn": "China joins the WTO",
+      "description": "外向型制造和全球供应链加速扩张，珠三角城市的增长逻辑进入新阶段。",
+      "descriptionEn": "Export manufacturing and global supply chains accelerated, pushing Pearl River Delta cities into a new growth phase.",
+      "entityName": null,
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "foshan-five-districts",
+      "year": 2002,
+      "entityCode": "FS",
+      "scope": "local",
+      "kind": "governance",
+      "title": "“大佛山”五区格局确立",
+      "titleEn": "Greater Foshan forms its five-district structure",
+      "description": "南海、顺德、三水、高明撤市设区后，佛山制造业和民营经济被放进一个更完整的城市框架。",
+      "descriptionEn": "After Nanhai, Shunde, Sanshui, and Gaoming became districts, Foshan’s manufacturing base sat inside a more integrated city structure.",
+      "entityName": "佛山",
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "huizhou-daya-bay-petrochemical",
+      "year": 2006,
+      "entityCode": "HZ",
+      "scope": "local",
+      "kind": "industry",
+      "title": "大亚湾石化基地成形",
+      "titleEn": "Daya Bay petrochemical base takes shape",
+      "description": "中海壳牌在惠州大亚湾投产，石化链条成为惠州后来进入省内前列的重要支撑。",
+      "descriptionEn": "CNOOC Shell began operations in Huizhou’s Daya Bay, making petrochemicals a major support for Huizhou’s later rise.",
+      "entityName": "惠州",
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "global-financial-crisis",
+      "year": 2008,
+      "entityCode": null,
+      "scope": "global",
+      "kind": "shock",
+      "title": "全球金融危机冲击珠三角",
+      "titleEn": "Global financial crisis hits the PRD",
+      "description": "外需骤降重创广东出口导向型经济，东莞、深圳、佛山等城市被迫从低端制造向结构升级加速转型。",
+      "descriptionEn": "Plunging external demand hits Guangdong's export economy; Dongguan, Shenzhen, Foshan accelerate the shift from low-end manufacturing to industrial upgrading.",
+      "entityName": null,
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "zhuhai-hengqin-plan",
+      "year": 2009,
+      "entityCode": "ZH",
+      "scope": "local",
+      "kind": "policy",
+      "title": "横琴开发上升为国家战略",
+      "titleEn": "Hengqin development becomes a national strategy",
+      "description": "横琴被纳入珠海经济特区范围，珠海的增长叙事从单一特区转向粤澳合作平台。",
+      "descriptionEn": "Hengqin was brought into the Zhuhai SEZ, shifting Zhuhai’s growth story toward a Guangdong-Macao cooperation platform.",
+      "entityName": "珠海",
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "guangzhou-foshan-integration",
+      "year": 2009,
+      "entityCode": "FS",
+      "scope": "local",
+      "kind": "governance",
+      "title": "广佛同城化框架协议签署",
+      "titleEn": "Guangzhou-Foshan integration agreement signed",
+      "description": "广佛地铁同年动工，佛山城市能级被实质性拉高。",
+      "descriptionEn": "The first cross-city metro line breaks ground, lifting Foshan's urban capacity.",
+      "entityName": "佛山",
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "guangzhou-shenzhen-front",
+      "year": 2010,
+      "entityCode": "GZ",
+      "scope": "local",
+      "kind": "baseline",
+      "title": "广深双核心拉开距离",
+      "titleEn": "Guangzhou and Shenzhen set the pace",
+      "description": "广州和深圳明显领先，珠三角的城市梯队在十年前后已经成型。",
+      "descriptionEn": "Guangzhou and Shenzhen are already clearly ahead, with the Pearl River Delta hierarchy taking shape.",
+      "entityName": "广州",
+      "rank": 1,
+      "value": 1060447520000
+    },
+    {
+      "id": "shenzhen-sez-expansion",
+      "year": 2010,
+      "entityCode": null,
+      "scope": "global",
+      "kind": "policy",
+      "title": "深圳经济特区范围扩大到全市",
+      "titleEn": "Shenzhen SEZ expands citywide",
+      "description": "特区版图从原关内四区扩至全市，关内关外二元体制终结，深圳的产业空间和城市承载力大幅释放。",
+      "descriptionEn": "The SEZ boundary expands from the original four districts citywide, freeing up industrial space and urban capacity.",
+      "entityName": null,
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "guangzhou-nansha-new-area",
+      "year": 2012,
+      "entityCode": "GZ",
+      "scope": "local",
+      "kind": "policy",
+      "title": "南沙新区获国家级定位",
+      "titleEn": "Nansha gains national-level positioning",
+      "description": "南沙新区规划获批，广州在传统中心城区之外获得面向粤港澳合作和先进制造的新增长空间。",
+      "descriptionEn": "The Nansha plan gave Guangzhou a new growth space for Guangdong-Hong Kong-Macao cooperation and advanced manufacturing beyond the old core.",
+      "entityName": "广州",
+      "rank": 1,
+      "value": 1355120720000
+    },
+    {
+      "id": "guangdong-ftz",
+      "year": 2015,
+      "entityCode": null,
+      "scope": "global",
+      "kind": "policy",
+      "title": "广东自贸试验区落地",
+      "titleEn": "Guangdong Pilot Free Trade Zone lands",
+      "description": "南沙、前海蛇口、横琴被放进同一开放试验框架，广深珠的制度红利重新叠加。",
+      "descriptionEn": "Nansha, Qianhai-Shekou, and Hengqin entered one opening-up framework, reconnecting Guangzhou, Shenzhen, and Zhuhai through institutional reform.",
+      "entityName": null,
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "shenzhen-number-one",
+      "year": 2017,
+      "entityCode": "SZ",
+      "scope": "local",
+      "kind": "rank",
+      "title": "深圳升至省内第一",
+      "titleEn": "Shenzhen moves to number one",
+      "description": "科技、金融和先进制造叠加，深圳在总量上超过广州，省内首位发生变化。",
+      "descriptionEn": "Technology, finance, and advanced manufacturing push Shenzhen past Guangzhou in total GDP.",
+      "entityName": "深圳",
+      "rank": 1,
+      "value": 2243839000000
+    },
+    {
+      "id": "shenzhen-surpasses-hong-kong",
+      "year": 2018,
+      "entityCode": "SZ",
+      "scope": "local",
+      "kind": "rank",
+      "title": "深圳GDP超越香港",
+      "titleEn": "Shenzhen GDP surpasses Hong Kong",
+      "description": "深圳经济总量首次超过香港，标志性差距转换完成。",
+      "descriptionEn": "Shenzhen's total GDP exceeds Hong Kong's for the first time, a symbolic milestone.",
+      "entityName": "深圳",
+      "rank": 1,
+      "value": null
+    },
+    {
+      "id": "hong-kong-zhuhai-macao-bridge",
+      "year": 2018,
+      "entityCode": null,
+      "scope": "global",
+      "kind": "infrastructure",
+      "title": "港珠澳大桥通车",
+      "titleEn": "Hong Kong-Zhuhai-Macao Bridge opens",
+      "description": "珠海成为唯一与港澳陆路相连的城市，港珠澳一小时生活圈形成，珠海的城市区位和开放格局被重新定义。",
+      "descriptionEn": "Zhuhai becomes the only city with direct road links to both Hong Kong and Macao, redefining its position in the region.",
+      "entityName": null,
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "greater-bay-area-plan",
+      "year": 2019,
+      "entityCode": null,
+      "scope": "global",
+      "kind": "policy",
+      "title": "粤港澳大湾区规划发布",
+      "titleEn": "Greater Bay Area plan is released",
+      "description": "城市竞争开始更多放在湾区协同里观察，广深佛莞和珠海、中山、惠州的关系更加紧密。",
+      "descriptionEn": "City competition is increasingly viewed through Bay Area coordination, tightening links among Guangzhou, Shenzhen, Foshan, Dongguan, Zhuhai, Zhongshan, and Huizhou.",
+      "entityName": null,
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "zhanjiang-basf-project",
+      "year": 2019,
+      "entityCode": "ZJ",
+      "scope": "local",
+      "kind": "industry",
+      "title": "巴斯夫湛江一体化基地启动",
+      "titleEn": "BASF Zhanjiang Verbund site launched",
+      "description": "广东最大外资项目落地，湛江石化产业进入新量级。",
+      "descriptionEn": "Guangdong's largest foreign investment lands, boosting Zhanjiang's petrochemical sector.",
+      "entityName": "湛江",
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "dongguan-trillion",
+      "year": 2021,
+      "entityCode": "DG",
+      "scope": "local",
+      "kind": "rank",
+      "title": "东莞进入万亿城市行列",
+      "titleEn": "Dongguan joins the trillion-yuan tier",
+      "description": "制造业城市东莞突破万亿，广东的第二梯队不再只是佛山一个重心。",
+      "descriptionEn": "Manufacturing-heavy Dongguan passes the trillion-yuan mark, broadening Guangdong’s second tier.",
+      "entityName": "东莞",
+      "rank": 4,
+      "value": 1085534510000
+    },
+    {
+      "id": "huizhou-stable-fifth",
+      "year": 2021,
+      "entityCode": "HZ",
+      "scope": "local",
+      "kind": "rank",
+      "title": "惠州稳居全省第五",
+      "titleEn": "Huizhou holds fifth in Guangdong",
+      "description": "石化与电子信息双轮驱动，惠州在广深佛莞之后形成稳固的第二梯队头部。",
+      "descriptionEn": "Driven by petrochemicals and electronics, Huizhou solidifies its place behind the top four.",
+      "entityName": "惠州",
+      "rank": 5,
+      "value": null
+    },
+    {
+      "id": "foshan-stays-third",
+      "year": 2024,
+      "entityCode": "FS",
+      "scope": "local",
+      "kind": "structure",
+      "title": "佛山守住制造业第三极",
+      "titleEn": "Foshan holds the third pole",
+      "description": "佛山依靠制造业和民营经济保持前列，和东莞、惠州形成更紧的追赶带。",
+      "descriptionEn": "Foshan stays near the top through manufacturing and private enterprise, with Dongguan and Huizhou close behind.",
+      "entityName": "佛山",
+      "rank": 3,
+      "value": 1336190000000
+    },
+    {
+      "id": "shenzhen-zhongshan-link",
+      "year": 2024,
+      "entityCode": null,
+      "scope": "global",
+      "kind": "infrastructure",
+      "title": "深中通道通车",
+      "titleEn": "Shenzhen-Zhongshan Link opens",
+      "description": "深圳至中山车程从2小时缩至30分钟，珠江西岸城市区位被根本改变，中山、江门的增长预期显著抬升。",
+      "descriptionEn": "Travel time from Shenzhen to Zhongshan drops from 2 hours to 30 minutes, fundamentally reshaping the geography and growth outlook for western PRD cities.",
+      "entityName": null,
+      "rank": null,
+      "value": null
+    },
+    {
+      "id": "shenzhen-near-four-trillion",
+      "year": 2025,
+      "entityCode": "SZ",
+      "scope": "local",
+      "kind": "latest",
+      "title": "深圳接近四万亿",
+      "titleEn": "Shenzhen approaches four trillion yuan",
+      "description": "最新年度数据里，深圳继续扩大总量优势，广深之间的距离更清楚。",
+      "descriptionEn": "In the latest annual data, Shenzhen extends its lead and the gap with Guangzhou becomes clearer.",
+      "entityName": "深圳",
+      "rank": 1,
+      "value": 3873180000000.0005
+    }
+  ],
+  "sourceNote": "1978-2005 年早期帧主要使用国家统计局《中国城市统计年鉴》珠江三角洲经济区主要城市表；该表不覆盖全部 21 个地级市，部分非珠三角城市从 2010 年广东省统计局分市年度数据开始进入。汕头早期点位补充自广东省统计局经济特区 40 周年材料、汕头市统计局 2005 年统计公报，以及香港大学泛珠三角研究项目收录的《汕头市统计年鉴2005》节选。1981-1999 年新增年度帧使用公开整理的广东各市 GDP 排行页补齐；其中 1981-1984 年广州值用广州历年 GDP 表补充，佛山、肇庆在 1981-1989 年因逐年公开值缺失，使用 1980 与 1990 锚点做几何插值。",
+  "sourceNoteEn": "Early 1978-2005 frames mainly use the NBS China City Statistical Yearbook table for major Pearl River Delta cities. That table does not cover all 21 Guangdong prefecture-level cities, so some non-PRD cities enter from the Guangdong Statistics Bureau city-level annual data starting in 2010. Early Shantou points are supplemented from Guangdong Statistics Bureau special-zone material, the Shantou Statistics Bureau 2005 communique, and a Shantou Statistical Yearbook 2005 excerpt archived by the University of Hong Kong Pan-PRD project. The new 1981-1999 annual frames use public compiled Guangdong city GDP ranking pages where available; Guangzhou 1981-1984 is supplemented from a Guangzhou historical GDP table, while Foshan and Zhaoqing use geometric interpolation between the 1980 and 1990 anchor frames for 1981-1989 where annual public values were unavailable."
+}

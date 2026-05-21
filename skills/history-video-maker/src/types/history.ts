@@ -1,4 +1,4 @@
-export type HistoryRaceValueKind = 'currency-usd' | 'currency-cny' | 'people' | 'area-sqkm' | 'energy-ej' | 'oil-mbbl-d' | 'steel-mt' | 'military-spending' | 'military-personnel' | 'hours-per-day' | 'count' | 'per-capita-usd';
+export type HistoryRaceValueKind = 'currency-usd' | 'currency-cny' | 'people' | 'area-sqkm' | 'energy-ej' | 'oil-mbbl-d' | 'steel-mt' | 'military-spending' | 'military-personnel' | 'hours-per-day' | 'count' | 'per-capita-usd' | 'eggs-per-hour';
 
 export type HistoryRaceEntity = {
   code: string;
