@@ -26,6 +26,7 @@ export type HistoryRaceEvent = {
   id: string;
   year: number;
   entityCode: string | null;
+  scope?: 'global' | 'local';
   kind: string;
   title: string;
   titleEn: string;

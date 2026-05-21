@@ -58,6 +58,8 @@ const AXIS_BOTTOM = 560;
 const MIN_VISIBLE_BAR_WIDTH = 4;
 const ENTITY_EVENT_MAX_CHARS = 14;
 const GLOBAL_EVENT_MAX_CHARS = 18;
+const ENTITY_EVENT_INSIDE_MIN_WIDTH = 420;
+const LANDSCAPE_ENTITY_EVENT_INSIDE_MIN_WIDTH = 370;
 const TITLE_MAX_CHARS = 30;
 const INTRO_MAX_CHARS = 58;
 const COLOR_TONES = [
@@ -490,7 +492,20 @@ function RaceChart({
         const labelInside = width >= getCompactInsideLabelMinWidth(item.name);
         const barStyle = labelInside ? styles.bar : styles.compactBar;
         const labelPaddingLeft = width < 160 ? 14 : 22;
-        const labelPaddingRight = 12;
+        const eventInsideWidth = entityEventText ? getEntityEventInsideWidth(entityEventText, 20, 330) : 0;
+        const eventInsideBar = Boolean(
+          entityEventText &&
+            labelInside &&
+            width >=
+              getEntityEventInsideMinWidth({
+                name: item.name,
+                eventBoxWidth: eventInsideWidth,
+                nameFontSize: 20,
+                labelPaddingLeft,
+                minWidth: ENTITY_EVENT_INSIDE_MIN_WIDTH,
+              }),
+        );
+        const labelPaddingRight = eventInsideBar ? eventInsideWidth + 24 : 12;
         const labelWidth = Math.max(0, width - labelPaddingLeft - labelPaddingRight);
         const barNameFontSize = getAdaptiveInlineFontSize(item.name, labelWidth, 26, 18);
         const barMetaFontSize = width < 150 ? 13 : 16;
@@ -516,6 +531,17 @@ function RaceChart({
                 <>
                   <div style={{...styles.barName, fontSize: barNameFontSize}}>{item.name}</div>
                   <div style={{...styles.barMeta, fontSize: barMetaFontSize}}>{item.region}</div>
+                  {eventInsideBar && entityEventText ? (
+                    <div
+                      style={{
+                        ...styles.entityEventInside,
+                        ...getEntityEventInsideStyle(color),
+                        width: eventInsideWidth,
+                      }}
+                    >
+                      {entityEventText}
+                    </div>
+                  ) : null}
                 </>
               ) : null}
             </div>
@@ -526,10 +552,15 @@ function RaceChart({
               </div>
             ) : null}
             <div style={styles.outsideValueBlock}>
-              <div style={styles.outsideValue}>{formattedValue}</div>
-              {entityEventText ? (
-                <div style={{...styles.entityEvent, ...getEntityEventStyle(color)}}>{entityEventText}</div>
-              ) : null}
+              <div style={styles.outsideValueRow}>
+                <span style={styles.outsideValue}>{formattedValue}</span>
+                {entityEventText && !eventInsideBar ? (
+                  <>
+                    <span style={styles.entityEventSeparator}>|</span>
+                    <span style={{...styles.entityEventInline, ...getEntityEventInlineStyle(color)}}>{entityEventText}</span>
+                  </>
+                ) : null}
+              </div>
             </div>
           </div>
         );
@@ -582,7 +613,20 @@ function LandscapeRaceChart({
         const labelInside = width >= Math.max(92, getCompactInsideLabelMinWidth(item.name) - 10);
         const barStyle = labelInside ? styles.landscapeBar : styles.landscapeCompactBar;
         const labelPaddingLeft = width < 150 ? 14 : 18;
-        const labelPaddingRight = 12;
+        const eventInsideWidth = entityEventText ? getEntityEventInsideWidth(entityEventText, 17, 290) : 0;
+        const eventInsideBar = Boolean(
+          entityEventText &&
+            labelInside &&
+            width >=
+              getEntityEventInsideMinWidth({
+                name: item.name,
+                eventBoxWidth: eventInsideWidth,
+                nameFontSize: 18,
+                labelPaddingLeft,
+                minWidth: LANDSCAPE_ENTITY_EVENT_INSIDE_MIN_WIDTH,
+              }),
+        );
+        const labelPaddingRight = eventInsideBar ? eventInsideWidth + 22 : 12;
         const labelWidth = Math.max(0, width - labelPaddingLeft - labelPaddingRight);
         const barNameFontSize = getAdaptiveInlineFontSize(item.name, labelWidth, 23, 17);
         const barMetaFontSize = width < 140 ? 12 : 14;
@@ -603,6 +647,17 @@ function LandscapeRaceChart({
                 <>
                   <div style={{...styles.landscapeBarName, fontSize: barNameFontSize}}>{item.name}</div>
                   <div style={{...styles.landscapeBarMeta, fontSize: barMetaFontSize}}>{item.region}</div>
+                  {eventInsideBar && entityEventText ? (
+                    <div
+                      style={{
+                        ...styles.landscapeEntityEventInside,
+                        ...getEntityEventInsideStyle(color),
+                        width: eventInsideWidth,
+                      }}
+                    >
+                      {entityEventText}
+                    </div>
+                  ) : null}
                 </>
               ) : null}
             </div>
@@ -613,10 +668,15 @@ function LandscapeRaceChart({
               </div>
             ) : null}
             <div style={styles.landscapeOutsideValueBlock}>
-              <div style={styles.landscapeOutsideValue}>{formattedValue}</div>
-              {entityEventText ? (
-                <div style={{...styles.landscapeEntityEvent, ...getEntityEventStyle(color)}}>{entityEventText}</div>
-              ) : null}
+              <div style={styles.landscapeOutsideValueRow}>
+                <span style={styles.landscapeOutsideValue}>{formattedValue}</span>
+                {entityEventText && !eventInsideBar ? (
+                  <>
+                    <span style={styles.landscapeEntityEventSeparator}>|</span>
+                    <span style={{...styles.landscapeEntityEventInline, ...getEntityEventInlineStyle(color)}}>{entityEventText}</span>
+                  </>
+                ) : null}
+              </div>
             </div>
           </div>
         );
@@ -1069,13 +1129,13 @@ function getAdaptiveInlineFontSize(text: string, availableWidth: number, maxSize
 
 function getActiveGlobalEvent(data: HistoryRaceData, raceYear: number) {
   return getActiveEvents(data, raceYear)
-    .filter((event) => !event.entityCode)
+    .filter(isGlobalEvent)
     .sort(sortEventsForDisplay)[0] ?? null;
 }
 
 function getActiveEntityEvent(data: HistoryRaceData, raceYear: number, entityCode: string) {
   return getActiveEvents(data, raceYear)
-    .filter((event) => event.entityCode === entityCode)
+    .filter((event) => isEntityEvent(event, entityCode))
     .sort(sortEventsForDisplay)[0] ?? null;
 }
 
@@ -1099,6 +1159,14 @@ function eventKindPriority(kind: string) {
   return 1;
 }
 
+function isGlobalEvent(event: HistoryRaceEvent) {
+  return event.scope === 'global' || !event.entityCode;
+}
+
+function isEntityEvent(event: HistoryRaceEvent, entityCode: string) {
+  return event.scope !== 'global' && event.entityCode === entityCode;
+}
+
 function getEntityEventText(event: HistoryRaceEvent, item: HistoryRaceItem) {
   const entityNames = [event.entityName, item.name].filter((name): name is string => Boolean(name));
   let text = event.title;
@@ -1112,11 +1180,37 @@ function getEntityEventText(event: HistoryRaceEvent, item: HistoryRaceItem) {
   return truncateDisplayText(text || event.title, ENTITY_EVENT_MAX_CHARS);
 }
 
-function getEntityEventStyle(color: string): CSSProperties {
+function getEntityEventInsideMinWidth({
+  name,
+  eventBoxWidth,
+  nameFontSize,
+  labelPaddingLeft,
+  minWidth,
+}: {
+  name: string;
+  eventBoxWidth: number;
+  nameFontSize: number;
+  labelPaddingLeft: number;
+  minWidth: number;
+}) {
+  return Math.max(minWidth, labelPaddingLeft + estimateInlineTextWidth(name, nameFontSize) + eventBoxWidth + 34);
+}
+
+function getEntityEventInsideWidth(text: string, fontSize: number, maxWidth: number) {
+  return Math.min(maxWidth, Math.ceil(estimateInlineTextWidth(text, fontSize) + 34));
+}
+
+function getEntityEventInsideStyle(color: string): CSSProperties {
+  return {
+    color: '#573522',
+    backgroundColor: 'rgba(255,250,240,0.9)',
+    boxShadow: `inset 0 0 0 1px ${hexToRgba(color, 0.2)}`,
+  };
+}
+
+function getEntityEventInlineStyle(color: string): CSSProperties {
   return {
     color,
-    borderColor: hexToRgba(color, 0.24),
-    backgroundColor: hexToRgba(color, 0.08),
   };
 }
 
@@ -1668,7 +1762,7 @@ const styles: Record<string, CSSProperties> = {
   landscapeOutsideValueBlock: {
     marginLeft: 12,
     minWidth: 132,
-    maxWidth: 250,
+    maxWidth: 380,
     flexShrink: 0,
     display: 'flex',
     flexDirection: 'column',
@@ -1676,21 +1770,48 @@ const styles: Record<string, CSSProperties> = {
     justifyContent: 'center',
   },
   landscapeOutsideValue: {
-    color: 'rgba(21,19,15,0.66)',
+    color: 'rgba(21,19,15,0.78)',
     fontSize: 18,
     fontWeight: 900,
     lineHeight: 1,
     whiteSpace: 'nowrap',
   },
-  landscapeEntityEvent: {
-    marginTop: 5,
-    maxWidth: 250,
-    borderLeft: '3px solid rgba(63,111,159,0.24)',
-    paddingLeft: 7,
-    color: '#3f6f9f',
+  landscapeOutsideValueRow: {
+    minWidth: 0,
+    maxWidth: 380,
+    display: 'flex',
+    alignItems: 'center',
+    overflow: 'hidden',
+  },
+  landscapeEntityEventSeparator: {
+    margin: '0 8px',
+    color: 'rgba(36,32,22,0.32)',
     fontSize: 15,
     fontWeight: 900,
-    lineHeight: 1.08,
+    lineHeight: 1,
+  },
+  landscapeEntityEventInline: {
+    minWidth: 0,
+    maxWidth: 230,
+    fontSize: 15,
+    fontWeight: 900,
+    lineHeight: 1,
+    whiteSpace: 'nowrap',
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+  },
+  landscapeEntityEventInside: {
+    position: 'absolute',
+    right: 12,
+    top: '50%',
+    transform: 'translateY(-50%)',
+    borderRadius: 3,
+    padding: '7px 10px 6px',
+    boxSizing: 'border-box',
+    fontSize: 17,
+    fontWeight: 900,
+    lineHeight: 1,
+    textAlign: 'center',
     whiteSpace: 'nowrap',
     overflow: 'hidden',
     textOverflow: 'ellipsis',
@@ -1716,7 +1837,7 @@ const styles: Record<string, CSSProperties> = {
   outsideValueBlock: {
     marginLeft: 12,
     minWidth: 148,
-    maxWidth: 290,
+    maxWidth: 420,
     flexShrink: 0,
     display: 'flex',
     flexDirection: 'column',
@@ -1724,21 +1845,48 @@ const styles: Record<string, CSSProperties> = {
     justifyContent: 'center',
   },
   outsideValue: {
-    color: 'rgba(21,19,15,0.66)',
+    color: 'rgba(21,19,15,0.82)',
     fontSize: 20,
     fontWeight: 900,
     lineHeight: 1,
     whiteSpace: 'nowrap',
   },
-  entityEvent: {
-    marginTop: 6,
-    maxWidth: 290,
-    borderLeft: '3px solid rgba(63,111,159,0.24)',
-    paddingLeft: 8,
-    color: '#3f6f9f',
+  outsideValueRow: {
+    minWidth: 0,
+    maxWidth: 420,
+    display: 'flex',
+    alignItems: 'center',
+    overflow: 'hidden',
+  },
+  entityEventSeparator: {
+    margin: '0 10px',
+    color: 'rgba(36,32,22,0.32)',
     fontSize: 17,
     fontWeight: 900,
-    lineHeight: 1.08,
+    lineHeight: 1,
+  },
+  entityEventInline: {
+    minWidth: 0,
+    maxWidth: 250,
+    fontSize: 17,
+    fontWeight: 900,
+    lineHeight: 1,
+    whiteSpace: 'nowrap',
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+  },
+  entityEventInside: {
+    position: 'absolute',
+    right: 14,
+    top: '50%',
+    transform: 'translateY(-50%)',
+    borderRadius: 3,
+    padding: '8px 12px 7px',
+    boxSizing: 'border-box',
+    fontSize: 20,
+    fontWeight: 900,
+    lineHeight: 1,
+    textAlign: 'center',
     whiteSpace: 'nowrap',
     overflow: 'hidden',
     textOverflow: 'ellipsis',
